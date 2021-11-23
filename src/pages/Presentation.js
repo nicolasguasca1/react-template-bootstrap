@@ -168,7 +168,7 @@ export default () => {
                 <Nav.Link as={HashLink} to="#getting-started">
                   Getting Started
                 </Nav.Link> */}
-                <Nav.Link as={HashLink} to="#download">
+                <Nav.Link as={HashLink} to="examples/sign-in">
                   Inicio de sesión
                 </Nav.Link>
               </Nav>
