@@ -337,7 +337,8 @@ $enable-smooth-scroll: false;
 //
 // The gradient which is added to components if `$enable-gradients` is `true`
 // This gradient is also added to elements with `.bg-gradient`
-$gradient: linear-gradient(180deg, rgba($white, 0.15), rgba($white, 0));
+// $gradient: linear-gradient(180deg, rgba($white, 0.15), rgba($white, 0));
+$gradient: linear-gradient(to right, #262b40, #61dafb);
 
 // Spacing
 //
