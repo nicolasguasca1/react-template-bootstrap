@@ -74,7 +74,7 @@ export default () => {
                     </InputGroup>
                   </Form.Group>
                   <Form.Group id="confirmPassword" className="mb-4">
-                    <Form.Label>Confirmar contraseña</Form.Label>
+                    <Form.Label>Confirmación de contraseña</Form.Label>
                     <InputGroup>
                       <InputGroup.Text>
                         <FontAwesomeIcon icon={faUnlockAlt} />
@@ -82,7 +82,7 @@ export default () => {
                       <Form.Control
                         required
                         type="password"
-                        placeholder="Confirme su contraseña"
+                        placeholder="Confirma tu contraseña"
                       />
                     </InputGroup>
                   </Form.Group>
@@ -114,7 +114,7 @@ export default () => {
                   </FormCheck>
 
                   <Button variant="primary" type="submit" className="w-100">
-                    Registrarse
+                    Registrarme
                   </Button>
                 </Form>
 
@@ -143,13 +143,13 @@ export default () => {
                 </div>
                 <div className="d-flex justify-content-center align-items-center mt-4">
                   <span className="fw-normal">
-                    ¿Ya tiene una cuenta?
+                    ¿Ya tienes una cuenta?
                     <Card.Link
                       as={Link}
                       to={Routes.Signin.path}
                       className="fw-bold"
                     >
-                      {` Inicie sesión aquí `}
+                      {` Inicia sesión aquí `}
                     </Card.Link>
                   </span>
                 </div>
