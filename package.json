@@ -15,6 +15,7 @@
   ],
   "license": "MIT",
   "homepage": "https://demo.themesberg.com/volt-react-dashboard",
+  "main": "./index.js",
   "bugs": {
     "url": "https://github.com/themesberg/volt-react-dashboard/issues"
   },

@@ -1,19 +1,19 @@
 {
-  "name": "Volt React Dashboard",
-  "short_name": "Volt React Dashboard",
+  "name": "Tripool Progressive-Web-App",
+  "short_name": "Tripool",
   "icons": [
     {
-      "src": "/docs/4.3/assets/img/favicons/android-chrome-192x192.png",
+      "src": "./src/assets/img/favicons/android-chrome-192x192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/docs/4.3/assets/img/favicons/android-chrome-512x512.png",
+      "src": "./src/assets/img/favicons/android-chrome-512x512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
   ],
-  "start_url": "/?utm_source=a2hs",
+  "start_url": "./src/index.html",
   "theme_color": "#563d7c",
   "background_color": "#563d7c",
   "display": "standalone"

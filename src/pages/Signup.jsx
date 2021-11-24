@@ -25,7 +25,7 @@ import { Link } from "react-router-dom";
 import { Routes } from "../routes";
 import BgImage from "../assets/img/illustrations/people-signup.svg";
 
-export default () => {
+const Signup = () => {
   return (
     <main style={{ backgroundImage: `url(${BgImage})` }}>
       <section className="d-flex align-items-center my-5 mt-lg-6 mb-lg-5">
@@ -161,3 +161,5 @@ export default () => {
     </main>
   );
 };
+
+export default Signup;
