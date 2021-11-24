@@ -168,14 +168,14 @@ export default () => {
                 <Nav.Link as={HashLink} to="#getting-started">
                   Getting Started
                 </Nav.Link> */}
-                <Nav.Link as={HashLink} to="examples/sign-in">
+                <Nav.Link as={HashLink} to="sign-in">
                   Inicio de sesión
                 </Nav.Link>
               </Nav>
             </Navbar.Collapse>
             <Button
               as={HashLink}
-              to="#download"
+              to="signup"
               variant="outline-white"
               className="ms-3"
             >

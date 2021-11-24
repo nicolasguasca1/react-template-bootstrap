@@ -22,8 +22,8 @@ import {
 } from "@themesberg/react-bootstrap";
 import { Link } from "react-router-dom";
 
-import { Routes } from "../../routes";
-import BgImage from "../../assets/img/illustrations/vector-world-map.svg";
+import { Routes } from "../routes";
+import BgImage from "../assets/img/illustrations/vector-world-map.svg";
 
 export default () => {
   return (
