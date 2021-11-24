@@ -13,11 +13,11 @@ import Settings from "./Settings";
 import BootstrapTables from "./tables/BootstrapTables";
 import Signin from "./Signin";
 import Signup from "./Signup";
-import ForgotPassword from "./examples/ForgotPassword";
-import ResetPassword from "./examples/ResetPassword";
-import Lock from "./examples/Lock";
-import NotFoundPage from "./examples/NotFound";
-import ServerError from "./examples/ServerError";
+import ForgotPassword from "./account/ForgotPassword";
+import ResetPassword from "./account/ResetPassword";
+import Lock from "./account/Lock";
+import NotFound from "./errors/NotFound";
+import ServerError from "./errors/ServerError";
 
 // documentation pages
 import DocsOverview from "./documentation/DocsOverview";
@@ -136,11 +136,7 @@ function App() {
         component={ResetPassword}
       />
       <RouteWithLoader exact path={Routes.Lock.path} component={Lock} />
-      <RouteWithLoader
-        exact
-        path={Routes.NotFound.path}
-        component={NotFoundPage}
-      />
+      <RouteWithLoader exact path={Routes.NotFound.path} component={NotFound} />
       <RouteWithLoader
         exact
         path={Routes.ServerError.path}

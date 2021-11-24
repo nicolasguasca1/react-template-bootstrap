@@ -1,57 +1,89 @@
-
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAngleLeft, faEnvelope, faUnlockAlt } from "@fortawesome/free-solid-svg-icons";
-import { Col, Row, Form, Card, Button, Container, InputGroup } from '@themesberg/react-bootstrap';
-import { Link } from 'react-router-dom';
+import {
+  faAngleLeft,
+  faEnvelope,
+  faUnlockAlt,
+  faHome
+} from "@fortawesome/free-solid-svg-icons";
+import {
+  Col,
+  Row,
+  Form,
+  Card,
+  Button,
+  Container,
+  InputGroup
+} from "@themesberg/react-bootstrap";
+import { Link } from "react-router-dom";
 
 import { Routes } from "../../routes";
 
-
-export default () => {
+const ResetPassword = () => {
   return (
     <main>
       <section className="bg-soft d-flex align-items-center my-5 mt-lg-6 mb-lg-5">
         <Container>
           <Row className="justify-content-center">
             <p className="text-center">
-              <Card.Link as={Link} to={Routes.Signin.path} className="text-gray-700">
-                <FontAwesomeIcon icon={faAngleLeft} className="me-2" /> Back to sign in
+              <Card.Link
+                as={Link}
+                to={Routes.DashboardOverview.path}
+                className="text-gray-700"
+              >
+                <FontAwesomeIcon icon={faHome} className="me-2" />
+                Volver a mi dashboard
               </Card.Link>
             </p>
-            <Col xs={12} className="d-flex align-items-center justify-content-center">
+            <Col
+              xs={12}
+              className="d-flex align-items-center justify-content-center"
+            >
               <div className="bg-white shadow-soft border rounded border-light p-4 p-lg-5 w-100 fmxw-500">
-                <h3 className="mb-4">Reset password</h3>
+                <h3 className="mb-4">Restablecimiento de contraseña</h3>
                 <Form>
                   <Form.Group id="email" className="mb-4">
-                    <Form.Label>Your Email</Form.Label>
+                    <Form.Label>Ingresa tu correo electrónico</Form.Label>
                     <InputGroup>
                       <InputGroup.Text>
                         <FontAwesomeIcon icon={faEnvelope} />
                       </InputGroup.Text>
-                      <Form.Control autoFocus required type="email" placeholder="example@company.com" />
+                      <Form.Control
+                        autoFocus
+                        required
+                        type="email"
+                        placeholder="example@company.com"
+                      />
                     </InputGroup>
                   </Form.Group>
                   <Form.Group id="password" className="mb-4">
-                    <Form.Label>Your Password</Form.Label>
+                    <Form.Label>Nueva contraseña</Form.Label>
                     <InputGroup>
                       <InputGroup.Text>
                         <FontAwesomeIcon icon={faUnlockAlt} />
                       </InputGroup.Text>
-                      <Form.Control required type="password" placeholder="Password" />
+                      <Form.Control
+                        required
+                        type="password"
+                        placeholder="Password"
+                      />
                     </InputGroup>
                   </Form.Group>
                   <Form.Group id="confirmPassword" className="mb-4">
-                    <Form.Label>Confirm Password</Form.Label>
+                    <Form.Label>Confirmación de nueva contraseña</Form.Label>
                     <InputGroup>
                       <InputGroup.Text>
                         <FontAwesomeIcon icon={faUnlockAlt} />
                       </InputGroup.Text>
-                      <Form.Control required type="password" placeholder="Confirm Password" />
+                      <Form.Control
+                        required
+                        type="password"
+                        placeholder="Confirm Password"
+                      />
                     </InputGroup>
                   </Form.Group>
                   <Button variant="primary" type="submit" className="w-100">
-                    Reset password
+                    Restablecer contraseña
                   </Button>
                 </Form>
               </div>
@@ -62,3 +94,5 @@ export default () => {
     </main>
   );
 };
+
+export default ResetPassword;

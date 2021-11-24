@@ -84,7 +84,11 @@ const Signin = () => {
                           Recordarme
                         </FormCheck.Label>
                       </Form.Check>
-                      <Card.Link className="small text-end">
+                      <Card.Link
+                        className="small text-end"
+                        as={Link}
+                        to={Routes.ForgotPassword.path}
+                      >
                         Olvidé mi contraseña
                       </Card.Link>
                     </div>
@@ -119,7 +123,7 @@ const Signin = () => {
                 </div>
                 <div className="d-flex justify-content-center align-items-center mt-4">
                   <span className="fw-normal">
-                    ¿No tiene cuenta?
+                    ¿No tienes una cuenta?
                     <Card.Link
                       as={Link}
                       to={Routes.Signup.path}

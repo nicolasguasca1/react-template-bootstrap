@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
+import { faChevronLeft, faHome } from "@fortawesome/free-solid-svg-icons";
 import {
   Col,
   Row,
@@ -15,7 +15,7 @@ import { Link, useHistory } from "react-router-dom";
 import { Routes } from "../../routes";
 import NotFoundImage from "../../assets/img/illustrations/404.svg";
 
-export default () => {
+const NotFound = () => {
   let history = useHistory();
   const goToPreviousPath = () => {
     history.goBack();
@@ -38,7 +38,7 @@ export default () => {
                 </h1>
                 <p className="lead my-4">
                   Ups! Parece que has introducido una ruta que no existe. Si
-                  crees que en nuestro error,{" "}
+                  crees que es nuestro error,{" "}
                   <Card.Link as={Link} to="/" className="fw-bold">
                     {` contáctanos.`}
                   </Card.Link>{" "}
@@ -63,7 +63,7 @@ export default () => {
                   to="/"
                 >
                   <FontAwesomeIcon
-                    icon={faChevronLeft}
+                    icon={faHome}
                     className="animate-left-3 me-3 ms-2"
                   />
                   Ir a inicio
@@ -76,3 +76,5 @@ export default () => {
     </main>
   );
 };
+
+export default NotFound;
