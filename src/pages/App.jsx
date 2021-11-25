@@ -13,6 +13,7 @@ import Settings from "./Settings";
 import BootstrapTables from "./tables/BootstrapTables";
 import Signin from "./Signin";
 import Signup from "./Signup";
+import Account from "./account";
 import ForgotPassword from "./account/ForgotPassword";
 import ResetPassword from "./account/ResetPassword";
 import Lock from "./account/Lock";
@@ -118,6 +119,7 @@ const RouteWithSidebar = ({ component: Component, ...rest }) => {
 function App() {
   return (
     <Switch>
+      {/* Outer app views */}
       <RouteWithLoader
         exact
         path={Routes.Presentation.path}
@@ -142,6 +144,7 @@ function App() {
         path={Routes.ServerError.path}
         component={ServerError}
       />
+      <RouteWithLoader exact path={Routes.Account.path} component={Account} />
       {/* pages */}
       <RouteWithSidebar
         exact

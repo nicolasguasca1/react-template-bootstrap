@@ -1,5 +1,5 @@
 {
-  "name": "@themesberg/volt-react-dashboard",
+  "name": "react-bootstrap-template",
   "description": "Volt React Dashboard is a free and open source admin dashboard template powered by React.js and Bootstrap 5",
   "author": "Themesberg",
   "keywords": [
@@ -14,7 +14,7 @@
     "themesberg"
   ],
   "license": "MIT",
-  "homepage": "https://demo.themesberg.com/volt-react-dashboard",
+  "homepage": "https://localhost:3000",
   "main": "./index.js",
   "bugs": {
     "url": "https://github.com/themesberg/volt-react-dashboard/issues"

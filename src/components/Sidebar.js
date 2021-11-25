@@ -4,19 +4,20 @@ import { useLocation } from "react-router-dom";
 import { CSSTransition } from "react-transition-group";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faBook,
+  faFileInvoice,
   faBoxOpen,
   faChartPie,
-  faCog,
+  faUsersCog,
   faFileAlt,
   faHandHoldingUsd,
   faSignOutAlt,
   faTable,
   faTimes,
   faCalendarAlt,
-  faMapPin,
+  faDolly,
   faInbox,
-  faRocket
+  faRocket,
+  faBell
 } from "@fortawesome/free-solid-svg-icons";
 import {
   Nav,
@@ -198,13 +199,13 @@ export default (props = {}) => {
                 icon={faInbox}
               />
               <NavItem
-                title="Últimos pedidos'"
+                title="Últimos pedidos"
                 icon={faHandHoldingUsd}
                 link={Routes.Transactions.path}
               />
               <NavItem
-                title="Panel de control"
-                icon={faCog}
+                title="Panel de usuarios"
+                icon={faUsersCog}
                 link={Routes.Settings.path}
               />
               <NavItem
@@ -217,19 +218,23 @@ export default (props = {}) => {
               />
               <NavItem
                 external
-                title="Puntos de distribución"
+                title="Ajustes de distribución"
                 link="https://demo.themesberg.com/volt-pro-react/#/map"
                 target="_blank"
                 badgeText="Pro"
-                icon={faMapPin}
+                icon={faDolly}
               />
 
               <CollapsableNavItem
                 eventKey="tables/"
-                title="Base de datos"
+                title="Bases de datos"
                 icon={faTable}
               >
-                <NavItem title="Internos" link={Routes.BootstrapTables.path} />
+                <NavItem title="Clientes" link={Routes.BootstrapTables.path} />
+                <NavItem title="Vehículos" link={Routes.BootstrapTables.path} />
+                <NavItem title="Productos" link={Routes.BootstrapTables.path} />
+                <NavItem title="Órdenes'" link={Routes.BootstrapTables.path} />
+                <NavItem title="Facturas" link={Routes.BootstrapTables.path} />
               </CollapsableNavItem>
 
               <CollapsableNavItem
@@ -268,8 +273,8 @@ export default (props = {}) => {
 
               <CollapsableNavItem
                 eventKey="documentation/"
-                title="Documentación"
-                icon={faBook}
+                title="Facturación"
+                icon={faFileInvoice}
               >
                 <NavItem title="Overview" link={Routes.DocsOverview.path} />
                 <NavItem title="Download" link={Routes.DocsDownload.path} />
@@ -283,7 +288,7 @@ export default (props = {}) => {
                   link={Routes.DocsFolderStructure.path}
                 />
                 <NavItem title="Build Tools" link={Routes.DocsBuild.path} />
-                <NavItem title="Changelog" link={Routes.DocsChangelog.path} />
+                <NavItem title="Tarifas" link={Routes.DocsChangelog.path} />
               </CollapsableNavItem>
               <CollapsableNavItem
                 eventKey="components/"
@@ -314,7 +319,7 @@ export default (props = {}) => {
                 <NavItem title="Toasts" link={Routes.Toasts.path} />
                 <NavItem title="Tooltips" link={Routes.Tooltips.path} />
               </CollapsableNavItem>
-              <NavItem
+              {/* <NavItem
                 external
                 title="Themesberg"
                 link="https://themesberg.com"
@@ -329,7 +334,12 @@ export default (props = {}) => {
               >
                 <FontAwesomeIcon icon={faRocket} className="me-1" /> Upgrade to
                 Pro
-              </Button>
+              </Button> */}
+              <NavItem
+                title="Notificaciones"
+                icon={faBell}
+                link={Routes.Settings.path}
+              />
             </Nav>
           </div>
         </SimpleBar>
