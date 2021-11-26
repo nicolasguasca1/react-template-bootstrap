@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import moment from "moment-timezone";
 import Datetime from "react-datetime";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCalendarAlt } from "@fortawesome/free-solid-svg-icons";
+import { faCalendarAlt, faUnlockAlt } from "@fortawesome/free-solid-svg-icons";
 import {
   Col,
   Row,
@@ -38,22 +38,6 @@ const UserInfo = () => {
                   required
                   type="text"
                   placeholder="miusuarioejemplo"
-                />
-              </Form.Group>
-            </Col>
-            <Col md={6} className="mb-3">
-              <Form.Group id="firstName">
-                <Form.Label>Nueva contraseña</Form.Label>
-                <Form.Control type="text" placeholder="Minuevacontraseña123." />
-              </Form.Group>
-            </Col>
-            <Col md={6} className="mb-3">
-              <Form.Group id="lastName">
-                <Form.Label>Confirmación de nueva contraseña</Form.Label>
-                <Form.Control
-                  required
-                  type="text"
-                  placeholder="Vuelva a ingresar la nueva contraseña"
                 />
               </Form.Group>
             </Col>
@@ -99,7 +83,7 @@ const UserInfo = () => {
                 <Form.Control
                   required
                   type="text"
-                  placeholder="Ingresa la dirección de tu domicilio"
+                  placeholder="Dirección traida de base de datos"
                 />
               </Form.Group>
             </Col>
@@ -180,6 +164,37 @@ const UserInfo = () => {
               <Form.Group id="zip">
                 <Form.Label>Código Postal</Form.Label>
                 <Form.Control required type="tel" placeholder="Código Postal" />
+              </Form.Group>
+            </Col>
+            <h5 className="mb-4">Restablecimiento de Contraseña</h5>
+            <Col md={6} className="mb-3">
+              <Form.Group id="password" className="mb-4">
+                <Form.Label>Nueva contraseña</Form.Label>
+                <InputGroup>
+                  <InputGroup.Text>
+                    <FontAwesomeIcon icon={faUnlockAlt} />
+                  </InputGroup.Text>
+                  <Form.Control
+                    required
+                    type="password"
+                    placeholder="Micontraseña123."
+                  />
+                </InputGroup>
+              </Form.Group>
+            </Col>
+            <Col md={6} className="mb-3">
+              <Form.Group id="confirmPassword" className="mb-4">
+                <Form.Label>Confirmación de nueva contraseña</Form.Label>
+                <InputGroup>
+                  <InputGroup.Text>
+                    <FontAwesomeIcon icon={faUnlockAlt} />
+                  </InputGroup.Text>
+                  <Form.Control
+                    required
+                    type="password"
+                    placeholder="Confirma tu nueva contraseña"
+                  />
+                </InputGroup>
               </Form.Group>
             </Col>
           </Row>

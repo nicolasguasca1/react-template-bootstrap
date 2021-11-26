@@ -58,12 +58,12 @@ export const ProfileCardWidget = () => {
           Ubicación traida de la base de datos
         </Card.Text>
 
-        <Button variant="primary" size="sm" className="me-2">
+        {/* <Button variant="primary" size="sm" className="me-2">
           <FontAwesomeIcon icon={faUserPlus} className="me-1" /> Connect
         </Button>
         <Button variant="secondary" size="sm">
           Send Message
-        </Button>
+        </Button> */}
       </Card.Body>
     </Card>
   );
