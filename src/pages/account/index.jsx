@@ -23,12 +23,12 @@ import {
 } from "@themesberg/react-bootstrap";
 import { ChoosePhotoWidget, ProfileCardWidget } from "../../components/Widgets";
 import UserInfo from "../../components/forms/UserInfo";
-import Footer from "../../components/Footer";
+import Footer from "../../components/footer/Index";
 
 import Profile3 from "../../assets/img/team/profile-picture-3.jpg";
 import { Routes } from "../../routes";
 
-const Account = () => {
+const Account = (props) => {
   return (
     <>
       <section
