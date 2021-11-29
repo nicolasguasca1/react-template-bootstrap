@@ -18,8 +18,7 @@ import {
   Dropdown
 } from "@themesberg/react-bootstrap";
 
-import { TransactionsTable } from "../components/Tables";
-import NewOrder from "../components/NewOrder";
+import { OrdersTable } from "../components/Tables";
 
 import { Routes } from "../routes";
 
@@ -109,7 +108,7 @@ const Orders = () => {
         </Row>
       </div>
 
-      <TransactionsTable />
+      <OrdersTable />
     </>
   );
 };
