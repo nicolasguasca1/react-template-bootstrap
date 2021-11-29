@@ -3,6 +3,8 @@ export const Routes = {
   Presentation: { path: "/" },
   DashboardOverview: { path: "/dashboard/overview" },
   Transactions: { path: "/transactions" },
+  Orders: { path: "/orders" },
+  NewOrder: { path: "/orders/new" },
   Settings: { path: "/settings" },
   Upgrade: { path: "/upgrade" },
   Users: { path: "/users" }, // add it here

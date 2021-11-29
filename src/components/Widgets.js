@@ -10,7 +10,8 @@ import {
   faFolderOpen,
   faGlobeEurope,
   faPaperclip,
-  faUserPlus
+  faUserPlus,
+  faInfoCircle
 } from "@fortawesome/free-solid-svg-icons";
 import {
   faAngular,
@@ -36,8 +37,33 @@ import {
 
 import Profile1 from "../assets/img/team/profile-picture-1.jpg";
 import ProfileCover from "../assets/img/profile-cover.jpg";
+import Mapas from "../assets/img/mapas.png";
+import Central_transportes from "../assets/img/central_transportes.jpg";
 
 import teamMembers from "../data/teamMembers";
+
+export const OrderCardWidget = () => {
+  return (
+    <Card border="light" className="text-center p-0 mb-4">
+      <div
+        style={{ backgroundImage: `url(${Mapas})` }}
+        className="profile-cover rounded-top"
+      />
+      <Card.Body className="pb-5">
+        <Card.Img
+          src={Central_transportes}
+          alt="Neil Portrait"
+          className="user-avatar large-avatar rounded-circle mx-auto mt-n7 mb-4"
+        />
+        <Card.Title>Ubicación de recogida/entrega seleccionada</Card.Title>
+        <Card.Subtitle className="fw-normal">Valor</Card.Subtitle>
+        <Button variant="primary" size="sm" className="me-2">
+          <FontAwesomeIcon icon={faInfoCircle} className="me-1" /> Ver más
+        </Button>
+      </Card.Body>
+    </Card>
+  );
+};
 
 export const ProfileCardWidget = () => {
   return (

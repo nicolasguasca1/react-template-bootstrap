@@ -190,40 +190,40 @@ export default (props = {}) => {
                 link={Routes.DashboardOverview.path}
                 icon={faChartPie}
               />
-              <NavItem
+              {/* <NavItem
                 external
                 title="Messages"
                 link="https://demo.themesberg.com/volt-pro-react/#/messages"
                 target="_blank"
                 badgeText="Pro"
                 icon={faInbox}
-              />
+              /> */}
               <NavItem
                 title="Últimos pedidos"
                 icon={faHandHoldingUsd}
-                link={Routes.Transactions.path}
+                link={Routes.Orders.path}
               />
               <NavItem
                 title="Panel de usuarios"
                 icon={faUsersCog}
                 link={Routes.Settings.path}
               />
-              <NavItem
+              {/* <NavItem
                 external
                 title="Calendar"
                 link="https://demo.themesberg.com/volt-pro-react/#/calendar"
                 target="_blank"
                 badgeText="Pro"
                 icon={faCalendarAlt}
-              />
-              <NavItem
+              /> */}
+              {/* <NavItem
                 external
                 title="Ajustes de distribución"
                 link="https://demo.themesberg.com/volt-pro-react/#/map"
                 target="_blank"
                 badgeText="Pro"
                 icon={faDolly}
-              />
+              /> */}
 
               <CollapsableNavItem
                 eventKey="tables/"
@@ -260,14 +260,14 @@ export default (props = {}) => {
                 />
               </CollapsableNavItem>
 
-              <NavItem
+              {/* <NavItem
                 external
                 title="Plugins"
                 link="https://demo.themesberg.com/volt-pro-react/#/plugins/datatable"
                 target="_blank"
                 badgeText="Pro"
                 icon={faChartPie}
-              />
+              /> */}
 
               <Dropdown.Divider className="my-3 border-indigo" />
 

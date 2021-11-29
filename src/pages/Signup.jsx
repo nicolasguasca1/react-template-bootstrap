@@ -118,7 +118,7 @@ const Signup = () => {
                   </Button>
                 </Form>
 
-                <div className="mt-3 mb-4 text-center">
+                {/* <div className="mt-3 mb-4 text-center">
                   <span className="fw-normal">ó</span>
                 </div>
                 <div className="d-flex justify-content-center my-4">
@@ -140,7 +140,7 @@ const Signup = () => {
                   >
                     <FontAwesomeIcon icon={faGithub} />
                   </Button>
-                </div>
+                </div> */}
                 <div className="d-flex justify-content-center align-items-center mt-4">
                   <span className="fw-normal">
                     ¿Ya tienes una cuenta?

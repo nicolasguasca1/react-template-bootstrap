@@ -9,6 +9,7 @@ import Presentation from "./Presentation";
 import Upgrade from "./Upgrade";
 import DashboardOverview from "./dashboard/DashboardOverview";
 import Transactions from "./Transactions";
+import Orders from "./Orders";
 import Settings from "./Settings";
 import BootstrapTables from "./tables/BootstrapTables";
 import Signin from "./Signin";
@@ -31,6 +32,7 @@ import DocsChangelog from "./documentation/DocsChangelog";
 
 // components
 import Sidebar from "../components/Sidebar";
+import NewOrder from "../components/NewOrder";
 import Navbar from "../components/Navbar";
 import Footer from "../components/footer/Dashboard";
 import Preloader from "../components/Preloader";
@@ -152,6 +154,12 @@ function App(props) {
         component={DashboardOverview}
       />
       <RouteWithSidebar exact path={Routes.Upgrade.path} component={Upgrade} />
+      <RouteWithSidebar exact path={Routes.Orders.path} component={Orders} />
+      <RouteWithSidebar
+        exact
+        path={Routes.NewOrder.path}
+        component={NewOrder}
+      />
       <RouteWithSidebar
         exact
         path={Routes.Transactions.path}
