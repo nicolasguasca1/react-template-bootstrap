@@ -30,7 +30,6 @@ import { Link } from "react-router-dom";
 import { Routes } from "../routes";
 import { pageVisits, pageTraffic, pageRanking } from "../data/tables";
 import transactions from "../data/transactions";
-import orders from "../data/orders.json";
 import commands from "../data/commands";
 
 const ValueChange = ({ value, suffix }) => {
@@ -289,115 +288,114 @@ export const RankingTable = () => {
 //   return <div>Hello</div>;
 // };
 
-export const OrdersTable = (
-  // orders,
-  // OrdersTable,
-  // title,
-  props
-  // ordersLimit
-) => {
-  const totalOrders = orders.length;
+export const OrderRow = (props) => {
+  const {
+    nombre,
+    userID,
+    descripcion,
+    cantidad,
+    vehiculos,
+    origen,
+    destino,
+    estado,
+    fecha_creacion,
+    comentarios,
+    ordenID
+  } = props.data;
+  const statusVariant =
+    estado === "Finalizada"
+      ? "success"
+      : estado === "Pendiente por despacho"
+      ? "warning"
+      : estado === "Cancelada"
+      ? "danger"
+      : "primary";
 
-  // const [pages] = useState(Math.round(orders.length / ordersLimit));
-  // const [currentPage, setCurrentPage] = useState(1);
+  return (
+    <tr>
+      <td>
+        <Card.Link as={Link} to={Routes.Invoice.path} className="fw-normal">
+          {nombre}
+        </Card.Link>
+      </td>
+      <td>
+        <span className="fw-normal">{userID}</span>
+      </td>
+      <td>
+        <span className="fw-normal">{vehiculos}</span>
+      </td>
+      <td>
+        <span className="fw-normal">{origen}</span>
+      </td>
+      <td>
+        <span className="fw-normal">${destino}</span>
+      </td>
+      <td>
+        <span className={`fw-normal text-${statusVariant}`}>{estado}</span>
+      </td>
+      <td>
+        <Dropdown as={ButtonGroup}>
+          <Dropdown.Toggle
+            as={Button}
+            split
+            variant="link"
+            className="text-dark m-0 p-0"
+          >
+            <span className="icon icon-sm">
+              <FontAwesomeIcon icon={faEllipsisH} className="icon-dark" />
+            </span>
+          </Dropdown.Toggle>
+          <Dropdown.Menu>
+            <Dropdown.Item>
+              <FontAwesomeIcon icon={faEye} className="me-2" /> Detalles
+            </Dropdown.Item>
+            <Dropdown.Item>
+              <FontAwesomeIcon icon={faEdit} className="me-2" /> Editar
+            </Dropdown.Item>
+            <Dropdown.Item className="text-danger">
+              <FontAwesomeIcon icon={faTimesCircle} className="me-2" /> Cancelar
+            </Dropdown.Item>
+          </Dropdown.Menu>
+        </Dropdown>
+      </td>
+    </tr>
+  );
+};
 
-  // const goToNextPage = () => {
-  //   // not yet implemented
-  //   // setCurrentPage(currentPage + 1);
-  //   setCurrentPage((page) => page + 1);
-  // };
-  // const goToPreviousPage = () => {
-  //   // not yet implemented
-  //   setCurrentPage((page) => page - 1);
-  // };
-  // const changePage = (event) => {
-  //   const pageNumber = Number(event.target.textContent);
-  //   setCurrentPage(pageNumber);
-  // };
-  // const getPaginatedData = () => {
-  //   const startIndex = currentPage * ordersLimit - ordersLimit;
-  //   const endIndex = startIndex + ordersLimit;
-  //   return orders.slice(startIndex, endIndex);
-  // };
+export const OrdersTable = ({
+  data,
+  RenderComponent,
+  title,
+  pageLimit,
+  dataLimit
+}) => {
+  const totalOrders = data.length;
 
-  // const getPaginationGroup = () => {
-  //   let start = Math.floor((currentPage - 1) / pageLimit) * pageLimit;
-  //   return new Array(pageLimit).fill().map((_, idx) => start + idx + 1);
-  // };
+  const [pages] = useState(Math.round(totalOrders / dataLimit));
+  const [currentPage, setCurrentPage] = useState(1);
 
-  const TableRow = (props) => {
-    const {
-      nombre,
-      userID,
-      descripcion,
-      cantidad,
-      vehiculos,
-      origen,
-      destino,
-      estado,
-      fecha_creacion,
-      comentarios,
-      ordenID
-    } = props;
-    const statusVariant =
-      estado === "Finalizada"
-        ? "success"
-        : estado === "Pendiente por despacho"
-        ? "warning"
-        : estado === "Cancelada"
-        ? "danger"
-        : "primary";
+  const goToNextPage = () => {
+    // not yet implemented
+    // setCurrentPage(currentPage + 1);
+    setCurrentPage((page) => page + 1);
+  };
+  const goToPreviousPage = () => {
+    // not yet implemented
+    setCurrentPage((page) => page - 1);
+  };
+  const changePage = (event) => {
+    const pageNumber = Number(event.target.textContent);
+    setCurrentPage(pageNumber);
+  };
+  const getPaginatedData = () => {
+    const startIndex = currentPage * dataLimit - dataLimit;
+    const endIndex = startIndex + dataLimit;
+    return data.slice(startIndex, endIndex);
+  };
 
-    return (
-      <tr>
-        <td>
-          <Card.Link as={Link} to={Routes.Invoice.path} className="fw-normal">
-            {nombre}
-          </Card.Link>
-        </td>
-        <td>
-          <span className="fw-normal">{userID}</span>
-        </td>
-        <td>
-          <span className="fw-normal">{vehiculos}</span>
-        </td>
-        <td>
-          <span className="fw-normal">{origen}</span>
-        </td>
-        <td>
-          <span className="fw-normal">${destino}</span>
-        </td>
-        <td>
-          <span className={`fw-normal text-${statusVariant}`}>{estado}</span>
-        </td>
-        <td>
-          <Dropdown as={ButtonGroup}>
-            <Dropdown.Toggle
-              as={Button}
-              split
-              variant="link"
-              className="text-dark m-0 p-0"
-            >
-              <span className="icon icon-sm">
-                <FontAwesomeIcon icon={faEllipsisH} className="icon-dark" />
-              </span>
-            </Dropdown.Toggle>
-            <Dropdown.Menu>
-              <Dropdown.Item>
-                <FontAwesomeIcon icon={faEye} className="me-2" /> Detalles
-              </Dropdown.Item>
-              <Dropdown.Item>
-                <FontAwesomeIcon icon={faEdit} className="me-2" /> Editar
-              </Dropdown.Item>
-              <Dropdown.Item className="text-danger">
-                <FontAwesomeIcon icon={faTimesCircle} className="me-2" />{" "}
-                Cancelar
-              </Dropdown.Item>
-            </Dropdown.Menu>
-          </Dropdown>
-        </td>
-      </tr>
-    );
+  const getPaginationGroup = () => {
+    let start = Math.floor((currentPage - 1) / pageLimit) * pageLimit;
+    return new Array(pageLimit).fill().map((_, idx) => start + idx + 1);
   };
 
   return (
@@ -406,6 +404,7 @@ export const OrdersTable = (
         <Table hover className="user-table align-items-center">
           <thead>
             <tr>
+              {/* <h1>{title}</h1> */}
               <th className="border-bottom">Producto</th>
               <th className="border-bottom">Cliente</th>
               <th className="border-bottom">Vehículos</th>
@@ -416,29 +415,55 @@ export const OrdersTable = (
             </tr>
           </thead>
           <tbody>
-            {orders.map((t) => (
-              <TableRow
-                // key={`order-${t.userID}`}
-                {...t}
-              />
+            {getPaginatedData().map((d, idx) => (
+              <RenderComponent key={idx} data={d} />
             ))}
+            {/* {orders.map((t) => (
+              <RenderComponent key={t.id} {...t} />
+                key={`order-${t.userID}`}
+                {...t}
+              >
+            ))} */}
           </tbody>
         </Table>
         <Card.Footer className="px-3 border-0 d-lg-flex align-items-center justify-content-between">
           <Nav>
             <Pagination className="mb-2 mb-lg-0">
-              <Pagination.Prev>Anterior</Pagination.Prev>
+              <Pagination.Prev
+                onClick={goToPreviousPage}
+                className={`prev ${currentPage === 1 ? "disabled" : ""}`}
+              >
+                Anterior
+              </Pagination.Prev>
+
+              {getPaginationGroup().map((item, index) => (
+                <Pagination.Item
+                  key={index}
+                  onClick={changePage}
+                  // className={`paginationItem ${
+                  //   currentPage === item ? "active" : null
+                  // }`}
+                >
+                  <span>{item}</span>
+                </Pagination.Item>
+              ))}
+              {/* 
               <Pagination.Item active>1</Pagination.Item>
               <Pagination.Item>2</Pagination.Item>
               <Pagination.Item>3</Pagination.Item>
               <Pagination.Item>4</Pagination.Item>
-              <Pagination.Item>5</Pagination.Item>
-              <Pagination.Next>Siguiente</Pagination.Next>
+              <Pagination.Item>5</Pagination.Item> */}
+              <Pagination.Next
+                onClick={goToNextPage}
+                className={`next ${currentPage === pages ? "disabled" : ""}`}
+              >
+                Siguiente
+              </Pagination.Next>
             </Pagination>
           </Nav>
           <small className="fw-bold">
-            Mostrando <b>{props.pageLimit}</b> de un total de{" "}
-            <b>{totalOrders}</b> entradas.
+            Mostrando <b>{dataLimit}</b> de un total de <b>{totalOrders}</b>{" "}
+            entradas.
           </small>
         </Card.Footer>
       </Card.Body>

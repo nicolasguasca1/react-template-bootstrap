@@ -20,14 +20,16 @@ import {
 } from "@themesberg/react-bootstrap";
 
 import { OrdersTable } from "../components/Tables";
+import { OrderRow } from "../components/Tables";
+import orders from "../data/orders.json";
 
 import { Routes } from "../routes";
 
 const Orders = (props) => {
-  const [pageLimit, setPageLimit] = useState("");
+  const [dataLimit, setDataLimit] = useState("");
   const handleSelect = (e) => {
     console.log(e);
-    setPageLimit(e);
+    setDataLimit(e);
   };
   return (
     <>
@@ -130,15 +132,41 @@ const Orders = (props) => {
                     <FontAwesomeIcon icon={faCheck} />
                   </span>
                 </Dropdown.Item>
-                <Dropdown.Item className="fw-bold">25</Dropdown.Item>
-                <Dropdown.Item className="fw-bold">50</Dropdown.Item>
+                <Dropdown.Item
+                  as={Button}
+                  onSelect={() => handleSelect("25")}
+                  className="d-flex fw-bold"
+                >
+                  25
+                </Dropdown.Item>
+                <Dropdown.Item
+                  as={Button}
+                  onSelect={() => handleSelect("50")}
+                  className="d-flex fw-bold"
+                >
+                  50
+                </Dropdown.Item>
               </Dropdown.Menu>
             </Dropdown>
           </Col>
         </Row>
       </div>
 
-      <OrdersTable pageLimit={pageLimit} />
+      <div>
+        {orders.length > 0 ? (
+          <>
+            <OrdersTable
+              data={orders}
+              RenderComponent={OrderRow}
+              title="Órdenes'"
+              pageLimit={5}
+              dataLimit={50}
+            />
+          </>
+        ) : (
+          <h1>No hay ordenes por mostrar</h1>
+        )}
+      </div>
     </>
   );
 };
