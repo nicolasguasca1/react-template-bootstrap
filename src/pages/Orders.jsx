@@ -32,12 +32,14 @@ const status = [
   "Cancelada",
   "Finalizada"
 ];
+const pagination = [10, 25, 50];
 
 const Orders = (props) => {
   const [dataLimit, setDataLimit] = useState(10);
   const [filtredOrders, setFiltredOrders] = useState(orders);
 
   const [active, setActive] = useState(status[0]);
+  const [paginated, setPaginated] = useState(pagination[0]);
 
   const filterOrder = (orderStatus) => {
     let filtredList = orders.filter((order) => order.estado === orderStatus);
@@ -136,37 +138,6 @@ const Orders = (props) => {
                     )}
                   </Dropdown.Item>
                 ))}
-
-                {/* <Dropdown.Item className="d-flex fw-bold">
-                  Todas{" "}
-                  <span className="icon icon-small ms-auto">
-                    <FontAwesomeIcon icon={faCheck} />
-                  </span>
-                </Dropdown.Item>
-                <Dropdown.Item
-                  className="fw-bold"
-                  onClick={() => handleOrders("Pendiente por despacho")}
-                >
-                  Pendiente por despacho
-                </Dropdown.Item>
-                <Dropdown.Item
-                  className="fw-bold"
-                  onClick={() => handleOrders("Despachada")}
-                >
-                  Despachada
-                </Dropdown.Item>
-                <Dropdown.Item
-                  className="fw-bold"
-                  onClick={() => handleOrders("Finalizada")}
-                >
-                  Finalizada
-                </Dropdown.Item>
-                <Dropdown.Item
-                  className="fw-bold"
-                  onClick={() => handleOrders("Cancelada")}
-                >
-                  Cancelada
-                </Dropdown.Item> */}
               </Dropdown.Menu>
             </Dropdown>
             <Dropdown drop="down" as={ButtonGroup}>
@@ -181,33 +152,27 @@ const Orders = (props) => {
                 </span>
               </Dropdown.Toggle>
               <Dropdown.Menu className="dropdown-menu-xs dropdown-menu-left">
-                <Dropdown.Item className="fw-bold text-dark">
+                <Dropdown.Item className="fw-bold text-dark" disabled>
                   Mostrar
                 </Dropdown.Item>
-                <Dropdown.Item
-                  as={Button}
-                  onSelect={() => handleSelect(10)}
-                  className="d-flex fw-bold"
-                >
-                  10{" "}
-                  <span className="icon icon-small ms-auto">
-                    <FontAwesomeIcon icon={faCheck} />
-                  </span>
-                </Dropdown.Item>
-                <Dropdown.Item
-                  as={Button}
-                  onSelect={() => handleSelect(25)}
-                  className="d-flex fw-bold"
-                >
-                  25
-                </Dropdown.Item>
-                <Dropdown.Item
-                  as={Button}
-                  onSelect={() => handleSelect(50)}
-                  className="d-flex fw-bold"
-                >
-                  50
-                </Dropdown.Item>
+                {pagination.map((pagination) => (
+                  <Dropdown.Item
+                    className="d-flex fw-bold"
+                    key={pagination}
+                    active={paginated === pagination}
+                    onSelect={() => {
+                      setPaginated(pagination);
+                      handleSelect(pagination);
+                    }}
+                  >
+                    {pagination}{" "}
+                    {paginated === pagination && (
+                      <span className="icon icon-small ms-auto">
+                        <FontAwesomeIcon icon={faCheck} />
+                      </span>
+                    )}
+                  </Dropdown.Item>
+                ))}
               </Dropdown.Menu>
             </Dropdown>
           </Col>
