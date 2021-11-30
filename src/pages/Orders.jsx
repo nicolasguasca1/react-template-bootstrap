@@ -26,7 +26,7 @@ import orders from "../data/orders.json";
 import { Routes } from "../routes";
 
 const Orders = (props) => {
-  const [dataLimit, setDataLimit] = useState("");
+  const [dataLimit, setDataLimit] = useState(10);
   const handleSelect = (e) => {
     console.log(e);
     setDataLimit(e);
@@ -124,7 +124,7 @@ const Orders = (props) => {
                 </Dropdown.Item>
                 <Dropdown.Item
                   as={Button}
-                  onSelect={() => handleSelect("10")}
+                  onSelect={() => handleSelect(10)}
                   className="d-flex fw-bold"
                 >
                   10{" "}
@@ -134,14 +134,14 @@ const Orders = (props) => {
                 </Dropdown.Item>
                 <Dropdown.Item
                   as={Button}
-                  onSelect={() => handleSelect("25")}
+                  onSelect={() => handleSelect(25)}
                   className="d-flex fw-bold"
                 >
                   25
                 </Dropdown.Item>
                 <Dropdown.Item
                   as={Button}
-                  onSelect={() => handleSelect("50")}
+                  onSelect={() => handleSelect(50)}
                   className="d-flex fw-bold"
                 >
                   50
@@ -160,7 +160,7 @@ const Orders = (props) => {
               RenderComponent={OrderRow}
               title="Órdenes'"
               pageLimit={5}
-              dataLimit={50}
+              dataLimit={dataLimit}
             />
           </>
         ) : (
