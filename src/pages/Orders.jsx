@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faCheck,
@@ -25,8 +25,33 @@ import orders from "../data/orders.json";
 
 import { Routes } from "../routes";
 
+const status = [
+  "Todas",
+  "Despachada",
+  "Pendiente por despacho",
+  "Cancelada",
+  "Finalizada"
+];
+
 const Orders = (props) => {
   const [dataLimit, setDataLimit] = useState(10);
+  const [filtredOrders, setFiltredOrders] = useState(orders);
+
+  const [active, setActive] = useState(status[0]);
+
+  const filterOrder = (orderStatus) => {
+    let filtredList = orders.filter((order) => order.estado === orderStatus);
+    return filtredList;
+  };
+
+  const handleOrders = (e) => {
+    console.log(e);
+    let statusOrder = e;
+    statusOrder !== "Todas"
+      ? setFiltredOrders(filterOrder(statusOrder))
+      : setFiltredOrders(orders);
+    console.log(filtredOrders);
+  };
   const handleSelect = (e) => {
     console.log(e);
     setDataLimit(e);
@@ -93,18 +118,55 @@ const Orders = (props) => {
                 </span>
               </Dropdown.Toggle>
               <Dropdown.Menu className=" dropdown-menu-left me-2">
-                <Dropdown.Item className="d-flex fw-bold">
+                {status.map((status) => (
+                  <Dropdown.Item
+                    className="d-flex fw-bold"
+                    key={status}
+                    active={active === status}
+                    onClick={() => {
+                      setActive(status);
+                      handleOrders(status);
+                    }}
+                  >
+                    {status}{" "}
+                    {active === status && (
+                      <span className="icon icon-small ms-auto">
+                        <FontAwesomeIcon icon={faCheck} />
+                      </span>
+                    )}
+                  </Dropdown.Item>
+                ))}
+
+                {/* <Dropdown.Item className="d-flex fw-bold">
                   Todas{" "}
                   <span className="icon icon-small ms-auto">
                     <FontAwesomeIcon icon={faCheck} />
                   </span>
                 </Dropdown.Item>
-                <Dropdown.Item className="fw-bold">
+                <Dropdown.Item
+                  className="fw-bold"
+                  onClick={() => handleOrders("Pendiente por despacho")}
+                >
                   Pendiente por despacho
                 </Dropdown.Item>
-                <Dropdown.Item className="fw-bold">Despachada</Dropdown.Item>
-                <Dropdown.Item className="fw-bold">Finalizada</Dropdown.Item>
-                <Dropdown.Item className="fw-bold">Cancelada</Dropdown.Item>
+                <Dropdown.Item
+                  className="fw-bold"
+                  onClick={() => handleOrders("Despachada")}
+                >
+                  Despachada
+                </Dropdown.Item>
+                <Dropdown.Item
+                  className="fw-bold"
+                  onClick={() => handleOrders("Finalizada")}
+                >
+                  Finalizada
+                </Dropdown.Item>
+                <Dropdown.Item
+                  className="fw-bold"
+                  onClick={() => handleOrders("Cancelada")}
+                >
+                  Cancelada
+                </Dropdown.Item> */}
               </Dropdown.Menu>
             </Dropdown>
             <Dropdown drop="down" as={ButtonGroup}>
@@ -156,7 +218,7 @@ const Orders = (props) => {
         {orders.length > 0 ? (
           <>
             <OrdersTable
-              data={orders}
+              data={filtredOrders}
               RenderComponent={OrderRow}
               title="Órdenes'"
               pageLimit={5}
