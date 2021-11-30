@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faAngleDown,
@@ -253,8 +253,77 @@ export const RankingTable = () => {
   );
 };
 
-export const OrdersTable = () => {
+// export const Paginations = ({
+//   orders,
+//   OrdersTable,
+//   title,
+//   pageLimit,
+//   ordersLimit
+// }) => {
+//   const [pages] = useState(Math.round(orders.length / ordersLimit));
+//   const [currentPage, setCurrentPage] = useState(1);
+
+//   const goToNextPage = () => {
+//     // not yet implemented
+//     // setCurrentPage(currentPage + 1);
+//     setCurrentPage((page) => page + 1);
+//   };
+//   const goToPreviousPage = () => {
+//     // not yet implemented
+//     setCurrentPage((page) => page - 1);
+//   };
+//   const changePage = (event) => {
+//     const pageNumber = Number(event.target.textContent);
+//     setCurrentPage(pageNumber);
+//   };
+//   const getPaginatedData = () => {
+//     const startIndex = currentPage * ordersLimit - ordersLimit;
+//     const endIndex = startIndex + ordersLimit;
+//     return orders.slice(startIndex, endIndex);
+//   };
+
+//   const getPaginationGroup = () => {
+//     let start = Math.floor((currentPage - 1) / pageLimit) * pageLimit;
+//     return new Array(pageLimit).fill().map((_, idx) => start + idx + 1);
+//   };
+//   return <div>Hello</div>;
+// };
+
+export const OrdersTable = (
+  // orders,
+  // OrdersTable,
+  // title,
+  props
+  // ordersLimit
+) => {
   const totalOrders = orders.length;
+
+  // const [pages] = useState(Math.round(orders.length / ordersLimit));
+  // const [currentPage, setCurrentPage] = useState(1);
+
+  // const goToNextPage = () => {
+  //   // not yet implemented
+  //   // setCurrentPage(currentPage + 1);
+  //   setCurrentPage((page) => page + 1);
+  // };
+  // const goToPreviousPage = () => {
+  //   // not yet implemented
+  //   setCurrentPage((page) => page - 1);
+  // };
+  // const changePage = (event) => {
+  //   const pageNumber = Number(event.target.textContent);
+  //   setCurrentPage(pageNumber);
+  // };
+  // const getPaginatedData = () => {
+  //   const startIndex = currentPage * ordersLimit - ordersLimit;
+  //   const endIndex = startIndex + ordersLimit;
+  //   return orders.slice(startIndex, endIndex);
+  // };
+
+  // const getPaginationGroup = () => {
+  //   let start = Math.floor((currentPage - 1) / pageLimit) * pageLimit;
+  //   return new Array(pageLimit).fill().map((_, idx) => start + idx + 1);
+  // };
 
   const TableRow = (props) => {
     const {
@@ -270,14 +339,14 @@ export const OrdersTable = () => {
       comentarios,
       ordenID
     } = props;
-    // const statusVariant =
-    //   status === "Paid"
-    //     ? "success"
-    //     : status === "Due"
-    //     ? "warning"
-    //     : status === "Canceled"
-    //     ? "danger"
-    //     : "primary";
+    const statusVariant =
+      estado === "Finalizada"
+        ? "success"
+        : estado === "Pendiente por despacho"
+        ? "warning"
+        : estado === "Cancelada"
+        ? "danger"
+        : "primary";
 
     return (
       <tr>
@@ -299,7 +368,7 @@ export const OrdersTable = () => {
           <span className="fw-normal">${destino}</span>
         </td>
         <td>
-          <span className={`fw-normal`}>{estado}</span>
+          <span className={`fw-normal text-${statusVariant}`}>{estado}</span>
         </td>
         <td>
           <Dropdown as={ButtonGroup}>
@@ -348,7 +417,10 @@ export const OrdersTable = () => {
           </thead>
           <tbody>
             {orders.map((t) => (
-              <TableRow key={`orders-${t.fecha_creacion}`} {...t} />
+              <TableRow
+                // key={`order-${t.userID}`}
+                {...t}
+              />
             ))}
           </tbody>
         </Table>
@@ -365,8 +437,8 @@ export const OrdersTable = () => {
             </Pagination>
           </Nav>
           <small className="fw-bold">
-            Mostrando <b>{totalOrders}</b> de un total de{" "}
-            <b>{totalOrders.length}</b> entradas.
+            Mostrando <b>{props.pageLimit}</b> de un total de{" "}
+            <b>{totalOrders}</b> entradas.
           </small>
         </Card.Footer>
       </Card.Body>

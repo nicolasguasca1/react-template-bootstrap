@@ -1,11 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faCheck,
   faCog,
   faHome,
   faSearch,
-  faPlus
+  faPlus,
+  faFilter
 } from "@fortawesome/free-solid-svg-icons";
 import {
   Col,
@@ -22,7 +23,12 @@ import { OrdersTable } from "../components/Tables";
 
 import { Routes } from "../routes";
 
-const Orders = () => {
+const Orders = (props) => {
+  const [pageLimit, setPageLimit] = useState("");
+  const handleSelect = (e) => {
+    console.log(e);
+    setPageLimit(e);
+  };
   return (
     <>
       <div className="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center py-4">
@@ -44,17 +50,11 @@ const Orders = () => {
         </div>
         <div className="btn-toolbar mb-2 mb-md-0">
           <ButtonGroup>
-            {/* <Button variant="outline-primary" size="sm">
-              Crear nueva orden
-            </Button> */}
             <Button variant="outline-primary" size="sm">
               Exportar como CSV
             </Button>
           </ButtonGroup>
           <ButtonGroup className="px-2">
-            {/* <Button variant="outline-primary" size="sm">
-              Crear nueva orden
-            </Button> */}
             <Button
               size="sm"
               variant="secondary"
@@ -79,7 +79,33 @@ const Orders = () => {
             </InputGroup>
           </Col>
           <Col xs={4} md={2} xl={1} className="ps-md-0 text-end">
-            <Dropdown as={ButtonGroup}>
+            <Dropdown drop="down" as={ButtonGroup}>
+              <Dropdown.Toggle
+                split
+                as={Button}
+                variant="link"
+                className="text-dark m-0 px-2"
+              >
+                <span className="icon icon-sm icon-gray">
+                  <FontAwesomeIcon icon={faFilter} />
+                </span>
+              </Dropdown.Toggle>
+              <Dropdown.Menu className=" dropdown-menu-left me-2">
+                <Dropdown.Item className="d-flex fw-bold">
+                  Todas{" "}
+                  <span className="icon icon-small ms-auto">
+                    <FontAwesomeIcon icon={faCheck} />
+                  </span>
+                </Dropdown.Item>
+                <Dropdown.Item className="fw-bold">
+                  Pendiente por despacho
+                </Dropdown.Item>
+                <Dropdown.Item className="fw-bold">Despachada</Dropdown.Item>
+                <Dropdown.Item className="fw-bold">Finalizada</Dropdown.Item>
+                <Dropdown.Item className="fw-bold">Cancelada</Dropdown.Item>
+              </Dropdown.Menu>
+            </Dropdown>
+            <Dropdown drop="down" as={ButtonGroup}>
               <Dropdown.Toggle
                 split
                 as={Button}
@@ -90,25 +116,29 @@ const Orders = () => {
                   <FontAwesomeIcon icon={faCog} />
                 </span>
               </Dropdown.Toggle>
-              <Dropdown.Menu className="dropdown-menu-xs dropdown-menu-right">
+              <Dropdown.Menu className="dropdown-menu-xs dropdown-menu-left">
                 <Dropdown.Item className="fw-bold text-dark">
-                  Show
+                  Mostrar
                 </Dropdown.Item>
-                <Dropdown.Item className="d-flex fw-bold">
+                <Dropdown.Item
+                  as={Button}
+                  onSelect={() => handleSelect("10")}
+                  className="d-flex fw-bold"
+                >
                   10{" "}
                   <span className="icon icon-small ms-auto">
                     <FontAwesomeIcon icon={faCheck} />
                   </span>
                 </Dropdown.Item>
-                <Dropdown.Item className="fw-bold">20</Dropdown.Item>
-                <Dropdown.Item className="fw-bold">30</Dropdown.Item>
+                <Dropdown.Item className="fw-bold">25</Dropdown.Item>
+                <Dropdown.Item className="fw-bold">50</Dropdown.Item>
               </Dropdown.Menu>
             </Dropdown>
           </Col>
         </Row>
       </div>
 
-      <OrdersTable />
+      <OrdersTable pageLimit={pageLimit} />
     </>
   );
 };

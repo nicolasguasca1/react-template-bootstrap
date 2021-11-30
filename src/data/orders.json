@@ -7,7 +7,7 @@
     "vehiculos": 1,
     "origen": "Pionerskiy",
     "destino": "Shipunovo",
-    "estado": "１２３",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "4/18/2021",
     "comentarios": "ﾟ･✿ヾ╲(｡◕‿◕｡)╱✿･ﾟ",
     "ordenID": "b5897d1e-c6ad-4745-a9c9-2eb22bcd092d"
@@ -20,7 +20,7 @@
     "vehiculos": 2,
     "origen": "Bonak",
     "destino": "Sohbatpur",
-    "estado": "-1E+02",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "5/24/2021",
     "comentarios": "-1E+02",
     "ordenID": "a470fa85-f99c-4dde-9b27-0dd9ca9d10c8"
@@ -33,7 +33,7 @@
     "vehiculos": 3,
     "origen": "Kuala Lumpur",
     "destino": "Dayuan",
-    "estado": "1;DROP TABLE users",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "7/19/2021",
     "comentarios": "１２３",
     "ordenID": "dfdd892e-07a9-4371-8867-400790f4fd5a"
@@ -46,7 +46,7 @@
     "vehiculos": 4,
     "origen": "Gitega",
     "destino": "Stare Kurowo",
-    "estado": "⁰⁴⁵₀₁₂",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "11/25/2021",
     "comentarios": "˙ɐnbᴉlɐ ɐuƃɐɯ ǝɹolop ʇǝ ǝɹoqɐl ʇn ʇunpᴉpᴉɔuᴉ ɹodɯǝʇ poɯsnᴉǝ op pǝs 'ʇᴉlǝ ƃuᴉɔsᴉdᴉpɐ ɹnʇǝʇɔǝsuoɔ 'ʇǝɯɐ ʇᴉs ɹolop ɯnsdᴉ ɯǝɹo˥",
     "ordenID": "79dd6b29-ae53-4031-829c-c6826197ff9e"
@@ -59,7 +59,7 @@
     "vehiculos": 5,
     "origen": "Sangkulirang",
     "destino": "Vlasenica",
-    "estado": "和製漢語",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "8/8/2021",
     "comentarios": "1'; DROP TABLE users--",
     "ordenID": "44650bc2-5d9b-4119-ba05-f49543c2ee6e"
@@ -72,7 +72,7 @@
     "vehiculos": 6,
     "origen": "Kuching",
     "destino": "Troitskoye",
-    "estado": "-1",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "10/16/2021",
     "comentarios": "1/0",
     "ordenID": "dbf2ba89-eb3d-427a-bf0b-1551b8350358"
@@ -85,7 +85,7 @@
     "vehiculos": 7,
     "origen": "Kajok",
     "destino": "Euclides da Cunha",
-    "estado": "1/2",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "11/9/2021",
     "comentarios": null,
     "ordenID": "8c61e7b5-cb79-4a6e-95fc-fe494ddf3bfd"
@@ -98,7 +98,7 @@
     "vehiculos": 8,
     "origen": "Igreja",
     "destino": "Leiling",
-    "estado": "<script>alert('hi')</script>",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "12/31/2020",
     "comentarios": "NULL",
     "ordenID": "22df3394-4cce-4264-a45b-64c0fef05c29"
@@ -111,7 +111,7 @@
     "vehiculos": 9,
     "origen": "Odessa",
     "destino": "Biskamzha",
-    "estado": "\"'\"'\"''''\"",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "12/2/2020",
     "comentarios": "¡™£¢∞§¶•ªº–≠",
     "ordenID": "a08ed873-484b-4c25-938d-6f950e1f7be6"
@@ -124,7 +124,7 @@
     "vehiculos": 10,
     "origen": "At Tall al Kabīr",
     "destino": "Ivatsevichy",
-    "estado": "/dev/null; touch /tmp/blns.fail ; echo",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "9/12/2021",
     "comentarios": "<>?:\"{}|_+",
     "ordenID": "e129add7-2031-48ce-a0ec-178bce55c233"
@@ -137,7 +137,7 @@
     "vehiculos": 11,
     "origen": "Waldbredimus",
     "destino": "Liuji",
-    "estado": "¸˛Ç◊ı˜Â¯˘¿",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "10/30/2021",
     "comentarios": "-1/2",
     "ordenID": "2fb3e99f-cb5b-4568-9f88-16230fa5a5eb"
@@ -150,7 +150,7 @@
     "vehiculos": 12,
     "origen": "Numeto",
     "destino": "Łomazy",
-    "estado": "1/2",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "10/19/2021",
     "comentarios": "-$1.00",
     "ordenID": "432ca2b6-3954-4dea-9f98-18fe065aff1f"
@@ -163,7 +163,7 @@
     "vehiculos": 13,
     "origen": "Gemuruh",
     "destino": "Almelo",
-    "estado": "␡",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "2/25/2021",
     "comentarios": "Ω≈ç√∫˜µ≤≥÷",
     "ordenID": "ae821b98-5623-4f3e-a12d-b807a64a45b9"
@@ -176,7 +176,7 @@
     "vehiculos": 14,
     "origen": "Chironkamba",
     "destino": "Stary Sącz",
-    "estado": "-1",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "12/25/2020",
     "comentarios": "/dev/null; touch /tmp/blns.fail ; echo",
     "ordenID": "2f9a99af-553d-43eb-9a6c-1afff2511018"
@@ -189,7 +189,7 @@
     "vehiculos": 15,
     "origen": "Mangxing",
     "destino": "Perelhal",
-    "estado": "(╯°□°）╯︵ ┻━┻)  ",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "9/29/2021",
     "comentarios": "⁦test⁧",
     "ordenID": "c54c5d1d-d38c-4d65-8b61-230f42fae731"
@@ -202,7 +202,7 @@
     "vehiculos": 16,
     "origen": "Blyznyuky",
     "destino": "Hawassa",
-    "estado": "0️⃣ 1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣ 6️⃣ 7️⃣ 8️⃣ 9️⃣ 🔟",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "5/19/2021",
     "comentarios": "␡",
     "ordenID": "82a88392-36c5-4d36-9778-466b8221001e"
@@ -215,7 +215,7 @@
     "vehiculos": 17,
     "origen": "Trancas",
     "destino": "Ventsy",
-    "estado": "１２３",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "7/24/2021",
     "comentarios": "ﾟ･✿ヾ╲(｡◕‿◕｡)╱✿･ﾟ",
     "ordenID": "91421d28-e5ab-4eec-9b9e-476339d371f5"
@@ -228,7 +228,7 @@
     "vehiculos": 18,
     "origen": "Belén de Escobar",
     "destino": "Daxbet",
-    "estado": "̦H̬̤̗̤͝e͜ ̜̥̝̻͍̟́w̕h̖̯͓o̝͙̖͎̱̮ ҉̺̙̞̟͈W̷̼̭a̺̪͍į͈͕̭͙̯̜t̶̼̮s̘͙͖̕ ̠̫̠B̻͍͙͉̳ͅe̵h̵̬͇̫͙i̹͓̳̳̮͎̫̕n͟d̴̪̜̖ ̰͉̩͇͙̲͞ͅT͖̼͓̪͢h͏͓̮̻e̬̝̟ͅ ̤̹̝W͙̞̝͔͇͝ͅa͏͓͔̹̼̣l̴͔̰̤̟͔ḽ̫.͕",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "12/5/2020",
     "comentarios": "(╯°□°）╯︵ ┻━┻)  ",
     "ordenID": "5b970ccf-9f47-4536-8ae4-1eeb80e53371"
@@ -254,7 +254,7 @@
     "vehiculos": 20,
     "origen": "Vyksa",
     "destino": "Tomilino",
-    "estado": "١٢٣",
+    "estado": "Despachada",
     "fecha_creacion": "9/1/2021",
     "comentarios": "１２３",
     "ordenID": "2644283f-fb29-4664-ab75-345eea18ac64"
@@ -280,7 +280,7 @@
     "vehiculos": 22,
     "origen": "San Sebastian",
     "destino": "Zhoujiadian",
-    "estado": "パーティーへ行かないか",
+    "estado": "Cancelada",
     "fecha_creacion": "6/29/2021",
     "comentarios": "社會科學院語學研究所",
     "ordenID": "00cd70ee-c8e0-4439-897e-27e01ff97c19"
@@ -293,7 +293,7 @@
     "vehiculos": 23,
     "origen": "Guaçuí",
     "destino": "Yerevan",
-    "estado": "👾 🙇 💁 🙅 🙆 🙋 🙎 🙍 ",
+    "estado": "Despachada",
     "fecha_creacion": "12/22/2020",
     "comentarios": "₀₁₂",
     "ordenID": "b2f6ce67-3537-4518-a6b5-8482f00afda8"
@@ -319,7 +319,7 @@
     "vehiculos": 25,
     "origen": "Dumalinao",
     "destino": "Mabini",
-    "estado": "../../../../../../../../../../../etc/hosts",
+    "estado": "Cancelada",
     "fecha_creacion": "4/17/2021",
     "comentarios": "和製漢語",
     "ordenID": "36bbe77d-826c-4a7e-ae9f-196e50bd549f"
@@ -332,7 +332,7 @@
     "vehiculos": 26,
     "origen": "Wadungasri",
     "destino": "Skärholmen",
-    "estado": "œ∑´®†¥¨ˆøπ“‘",
+    "estado": "Despachada",
     "fecha_creacion": "3/7/2021",
     "comentarios": "-1E02",
     "ordenID": "b15e79ed-1620-43c8-8c2c-bf16d6033861"
@@ -371,7 +371,7 @@
     "vehiculos": 29,
     "origen": "Chizhou",
     "destino": "Casal do Sapo",
-    "estado": "\"\"",
+    "estado": "Finalizada",
     "fecha_creacion": "1/8/2021",
     "comentarios": "NULL",
     "ordenID": "2717e907-7401-4a21-a93c-3b3d5d5f1a60"
@@ -397,7 +397,7 @@
     "vehiculos": 31,
     "origen": "Shankeng",
     "destino": "Gading",
-    "estado": "¸˛Ç◊ı˜Â¯˘¿",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "11/14/2021",
     "comentarios": "<script>alert('hi')</script>",
     "ordenID": "c6f6917f-ce6d-4d93-bbac-31e790d078a4"
@@ -423,7 +423,7 @@
     "vehiculos": 33,
     "origen": "Union",
     "destino": "Makoua",
-    "estado": "null",
+    "estado": "Finalizada",
     "fecha_creacion": "10/4/2021",
     "comentarios": "`⁄€‹›ﬁﬂ‡°·‚—±",
     "ordenID": "7dd1b00b-f99c-41b3-8756-94d5b4c49514"
@@ -436,7 +436,7 @@
     "vehiculos": 34,
     "origen": "Olho Marinho",
     "destino": "Barkā’",
-    "estado": "\"\"",
+    "estado": "Finalizada",
     "fecha_creacion": "11/28/2021",
     "comentarios": "'\"'",
     "ordenID": "5fb34043-dc2c-44c5-93ba-035c00b07bcf"
@@ -462,7 +462,7 @@
     "vehiculos": 36,
     "origen": "Rathdrum",
     "destino": "Sanli",
-    "estado": "œ∑´®†¥¨ˆøπ“‘",
+    "estado": "Despachada",
     "fecha_creacion": "12/12/2020",
     "comentarios": "パーティーへ行かないか",
     "ordenID": "0688ea76-1caa-421e-87ca-93e5fcc24cad"
@@ -475,7 +475,7 @@
     "vehiculos": 37,
     "origen": "Zuogaimanma",
     "destino": "Pul-e Sangī",
-    "estado": "﻿",
+    "estado": "Finalizada",
     "fecha_creacion": "8/3/2021",
     "comentarios": "1E02",
     "ordenID": "521e5687-2fe5-432a-a9ab-79cb85e65f80"
@@ -488,7 +488,7 @@
     "vehiculos": 38,
     "origen": "Azilal",
     "destino": "San Pedro Jocopilas",
-    "estado": "NULL",
+    "estado": "Finalizada",
     "fecha_creacion": "3/26/2021",
     "comentarios": "ÅÍÎÏ˝ÓÔÒÚÆ☃",
     "ordenID": "5ff08ffa-e597-4567-b8f3-9d15707728fc"
@@ -566,7 +566,7 @@
     "vehiculos": 44,
     "origen": "Bayt Wazan",
     "destino": "Nova Kakhovka",
-    "estado": "﻿",
+    "estado": "Finalizada",
     "fecha_creacion": "6/6/2021",
     "comentarios": "-1.00",
     "ordenID": "45454c68-fbdd-4121-abff-5735c415fb44"
@@ -592,7 +592,7 @@
     "vehiculos": 46,
     "origen": "Parawan",
     "destino": "Banjar Timbrah",
-    "estado": "null",
+    "estado": "Finalizada",
     "fecha_creacion": "7/11/2021",
     "comentarios": "␣",
     "ordenID": "535321fb-2081-4e9a-adca-537affc9ce56"
@@ -605,7 +605,7 @@
     "vehiculos": 47,
     "origen": "Tiandiba",
     "destino": "Kamionka Wielka",
-    "estado": "１２３",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "9/1/2021",
     "comentarios": "᠎",
     "ordenID": "3910cb51-b44d-4366-88a8-c77161e1ad8f"
@@ -631,7 +631,7 @@
     "vehiculos": 49,
     "origen": "Huangzhuang",
     "destino": "Nueva Manoa",
-    "estado": "<>?:\"{}|_+",
+    "estado": "Cancelada",
     "fecha_creacion": "11/4/2021",
     "comentarios": "1E+02",
     "ordenID": "11a0f823-c1be-4195-9caa-e4846fa4ada8"
@@ -644,7 +644,7 @@
     "vehiculos": 50,
     "origen": "Bondowoso",
     "destino": "Bugo",
-    "estado": "00˙Ɩ$-",
+    "estado": "Despachada",
     "fecha_creacion": "5/26/2021",
     "comentarios": "`⁄€‹›ﬁﬂ‡°·‚—±",
     "ordenID": "f09aab56-d8c6-400e-b7a5-7bd9d97c9623"
@@ -657,7 +657,7 @@
     "vehiculos": 51,
     "origen": "Sinjār",
     "destino": "Belfast",
-    "estado": "🐵 🙈 🙉 🙊",
+    "estado": "Cancelada",
     "fecha_creacion": "11/30/2020",
     "comentarios": "test⁠test‫",
     "ordenID": "aafeeb8d-c594-4faf-989f-6d9e8c49d741"
@@ -709,7 +709,7 @@
     "vehiculos": 55,
     "origen": "Saraburi",
     "destino": "Hujiagou",
-    "estado": "() { _; } >_[$($())] { touch /tmp/blns.shellshock2.fail; }",
+    "estado": "Cancelada",
     "fecha_creacion": "1/8/2021",
     "comentarios": "-1/2",
     "ordenID": "938b7581-180d-4ca3-8a9b-3972040c9800"
@@ -722,7 +722,7 @@
     "vehiculos": 56,
     "origen": "Dimitrovgrad",
     "destino": "Naha-shi",
-    "estado": "../../../../../../../../../../../etc/passwd%00",
+    "estado": "Despachada",
     "fecha_creacion": "12/29/2020",
     "comentarios": "test",
     "ordenID": "0cc4c2e7-a815-4a49-9d87-81d2462f09d2"
@@ -774,7 +774,7 @@
     "vehiculos": 60,
     "origen": "Zagora",
     "destino": "Buk",
-    "estado": "１２３",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "3/6/2021",
     "comentarios": "-1E2",
     "ordenID": "dcba760f-099c-4ac5-a4fa-f42c295ccbe9"
@@ -800,7 +800,7 @@
     "vehiculos": 62,
     "origen": "Lixiqiao",
     "destino": "Oroquieta",
-    "estado": "test",
+    "estado": "Finalizada",
     "fecha_creacion": "10/30/2021",
     "comentarios": "🚾 🆒 🆓 🆕 🆖 🆗 🆙 🏧",
     "ordenID": "baaa2a87-2ccd-44c8-97fa-c55163cdcca4"
@@ -839,7 +839,7 @@
     "vehiculos": 65,
     "origen": "Det Udom",
     "destino": "Tongyuanpu",
-    "estado": "Ṱ̺̺̕o͞ ̷i̲̬͇̪͙n̝̗͕v̟̜̘̦͟o̶̙̰̠kè͚̮̺̪̹̱̤ ̖t̝͕̳̣̻̪͞h̼͓̲̦̳̘̲e͇̣̰̦̬͎ ̢̼̻̱̘h͚͎͙̜̣̲ͅi̦̲̣̰̤v̻͍e̺̭̳̪̰-m̢iͅn̖̺̞̲̯̰d̵̼̟͙̩̼̘̳ ̞̥̱̳̭r̛̗̘e͙p͠r̼̞̻̭̗e̺̠̣͟s̘͇̳͍̝͉e͉̥̯̞̲͚̬͜ǹ̬͎͎̟̖͇̤t͍̬̤͓̼̭͘ͅi̪̱n͠g̴͉ ͏͉ͅc̬̟h͡a̫̻̯͘o̫̟̖͍̙̝͉s̗̦̲.̨̹͈̣",
+    "estado": "Despachada",
     "fecha_creacion": "6/6/2021",
     "comentarios": "'\"'",
     "ordenID": "d2cfafe3-7e3d-47f1-b530-31a6cfc188b8"
@@ -865,7 +865,7 @@
     "vehiculos": 67,
     "origen": "Panenggoede",
     "destino": "Korenëvo",
-    "estado": "-1",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "12/23/2020",
     "comentarios": "0️⃣ 1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣ 6️⃣ 7️⃣ 8️⃣ 9️⃣ 🔟",
     "ordenID": "4f7b436a-696b-4bf0-ac74-2de335200ae9"
@@ -878,7 +878,7 @@
     "vehiculos": 68,
     "origen": "Jiulong",
     "destino": "Wawa",
-    "estado": "パーティーへ行かないか",
+    "estado": "Cancelada",
     "fecha_creacion": "12/3/2020",
     "comentarios": "-1E2",
     "ordenID": "c3366918-368f-4f49-87f1-7ae0dbf4f4fd"
@@ -943,7 +943,7 @@
     "vehiculos": 73,
     "origen": "Sabanagrande",
     "destino": "Dolní Čermná",
-    "estado": "'\"'",
+    "estado": "Despachada",
     "fecha_creacion": "5/26/2021",
     "comentarios": "../../../../../../../../../../../etc/passwd%00",
     "ordenID": "e33da083-d6f8-4b1d-8d41-46dfb5771116"
@@ -969,7 +969,7 @@
     "vehiculos": 75,
     "origen": "Évlalo",
     "destino": "Göteborg",
-    "estado": "␡",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "6/16/2021",
     "comentarios": "﻿",
     "ordenID": "09dd4cdd-26f0-4c03-8aa4-c0de514cac2c"
@@ -982,7 +982,7 @@
     "vehiculos": 76,
     "origen": "Kamiiso",
     "destino": "Ji’ergele Teguoleng",
-    "estado": "הָיְתָהtestالصفحات التّحول",
+    "estado": "Despachada",
     "fecha_creacion": "2/17/2021",
     "comentarios": "NULL",
     "ordenID": "bf12e0e6-77ca-47b6-bb24-86e4410dc764"
@@ -1021,7 +1021,7 @@
     "vehiculos": 79,
     "origen": "Wanjia",
     "destino": "Beaufort West",
-    "estado": "test",
+    "estado": "Finalizada",
     "fecha_creacion": "12/12/2020",
     "comentarios": "-1/2",
     "ordenID": "c902551e-1611-4715-9eb8-8876ad1d60e7"
@@ -1034,7 +1034,7 @@
     "vehiculos": 80,
     "origen": "Stuttgart Stuttgart-Mitte",
     "destino": "Xilian",
-    "estado": "Ṱ̺̺̕o͞ ̷i̲̬͇̪͙n̝̗͕v̟̜̘̦͟o̶̙̰̠kè͚̮̺̪̹̱̤ ̖t̝͕̳̣̻̪͞h̼͓̲̦̳̘̲e͇̣̰̦̬͎ ̢̼̻̱̘h͚͎͙̜̣̲ͅi̦̲̣̰̤v̻͍e̺̭̳̪̰-m̢iͅn̖̺̞̲̯̰d̵̼̟͙̩̼̘̳ ̞̥̱̳̭r̛̗̘e͙p͠r̼̞̻̭̗e̺̠̣͟s̘͇̳͍̝͉e͉̥̯̞̲͚̬͜ǹ̬͎͎̟̖͇̤t͍̬̤͓̼̭͘ͅi̪̱n͠g̴͉ ͏͉ͅc̬̟h͡a̫̻̯͘o̫̟̖͍̙̝͉s̗̦̲.̨̹͈̣",
+    "estado": "Despachada",
     "fecha_creacion": "1/18/2021",
     "comentarios": "NULL",
     "ordenID": "08b36449-6373-49b7-b136-db0b5d951e79"
@@ -1060,7 +1060,7 @@
     "vehiculos": 82,
     "origen": "Sotnikovskoye",
     "destino": "Novocherkassk",
-    "estado": "(╯°□°）╯︵ ┻━┻)  ",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "12/4/2020",
     "comentarios": "␣",
     "ordenID": "57e395ca-ce2e-43fe-bb88-993efbd53f11"
@@ -1086,7 +1086,7 @@
     "vehiculos": 84,
     "origen": "Poxi",
     "destino": "Contraalmirante Cordero",
-    "estado": "1;DROP TABLE users",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "3/20/2021",
     "comentarios": "‫test‫",
     "ordenID": "ea81a873-b6be-47f8-b6fb-d74661ecf21f"
@@ -1164,7 +1164,7 @@
     "vehiculos": 90,
     "origen": "Bendungan",
     "destino": "Dresden",
-    "estado": "和製漢語",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "5/28/2021",
     "comentarios": "1.00",
     "ordenID": "722a67be-dfee-4107-8bd5-ad5c3a889350"
@@ -1203,7 +1203,7 @@
     "vehiculos": 93,
     "origen": "Bolekhiv",
     "destino": "Reims",
-    "estado": "(╯°□°）╯︵ ┻━┻)  ",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "3/14/2021",
     "comentarios": " ",
     "ordenID": "57a01883-e5f9-4608-ab92-d0419f1a4b42"
@@ -1255,7 +1255,7 @@
     "vehiculos": 97,
     "origen": "Maqiu",
     "destino": "Dalmeny",
-    "estado": "⁰⁴⁵₀₁₂",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "5/25/2021",
     "comentarios": "-1E02",
     "ordenID": "21ecb85e-ddf9-46fc-ba56-cca8aacaeda3"
@@ -1268,7 +1268,7 @@
     "vehiculos": 98,
     "origen": "Xinan",
     "destino": "Bealanana",
-    "estado": "NULL",
+    "estado": "Finalizada",
     "fecha_creacion": "1/1/2021",
     "comentarios": "𠜎𠜱𠝹𠱓𠱸𠲖𠳏",
     "ordenID": "4393ed81-e4d1-4fb4-a81a-c07a31c8c7b0"
@@ -1294,7 +1294,7 @@
     "vehiculos": 100,
     "origen": "Pignon",
     "destino": "Kindu",
-    "estado": null,
+    "estado": "Cancelada",
     "fecha_creacion": "2/25/2021",
     "comentarios": "-1/2",
     "ordenID": "5a86db15-254b-4076-bd89-541074082eef"
@@ -1307,7 +1307,7 @@
     "vehiculos": 101,
     "origen": "Gradići",
     "destino": "Minle",
-    "estado": null,
+    "estado": "Cancelada",
     "fecha_creacion": "1/2/2021",
     "comentarios": "사회과학원 어학연구소",
     "ordenID": "01bbdb70-feed-4475-b580-9f8da885ae96"
@@ -1385,7 +1385,7 @@
     "vehiculos": 107,
     "origen": "Águas Formosas",
     "destino": "Batiano",
-    "estado": "울란바토르",
+    "estado": "Finalizada",
     "fecha_creacion": "5/27/2021",
     "comentarios": "Z̮̞̠͙͔ͅḀ̗̞͈̻̗Ḷ͙͎̯̹̞͓G̻O̭̗̮",
     "ordenID": "e5f3617b-5670-4ef0-a7ac-83c06d249938"
@@ -1515,7 +1515,7 @@
     "vehiculos": 117,
     "origen": "Brea Pozo",
     "destino": "Skänninge",
-    "estado": "1/0",
+    "estado": "Despachada",
     "fecha_creacion": "11/16/2021",
     "comentarios": "部落格",
     "ordenID": "8f3644ed-add1-4647-9e99-6352aab91af2"
@@ -1541,7 +1541,7 @@
     "vehiculos": 119,
     "origen": "Boyeros",
     "destino": "Dongdai",
-    "estado": "-1.00",
+    "estado": "Finalizada",
     "fecha_creacion": "3/15/2021",
     "comentarios": "🚾 🆒 🆓 🆕 🆖 🆗 🆙 🏧",
     "ordenID": "87dbc97b-7947-41fc-92b4-1a29839af76e"
@@ -1554,7 +1554,7 @@
     "vehiculos": 120,
     "origen": "Viljandi",
     "destino": "Huancarqui",
-    "estado": "(╯°□°）╯︵ ┻━┻)  ",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "6/25/2021",
     "comentarios": "() { _; } >_[$($())] { touch /tmp/blns.shellshock2.fail; }",
     "ordenID": "41f1c75c-5ca8-4fa3-93f6-275d1e981dc3"
@@ -1580,7 +1580,7 @@
     "vehiculos": 122,
     "origen": "Tours",
     "destino": "Momignies",
-    "estado": "999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999",
+    "estado": "Despachada",
     "fecha_creacion": "10/19/2021",
     "comentarios": "¡™£¢∞§¶•ªº–≠",
     "ordenID": "81ccc314-8c65-4f91-aed2-29a30eefa5e0"
@@ -1593,7 +1593,7 @@
     "vehiculos": 123,
     "origen": "Neuilly-sur-Seine",
     "destino": "Marigot",
-    "estado": "בְּרֵאשִׁית, בָּרָא אֱלֹהִים, אֵת הַשָּׁמַיִם, וְאֵת הָאָרֶץ",
+    "estado": "Despachada",
     "fecha_creacion": "3/22/2021",
     "comentarios": "パーティーへ行かないか",
     "ordenID": "74107e0c-359b-4926-ac50-a24c7fe940ed"
@@ -1645,7 +1645,7 @@
     "vehiculos": 127,
     "origen": "Gornje Moštre",
     "destino": "Butha-Buthe",
-    "estado": "<script>alert('hi')</script>",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "1/15/2021",
     "comentarios": "1/0",
     "ordenID": "7271d9b0-ef8c-42d6-8405-9fd3956a7085"
@@ -1658,7 +1658,7 @@
     "vehiculos": 128,
     "origen": "Mokronog",
     "destino": "Borzęcin",
-    "estado": "null",
+    "estado": "Finalizada",
     "fecha_creacion": "5/27/2021",
     "comentarios": null,
     "ordenID": "ccfd66f6-f634-45ca-8561-189bc8dc7fc7"
@@ -1671,7 +1671,7 @@
     "vehiculos": 129,
     "origen": "Kasreman",
     "destino": "Ilyich",
-    "estado": "👾 🙇 💁 🙅 🙆 🙋 🙎 🙍 ",
+    "estado": "Despachada",
     "fecha_creacion": "7/1/2021",
     "comentarios": "-1E2",
     "ordenID": "ddad996c-d3d4-4e66-a652-b0f1d753409a"
@@ -1697,7 +1697,7 @@
     "vehiculos": 131,
     "origen": "Butigui",
     "destino": "Solnechnoye",
-    "estado": "הָיְתָהtestالصفحات التّحول",
+    "estado": "Despachada",
     "fecha_creacion": "7/24/2021",
     "comentarios": "␡",
     "ordenID": "980a4d04-20d0-4549-adc0-1a9209b35e28"
@@ -1736,7 +1736,7 @@
     "vehiculos": 134,
     "origen": "Mbaïki",
     "destino": "Banjarejo",
-    "estado": "__ﾛ(,_,*)",
+    "estado": "Finalizada",
     "fecha_creacion": "12/12/2020",
     "comentarios": "⁦test⁧",
     "ordenID": "df37fc89-85c3-4922-adad-013362129d0c"
@@ -1762,7 +1762,7 @@
     "vehiculos": 136,
     "origen": "Zhukovskiy",
     "destino": "Tall aḑ Ḑamān",
-    "estado": "ثم نفس سقطت وبالتحديد،, جزيرتي باستخدام أن دنو. إذ هنا؟ الستار وتنصيب كان. أهّل ايطاليا، بريطانيا-فرنسا قد أخذ. سليمان، إتفاقية بين ما, يذكر الحدود أي بعد, معاملة بولندا، الإطلاق عل إيو.",
+    "estado": "Finalizada",
     "fecha_creacion": "3/7/2021",
     "comentarios": "<>?:\"{}|_+",
     "ordenID": "b735d195-6aa3-474b-b98e-7ff83a12486a"
@@ -1801,7 +1801,7 @@
     "vehiculos": 139,
     "origen": "Teculután",
     "destino": "Sop Pong",
-    "estado": "1;DROP TABLE users",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "2/15/2021",
     "comentarios": "Ṱ̺̺̕o͞ ̷i̲̬͇̪͙n̝̗͕v̟̜̘̦͟o̶̙̰̠kè͚̮̺̪̹̱̤ ̖t̝͕̳̣̻̪͞h̼͓̲̦̳̘̲e͇̣̰̦̬͎ ̢̼̻̱̘h͚͎͙̜̣̲ͅi̦̲̣̰̤v̻͍e̺̭̳̪̰-m̢iͅn̖̺̞̲̯̰d̵̼̟͙̩̼̘̳ ̞̥̱̳̭r̛̗̘e͙p͠r̼̞̻̭̗e̺̠̣͟s̘͇̳͍̝͉e͉̥̯̞̲͚̬͜ǹ̬͎͎̟̖͇̤t͍̬̤͓̼̭͘ͅi̪̱n͠g̴͉ ͏͉ͅc̬̟h͡a̫̻̯͘o̫̟̖͍̙̝͉s̗̦̲.̨̹͈̣",
     "ordenID": "dad776d4-2f61-46d7-8ba2-d7cc1db62996"
@@ -1814,7 +1814,7 @@
     "vehiculos": 140,
     "origen": "Ambulong",
     "destino": "Nijemci",
-    "estado": "<>?:\"{}|_+",
+    "estado": "Cancelada",
     "fecha_creacion": "6/15/2021",
     "comentarios": "../../../../../../../../../../../etc/hosts",
     "ordenID": "dd3dd10f-63f8-42ed-82ca-ed0d584f1bad"
@@ -1827,7 +1827,7 @@
     "vehiculos": 141,
     "origen": "Psary",
     "destino": "Kaduheuleut",
-    "estado": "\"\"",
+    "estado": "Finalizada",
     "fecha_creacion": "9/10/2021",
     "comentarios": "(╯°□°）╯︵ ┻━┻)  ",
     "ordenID": "d89113ad-068d-4c23-8570-d4382cc8857f"
@@ -1840,7 +1840,7 @@
     "vehiculos": 142,
     "origen": "Jixing",
     "destino": "Mossendjo",
-    "estado": "'\"'",
+    "estado": "Despachada",
     "fecha_creacion": "11/3/2021",
     "comentarios": "__ﾛ(,_,*)",
     "ordenID": "1f7b6260-8ad1-4f7a-8a59-090de95bc21c"
@@ -1853,7 +1853,7 @@
     "vehiculos": 143,
     "origen": "Orekhovo-Zuyevo",
     "destino": "Ekerö",
-    "estado": "␡",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "5/12/2021",
     "comentarios": "̡͓̞ͅI̗̘̦͝n͇͇͙v̮̫ok̲̫̙͈i̖͙̭̹̠̞n̡̻̮̣̺g̲͈͙̭͙̬͎ ̰t͔̦h̞̲e̢̤ ͍̬̲͖f̴̘͕̣è͖ẹ̥̩l͖͔͚i͓͚̦͠n͖͍̗͓̳̮g͍ ̨o͚̪͡f̘̣̬ ̖̘͖̟͙̮c҉͔̫͖͓͇͖ͅh̵̤̣͚͔á̗̼͕ͅo̼̣̥s̱͈̺̖̦̻͢.̛̖̞̠̫̰",
     "ordenID": "5d24461d-ef19-48e0-abce-dc5403287dc5"
@@ -1866,7 +1866,7 @@
     "vehiculos": 144,
     "origen": "Pasarkayu",
     "destino": "Dzel",
-    "estado": "１２３",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "8/22/2021",
     "comentarios": null,
     "ordenID": "be2cff56-26fa-454a-ad82-021751b63388"
@@ -1892,7 +1892,7 @@
     "vehiculos": 146,
     "origen": "Gœsdorf",
     "destino": "Zaqatala",
-    "estado": "和製漢語",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "2/28/2021",
     "comentarios": "-1.00",
     "ordenID": "246806a7-3b4d-4508-8602-41a0d9bd67d2"
@@ -1931,7 +1931,7 @@
     "vehiculos": 149,
     "origen": "Ichuña",
     "destino": "Quzi",
-    "estado": "﻿",
+    "estado": "Finalizada",
     "fecha_creacion": "1/4/2021",
     "comentarios": "🚾 🆒 🆓 🆕 🆖 🆗 🆙 🏧",
     "ordenID": "6542e03c-8745-4606-af63-74434364845c"
@@ -1970,7 +1970,7 @@
     "vehiculos": 152,
     "origen": "Staraya Kulatka",
     "destino": "Zhougang",
-    "estado": "-1.00",
+    "estado": "Finalizada",
     "fecha_creacion": "7/6/2021",
     "comentarios": ",。・:*:・゜’( ☻ ω ☻ )。・:*:・゜’",
     "ordenID": "4f20bea6-7b75-488e-accd-ee9a2059f0d5"
@@ -1983,7 +1983,7 @@
     "vehiculos": 153,
     "origen": "Fort Beaufort",
     "destino": "Jiekou",
-    "estado": "¸˛Ç◊ı˜Â¯˘¿",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "3/16/2021",
     "comentarios": "1.00",
     "ordenID": "9f76038c-41d6-48da-9cf2-8839b96f51cd"
@@ -2022,7 +2022,7 @@
     "vehiculos": 156,
     "origen": "Omoku",
     "destino": "Nabari",
-    "estado": "null",
+    "estado": "Finalizada",
     "fecha_creacion": "1/22/2021",
     "comentarios": "nil",
     "ordenID": "0041a732-6d18-4b94-98d0-314eea235617"
@@ -2035,7 +2035,7 @@
     "vehiculos": 157,
     "origen": "Hongor",
     "destino": "Le Mans",
-    "estado": "`⁄€‹›ﬁﬂ‡°·‚—±",
+    "estado": "Finalizada",
     "fecha_creacion": "12/30/2020",
     "comentarios": "הָיְתָהtestالصفحات التّحول",
     "ordenID": "2c4bfaa5-2dc0-4714-bb68-dcd067e5df79"
@@ -2074,7 +2074,7 @@
     "vehiculos": 160,
     "origen": "Sułoszowa",
     "destino": "Bozoum",
-    "estado": "\"\"",
+    "estado": "Finalizada",
     "fecha_creacion": "12/4/2020",
     "comentarios": "-1",
     "ordenID": "9e989b63-a28d-4f36-bf5b-aac7184aadcb"
@@ -2087,7 +2087,7 @@
     "vehiculos": 161,
     "origen": "Sarakhs",
     "destino": "Cambanay",
-    "estado": "⁰⁴⁵₀₁₂",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "1/13/2021",
     "comentarios": "test",
     "ordenID": "a2e5100a-1674-4189-b214-1e9b9908b7f6"
@@ -2100,7 +2100,7 @@
     "vehiculos": 162,
     "origen": "Bidbid",
     "destino": "Sliema",
-    "estado": "Ṱ̺̺̕o͞ ̷i̲̬͇̪͙n̝̗͕v̟̜̘̦͟o̶̙̰̠kè͚̮̺̪̹̱̤ ̖t̝͕̳̣̻̪͞h̼͓̲̦̳̘̲e͇̣̰̦̬͎ ̢̼̻̱̘h͚͎͙̜̣̲ͅi̦̲̣̰̤v̻͍e̺̭̳̪̰-m̢iͅn̖̺̞̲̯̰d̵̼̟͙̩̼̘̳ ̞̥̱̳̭r̛̗̘e͙p͠r̼̞̻̭̗e̺̠̣͟s̘͇̳͍̝͉e͉̥̯̞̲͚̬͜ǹ̬͎͎̟̖͇̤t͍̬̤͓̼̭͘ͅi̪̱n͠g̴͉ ͏͉ͅc̬̟h͡a̫̻̯͘o̫̟̖͍̙̝͉s̗̦̲.̨̹͈̣",
+    "estado": "Despachada",
     "fecha_creacion": "10/28/2021",
     "comentarios": "␢",
     "ordenID": "34b09fad-4a7d-4a3f-8c64-5caed7b07254"
@@ -2113,7 +2113,7 @@
     "vehiculos": 163,
     "origen": "Kuningan",
     "destino": "Yunhe",
-    "estado": "00˙Ɩ$-",
+    "estado": "Despachada",
     "fecha_creacion": "12/1/2020",
     "comentarios": "‪‪test‪",
     "ordenID": "6731512a-23e1-4ef1-ad55-6ffa245a71e5"
@@ -2204,7 +2204,7 @@
     "vehiculos": 170,
     "origen": "Sabinópolis",
     "destino": "Bojonggaling",
-    "estado": "œ∑´®†¥¨ˆøπ“‘",
+    "estado": "Despachada",
     "fecha_creacion": "9/16/2021",
     "comentarios": "̗̺͖̹̯͓Ṯ̤͍̥͇͈h̲́e͏͓̼̗̙̼̣͔ ͇̜̱̠͓͍ͅN͕͠e̗̱z̘̝̜̺͙p̤̺̹͍̯͚e̠̻̠͜r̨̤͍̺̖͔̖̖d̠̟̭̬̝͟i̦͖̩͓͔̤a̠̗̬͉̙n͚͜ ̻̞̰͚ͅh̵͉i̳̞v̢͇ḙ͎͟-҉̭̩̼͔m̤̭̫i͕͇̝̦n̗͙ḍ̟ ̯̲͕͞ǫ̟̯̰̲͙̻̝f ̪̰̰̗̖̭̘͘c̦͍̲̞͍̩̙ḥ͚a̮͎̟̙͜ơ̩̹͎s̤.̝̝ ҉Z̡̖̜͖̰̣͉̜a͖̰͙̬͡l̲̫̳͍̩g̡̟̼̱͚̞̬ͅo̗͜.̟",
     "ordenID": "f16df769-98f1-4955-9519-7157720763e6"
@@ -2217,7 +2217,7 @@
     "vehiculos": 171,
     "origen": "Bry-sur-Marne",
     "destino": "Aoluguya Ewenke Minzu",
-    "estado": "<>?:\"{}|_+",
+    "estado": "Cancelada",
     "fecha_creacion": "1/8/2021",
     "comentarios": "1.00",
     "ordenID": "790ef2b4-d7cd-4963-b65a-c16c4df02bbf"
@@ -2269,7 +2269,7 @@
     "vehiculos": 175,
     "origen": "Pescadería",
     "destino": "Nanqiao",
-    "estado": "1/2",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "7/2/2021",
     "comentarios": "1'; DROP TABLE users--",
     "ordenID": "aeacb730-ec0d-4daf-9f63-c85d57168710"
@@ -2308,7 +2308,7 @@
     "vehiculos": 178,
     "origen": "Portela",
     "destino": "Jinshan",
-    "estado": "␢",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "12/7/2020",
     "comentarios": "部落格",
     "ordenID": "2c3891a1-1078-4d8f-beaf-b640fc4ff889"
@@ -2334,7 +2334,7 @@
     "vehiculos": 180,
     "origen": "Gotovlje",
     "destino": "Suwaru",
-    "estado": "１２３",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "1/2/2021",
     "comentarios": "̦H̬̤̗̤͝e͜ ̜̥̝̻͍̟́w̕h̖̯͓o̝͙̖͎̱̮ ҉̺̙̞̟͈W̷̼̭a̺̪͍į͈͕̭͙̯̜t̶̼̮s̘͙͖̕ ̠̫̠B̻͍͙͉̳ͅe̵h̵̬͇̫͙i̹͓̳̳̮͎̫̕n͟d̴̪̜̖ ̰͉̩͇͙̲͞ͅT͖̼͓̪͢h͏͓̮̻e̬̝̟ͅ ̤̹̝W͙̞̝͔͇͝ͅa͏͓͔̹̼̣l̴͔̰̤̟͔ḽ̫.͕",
     "ordenID": "08a8e90b-e62c-4c3a-8306-acb29a92191a"
@@ -2360,7 +2360,7 @@
     "vehiculos": 182,
     "origen": "Dimitrovgrad",
     "destino": "Tres Isletas",
-    "estado": "👾 🙇 💁 🙅 🙆 🙋 🙎 🙍 ",
+    "estado": "Despachada",
     "fecha_creacion": "1/31/2021",
     "comentarios": "👾 🙇 💁 🙅 🙆 🙋 🙎 🙍 ",
     "ordenID": "14321e59-b804-45fd-8303-50c6c78bf61e"
@@ -2399,7 +2399,7 @@
     "vehiculos": 185,
     "origen": "Jiaoyang",
     "destino": "Kishkenekol’",
-    "estado": "パーティーへ行かないか",
+    "estado": "Cancelada",
     "fecha_creacion": "1/19/2021",
     "comentarios": "בְּרֵאשִׁית, בָּרָא אֱלֹהִים, אֵת הַשָּׁמַיִם, וְאֵת הָאָרֶץ",
     "ordenID": "5f4e9b39-7f54-4eb8-8488-04a8dbc923e5"
@@ -2412,7 +2412,7 @@
     "vehiculos": 186,
     "origen": "Furong",
     "destino": "São Roque",
-    "estado": "-$1.00",
+    "estado": "Cancelada",
     "fecha_creacion": "1/23/2021",
     "comentarios": " ",
     "ordenID": "0910b2af-e8dd-48a7-80de-1cf7112e8f50"
@@ -2425,7 +2425,7 @@
     "vehiculos": 187,
     "origen": "Tekes",
     "destino": "Tallahassee",
-    "estado": "␡",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "9/19/2021",
     "comentarios": "() { _; } >_[$($())] { touch /tmp/blns.shellshock2.fail; }",
     "ordenID": "dfbf6bd0-267c-42ee-ada6-0886f4e5dd30"
@@ -2438,7 +2438,7 @@
     "vehiculos": 188,
     "origen": "Hepu",
     "destino": "Shilong",
-    "estado": "¸˛Ç◊ı˜Â¯˘¿",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "6/10/2021",
     "comentarios": "1/2",
     "ordenID": "94b5cf0c-75f2-4716-9f7d-e1b06e2643f0"
@@ -2477,7 +2477,7 @@
     "vehiculos": 191,
     "origen": "Kynopiástes",
     "destino": "Staraya Mayna",
-    "estado": "../../../../../../../../../../../etc/hosts",
+    "estado": "Cancelada",
     "fecha_creacion": "8/30/2021",
     "comentarios": ",./;'[]\\-=",
     "ordenID": "261daee1-3c1f-4470-8559-c1b6051006a2"
@@ -2490,7 +2490,7 @@
     "vehiculos": 192,
     "origen": "Douala",
     "destino": "Vršac",
-    "estado": "`⁄€‹›ﬁﬂ‡°·‚—±",
+    "estado": "Finalizada",
     "fecha_creacion": "8/16/2021",
     "comentarios": ",./;'[]\\-=",
     "ordenID": "521e0158-542f-4477-9496-b3229569ce0e"
@@ -2503,7 +2503,7 @@
     "vehiculos": 193,
     "origen": "Sigaozhuang",
     "destino": "Perbaungan",
-    "estado": "ÅÍÎÏ˝ÓÔÒÚÆ☃",
+    "estado": "Finalizada",
     "fecha_creacion": "12/16/2020",
     "comentarios": "␡",
     "ordenID": "845c9d1a-f130-4c2a-8d51-7f99b228f009"
@@ -2516,7 +2516,7 @@
     "vehiculos": 194,
     "origen": "Las Flores",
     "destino": "Aozou",
-    "estado": "｀ｨ(´∀｀∩",
+    "estado": "Cancelada",
     "fecha_creacion": "12/7/2020",
     "comentarios": "0.00",
     "ordenID": "44ec105b-c1e4-4249-b29f-4ad5d3a1e325"
@@ -2529,7 +2529,7 @@
     "vehiculos": 195,
     "origen": "Reykjanesbær",
     "destino": "Pesqueira",
-    "estado": "1/2",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "10/20/2021",
     "comentarios": "₀₁₂",
     "ordenID": "983f33bb-d3e8-4710-9d24-85c36e10cb1a"
@@ -2542,7 +2542,7 @@
     "vehiculos": 196,
     "origen": "Murmino",
     "destino": "Cerro de Pasco",
-    "estado": "Z̮̞̠͙͔ͅḀ̗̞͈̻̗Ḷ͙͎̯̹̞͓G̻O̭̗̮",
+    "estado": "Despachada",
     "fecha_creacion": "11/18/2021",
     "comentarios": "1/2",
     "ordenID": "8f206112-87c0-4c8a-b785-2bcbb8f20e34"
@@ -2555,7 +2555,7 @@
     "vehiculos": 197,
     "origen": "Paizhou",
     "destino": "Alamar",
-    "estado": "␢",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "2/24/2021",
     "comentarios": "1;DROP TABLE users",
     "ordenID": "aec08b0f-bb98-4f21-80fc-807d896d1d14"
@@ -2594,7 +2594,7 @@
     "vehiculos": 200,
     "origen": "Shahbā",
     "destino": "Pinglin",
-    "estado": "-$1.00",
+    "estado": "Cancelada",
     "fecha_creacion": "12/30/2020",
     "comentarios": "00˙Ɩ$-",
     "ordenID": "4f6ed952-be07-447b-9abb-e4753cb3b92a"
@@ -2646,7 +2646,7 @@
     "vehiculos": 204,
     "origen": "Pacobamba",
     "destino": "Alcoy",
-    "estado": "\"'\"'\"''''\"",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "8/3/2021",
     "comentarios": "'\"'",
     "ordenID": "5996fcaa-177e-415f-acd7-e99b1c96765e"
@@ -2659,7 +2659,7 @@
     "vehiculos": 205,
     "origen": "Carmo do Cajuru",
     "destino": "Battung",
-    "estado": "¸˛Ç◊ı˜Â¯˘¿",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "11/11/2021",
     "comentarios": "NULL",
     "ordenID": "5c635555-4fb0-4b4a-9f33-458e0228932d"
@@ -2672,7 +2672,7 @@
     "vehiculos": 206,
     "origen": "Tepusteca",
     "destino": "Al Wardānīn",
-    "estado": null,
+    "estado": "Cancelada",
     "fecha_creacion": "6/4/2021",
     "comentarios": "1/2",
     "ordenID": "4bb6854d-0385-4480-a945-de90610b7a14"
@@ -2698,7 +2698,7 @@
     "vehiculos": 208,
     "origen": "Fengyi",
     "destino": "Oke Iho",
-    "estado": "<script>alert('hi')</script>",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "12/1/2020",
     "comentarios": "⁰⁴⁵₀₁₂",
     "ordenID": "ec3e5d8a-0973-4f4e-b36a-7c95f44624b8"
@@ -2750,7 +2750,7 @@
     "vehiculos": 212,
     "origen": "Xiaba",
     "destino": "Gouqi",
-    "estado": "-1E+02",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "12/14/2020",
     "comentarios": "Ṱ̺̺̕o͞ ̷i̲̬͇̪͙n̝̗͕v̟̜̘̦͟o̶̙̰̠kè͚̮̺̪̹̱̤ ̖t̝͕̳̣̻̪͞h̼͓̲̦̳̘̲e͇̣̰̦̬͎ ̢̼̻̱̘h͚͎͙̜̣̲ͅi̦̲̣̰̤v̻͍e̺̭̳̪̰-m̢iͅn̖̺̞̲̯̰d̵̼̟͙̩̼̘̳ ̞̥̱̳̭r̛̗̘e͙p͠r̼̞̻̭̗e̺̠̣͟s̘͇̳͍̝͉e͉̥̯̞̲͚̬͜ǹ̬͎͎̟̖͇̤t͍̬̤͓̼̭͘ͅi̪̱n͠g̴͉ ͏͉ͅc̬̟h͡a̫̻̯͘o̫̟̖͍̙̝͉s̗̦̲.̨̹͈̣",
     "ordenID": "f6855275-f851-44f2-b364-a9f37e64edcf"
@@ -2789,7 +2789,7 @@
     "vehiculos": 215,
     "origen": "Daur",
     "destino": "Krajan",
-    "estado": "1;DROP TABLE users",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "5/16/2021",
     "comentarios": "␡",
     "ordenID": "896dd201-1c40-4eb1-8452-a0e267bc40c4"
@@ -2802,7 +2802,7 @@
     "vehiculos": 216,
     "origen": "Tanjungpati",
     "destino": "Xiangang",
-    "estado": "␢",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "1/3/2021",
     "comentarios": ",./;'[]\\-=",
     "ordenID": "f11e72e5-87bb-4e54-a195-680caf5e0069"
@@ -2828,7 +2828,7 @@
     "vehiculos": 218,
     "origen": "Krueng Luak",
     "destino": "Przelewice",
-    "estado": "⁰⁴⁵₀₁₂",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "11/11/2021",
     "comentarios": "\"''''\"'\"",
     "ordenID": "f349f4ac-d5cd-416f-a5b1-2356904e3de1"
@@ -2841,7 +2841,7 @@
     "vehiculos": 219,
     "origen": "Saint-Rémi",
     "destino": "Eindhoven",
-    "estado": "パーティーへ行かないか",
+    "estado": "Cancelada",
     "fecha_creacion": "7/16/2021",
     "comentarios": "⁦test⁧",
     "ordenID": "2c8d60e8-1b85-43ea-a26a-69cc81d8485c"
@@ -2919,7 +2919,7 @@
     "vehiculos": 225,
     "origen": "Gendiwu",
     "destino": "Srokowo",
-    "estado": "Z̮̞̠͙͔ͅḀ̗̞͈̻̗Ḷ͙͎̯̹̞͓G̻O̭̗̮",
+    "estado": "Despachada",
     "fecha_creacion": "8/10/2021",
     "comentarios": "`⁄€‹›ﬁﬂ‡°·‚—±",
     "ordenID": "42d9c57c-5a91-493c-8b50-59a5408ae3e1"
@@ -2945,7 +2945,7 @@
     "vehiculos": 227,
     "origen": "Wenhe",
     "destino": "Öndörhoshuu",
-    "estado": "｀ｨ(´∀｀∩",
+    "estado": "Cancelada",
     "fecha_creacion": "4/23/2021",
     "comentarios": "Ṱ̺̺̕o͞ ̷i̲̬͇̪͙n̝̗͕v̟̜̘̦͟o̶̙̰̠kè͚̮̺̪̹̱̤ ̖t̝͕̳̣̻̪͞h̼͓̲̦̳̘̲e͇̣̰̦̬͎ ̢̼̻̱̘h͚͎͙̜̣̲ͅi̦̲̣̰̤v̻͍e̺̭̳̪̰-m̢iͅn̖̺̞̲̯̰d̵̼̟͙̩̼̘̳ ̞̥̱̳̭r̛̗̘e͙p͠r̼̞̻̭̗e̺̠̣͟s̘͇̳͍̝͉e͉̥̯̞̲͚̬͜ǹ̬͎͎̟̖͇̤t͍̬̤͓̼̭͘ͅi̪̱n͠g̴͉ ͏͉ͅc̬̟h͡a̫̻̯͘o̫̟̖͍̙̝͉s̗̦̲.̨̹͈̣",
     "ordenID": "9fc58ae9-6e54-4963-b572-627bd2f6375a"
@@ -2958,7 +2958,7 @@
     "vehiculos": 228,
     "origen": "La Virtud",
     "destino": "Aksu",
-    "estado": "̦H̬̤̗̤͝e͜ ̜̥̝̻͍̟́w̕h̖̯͓o̝͙̖͎̱̮ ҉̺̙̞̟͈W̷̼̭a̺̪͍į͈͕̭͙̯̜t̶̼̮s̘͙͖̕ ̠̫̠B̻͍͙͉̳ͅe̵h̵̬͇̫͙i̹͓̳̳̮͎̫̕n͟d̴̪̜̖ ̰͉̩͇͙̲͞ͅT͖̼͓̪͢h͏͓̮̻e̬̝̟ͅ ̤̹̝W͙̞̝͔͇͝ͅa͏͓͔̹̼̣l̴͔̰̤̟͔ḽ̫.͕",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "3/6/2021",
     "comentarios": "̡͓̞ͅI̗̘̦͝n͇͇͙v̮̫ok̲̫̙͈i̖͙̭̹̠̞n̡̻̮̣̺g̲͈͙̭͙̬͎ ̰t͔̦h̞̲e̢̤ ͍̬̲͖f̴̘͕̣è͖ẹ̥̩l͖͔͚i͓͚̦͠n͖͍̗͓̳̮g͍ ̨o͚̪͡f̘̣̬ ̖̘͖̟͙̮c҉͔̫͖͓͇͖ͅh̵̤̣͚͔á̗̼͕ͅo̼̣̥s̱͈̺̖̦̻͢.̛̖̞̠̫̰",
     "ordenID": "9fd17396-883f-4272-a6c0-c5aa663c28ee"
@@ -2971,7 +2971,7 @@
     "vehiculos": 229,
     "origen": "Dongxi",
     "destino": "Dunlewy",
-    "estado": "␢",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "9/23/2021",
     "comentarios": ",。・:*:・゜’( ☻ ω ☻ )。・:*:・゜’",
     "ordenID": "a46bd3a5-e859-4c5c-b488-cde634be86a7"
@@ -2984,7 +2984,7 @@
     "vehiculos": 230,
     "origen": "Velyki Mezhyrichi",
     "destino": "Krajanbonjor",
-    "estado": "הָיְתָהtestالصفحات التّحول",
+    "estado": "Despachada",
     "fecha_creacion": "11/13/2021",
     "comentarios": "1/2",
     "ordenID": "4b59ad92-fa00-489e-8a5a-6351d9eccf66"
@@ -2997,7 +2997,7 @@
     "vehiculos": 231,
     "origen": "Yantan",
     "destino": "Kallithéa",
-    "estado": "0️⃣ 1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣ 6️⃣ 7️⃣ 8️⃣ 9️⃣ 🔟",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "1/6/2021",
     "comentarios": "`⁄€‹›ﬁﬂ‡°·‚—±",
     "ordenID": "b4bffd36-bcf6-403c-a773-0482cf455d19"
@@ -3010,7 +3010,7 @@
     "vehiculos": 232,
     "origen": "Měřín",
     "destino": "Pásion",
-    "estado": "١٢٣",
+    "estado": "Despachada",
     "fecha_creacion": "12/26/2020",
     "comentarios": "0️⃣ 1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣ 6️⃣ 7️⃣ 8️⃣ 9️⃣ 🔟",
     "ordenID": "167f9cdc-039b-4539-ae4c-df27693fcd10"
@@ -3023,7 +3023,7 @@
     "vehiculos": 233,
     "origen": "Chambly",
     "destino": "Almeria",
-    "estado": "'\"'",
+    "estado": "Despachada",
     "fecha_creacion": "5/10/2021",
     "comentarios": "-1E+02",
     "ordenID": "819fd1c1-da51-4cfb-bdc7-adba3a805936"
@@ -3036,7 +3036,7 @@
     "vehiculos": 234,
     "origen": "Tatariv",
     "destino": "Stockholm",
-    "estado": "../../../../../../../../../../../etc/passwd%00",
+    "estado": "Despachada",
     "fecha_creacion": "10/14/2021",
     "comentarios": "␢",
     "ordenID": "b66392d6-c0b1-4067-af1f-9f16845edc8d"
@@ -3049,7 +3049,7 @@
     "vehiculos": 235,
     "origen": "Yanjiang",
     "destino": "Karbunara e Vogël",
-    "estado": "בְּרֵאשִׁית, בָּרָא אֱלֹהִים, אֵת הַשָּׁמַיִם, וְאֵת הָאָרֶץ",
+    "estado": "Despachada",
     "fecha_creacion": "1/8/2021",
     "comentarios": "｀ｨ(´∀｀∩",
     "ordenID": "5963101e-0fbe-4177-81bf-2ff5c93ae0a6"
@@ -3062,7 +3062,7 @@
     "vehiculos": 236,
     "origen": "Thanh Chương",
     "destino": "Krajan",
-    "estado": "00˙Ɩ$-",
+    "estado": "Despachada",
     "fecha_creacion": "11/3/2021",
     "comentarios": "-$1.00",
     "ordenID": "d9e0e5fe-a51c-4b8f-a3b7-746f774c2f02"
@@ -3075,7 +3075,7 @@
     "vehiculos": 237,
     "origen": "Campos Belos",
     "destino": "Sanfins",
-    "estado": "👾 🙇 💁 🙅 🙆 🙋 🙎 🙍 ",
+    "estado": "Despachada",
     "fecha_creacion": "8/28/2021",
     "comentarios": "Ṱ̺̺̕o͞ ̷i̲̬͇̪͙n̝̗͕v̟̜̘̦͟o̶̙̰̠kè͚̮̺̪̹̱̤ ̖t̝͕̳̣̻̪͞h̼͓̲̦̳̘̲e͇̣̰̦̬͎ ̢̼̻̱̘h͚͎͙̜̣̲ͅi̦̲̣̰̤v̻͍e̺̭̳̪̰-m̢iͅn̖̺̞̲̯̰d̵̼̟͙̩̼̘̳ ̞̥̱̳̭r̛̗̘e͙p͠r̼̞̻̭̗e̺̠̣͟s̘͇̳͍̝͉e͉̥̯̞̲͚̬͜ǹ̬͎͎̟̖͇̤t͍̬̤͓̼̭͘ͅi̪̱n͠g̴͉ ͏͉ͅc̬̟h͡a̫̻̯͘o̫̟̖͍̙̝͉s̗̦̲.̨̹͈̣",
     "ordenID": "bc21a684-8e2f-482c-a6eb-88e42284e86a"
@@ -3088,7 +3088,7 @@
     "vehiculos": 238,
     "origen": "Hoolt",
     "destino": "Dolega District",
-    "estado": "̦H̬̤̗̤͝e͜ ̜̥̝̻͍̟́w̕h̖̯͓o̝͙̖͎̱̮ ҉̺̙̞̟͈W̷̼̭a̺̪͍į͈͕̭͙̯̜t̶̼̮s̘͙͖̕ ̠̫̠B̻͍͙͉̳ͅe̵h̵̬͇̫͙i̹͓̳̳̮͎̫̕n͟d̴̪̜̖ ̰͉̩͇͙̲͞ͅT͖̼͓̪͢h͏͓̮̻e̬̝̟ͅ ̤̹̝W͙̞̝͔͇͝ͅa͏͓͔̹̼̣l̴͔̰̤̟͔ḽ̫.͕",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "5/4/2021",
     "comentarios": "הָיְתָהtestالصفحات التّحول",
     "ordenID": "533b2fce-f42e-475e-8ebd-75b99bb5e83d"
@@ -3101,7 +3101,7 @@
     "vehiculos": 239,
     "origen": "Sanpai",
     "destino": "Newtown",
-    "estado": "999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999",
+    "estado": "Despachada",
     "fecha_creacion": "4/30/2021",
     "comentarios": "Ṱ̺̺̕o͞ ̷i̲̬͇̪͙n̝̗͕v̟̜̘̦͟o̶̙̰̠kè͚̮̺̪̹̱̤ ̖t̝͕̳̣̻̪͞h̼͓̲̦̳̘̲e͇̣̰̦̬͎ ̢̼̻̱̘h͚͎͙̜̣̲ͅi̦̲̣̰̤v̻͍e̺̭̳̪̰-m̢iͅn̖̺̞̲̯̰d̵̼̟͙̩̼̘̳ ̞̥̱̳̭r̛̗̘e͙p͠r̼̞̻̭̗e̺̠̣͟s̘͇̳͍̝͉e͉̥̯̞̲͚̬͜ǹ̬͎͎̟̖͇̤t͍̬̤͓̼̭͘ͅi̪̱n͠g̴͉ ͏͉ͅc̬̟h͡a̫̻̯͘o̫̟̖͍̙̝͉s̗̦̲.̨̹͈̣",
     "ordenID": "cd9450b4-6c43-41ed-8599-b9fcde4b7113"
@@ -3114,7 +3114,7 @@
     "vehiculos": 240,
     "origen": "Lökbatan",
     "destino": "Krutja e Poshtme",
-    "estado": "Ṱ̺̺̕o͞ ̷i̲̬͇̪͙n̝̗͕v̟̜̘̦͟o̶̙̰̠kè͚̮̺̪̹̱̤ ̖t̝͕̳̣̻̪͞h̼͓̲̦̳̘̲e͇̣̰̦̬͎ ̢̼̻̱̘h͚͎͙̜̣̲ͅi̦̲̣̰̤v̻͍e̺̭̳̪̰-m̢iͅn̖̺̞̲̯̰d̵̼̟͙̩̼̘̳ ̞̥̱̳̭r̛̗̘e͙p͠r̼̞̻̭̗e̺̠̣͟s̘͇̳͍̝͉e͉̥̯̞̲͚̬͜ǹ̬͎͎̟̖͇̤t͍̬̤͓̼̭͘ͅi̪̱n͠g̴͉ ͏͉ͅc̬̟h͡a̫̻̯͘o̫̟̖͍̙̝͉s̗̦̲.̨̹͈̣",
+    "estado": "Despachada",
     "fecha_creacion": "8/18/2021",
     "comentarios": "⁰⁴⁵₀₁₂",
     "ordenID": "f00c801b-8e4d-47de-b443-355e0407193e"
@@ -3127,7 +3127,7 @@
     "vehiculos": 241,
     "origen": "Campoverde",
     "destino": "Bayuin",
-    "estado": "　",
+    "estado": "Despachada",
     "fecha_creacion": "10/5/2021",
     "comentarios": "nil",
     "ordenID": "9d0d7c39-a63c-486b-8fb6-32e8a13f7e66"
@@ -3140,7 +3140,7 @@
     "vehiculos": 242,
     "origen": "Selkirk",
     "destino": "Hengjian",
-    "estado": "Z̮̞̠͙͔ͅḀ̗̞͈̻̗Ḷ͙͎̯̹̞͓G̻O̭̗̮",
+    "estado": "Despachada",
     "fecha_creacion": "9/10/2021",
     "comentarios": "ÅÍÎÏ˝ÓÔÒÚÆ☃",
     "ordenID": "ea986e14-b4d0-4650-b912-d0126c2640e1"
@@ -3153,7 +3153,7 @@
     "vehiculos": 243,
     "origen": "São Jerônimo",
     "destino": "Baki",
-    "estado": "<img src=x onerror=alert('hi') />",
+    "estado": "Despachada",
     "fecha_creacion": "2/26/2021",
     "comentarios": "<>?:\"{}|_+",
     "ordenID": "ca7873fd-4f74-41ba-9209-fb2f80c38f41"
@@ -3166,7 +3166,7 @@
     "vehiculos": 244,
     "origen": "Mohelno",
     "destino": "Toulon",
-    "estado": "œ∑´®†¥¨ˆøπ“‘",
+    "estado": "Despachada",
     "fecha_creacion": "7/7/2021",
     "comentarios": "｀ｨ(´∀｀∩",
     "ordenID": "18a85cc7-5996-422c-a3b6-0e35fa608718"
@@ -3179,7 +3179,7 @@
     "vehiculos": 245,
     "origen": "Emin",
     "destino": "Marevo",
-    "estado": "和製漢語",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "6/23/2021",
     "comentarios": "åß∂ƒ©˙∆˚¬…æ",
     "ordenID": "ba6bc0fa-54bb-4d0f-b86c-f6592ebbc36c"
@@ -3192,7 +3192,7 @@
     "vehiculos": 246,
     "origen": "Jardia",
     "destino": "Honglu",
-    "estado": "1/0",
+    "estado": "Despachada",
     "fecha_creacion": "12/17/2020",
     "comentarios": "1",
     "ordenID": "817ba82f-9e98-480e-bf5e-4068f6229aaf"
@@ -3205,7 +3205,7 @@
     "vehiculos": 247,
     "origen": "Sagasa",
     "destino": "Évry",
-    "estado": "﻿",
+    "estado": "Finalizada",
     "fecha_creacion": "10/2/2021",
     "comentarios": "👾 🙇 💁 🙅 🙆 🙋 🙎 🙍 ",
     "ordenID": "ffb6a441-cf65-40bd-87ee-de5aa3a5e1c1"
@@ -3218,7 +3218,7 @@
     "vehiculos": 248,
     "origen": "Botshabelo",
     "destino": "San José",
-    "estado": "1;DROP TABLE users",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "11/27/2021",
     "comentarios": "1E02",
     "ordenID": "7851e7d2-a4b7-4d4a-9288-4654e6130b67"
@@ -3231,7 +3231,7 @@
     "vehiculos": 249,
     "origen": "Tabunok",
     "destino": "Changlong",
-    "estado": "👾 🙇 💁 🙅 🙆 🙋 🙎 🙍 ",
+    "estado": "Despachada",
     "fecha_creacion": "10/5/2021",
     "comentarios": "<>?:\"{}|_+",
     "ordenID": "3190cdde-e524-405c-97b3-dc284128b4ae"
@@ -3244,7 +3244,7 @@
     "vehiculos": 250,
     "origen": "Zhuhe",
     "destino": "Chortkiv",
-    "estado": "\"\"",
+    "estado": "Finalizada",
     "fecha_creacion": "1/7/2021",
     "comentarios": null,
     "ordenID": "a5994b4f-0c09-4c58-891c-6a8bdfec4d4d"
@@ -3257,7 +3257,7 @@
     "vehiculos": 251,
     "origen": "Jimaguayú",
     "destino": "Baie-D'Urfé",
-    "estado": "`⁄€‹›ﬁﬂ‡°·‚—±",
+    "estado": "Finalizada",
     "fecha_creacion": "9/28/2021",
     "comentarios": "NIL",
     "ordenID": "debdde75-8275-426d-a908-c4ad205da209"
@@ -3270,7 +3270,7 @@
     "vehiculos": 252,
     "origen": "Jaguariúna",
     "destino": "Kadudampit",
-    "estado": "<img src=x onerror=alert('hi') />",
+    "estado": "Despachada",
     "fecha_creacion": "2/2/2021",
     "comentarios": "👩🏽",
     "ordenID": "816f90e8-a47a-43d2-a19c-25e4f1fe7546"
@@ -3283,7 +3283,7 @@
     "vehiculos": 253,
     "origen": "Zea",
     "destino": "Nay Pyi Taw",
-    "estado": "(╯°□°）╯︵ ┻━┻)  ",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "11/12/2021",
     "comentarios": "ヽ༼ຈل͜ຈ༽ﾉ ヽ༼ຈل͜ຈ༽ﾉ ",
     "ordenID": "ebfd18b3-8c83-44fe-b43e-338c5131f4e5"
@@ -3296,7 +3296,7 @@
     "vehiculos": 254,
     "origen": "Yanggu",
     "destino": "Porecatu",
-    "estado": "-1.00",
+    "estado": "Finalizada",
     "fecha_creacion": "11/7/2021",
     "comentarios": "\"'\"'\"''''\"",
     "ordenID": "a25f965b-4c21-4839-8050-7da39c63018b"
@@ -3309,7 +3309,7 @@
     "vehiculos": 255,
     "origen": "Düsseldorf",
     "destino": "Karanglo",
-    "estado": "<img src=x onerror=alert('hi') />",
+    "estado": "Despachada",
     "fecha_creacion": "8/18/2021",
     "comentarios": "　",
     "ordenID": "c8756584-4712-4900-8d9f-0df42e56427b"
@@ -3322,7 +3322,7 @@
     "vehiculos": 256,
     "origen": "Noyon",
     "destino": "Ban Huai Thalaeng",
-    "estado": "œ∑´®†¥¨ˆøπ“‘",
+    "estado": "Despachada",
     "fecha_creacion": "1/5/2021",
     "comentarios": "社會科學院語學研究所",
     "ordenID": "2956bc1b-0437-4905-9b04-19f48cc5aa62"
@@ -3335,7 +3335,7 @@
     "vehiculos": 257,
     "origen": "Salinas",
     "destino": "Kingisepp",
-    "estado": "null",
+    "estado": "Finalizada",
     "fecha_creacion": "9/28/2021",
     "comentarios": "␡",
     "ordenID": "2bf0ec2f-c39b-48cf-b870-1a4862d29c6a"
@@ -3348,7 +3348,7 @@
     "vehiculos": 258,
     "origen": "Bayeux",
     "destino": "Sochaux",
-    "estado": "₀₁₂",
+    "estado": "Finalizada",
     "fecha_creacion": "8/9/2021",
     "comentarios": "｀ｨ(´∀｀∩",
     "ordenID": "f724b458-d91f-4eb1-882e-7513ea53de36"
@@ -3361,7 +3361,7 @@
     "vehiculos": 259,
     "origen": "Houston",
     "destino": "Kisumu",
-    "estado": "ثم نفس سقطت وبالتحديد،, جزيرتي باستخدام أن دنو. إذ هنا؟ الستار وتنصيب كان. أهّل ايطاليا، بريطانيا-فرنسا قد أخذ. سليمان، إتفاقية بين ما, يذكر الحدود أي بعد, معاملة بولندا، الإطلاق عل إيو.",
+    "estado": "Finalizada",
     "fecha_creacion": "4/17/2021",
     "comentarios": "-1/2",
     "ordenID": "48388041-b828-4a5f-ad9f-14682f150783"
@@ -3374,7 +3374,7 @@
     "vehiculos": 260,
     "origen": "Zheleznodorozhnyy",
     "destino": "Tsant",
-    "estado": "울란바토르",
+    "estado": "Finalizada",
     "fecha_creacion": "10/12/2021",
     "comentarios": "$1.00",
     "ordenID": "38502ef5-f673-40b1-9132-7965b96ebc36"
@@ -3387,7 +3387,7 @@
     "vehiculos": 261,
     "origen": "Hujra",
     "destino": "Sanqiao",
-    "estado": "test",
+    "estado": "Finalizada",
     "fecha_creacion": "5/11/2021",
     "comentarios": "⁦test⁧",
     "ordenID": "3f641a83-40d3-451e-930b-f419b1999b6d"
@@ -3400,7 +3400,7 @@
     "vehiculos": 262,
     "origen": "Santa Lucia",
     "destino": "Kuching",
-    "estado": "ÅÍÎÏ˝ÓÔÒÚÆ☃",
+    "estado": "Finalizada",
     "fecha_creacion": "8/29/2021",
     "comentarios": "-1E+02",
     "ordenID": "66674387-1132-4fcc-afa5-4c0a1b0506c2"
@@ -3413,7 +3413,7 @@
     "vehiculos": 263,
     "origen": "Guanshui",
     "destino": "Dankalwa",
-    "estado": "\"'\"'\"''''\"",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "12/13/2020",
     "comentarios": "'",
     "ordenID": "b7be42d2-7e03-46bc-8354-c282000e0f53"
@@ -3426,7 +3426,7 @@
     "vehiculos": 264,
     "origen": "Monrovia",
     "destino": "Thanh Khê",
-    "estado": "1/2",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "11/28/2021",
     "comentarios": "1/0",
     "ordenID": "ff5ae5be-51a8-4cd9-b1ee-1a2435503579"
@@ -3439,7 +3439,7 @@
     "vehiculos": 265,
     "origen": "Aristóbulo del Valle",
     "destino": "Västerås",
-    "estado": "__ﾛ(,_,*)",
+    "estado": "Finalizada",
     "fecha_creacion": "10/13/2021",
     "comentarios": "社會科學院語學研究所",
     "ordenID": "eddb36d6-cf62-4e52-9900-1c8a07511f41"
@@ -3452,7 +3452,7 @@
     "vehiculos": 266,
     "origen": "Ágio Pnévma",
     "destino": "Mihara",
-    "estado": "../../../../../../../../../../../etc/hosts",
+    "estado": "Cancelada",
     "fecha_creacion": "6/14/2021",
     "comentarios": "NIL",
     "ordenID": "a33c07d0-1ca6-423b-b6c7-fe63dc1b8941"
@@ -3465,7 +3465,7 @@
     "vehiculos": 267,
     "origen": "Elias Fausto",
     "destino": "Zaragoza",
-    "estado": "test",
+    "estado": "Finalizada",
     "fecha_creacion": "2/28/2021",
     "comentarios": "田中さんにあげて下さい",
     "ordenID": "ae41be9c-28a4-4a2d-9430-c3e7dbbd897b"
@@ -3478,7 +3478,7 @@
     "vehiculos": 268,
     "origen": "Nangaroro",
     "destino": "Naperville",
-    "estado": "🐵 🙈 🙉 🙊",
+    "estado": "Cancelada",
     "fecha_creacion": "1/16/2021",
     "comentarios": "¡™£¢∞§¶•ªº–≠",
     "ordenID": "ea37ef9b-8783-43f7-a667-b2b318cab18f"
@@ -3491,7 +3491,7 @@
     "vehiculos": 269,
     "origen": "Cabalaoangan",
     "destino": "Guojiaba",
-    "estado": "-$1.00",
+    "estado": "Cancelada",
     "fecha_creacion": "10/30/2021",
     "comentarios": "הָיְתָהtestالصفحات التّحول",
     "ordenID": "0a7a2951-43e1-4f1b-82ca-604b86ab1d30"
@@ -3504,7 +3504,7 @@
     "vehiculos": 270,
     "origen": "Shi’an",
     "destino": "Jiangfeng",
-    "estado": null,
+    "estado": "Cancelada",
     "fecha_creacion": "11/29/2020",
     "comentarios": "사회과학원 어학연구소",
     "ordenID": "4fcf00af-0a03-4da8-8f73-6256749767f0"
@@ -3517,7 +3517,7 @@
     "vehiculos": 271,
     "origen": "Santa Cruz",
     "destino": "Osias",
-    "estado": "NULL",
+    "estado": "Finalizada",
     "fecha_creacion": "5/23/2021",
     "comentarios": "❤️ 💔 💌 💕 💞 💓 💗 💖 💘 💝 💟 💜 💛 💚 💙",
     "ordenID": "f39ed44c-8acf-4a7e-8307-dcbe802a62da"
@@ -3530,7 +3530,7 @@
     "vehiculos": 272,
     "origen": "Gllogjan",
     "destino": "Rudnyy",
-    "estado": "١٢٣",
+    "estado": "Despachada",
     "fecha_creacion": "4/19/2021",
     "comentarios": "❤️ 💔 💌 💕 💞 💓 💗 💖 💘 💝 💟 💜 💛 💚 💙",
     "ordenID": "d941f22f-ccbe-4214-bb82-4977dd90845b"
@@ -3543,7 +3543,7 @@
     "vehiculos": 273,
     "origen": "Khirdalan",
     "destino": "Eslöv",
-    "estado": "\"\"",
+    "estado": "Finalizada",
     "fecha_creacion": "2/11/2021",
     "comentarios": "ヽ༼ຈل͜ຈ༽ﾉ ヽ༼ຈل͜ຈ༽ﾉ ",
     "ordenID": "52cfc228-4ebd-4757-8dfc-bd825dfee7b2"
@@ -3556,7 +3556,7 @@
     "vehiculos": 274,
     "origen": "Katakwi",
     "destino": "Liuji",
-    "estado": "パーティーへ行かないか",
+    "estado": "Cancelada",
     "fecha_creacion": "4/13/2021",
     "comentarios": "1E+02",
     "ordenID": "d740e16d-1aba-4e13-b8be-a6e5730996cf"
@@ -3569,7 +3569,7 @@
     "vehiculos": 275,
     "origen": "Nzérékoré",
     "destino": "Nālchiti",
-    "estado": "｀ｨ(´∀｀∩",
+    "estado": "Cancelada",
     "fecha_creacion": "8/2/2021",
     "comentarios": "00˙Ɩ$-",
     "ordenID": "7783e182-d1ba-415e-ab95-3f0343f9b245"
@@ -3582,7 +3582,7 @@
     "vehiculos": 276,
     "origen": "Ficksburg",
     "destino": "Gameleira",
-    "estado": "<>?:\"{}|_+",
+    "estado": "Cancelada",
     "fecha_creacion": "7/29/2021",
     "comentarios": "🚾 🆒 🆓 🆕 🆖 🆗 🆙 🏧",
     "ordenID": "594ac667-01c7-4212-aeb4-58e7b10f1fad"
@@ -3595,7 +3595,7 @@
     "vehiculos": 277,
     "origen": "Koper",
     "destino": "Sanjiao",
-    "estado": "() { _; } >_[$($())] { touch /tmp/blns.shellshock2.fail; }",
+    "estado": "Cancelada",
     "fecha_creacion": "2/7/2021",
     "comentarios": "␣",
     "ordenID": "ddcfb914-8940-4a21-af2c-3644ce57aecb"
@@ -3608,7 +3608,7 @@
     "vehiculos": 278,
     "origen": "Baroh",
     "destino": "Shanjiang",
-    "estado": "00˙Ɩ$-",
+    "estado": "Despachada",
     "fecha_creacion": "6/8/2021",
     "comentarios": "0.00",
     "ordenID": "e833e759-b31f-4d0c-b9d2-a079cfd45894"
@@ -3621,7 +3621,7 @@
     "vehiculos": 279,
     "origen": "Diré",
     "destino": "Murganhal",
-    "estado": "test",
+    "estado": "Finalizada",
     "fecha_creacion": "12/30/2020",
     "comentarios": "🚾 🆒 🆓 🆕 🆖 🆗 🆙 🏧",
     "ordenID": "c62822f7-793e-4b6b-845e-80c506189627"
@@ -3647,7 +3647,7 @@
     "vehiculos": 281,
     "origen": "Mococa",
     "destino": "Chengjiao",
-    "estado": "👾 🙇 💁 🙅 🙆 🙋 🙎 🙍 ",
+    "estado": "Despachada",
     "fecha_creacion": "4/13/2021",
     "comentarios": "⁦test⁧",
     "ordenID": "64de0672-9638-4546-86aa-71f6fd19956c"
@@ -3660,7 +3660,7 @@
     "vehiculos": 282,
     "origen": "Göteborg",
     "destino": "Taoyuan",
-    "estado": "👾 🙇 💁 🙅 🙆 🙋 🙎 🙍 ",
+    "estado": "Despachada",
     "fecha_creacion": "12/1/2020",
     "comentarios": ",。・:*:・゜’( ☻ ω ☻ )。・:*:・゜’",
     "ordenID": "a89d8375-96f9-4b93-9e8d-d72d7d484b9e"
@@ -3673,7 +3673,7 @@
     "vehiculos": 283,
     "origen": "Viljakkala",
     "destino": "Yingcheng",
-    "estado": "/dev/null; touch /tmp/blns.fail ; echo",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "9/7/2021",
     "comentarios": "Ṱ̺̺̕o͞ ̷i̲̬͇̪͙n̝̗͕v̟̜̘̦͟o̶̙̰̠kè͚̮̺̪̹̱̤ ̖t̝͕̳̣̻̪͞h̼͓̲̦̳̘̲e͇̣̰̦̬͎ ̢̼̻̱̘h͚͎͙̜̣̲ͅi̦̲̣̰̤v̻͍e̺̭̳̪̰-m̢iͅn̖̺̞̲̯̰d̵̼̟͙̩̼̘̳ ̞̥̱̳̭r̛̗̘e͙p͠r̼̞̻̭̗e̺̠̣͟s̘͇̳͍̝͉e͉̥̯̞̲͚̬͜ǹ̬͎͎̟̖͇̤t͍̬̤͓̼̭͘ͅi̪̱n͠g̴͉ ͏͉ͅc̬̟h͡a̫̻̯͘o̫̟̖͍̙̝͉s̗̦̲.̨̹͈̣",
     "ordenID": "08384c89-f167-47bb-9a34-08a2e1c84a66"
@@ -3686,7 +3686,7 @@
     "vehiculos": 284,
     "origen": "Shido",
     "destino": "Reno",
-    "estado": "הָיְתָהtestالصفحات التّحول",
+    "estado": "Despachada",
     "fecha_creacion": "1/25/2021",
     "comentarios": "🐵 🙈 🙉 🙊",
     "ordenID": "668965bd-5cc6-4b72-af54-80c2c07cfbaa"
@@ -3712,7 +3712,7 @@
     "vehiculos": 286,
     "origen": "Kodyma",
     "destino": "Granada",
-    "estado": "'\"'",
+    "estado": "Despachada",
     "fecha_creacion": "9/7/2021",
     "comentarios": "`⁄€‹›ﬁﬂ‡°·‚—±",
     "ordenID": "5e353d19-069a-48d3-acb4-a7a594407c82"
@@ -3751,7 +3751,7 @@
     "vehiculos": 289,
     "origen": "Paitan Norte",
     "destino": "Trudobelikovskiy",
-    "estado": "和製漢語",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "8/15/2021",
     "comentarios": "❤️ 💔 💌 💕 💞 💓 💗 💖 💘 💝 💟 💜 💛 💚 💙",
     "ordenID": "b92b2926-6053-4e04-8ab4-33d1992d10e7"
@@ -3790,7 +3790,7 @@
     "vehiculos": 292,
     "origen": "Zlaté Hory",
     "destino": "Fond du Sac",
-    "estado": "(╯°□°）╯︵ ┻━┻)  ",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "1/26/2021",
     "comentarios": "ﾟ･✿ヾ╲(｡◕‿◕｡)╱✿･ﾟ",
     "ordenID": "9d6ec4ed-b7cd-49af-9027-17c3499870e3"
@@ -3803,7 +3803,7 @@
     "vehiculos": 293,
     "origen": "Suhong",
     "destino": "Plumbon",
-    "estado": "1;DROP TABLE users",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "1/28/2021",
     "comentarios": "NULL",
     "ordenID": "9184101b-0a20-4465-afb1-5e0297e26876"
@@ -3816,7 +3816,7 @@
     "vehiculos": 294,
     "origen": "Yiyang",
     "destino": "Biscoitos",
-    "estado": "ثم نفس سقطت وبالتحديد،, جزيرتي باستخدام أن دنو. إذ هنا؟ الستار وتنصيب كان. أهّل ايطاليا، بريطانيا-فرنسا قد أخذ. سليمان، إتفاقية بين ما, يذكر الحدود أي بعد, معاملة بولندا، الإطلاق عل إيو.",
+    "estado": "Finalizada",
     "fecha_creacion": "8/5/2021",
     "comentarios": "(｡◕ ∀ ◕｡)",
     "ordenID": "99fe2505-546a-4cfa-ae79-c6ad95178893"
@@ -3829,7 +3829,7 @@
     "vehiculos": 295,
     "origen": "Néa Éfesos",
     "destino": "Los Andes",
-    "estado": "<img src=x onerror=alert('hi') />",
+    "estado": "Despachada",
     "fecha_creacion": "8/6/2021",
     "comentarios": "\"''''\"'\"",
     "ordenID": "b682628e-8f2e-431e-9c95-27c751084cb2"
@@ -3842,7 +3842,7 @@
     "vehiculos": 296,
     "origen": "Phù Cát",
     "destino": "Ḩabbān",
-    "estado": "<img src=x onerror=alert('hi') />",
+    "estado": "Despachada",
     "fecha_creacion": "3/16/2021",
     "comentarios": "\"",
     "ordenID": "019f6c53-2501-42a6-ae32-e5c16c5d1448"
@@ -3868,7 +3868,7 @@
     "vehiculos": 298,
     "origen": "Zhoujia",
     "destino": "Pasatan",
-    "estado": "1/0",
+    "estado": "Despachada",
     "fecha_creacion": "4/2/2021",
     "comentarios": "␡",
     "ordenID": "3574a7cb-9276-40a9-9176-87adfa8a8f44"
@@ -3894,7 +3894,7 @@
     "vehiculos": 300,
     "origen": "Krasnyy Gulyay",
     "destino": "Tseel",
-    "estado": "œ∑´®†¥¨ˆøπ“‘",
+    "estado": "Despachada",
     "fecha_creacion": "10/18/2021",
     "comentarios": "__ﾛ(,_,*)",
     "ordenID": "3346bdc1-bc18-477b-8c7c-5deaa7e49392"
@@ -3907,7 +3907,7 @@
     "vehiculos": 301,
     "origen": "Mar’’ina Horka",
     "destino": "Torre",
-    "estado": "NULL",
+    "estado": "Finalizada",
     "fecha_creacion": "8/29/2021",
     "comentarios": "␡",
     "ordenID": "c343c71c-9d44-4a55-bffb-f237b096d3c8"
@@ -3920,7 +3920,7 @@
     "vehiculos": 302,
     "origen": "Robertsport",
     "destino": "Krokeaí",
-    "estado": "__ﾛ(,_,*)",
+    "estado": "Finalizada",
     "fecha_creacion": "6/23/2021",
     "comentarios": "-1.00",
     "ordenID": "cef4a112-2395-40e9-bc4e-459d36f84624"
@@ -3933,7 +3933,7 @@
     "vehiculos": 303,
     "origen": "Lyublino",
     "destino": "Bieliny",
-    "estado": "₀₁₂",
+    "estado": "Finalizada",
     "fecha_creacion": "4/17/2021",
     "comentarios": "/dev/null; touch /tmp/blns.fail ; echo",
     "ordenID": "c9244b2d-c1bf-4a53-83be-f8ec3f39e069"
@@ -3946,7 +3946,7 @@
     "vehiculos": 304,
     "origen": "Wengang",
     "destino": "Mangdang",
-    "estado": "ثم نفس سقطت وبالتحديد،, جزيرتي باستخدام أن دنو. إذ هنا؟ الستار وتنصيب كان. أهّل ايطاليا، بريطانيا-فرنسا قد أخذ. سليمان، إتفاقية بين ما, يذكر الحدود أي بعد, معاملة بولندا، الإطلاق عل إيو.",
+    "estado": "Finalizada",
     "fecha_creacion": "6/8/2021",
     "comentarios": "-1",
     "ordenID": "625e4b58-3aeb-40fd-b273-396422585e72"
@@ -3959,7 +3959,7 @@
     "vehiculos": 305,
     "origen": "Shiozawa",
     "destino": "Polje",
-    "estado": "Z̮̞̠͙͔ͅḀ̗̞͈̻̗Ḷ͙͎̯̹̞͓G̻O̭̗̮",
+    "estado": "Despachada",
     "fecha_creacion": "5/17/2021",
     "comentarios": "null",
     "ordenID": "e78ceb8e-df8f-44fc-83c7-c7bcd16ed6c5"
@@ -3985,7 +3985,7 @@
     "vehiculos": 307,
     "origen": "Palestina",
     "destino": "Girona",
-    "estado": "œ∑´®†¥¨ˆøπ“‘",
+    "estado": "Despachada",
     "fecha_creacion": "3/21/2021",
     "comentarios": "(｡◕ ∀ ◕｡)",
     "ordenID": "66334974-d9ad-4a41-ad77-b81e6ee9a802"
@@ -4011,7 +4011,7 @@
     "vehiculos": 309,
     "origen": "Moses",
     "destino": "Étampes",
-    "estado": "﻿",
+    "estado": "Finalizada",
     "fecha_creacion": "11/23/2021",
     "comentarios": "✋🏿 💪🏿 👐🏿 🙌🏿 👏🏿 🙏🏿",
     "ordenID": "49273612-6ce0-4b21-9c6e-31af2624a354"
@@ -4024,7 +4024,7 @@
     "vehiculos": 310,
     "origen": "Xia Zanggor",
     "destino": "Cikayas",
-    "estado": "../../../../../../../../../../../etc/passwd%00",
+    "estado": "Despachada",
     "fecha_creacion": "11/25/2021",
     "comentarios": "１２３",
     "ordenID": "608a451c-5268-40d1-b95a-6534ae1ab2ec"
@@ -4154,7 +4154,7 @@
     "vehiculos": 320,
     "origen": "Pontivy",
     "destino": "Remiremont",
-    "estado": "(╯°□°）╯︵ ┻━┻)  ",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "1/9/2021",
     "comentarios": "¸˛Ç◊ı˜Â¯˘¿",
     "ordenID": "658e0619-6d2f-49c5-b70d-e84a2da66823"
@@ -4167,7 +4167,7 @@
     "vehiculos": 321,
     "origen": "Qingshandi",
     "destino": "Yunga",
-    "estado": "パーティーへ行かないか",
+    "estado": "Cancelada",
     "fecha_creacion": "7/16/2021",
     "comentarios": "‫test‫",
     "ordenID": "fc5d2ec3-e2e5-4f1b-974b-75336c25be05"
@@ -4193,7 +4193,7 @@
     "vehiculos": 323,
     "origen": "Kamogatachō-kamogata",
     "destino": "Sobreiro",
-    "estado": "\"\"",
+    "estado": "Finalizada",
     "fecha_creacion": "3/27/2021",
     "comentarios": "Ṱ̺̺̕o͞ ̷i̲̬͇̪͙n̝̗͕v̟̜̘̦͟o̶̙̰̠kè͚̮̺̪̹̱̤ ̖t̝͕̳̣̻̪͞h̼͓̲̦̳̘̲e͇̣̰̦̬͎ ̢̼̻̱̘h͚͎͙̜̣̲ͅi̦̲̣̰̤v̻͍e̺̭̳̪̰-m̢iͅn̖̺̞̲̯̰d̵̼̟͙̩̼̘̳ ̞̥̱̳̭r̛̗̘e͙p͠r̼̞̻̭̗e̺̠̣͟s̘͇̳͍̝͉e͉̥̯̞̲͚̬͜ǹ̬͎͎̟̖͇̤t͍̬̤͓̼̭͘ͅi̪̱n͠g̴͉ ͏͉ͅc̬̟h͡a̫̻̯͘o̫̟̖͍̙̝͉s̗̦̲.̨̹͈̣",
     "ordenID": "0c81ee3c-39d7-472a-9099-17f5dd2e2f30"
@@ -4245,7 +4245,7 @@
     "vehiculos": 327,
     "origen": "Apitong",
     "destino": "Novoselitsa",
-    "estado": "␢",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "2/8/2021",
     "comentarios": "<img src=x onerror=alert('hi') />",
     "ordenID": "eefeb5f6-1af7-4ac9-ad71-2bc85bb09be9"
@@ -4258,7 +4258,7 @@
     "vehiculos": 328,
     "origen": "Janowice",
     "destino": "Kadyy",
-    "estado": "１２３",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "1/28/2021",
     "comentarios": "⁰⁴⁵₀₁₂",
     "ordenID": "0c931750-a32a-4ebb-8bd9-7f911d8130bd"
@@ -4271,7 +4271,7 @@
     "vehiculos": 329,
     "origen": "Chuarrancho",
     "destino": "Khashuri",
-    "estado": "¸˛Ç◊ı˜Â¯˘¿",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "2/12/2021",
     "comentarios": "!@#$%^&*()",
     "ordenID": "2b93fa47-4c53-4b64-94a8-45b6c6b4a926"
@@ -4284,7 +4284,7 @@
     "vehiculos": 330,
     "origen": "Jiangpu",
     "destino": "Idtig",
-    "estado": "ثم نفس سقطت وبالتحديد،, جزيرتي باستخدام أن دنو. إذ هنا؟ الستار وتنصيب كان. أهّل ايطاليا، بريطانيا-فرنسا قد أخذ. سليمان، إتفاقية بين ما, يذكر الحدود أي بعد, معاملة بولندا، الإطلاق عل إيو.",
+    "estado": "Finalizada",
     "fecha_creacion": "10/6/2021",
     "comentarios": "1",
     "ordenID": "156f1da5-b5b3-461e-951d-d9122bac5e32"
@@ -4297,7 +4297,7 @@
     "vehiculos": 331,
     "origen": "Porto Alto",
     "destino": "Ljukovo",
-    "estado": "̦H̬̤̗̤͝e͜ ̜̥̝̻͍̟́w̕h̖̯͓o̝͙̖͎̱̮ ҉̺̙̞̟͈W̷̼̭a̺̪͍į͈͕̭͙̯̜t̶̼̮s̘͙͖̕ ̠̫̠B̻͍͙͉̳ͅe̵h̵̬͇̫͙i̹͓̳̳̮͎̫̕n͟d̴̪̜̖ ̰͉̩͇͙̲͞ͅT͖̼͓̪͢h͏͓̮̻e̬̝̟ͅ ̤̹̝W͙̞̝͔͇͝ͅa͏͓͔̹̼̣l̴͔̰̤̟͔ḽ̫.͕",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "1/2/2021",
     "comentarios": "0/0",
     "ordenID": "ca1f28f6-568e-422c-8f4f-182155a6017e"
@@ -4310,7 +4310,7 @@
     "vehiculos": 332,
     "origen": "Miraflores",
     "destino": "Bonn",
-    "estado": "__ﾛ(,_,*)",
+    "estado": "Finalizada",
     "fecha_creacion": "12/8/2020",
     "comentarios": "$1.00",
     "ordenID": "59de1c92-85b0-4103-8902-d0fd4b100b62"
@@ -4323,7 +4323,7 @@
     "vehiculos": 333,
     "origen": "Peterborough",
     "destino": "Shuangxi",
-    "estado": "﻿",
+    "estado": "Finalizada",
     "fecha_creacion": "4/26/2021",
     "comentarios": "⁰⁴⁵",
     "ordenID": "ef3af3b1-43a6-4273-a9d4-7c3610128c1f"
@@ -4349,7 +4349,7 @@
     "vehiculos": 335,
     "origen": "Kristiansand S",
     "destino": "Valsamáta",
-    "estado": "הָיְתָהtestالصفحات التّحول",
+    "estado": "Despachada",
     "fecha_creacion": "3/28/2021",
     "comentarios": "和製漢語",
     "ordenID": "f0da3863-44fc-4124-94f5-6d5f3de21d81"
@@ -4362,7 +4362,7 @@
     "vehiculos": 336,
     "origen": "Pangascasan",
     "destino": "Ganggawang",
-    "estado": "👾 🙇 💁 🙅 🙆 🙋 🙎 🙍 ",
+    "estado": "Despachada",
     "fecha_creacion": "7/6/2021",
     "comentarios": "᠎",
     "ordenID": "95a4b7cd-217b-4cf5-9b63-45c253a290fe"
@@ -4414,7 +4414,7 @@
     "vehiculos": 340,
     "origen": "Châtillon",
     "destino": "Siparia",
-    "estado": "<>?:\"{}|_+",
+    "estado": "Cancelada",
     "fecha_creacion": "2/7/2021",
     "comentarios": "⁰⁴⁵₀₁₂",
     "ordenID": "5f3d2a88-e3eb-475d-ac2e-742043517344"
@@ -4479,7 +4479,7 @@
     "vehiculos": 345,
     "origen": "Garango",
     "destino": "Yantian",
-    "estado": "１２３",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "1/12/2021",
     "comentarios": "<img src=x onerror=alert('hi') />",
     "ordenID": "d320f8f8-88bc-4b5b-9a72-e21356cd6408"
@@ -4492,7 +4492,7 @@
     "vehiculos": 346,
     "origen": "Ancol",
     "destino": "Linjiang",
-    "estado": "() { _; } >_[$($())] { touch /tmp/blns.shellshock2.fail; }",
+    "estado": "Cancelada",
     "fecha_creacion": "5/19/2021",
     "comentarios": "␡",
     "ordenID": "cc2450c5-db9b-47f9-b0ac-f18b631ac65a"
@@ -4557,7 +4557,7 @@
     "vehiculos": 351,
     "origen": "Sukaraja",
     "destino": "Ibara",
-    "estado": "\"\"",
+    "estado": "Finalizada",
     "fecha_creacion": "11/15/2021",
     "comentarios": "🐵 🙈 🙉 🙊",
     "ordenID": "5ed31e0c-dd7a-45f1-83e2-5bb739f47169"
@@ -4570,7 +4570,7 @@
     "vehiculos": 352,
     "origen": "Rafael Hernandez Ochoa",
     "destino": "Dukla",
-    "estado": "../../../../../../../../../../../etc/hosts",
+    "estado": "Cancelada",
     "fecha_creacion": "5/13/2021",
     "comentarios": "null",
     "ordenID": "602bfb21-d792-452a-b5a3-66cfcda7ba97"
@@ -4583,7 +4583,7 @@
     "vehiculos": 353,
     "origen": "Trambalan",
     "destino": "Pulian",
-    "estado": "̦H̬̤̗̤͝e͜ ̜̥̝̻͍̟́w̕h̖̯͓o̝͙̖͎̱̮ ҉̺̙̞̟͈W̷̼̭a̺̪͍į͈͕̭͙̯̜t̶̼̮s̘͙͖̕ ̠̫̠B̻͍͙͉̳ͅe̵h̵̬͇̫͙i̹͓̳̳̮͎̫̕n͟d̴̪̜̖ ̰͉̩͇͙̲͞ͅT͖̼͓̪͢h͏͓̮̻e̬̝̟ͅ ̤̹̝W͙̞̝͔͇͝ͅa͏͓͔̹̼̣l̴͔̰̤̟͔ḽ̫.͕",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "12/7/2020",
     "comentarios": "-1E+02",
     "ordenID": "18d643dc-fff2-4d9d-a30f-0d2452bab924"
@@ -4596,7 +4596,7 @@
     "vehiculos": 354,
     "origen": "Wangong",
     "destino": "Changhe",
-    "estado": "₀₁₂",
+    "estado": "Finalizada",
     "fecha_creacion": "1/24/2021",
     "comentarios": "␢",
     "ordenID": "d3987737-7ca5-4121-b387-daac2c616f9a"
@@ -4609,7 +4609,7 @@
     "vehiculos": 355,
     "origen": "Phan Thong",
     "destino": "Kannabechō-yahiro",
-    "estado": "null",
+    "estado": "Finalizada",
     "fecha_creacion": "12/10/2020",
     "comentarios": "-1/2",
     "ordenID": "face1c6f-406f-4faf-ae35-66b9236023dc"
@@ -4661,7 +4661,7 @@
     "vehiculos": 359,
     "origen": "Książki",
     "destino": "Hirara",
-    "estado": "() { _; } >_[$($())] { touch /tmp/blns.shellshock2.fail; }",
+    "estado": "Cancelada",
     "fecha_creacion": "9/10/2021",
     "comentarios": "-1E2",
     "ordenID": "1aa61ac1-08a9-4ec8-9b17-5e7fc13652dd"
@@ -4700,7 +4700,7 @@
     "vehiculos": 362,
     "origen": "São Mateus",
     "destino": "Mendeleyevsk",
-    "estado": "__ﾛ(,_,*)",
+    "estado": "Finalizada",
     "fecha_creacion": "6/6/2021",
     "comentarios": "␢",
     "ordenID": "40f00dca-62ae-4bd1-9248-713eb66eae9a"
@@ -4739,7 +4739,7 @@
     "vehiculos": 365,
     "origen": "Prince Albert",
     "destino": "Neyvo-Rudyanka",
-    "estado": "̦H̬̤̗̤͝e͜ ̜̥̝̻͍̟́w̕h̖̯͓o̝͙̖͎̱̮ ҉̺̙̞̟͈W̷̼̭a̺̪͍į͈͕̭͙̯̜t̶̼̮s̘͙͖̕ ̠̫̠B̻͍͙͉̳ͅe̵h̵̬͇̫͙i̹͓̳̳̮͎̫̕n͟d̴̪̜̖ ̰͉̩͇͙̲͞ͅT͖̼͓̪͢h͏͓̮̻e̬̝̟ͅ ̤̹̝W͙̞̝͔͇͝ͅa͏͓͔̹̼̣l̴͔̰̤̟͔ḽ̫.͕",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "10/11/2021",
     "comentarios": "ثم نفس سقطت وبالتحديد،, جزيرتي باستخدام أن دنو. إذ هنا؟ الستار وتنصيب كان. أهّل ايطاليا، بريطانيا-فرنسا قد أخذ. سليمان، إتفاقية بين ما, يذكر الحدود أي بعد, معاملة بولندا، الإطلاق عل إيو.",
     "ordenID": "916b0e8b-6868-4427-9b91-b1773c682c0e"
@@ -4752,7 +4752,7 @@
     "vehiculos": 366,
     "origen": "Bonsari",
     "destino": "Jaruco",
-    "estado": "null",
+    "estado": "Finalizada",
     "fecha_creacion": "2/6/2021",
     "comentarios": "｀ｨ(´∀｀∩",
     "ordenID": "e0468e75-7536-43e3-aaa3-15ef317ddefb"
@@ -4778,7 +4778,7 @@
     "vehiculos": 368,
     "origen": "Stockholm",
     "destino": "Bentiu",
-    "estado": "Ṱ̺̺̕o͞ ̷i̲̬͇̪͙n̝̗͕v̟̜̘̦͟o̶̙̰̠kè͚̮̺̪̹̱̤ ̖t̝͕̳̣̻̪͞h̼͓̲̦̳̘̲e͇̣̰̦̬͎ ̢̼̻̱̘h͚͎͙̜̣̲ͅi̦̲̣̰̤v̻͍e̺̭̳̪̰-m̢iͅn̖̺̞̲̯̰d̵̼̟͙̩̼̘̳ ̞̥̱̳̭r̛̗̘e͙p͠r̼̞̻̭̗e̺̠̣͟s̘͇̳͍̝͉e͉̥̯̞̲͚̬͜ǹ̬͎͎̟̖͇̤t͍̬̤͓̼̭͘ͅi̪̱n͠g̴͉ ͏͉ͅc̬̟h͡a̫̻̯͘o̫̟̖͍̙̝͉s̗̦̲.̨̹͈̣",
+    "estado": "Despachada",
     "fecha_creacion": "10/20/2021",
     "comentarios": "(｡◕ ∀ ◕｡)",
     "ordenID": "87596b88-4b36-4b32-970f-21916f51dccf"
@@ -4804,7 +4804,7 @@
     "vehiculos": 370,
     "origen": "Setono",
     "destino": "Vikhorevka",
-    "estado": "\"'\"'\"''''\"",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "4/17/2021",
     "comentarios": ",。・:*:・゜’( ☻ ω ☻ )。・:*:・゜’",
     "ordenID": "e1b68a05-fb9d-48e2-82bb-94d5a2d9aebb"
@@ -4817,7 +4817,7 @@
     "vehiculos": 371,
     "origen": "Wonosari",
     "destino": "Guanli",
-    "estado": "﻿",
+    "estado": "Finalizada",
     "fecha_creacion": "10/29/2021",
     "comentarios": "(｡◕ ∀ ◕｡)",
     "ordenID": "cbfeb892-6564-4fc0-8815-2c775e8142eb"
@@ -4830,7 +4830,7 @@
     "vehiculos": 372,
     "origen": "Tatarsk",
     "destino": "Kanáli",
-    "estado": "␡",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "2/27/2021",
     "comentarios": "¡™£¢∞§¶•ªº–≠",
     "ordenID": "6a265ff9-2d46-4214-87f7-b37a2411a86c"
@@ -4856,7 +4856,7 @@
     "vehiculos": 374,
     "origen": "Kuala Lumpur",
     "destino": "Pasadena",
-    "estado": "null",
+    "estado": "Finalizada",
     "fecha_creacion": "6/18/2021",
     "comentarios": "<svg><script>0<1>alert('XSS')</script>",
     "ordenID": "901119b0-5482-4061-9fa0-2ff63d034adb"
@@ -4869,7 +4869,7 @@
     "vehiculos": 375,
     "origen": "Migues",
     "destino": "Dazi",
-    "estado": "̦H̬̤̗̤͝e͜ ̜̥̝̻͍̟́w̕h̖̯͓o̝͙̖͎̱̮ ҉̺̙̞̟͈W̷̼̭a̺̪͍į͈͕̭͙̯̜t̶̼̮s̘͙͖̕ ̠̫̠B̻͍͙͉̳ͅe̵h̵̬͇̫͙i̹͓̳̳̮͎̫̕n͟d̴̪̜̖ ̰͉̩͇͙̲͞ͅT͖̼͓̪͢h͏͓̮̻e̬̝̟ͅ ̤̹̝W͙̞̝͔͇͝ͅa͏͓͔̹̼̣l̴͔̰̤̟͔ḽ̫.͕",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "2/10/2021",
     "comentarios": "｀ｨ(´∀｀∩",
     "ordenID": "e59bc694-49e8-448f-999c-cf210ffddefd"
@@ -4999,7 +4999,7 @@
     "vehiculos": 385,
     "origen": "Zhenqian",
     "destino": "Kandun",
-    "estado": "パーティーへ行かないか",
+    "estado": "Cancelada",
     "fecha_creacion": "8/14/2021",
     "comentarios": "`⁄€‹›ﬁﬂ‡°·‚—±",
     "ordenID": "df2acbb7-20c4-4cfa-9d78-b7917b2de0d9"
@@ -5012,7 +5012,7 @@
     "vehiculos": 386,
     "origen": "Ketawang",
     "destino": "Gaopu",
-    "estado": "-1",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "5/15/2021",
     "comentarios": "⁰⁴⁵",
     "ordenID": "b78ebd67-abf3-4377-a3c4-4dcf9e3a805c"
@@ -5051,7 +5051,7 @@
     "vehiculos": 389,
     "origen": "Huruta",
     "destino": "Hongsipu",
-    "estado": "1/0",
+    "estado": "Despachada",
     "fecha_creacion": "9/24/2021",
     "comentarios": "社會科學院語學研究所",
     "ordenID": "68a31f21-f576-4bce-bae9-68a3b3a7bed8"
@@ -5064,7 +5064,7 @@
     "vehiculos": 390,
     "origen": "Fangtian",
     "destino": "Senhor da Serra",
-    "estado": "🐵 🙈 🙉 🙊",
+    "estado": "Cancelada",
     "fecha_creacion": "8/22/2021",
     "comentarios": "test⁠test‫",
     "ordenID": "2e5ab0e5-3470-4eb8-bb7f-0c71324875ea"
@@ -5077,7 +5077,7 @@
     "vehiculos": 391,
     "origen": "Cavinti",
     "destino": "Kotaagung",
-    "estado": "ثم نفس سقطت وبالتحديد،, جزيرتي باستخدام أن دنو. إذ هنا؟ الستار وتنصيب كان. أهّل ايطاليا، بريطانيا-فرنسا قد أخذ. سليمان، إتفاقية بين ما, يذكر الحدود أي بعد, معاملة بولندا، الإطلاق عل إيو.",
+    "estado": "Finalizada",
     "fecha_creacion": "11/27/2021",
     "comentarios": "() { _; } >_[$($())] { touch /tmp/blns.shellshock2.fail; }",
     "ordenID": "e0211d49-fbc6-492c-9897-f05254fd62d2"
@@ -5090,7 +5090,7 @@
     "vehiculos": 392,
     "origen": "Dovhe",
     "destino": "Pinhão",
-    "estado": "-1E+02",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "3/6/2021",
     "comentarios": "(｡◕ ∀ ◕｡)",
     "ordenID": "5af6b3a9-fcaf-484a-93ae-6f99b454c3c5"
@@ -5103,7 +5103,7 @@
     "vehiculos": 393,
     "origen": "Sriwing",
     "destino": "Maindang",
-    "estado": "test",
+    "estado": "Finalizada",
     "fecha_creacion": "6/13/2021",
     "comentarios": "1/0",
     "ordenID": "e81d7b7b-d89e-4086-81cb-727e28cc7161"
@@ -5155,7 +5155,7 @@
     "vehiculos": 397,
     "origen": "Xinpu",
     "destino": "Sacotes",
-    "estado": "｀ｨ(´∀｀∩",
+    "estado": "Cancelada",
     "fecha_creacion": "6/15/2021",
     "comentarios": "-1.00",
     "ordenID": "c320aa6c-7274-4349-945b-f14ffb7b2698"
@@ -5233,7 +5233,7 @@
     "vehiculos": 403,
     "origen": "Ungus-Ungus",
     "destino": "Gunungkoneng",
-    "estado": "œ∑´®†¥¨ˆøπ“‘",
+    "estado": "Despachada",
     "fecha_creacion": "6/9/2021",
     "comentarios": "œ∑´®†¥¨ˆøπ“‘",
     "ordenID": "a2d03e37-29b1-44c8-8195-380de55b45f1"
@@ -5272,7 +5272,7 @@
     "vehiculos": 406,
     "origen": "Xianyuan",
     "destino": "Mocímboa",
-    "estado": "`⁄€‹›ﬁﬂ‡°·‚—±",
+    "estado": "Finalizada",
     "fecha_creacion": "4/16/2021",
     "comentarios": "בְּרֵאשִׁית, בָּרָא אֱלֹהִים, אֵת הַשָּׁמַיִם, וְאֵת הָאָרֶץ",
     "ordenID": "1594cbb3-2f70-4502-bc4b-f4fa5eb9f5a4"
@@ -5298,7 +5298,7 @@
     "vehiculos": 408,
     "origen": "Norak",
     "destino": "Bilhó",
-    "estado": "999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999",
+    "estado": "Despachada",
     "fecha_creacion": "12/2/2020",
     "comentarios": "1E+02",
     "ordenID": "9ac32ce4-c516-4ab6-b2ce-3542ab11066b"
@@ -5311,7 +5311,7 @@
     "vehiculos": 409,
     "origen": "Nowe Miasto nad Pilicą",
     "destino": "Gudja",
-    "estado": "\"\"",
+    "estado": "Finalizada",
     "fecha_creacion": "8/28/2021",
     "comentarios": "0/0",
     "ordenID": "52f68a68-7ede-4fcf-ac9f-a72ee9782a7a"
@@ -5337,7 +5337,7 @@
     "vehiculos": 411,
     "origen": "Göteborg",
     "destino": "Zhuravka",
-    "estado": null,
+    "estado": "Cancelada",
     "fecha_creacion": "9/20/2021",
     "comentarios": "‪‪test‪",
     "ordenID": "e085d5ce-a249-4f7a-9d13-51d025938ed4"
@@ -5376,7 +5376,7 @@
     "vehiculos": 414,
     "origen": "Totoral",
     "destino": "Pyshchug",
-    "estado": "<>?:\"{}|_+",
+    "estado": "Cancelada",
     "fecha_creacion": "5/17/2021",
     "comentarios": "̗̺͖̹̯͓Ṯ̤͍̥͇͈h̲́e͏͓̼̗̙̼̣͔ ͇̜̱̠͓͍ͅN͕͠e̗̱z̘̝̜̺͙p̤̺̹͍̯͚e̠̻̠͜r̨̤͍̺̖͔̖̖d̠̟̭̬̝͟i̦͖̩͓͔̤a̠̗̬͉̙n͚͜ ̻̞̰͚ͅh̵͉i̳̞v̢͇ḙ͎͟-҉̭̩̼͔m̤̭̫i͕͇̝̦n̗͙ḍ̟ ̯̲͕͞ǫ̟̯̰̲͙̻̝f ̪̰̰̗̖̭̘͘c̦͍̲̞͍̩̙ḥ͚a̮͎̟̙͜ơ̩̹͎s̤.̝̝ ҉Z̡̖̜͖̰̣͉̜a͖̰͙̬͡l̲̫̳͍̩g̡̟̼̱͚̞̬ͅo̗͜.̟",
     "ordenID": "22df43e2-6df4-4506-92e4-861383d16e06"
@@ -5389,7 +5389,7 @@
     "vehiculos": 415,
     "origen": "Kalampáka",
     "destino": "Fabianki",
-    "estado": "١٢٣",
+    "estado": "Despachada",
     "fecha_creacion": "9/6/2021",
     "comentarios": "1'; DROP TABLE users--",
     "ordenID": "c63e6f2d-bc95-4b2b-ae60-7dcb7d0f88c1"
@@ -5402,7 +5402,7 @@
     "vehiculos": 416,
     "origen": "Villa Castelli",
     "destino": "Chigan",
-    "estado": null,
+    "estado": "Cancelada",
     "fecha_creacion": "3/12/2021",
     "comentarios": "Z̮̞̠͙͔ͅḀ̗̞͈̻̗Ḷ͙͎̯̹̞͓G̻O̭̗̮",
     "ordenID": "db843bbb-e07e-4d5d-a77b-7f992656afa9"
@@ -5415,7 +5415,7 @@
     "vehiculos": 417,
     "origen": "Kadaka",
     "destino": "Mashizhai",
-    "estado": "הָיְתָהtestالصفحات التّحول",
+    "estado": "Despachada",
     "fecha_creacion": "12/26/2020",
     "comentarios": ",./;'[]\\-=",
     "ordenID": "8ee9fd2e-287b-4471-ab08-11e8d106d5dc"
@@ -5428,7 +5428,7 @@
     "vehiculos": 418,
     "origen": "Guadalupe",
     "destino": "Alès",
-    "estado": "¸˛Ç◊ı˜Â¯˘¿",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "9/29/2021",
     "comentarios": "・(￣∀￣)・:*:",
     "ordenID": "6ffab67e-f1ee-4488-bf74-c18cdc839990"
@@ -5441,7 +5441,7 @@
     "vehiculos": 419,
     "origen": "Jianxincun",
     "destino": "Laixi",
-    "estado": "ÅÍÎÏ˝ÓÔÒÚÆ☃",
+    "estado": "Finalizada",
     "fecha_creacion": "8/27/2021",
     "comentarios": "$1.00",
     "ordenID": "b5e7fb5d-a0d9-477d-8cf0-aa022b39d4cc"
@@ -5467,7 +5467,7 @@
     "vehiculos": 421,
     "origen": "Famagusta",
     "destino": "Bernardo Larroudé",
-    "estado": "̦H̬̤̗̤͝e͜ ̜̥̝̻͍̟́w̕h̖̯͓o̝͙̖͎̱̮ ҉̺̙̞̟͈W̷̼̭a̺̪͍į͈͕̭͙̯̜t̶̼̮s̘͙͖̕ ̠̫̠B̻͍͙͉̳ͅe̵h̵̬͇̫͙i̹͓̳̳̮͎̫̕n͟d̴̪̜̖ ̰͉̩͇͙̲͞ͅT͖̼͓̪͢h͏͓̮̻e̬̝̟ͅ ̤̹̝W͙̞̝͔͇͝ͅa͏͓͔̹̼̣l̴͔̰̤̟͔ḽ̫.͕",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "11/29/2020",
     "comentarios": "⁰⁴⁵₀₁₂",
     "ordenID": "f32cf82e-1590-4752-b237-f3e5395cc8f8"
@@ -5493,7 +5493,7 @@
     "vehiculos": 423,
     "origen": "Lewoduli",
     "destino": "Quimper",
-    "estado": "`⁄€‹›ﬁﬂ‡°·‚—±",
+    "estado": "Finalizada",
     "fecha_creacion": "9/1/2021",
     "comentarios": "1'; DROP TABLE users--",
     "ordenID": "81ade3e2-b183-4b84-bd7e-c78b0dee52fd"
@@ -5532,7 +5532,7 @@
     "vehiculos": 426,
     "origen": "São Bento do Sul",
     "destino": "Pyin Oo Lwin",
-    "estado": "-1.00",
+    "estado": "Finalizada",
     "fecha_creacion": "6/8/2021",
     "comentarios": "œ∑´®†¥¨ˆøπ“‘",
     "ordenID": "3a89f9c0-264a-4382-9fa7-fb77124a125b"
@@ -5545,7 +5545,7 @@
     "vehiculos": 427,
     "origen": "Baochang",
     "destino": "Mlalo",
-    "estado": "̦H̬̤̗̤͝e͜ ̜̥̝̻͍̟́w̕h̖̯͓o̝͙̖͎̱̮ ҉̺̙̞̟͈W̷̼̭a̺̪͍į͈͕̭͙̯̜t̶̼̮s̘͙͖̕ ̠̫̠B̻͍͙͉̳ͅe̵h̵̬͇̫͙i̹͓̳̳̮͎̫̕n͟d̴̪̜̖ ̰͉̩͇͙̲͞ͅT͖̼͓̪͢h͏͓̮̻e̬̝̟ͅ ̤̹̝W͙̞̝͔͇͝ͅa͏͓͔̹̼̣l̴͔̰̤̟͔ḽ̫.͕",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "2/20/2021",
     "comentarios": "社會科學院語學研究所",
     "ordenID": "d461df0e-62b9-4627-91a5-1c9c656c5a80"
@@ -5558,7 +5558,7 @@
     "vehiculos": 428,
     "origen": "Leskovac",
     "destino": "Keta",
-    "estado": "🐵 🙈 🙉 🙊",
+    "estado": "Cancelada",
     "fecha_creacion": "2/20/2021",
     "comentarios": "1'; DROP TABLE users--",
     "ordenID": "c93d19a3-236a-484c-a673-20d2b905616c"
@@ -5571,7 +5571,7 @@
     "vehiculos": 429,
     "origen": "Dunleer",
     "destino": "Valparaíso",
-    "estado": "-1.00",
+    "estado": "Finalizada",
     "fecha_creacion": "1/14/2021",
     "comentarios": "__ﾛ(,_,*)",
     "ordenID": "29e900c5-40b9-434c-8e55-a6253501b101"
@@ -5584,7 +5584,7 @@
     "vehiculos": 430,
     "origen": "Cikujang",
     "destino": "Boshi",
-    "estado": "'\"'",
+    "estado": "Despachada",
     "fecha_creacion": "12/16/2020",
     "comentarios": "œ∑´®†¥¨ˆøπ“‘",
     "ordenID": "ee9ae165-0ad2-436e-a4aa-62a63642bfd4"
@@ -5597,7 +5597,7 @@
     "vehiculos": 431,
     "origen": "São Tomé",
     "destino": "Jianxi",
-    "estado": "̦H̬̤̗̤͝e͜ ̜̥̝̻͍̟́w̕h̖̯͓o̝͙̖͎̱̮ ҉̺̙̞̟͈W̷̼̭a̺̪͍į͈͕̭͙̯̜t̶̼̮s̘͙͖̕ ̠̫̠B̻͍͙͉̳ͅe̵h̵̬͇̫͙i̹͓̳̳̮͎̫̕n͟d̴̪̜̖ ̰͉̩͇͙̲͞ͅT͖̼͓̪͢h͏͓̮̻e̬̝̟ͅ ̤̹̝W͙̞̝͔͇͝ͅa͏͓͔̹̼̣l̴͔̰̤̟͔ḽ̫.͕",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "3/19/2021",
     "comentarios": "₀₁₂",
     "ordenID": "8c74f777-4772-417a-9413-ce774a4ee311"
@@ -5610,7 +5610,7 @@
     "vehiculos": 432,
     "origen": "Rijswijk",
     "destino": "Antsohimbondrona",
-    "estado": "NULL",
+    "estado": "Finalizada",
     "fecha_creacion": "1/13/2021",
     "comentarios": "｀ｨ(´∀｀∩",
     "ordenID": "80d4b1dc-cf26-40ac-a097-a09523ca9507"
@@ -5623,7 +5623,7 @@
     "vehiculos": 433,
     "origen": "Oro Timur",
     "destino": "Paris 17",
-    "estado": "בְּרֵאשִׁית, בָּרָא אֱלֹהִים, אֵת הַשָּׁמַיִם, וְאֵת הָאָרֶץ",
+    "estado": "Despachada",
     "fecha_creacion": "6/24/2021",
     "comentarios": "田中さんにあげて下さい",
     "ordenID": "755c46d4-5c32-4375-959e-352b86224e53"
@@ -5636,7 +5636,7 @@
     "vehiculos": 434,
     "origen": "Novaya Mayna",
     "destino": "Kafr Thulth",
-    "estado": "␡",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "10/5/2021",
     "comentarios": "✋🏿 💪🏿 👐🏿 🙌🏿 👏🏿 🙏🏿",
     "ordenID": "647d78c2-e291-4939-b721-dbd3ffb63de6"
@@ -5649,7 +5649,7 @@
     "vehiculos": 435,
     "origen": "Doropayung",
     "destino": "Ta’ Xbiex",
-    "estado": null,
+    "estado": "Cancelada",
     "fecha_creacion": "1/18/2021",
     "comentarios": "¸˛Ç◊ı˜Â¯˘¿",
     "ordenID": "d30dad8c-e2d4-434b-9de4-9b3e08dce7b9"
@@ -5662,7 +5662,7 @@
     "vehiculos": 436,
     "origen": "Changyŏn",
     "destino": "Dazhigu",
-    "estado": "パーティーへ行かないか",
+    "estado": "Cancelada",
     "fecha_creacion": "12/25/2020",
     "comentarios": "-1E2",
     "ordenID": "4e3cd8a9-d5db-491e-ae59-3c05abac3d40"
@@ -5688,7 +5688,7 @@
     "vehiculos": 438,
     "origen": "Mymensingh",
     "destino": "Aramecina",
-    "estado": "'\"'",
+    "estado": "Despachada",
     "fecha_creacion": "2/26/2021",
     "comentarios": "Z̮̞̠͙͔ͅḀ̗̞͈̻̗Ḷ͙͎̯̹̞͓G̻O̭̗̮",
     "ordenID": "3ae37e1b-9656-43f9-8451-14645c1dd02f"
@@ -5701,7 +5701,7 @@
     "vehiculos": 439,
     "origen": "Greda",
     "destino": "Praia do Ribatejo",
-    "estado": "../../../../../../../../../../../etc/passwd%00",
+    "estado": "Despachada",
     "fecha_creacion": "8/27/2021",
     "comentarios": "(｡◕ ∀ ◕｡)",
     "ordenID": "c331e3aa-9854-43f8-8224-0d89ba7c2094"
@@ -5740,7 +5740,7 @@
     "vehiculos": 442,
     "origen": "Banjar Timbrah",
     "destino": "Shangrao",
-    "estado": "\"'\"'\"''''\"",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "10/9/2021",
     "comentarios": "''",
     "ordenID": "15672160-adb5-48a1-9a8e-09d2ec3304fa"
@@ -5753,7 +5753,7 @@
     "vehiculos": 443,
     "origen": "Bela Vista",
     "destino": "Aix-en-Provence",
-    "estado": "../../../../../../../../../../../etc/hosts",
+    "estado": "Cancelada",
     "fecha_creacion": "6/20/2021",
     "comentarios": "🐵 🙈 🙉 🙊",
     "ordenID": "4996248e-b50a-438b-8b55-856dc54d44dd"
@@ -5766,7 +5766,7 @@
     "vehiculos": 444,
     "origen": "Subic",
     "destino": "Communal",
-    "estado": "パーティーへ行かないか",
+    "estado": "Cancelada",
     "fecha_creacion": "1/7/2021",
     "comentarios": "᠎",
     "ordenID": "881c0f02-8740-4853-ae98-6ca07516dd5a"
@@ -5792,7 +5792,7 @@
     "vehiculos": 446,
     "origen": "Brudzeń Duży",
     "destino": "Parikkala",
-    "estado": "NULL",
+    "estado": "Finalizada",
     "fecha_creacion": "10/19/2021",
     "comentarios": "🚾 🆒 🆓 🆕 🆖 🆗 🆙 🏧",
     "ordenID": "04d6814c-687c-456a-b3de-ea1a0d8a0e8e"
@@ -5805,7 +5805,7 @@
     "vehiculos": 447,
     "origen": "Ronda",
     "destino": "San José",
-    "estado": "⁰⁴⁵₀₁₂",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "2/9/2021",
     "comentarios": "\"",
     "ordenID": "5e78028b-855a-45fc-9ede-c50760f48d83"
@@ -5818,7 +5818,7 @@
     "vehiculos": 448,
     "origen": "Langqi",
     "destino": "Fontenay-sous-Bois",
-    "estado": "١٢٣",
+    "estado": "Despachada",
     "fecha_creacion": "6/10/2021",
     "comentarios": "\"\"",
     "ordenID": "fb72e9e2-7c38-4424-b1d7-85b193f83b80"
@@ -5831,7 +5831,7 @@
     "vehiculos": 449,
     "origen": "Dolod",
     "destino": "Alingsås",
-    "estado": null,
+    "estado": "Cancelada",
     "fecha_creacion": "5/19/2021",
     "comentarios": "<script>alert('hi')</script>",
     "ordenID": "90de2f70-d4eb-4c09-9211-2d18746b5a81"
@@ -5844,7 +5844,7 @@
     "vehiculos": 450,
     "origen": "Prainha de Baixo",
     "destino": "Santa Cruz do Bispo",
-    "estado": "␡",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "7/6/2021",
     "comentarios": "사회과학원 어학연구소",
     "ordenID": "53bb2068-7e99-42ea-b9b6-010fc91224ee"
@@ -5870,7 +5870,7 @@
     "vehiculos": 452,
     "origen": "Milovice",
     "destino": "Briceni",
-    "estado": "｀ｨ(´∀｀∩",
+    "estado": "Cancelada",
     "fecha_creacion": "4/22/2021",
     "comentarios": "(ﾉಥ益ಥ）ﾉ﻿ ┻━┻",
     "ordenID": "e1dd8a11-2d79-4bd3-99f8-322b6dd32751"
@@ -5883,7 +5883,7 @@
     "vehiculos": 453,
     "origen": "Tamatam",
     "destino": "Twyford",
-    "estado": "👾 🙇 💁 🙅 🙆 🙋 🙎 🙍 ",
+    "estado": "Despachada",
     "fecha_creacion": "12/9/2020",
     "comentarios": "ﾟ･✿ヾ╲(｡◕‿◕｡)╱✿･ﾟ",
     "ordenID": "e0c20c56-feb1-4258-b439-ba8f64498054"
@@ -5909,7 +5909,7 @@
     "vehiculos": 455,
     "origen": "El Sombrero",
     "destino": "Manjo",
-    "estado": "/dev/null; touch /tmp/blns.fail ; echo",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "3/27/2021",
     "comentarios": "1;DROP TABLE users",
     "ordenID": "fe824f82-1b6e-44ff-a47a-11b16ac5d1af"
@@ -5922,7 +5922,7 @@
     "vehiculos": 456,
     "origen": "Solna",
     "destino": "Cikulina",
-    "estado": "999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999",
+    "estado": "Despachada",
     "fecha_creacion": "3/4/2021",
     "comentarios": "﻿",
     "ordenID": "8e7abf0e-470a-45ee-a290-77ad9d8e310a"
@@ -5935,7 +5935,7 @@
     "vehiculos": 457,
     "origen": "Nankou",
     "destino": "Kungsbacka",
-    "estado": "test",
+    "estado": "Finalizada",
     "fecha_creacion": "3/20/2021",
     "comentarios": "NULL",
     "ordenID": "2ff6a2d5-927a-4c9a-a3d4-3013e230fbd1"
@@ -5961,7 +5961,7 @@
     "vehiculos": 459,
     "origen": "Haoping",
     "destino": "Alameda",
-    "estado": "﻿",
+    "estado": "Finalizada",
     "fecha_creacion": "2/1/2021",
     "comentarios": "사회과학원 어학연구소",
     "ordenID": "19f5d70a-4cc2-4546-922f-2291f816c965"
@@ -5974,7 +5974,7 @@
     "vehiculos": 460,
     "origen": "Palmeira",
     "destino": "Kugesi",
-    "estado": "../../../../../../../../../../../etc/passwd%00",
+    "estado": "Despachada",
     "fecha_creacion": "5/28/2021",
     "comentarios": "0.00",
     "ordenID": "b17383db-8f8b-46fa-ab5c-3d96570e5e85"
@@ -6052,7 +6052,7 @@
     "vehiculos": 466,
     "origen": "Huimin",
     "destino": "Nanyang",
-    "estado": "　",
+    "estado": "Despachada",
     "fecha_creacion": "5/21/2021",
     "comentarios": "᠎",
     "ordenID": "96edf770-dbce-4023-8b8c-00a7efa69e3d"
@@ -6078,7 +6078,7 @@
     "vehiculos": 468,
     "origen": "Qulai",
     "destino": "Mabua",
-    "estado": "__ﾛ(,_,*)",
+    "estado": "Finalizada",
     "fecha_creacion": "12/28/2020",
     "comentarios": null,
     "ordenID": "eed7895f-7aed-45f8-abca-3517681cd149"
@@ -6169,7 +6169,7 @@
     "vehiculos": 475,
     "origen": "Liloan",
     "destino": "Heling",
-    "estado": "1;DROP TABLE users",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "1/26/2021",
     "comentarios": "(╯°□°）╯︵ ┻━┻)  ",
     "ordenID": "030b2f48-1263-47e9-915e-8e6855cfdb15"
@@ -6182,7 +6182,7 @@
     "vehiculos": 476,
     "origen": "Pasrukrajan Satu",
     "destino": "Lonya Chico",
-    "estado": "00˙Ɩ$-",
+    "estado": "Despachada",
     "fecha_creacion": "5/28/2021",
     "comentarios": "-$1.00",
     "ordenID": "a79ee16f-efc9-4473-8c7a-4c21a2866464"
@@ -6195,7 +6195,7 @@
     "vehiculos": 477,
     "origen": "Huaqiu",
     "destino": "Sidi Lamine",
-    "estado": "__ﾛ(,_,*)",
+    "estado": "Finalizada",
     "fecha_creacion": "12/20/2020",
     "comentarios": "ﾟ･✿ヾ╲(｡◕‿◕｡)╱✿･ﾟ",
     "ordenID": "780991ab-ce43-4036-8a62-63d0ae4a3a12"
@@ -6221,7 +6221,7 @@
     "vehiculos": 479,
     "origen": "Thị Trấn Mộc Châu",
     "destino": "Sīrīs",
-    "estado": "\"\"",
+    "estado": "Finalizada",
     "fecha_creacion": "10/18/2021",
     "comentarios": "œ∑´®†¥¨ˆøπ“‘",
     "ordenID": "a85be013-4c66-498c-80ca-16da29c95193"
@@ -6247,7 +6247,7 @@
     "vehiculos": 481,
     "origen": "Jichang",
     "destino": "Santa Marcela",
-    "estado": "-$1.00",
+    "estado": "Cancelada",
     "fecha_creacion": "3/15/2021",
     "comentarios": "-1E02",
     "ordenID": "45b61ed3-d810-4dd1-bba9-e6439574699f"
@@ -6273,7 +6273,7 @@
     "vehiculos": 483,
     "origen": "Ciénaga de Oro",
     "destino": "Chervone",
-    "estado": "999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999",
+    "estado": "Despachada",
     "fecha_creacion": "5/30/2021",
     "comentarios": "\"",
     "ordenID": "9514f550-44d9-4615-8f42-ee0a7f2be4d9"
@@ -6286,7 +6286,7 @@
     "vehiculos": 484,
     "origen": "Urachiche",
     "destino": "Abilay",
-    "estado": "1;DROP TABLE users",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "2/6/2021",
     "comentarios": "1/2",
     "ordenID": "da4f4dbb-eee6-40be-98c2-061e32948513"
@@ -6299,7 +6299,7 @@
     "vehiculos": 485,
     "origen": "Quế Sơn",
     "destino": "Ondores",
-    "estado": "-$1.00",
+    "estado": "Cancelada",
     "fecha_creacion": "1/18/2021",
     "comentarios": "ثم نفس سقطت وبالتحديد،, جزيرتي باستخدام أن دنو. إذ هنا؟ الستار وتنصيب كان. أهّل ايطاليا، بريطانيا-فرنسا قد أخذ. سليمان، إتفاقية بين ما, يذكر الحدود أي بعد, معاملة بولندا، الإطلاق عل إيو.",
     "ordenID": "b962c69c-0acb-4d4a-ae96-0f59e1c1eee2"
@@ -6312,7 +6312,7 @@
     "vehiculos": 486,
     "origen": "Pawa",
     "destino": "Huage",
-    "estado": "00˙Ɩ$-",
+    "estado": "Despachada",
     "fecha_creacion": "3/30/2021",
     "comentarios": "-1",
     "ordenID": "0ef1058f-051a-482a-b28a-fdb7b11b681b"
@@ -6325,7 +6325,7 @@
     "vehiculos": 487,
     "origen": "Dinahican",
     "destino": "Santo Anastácio",
-    "estado": "👾 🙇 💁 🙅 🙆 🙋 🙎 🙍 ",
+    "estado": "Despachada",
     "fecha_creacion": "7/14/2021",
     "comentarios": "1/2",
     "ordenID": "5bd87d49-27eb-4728-9779-11364e8f84bf"
@@ -6338,7 +6338,7 @@
     "vehiculos": 488,
     "origen": "Kuzhuping",
     "destino": "Caoxi",
-    "estado": "␡",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "6/3/2021",
     "comentarios": "$1.00",
     "ordenID": "70bfc6d2-96c0-4305-bca7-514abe23f861"
@@ -6364,7 +6364,7 @@
     "vehiculos": 490,
     "origen": "Hougong",
     "destino": "Votorantim",
-    "estado": "<>?:\"{}|_+",
+    "estado": "Cancelada",
     "fecha_creacion": "1/22/2021",
     "comentarios": "0.00",
     "ordenID": "7dad8911-cce6-44e0-b997-93285c373810"
@@ -6390,7 +6390,7 @@
     "vehiculos": 492,
     "origen": "Massaranduba",
     "destino": "Skhodnya",
-    "estado": "和製漢語",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "10/10/2021",
     "comentarios": "̡͓̞ͅI̗̘̦͝n͇͇͙v̮̫ok̲̫̙͈i̖͙̭̹̠̞n̡̻̮̣̺g̲͈͙̭͙̬͎ ̰t͔̦h̞̲e̢̤ ͍̬̲͖f̴̘͕̣è͖ẹ̥̩l͖͔͚i͓͚̦͠n͖͍̗͓̳̮g͍ ̨o͚̪͡f̘̣̬ ̖̘͖̟͙̮c҉͔̫͖͓͇͖ͅh̵̤̣͚͔á̗̼͕ͅo̼̣̥s̱͈̺̖̦̻͢.̛̖̞̠̫̰",
     "ordenID": "80cce1a5-59b7-4808-bfa7-49d95fb183bd"
@@ -6403,7 +6403,7 @@
     "vehiculos": 493,
     "origen": "Kowŏn-ŭp",
     "destino": "Goiânia",
-    "estado": "בְּרֵאשִׁית, בָּרָא אֱלֹהִים, אֵת הַשָּׁמַיִם, וְאֵת הָאָרֶץ",
+    "estado": "Despachada",
     "fecha_creacion": "12/31/2020",
     "comentarios": "0️⃣ 1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣ 6️⃣ 7️⃣ 8️⃣ 9️⃣ 🔟",
     "ordenID": "5ac73560-6acc-4b35-9164-30783310c57f"
@@ -6416,7 +6416,7 @@
     "vehiculos": 494,
     "origen": "København",
     "destino": "Saipan",
-    "estado": "1/0",
+    "estado": "Despachada",
     "fecha_creacion": "4/10/2021",
     "comentarios": "1E2",
     "ordenID": "3b4a3e7a-b969-4613-a872-35e8e60cd610"
@@ -6429,7 +6429,7 @@
     "vehiculos": 495,
     "origen": "San Pascual",
     "destino": "Haoyi",
-    "estado": "null",
+    "estado": "Finalizada",
     "fecha_creacion": "3/21/2021",
     "comentarios": "₀₁₂",
     "ordenID": "2a66dab2-a86c-4a78-8c71-fcc479ef4c08"
@@ -6442,7 +6442,7 @@
     "vehiculos": 496,
     "origen": "Anyang-si",
     "destino": "Souziqiu",
-    "estado": "ÅÍÎÏ˝ÓÔÒÚÆ☃",
+    "estado": "Finalizada",
     "fecha_creacion": "1/16/2021",
     "comentarios": "-1E02",
     "ordenID": "b95c9591-a377-4379-a35b-a5eaaa24df0b"
@@ -6507,7 +6507,7 @@
     "vehiculos": 501,
     "origen": "Psachná",
     "destino": "Ferrol",
-    "estado": "␡",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "2/19/2021",
     "comentarios": "() { 0; }; touch /tmp/blns.shellshock1.fail;",
     "ordenID": "55c55909-ecd6-45e5-bea0-87b958d4942b"
@@ -6520,7 +6520,7 @@
     "vehiculos": 502,
     "origen": "Shuitai",
     "destino": "Jīsh",
-    "estado": "1/2",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "11/18/2021",
     "comentarios": "../../../../../../../../../../../etc/hosts",
     "ordenID": "7926afa4-8ea7-46aa-8195-cdd79c911f0a"
@@ -6533,7 +6533,7 @@
     "vehiculos": 503,
     "origen": "Vannes",
     "destino": "Lincoln",
-    "estado": "(╯°□°）╯︵ ┻━┻)  ",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "3/7/2021",
     "comentarios": "👩🏽",
     "ordenID": "e17da035-991b-450c-b794-567d110895b5"
@@ -6546,7 +6546,7 @@
     "vehiculos": 504,
     "origen": "Trzemeszno",
     "destino": "Currais Novos",
-    "estado": "👾 🙇 💁 🙅 🙆 🙋 🙎 🙍 ",
+    "estado": "Despachada",
     "fecha_creacion": "5/15/2021",
     "comentarios": "הָיְתָהtestالصفحات التّحول",
     "ordenID": "9a4cd237-8cf1-433c-85d4-7bb4877840ec"
@@ -6624,7 +6624,7 @@
     "vehiculos": 510,
     "origen": "San Miguel",
     "destino": "Mangero",
-    "estado": "｀ｨ(´∀｀∩",
+    "estado": "Cancelada",
     "fecha_creacion": "12/20/2020",
     "comentarios": "和製漢語",
     "ordenID": "1338af6c-beba-4541-b214-59c1f815dc26"
@@ -6637,7 +6637,7 @@
     "vehiculos": 511,
     "origen": "Shenkou",
     "destino": "Būrabay",
-    "estado": "בְּרֵאשִׁית, בָּרָא אֱלֹהִים, אֵת הַשָּׁמַיִם, וְאֵת הָאָרֶץ",
+    "estado": "Despachada",
     "fecha_creacion": "12/9/2020",
     "comentarios": "(ﾉಥ益ಥ）ﾉ﻿ ┻━┻",
     "ordenID": "7f117ce4-1e17-4e4b-a44c-025b8997b95e"
@@ -6650,7 +6650,7 @@
     "vehiculos": 512,
     "origen": "Huité",
     "destino": "Kermānshāh",
-    "estado": "🐵 🙈 🙉 🙊",
+    "estado": "Cancelada",
     "fecha_creacion": "8/30/2021",
     "comentarios": "הָיְתָהtestالصفحات التّحول",
     "ordenID": "f8daf28d-23ba-42b8-a2b9-7da917f7a878"
@@ -6663,7 +6663,7 @@
     "vehiculos": 513,
     "origen": "Tsiroanomandidy",
     "destino": "Liantan",
-    "estado": "｀ｨ(´∀｀∩",
+    "estado": "Cancelada",
     "fecha_creacion": "11/26/2021",
     "comentarios": "✋🏿 💪🏿 👐🏿 🙌🏿 👏🏿 🙏🏿",
     "ordenID": "f7843d7c-b2ec-418c-8997-e06e7d8c1000"
@@ -6676,7 +6676,7 @@
     "vehiculos": 514,
     "origen": "Jingchuan Chengguanzhen",
     "destino": "Kyaka",
-    "estado": "-1.00",
+    "estado": "Finalizada",
     "fecha_creacion": "2/27/2021",
     "comentarios": "\"",
     "ordenID": "95a0efeb-d496-4887-bb49-c04d9345963d"
@@ -6702,7 +6702,7 @@
     "vehiculos": 516,
     "origen": "Las Vegas",
     "destino": "Dalam",
-    "estado": "\"\"",
+    "estado": "Finalizada",
     "fecha_creacion": "7/17/2021",
     "comentarios": "-1E+02",
     "ordenID": "bbd48e6f-5454-4369-a972-5c2cbccbad32"
@@ -6780,7 +6780,7 @@
     "vehiculos": 522,
     "origen": "Tanūmah",
     "destino": "Rumat Heib",
-    "estado": "__ﾛ(,_,*)",
+    "estado": "Finalizada",
     "fecha_creacion": "10/10/2021",
     "comentarios": "​",
     "ordenID": "e08e3e84-9f81-472d-b05a-dde6d2ec6e28"
@@ -6793,7 +6793,7 @@
     "vehiculos": 523,
     "origen": "Cibunar",
     "destino": "Cachimayo",
-    "estado": "<img src=x onerror=alert('hi') />",
+    "estado": "Despachada",
     "fecha_creacion": "9/5/2021",
     "comentarios": "1E+02",
     "ordenID": "05708ae6-7b4c-4730-bf8c-080e8c41769c"
@@ -6806,7 +6806,7 @@
     "vehiculos": 524,
     "origen": "Gejiu",
     "destino": "Ti-n-Essako",
-    "estado": "パーティーへ行かないか",
+    "estado": "Cancelada",
     "fecha_creacion": "6/12/2021",
     "comentarios": "() { _; } >_[$($())] { touch /tmp/blns.shellshock2.fail; }",
     "ordenID": "1fec5625-a3cb-4e9d-b8bb-c0bc4860cc90"
@@ -6819,7 +6819,7 @@
     "vehiculos": 525,
     "origen": "Tân Hưng",
     "destino": "Honolulu",
-    "estado": "-1.00",
+    "estado": "Finalizada",
     "fecha_creacion": "5/5/2021",
     "comentarios": "<>?:\"{}|_+",
     "ordenID": "dfda4dd3-acad-404d-bf45-bf1f5659356e"
@@ -6845,7 +6845,7 @@
     "vehiculos": 527,
     "origen": "Cabugao",
     "destino": "Maddarulug Norte",
-    "estado": "₀₁₂",
+    "estado": "Finalizada",
     "fecha_creacion": "5/15/2021",
     "comentarios": "👩🏽",
     "ordenID": "b2cf795c-9bcd-48cd-a984-1c79ba7a8a82"
@@ -6871,7 +6871,7 @@
     "vehiculos": 529,
     "origen": "Chayek",
     "destino": "New Bedford",
-    "estado": "(╯°□°）╯︵ ┻━┻)  ",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "6/1/2021",
     "comentarios": "‫test‫",
     "ordenID": "b08e7c40-0bbd-404a-9af3-c7376dfc9466"
@@ -6884,7 +6884,7 @@
     "vehiculos": 530,
     "origen": "Kabarnet",
     "destino": "Béthune",
-    "estado": "␡",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "11/2/2021",
     "comentarios": "1'; DROP TABLE users--",
     "ordenID": "7b44ba60-0950-4587-ab10-de9738be0613"
@@ -6897,7 +6897,7 @@
     "vehiculos": 531,
     "origen": "Borås",
     "destino": "Tanglag",
-    "estado": "\"'\"'\"''''\"",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "6/27/2021",
     "comentarios": "1;DROP TABLE users",
     "ordenID": "2dd85340-518a-4c3c-b092-43c9c7874188"
@@ -6910,7 +6910,7 @@
     "vehiculos": 532,
     "origen": "Koktokay",
     "destino": "Aurora",
-    "estado": "-1.00",
+    "estado": "Finalizada",
     "fecha_creacion": "2/13/2021",
     "comentarios": "-1/2",
     "ordenID": "03f4ad3b-b955-4ca2-b35e-e9ea46d4069f"
@@ -6923,7 +6923,7 @@
     "vehiculos": 533,
     "origen": "Nanmu",
     "destino": "Pangascasan",
-    "estado": "-1",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "3/20/2021",
     "comentarios": "和製漢語",
     "ordenID": "3e063e79-d26f-4478-b559-d3d0921c0c9b"
@@ -7027,7 +7027,7 @@
     "vehiculos": 541,
     "origen": "Zhongfan",
     "destino": "Panamá",
-    "estado": "パーティーへ行かないか",
+    "estado": "Cancelada",
     "fecha_creacion": "1/6/2021",
     "comentarios": "1;DROP TABLE users",
     "ordenID": "ede77be0-84e2-46be-8c5d-ca313d260642"
@@ -7053,7 +7053,7 @@
     "vehiculos": 543,
     "origen": "Karlshamn",
     "destino": "Rokytne",
-    "estado": "١٢٣",
+    "estado": "Despachada",
     "fecha_creacion": "9/19/2021",
     "comentarios": "和製漢語",
     "ordenID": "3ba35ec5-1d85-416f-86d6-76c8bc8c440b"
@@ -7079,7 +7079,7 @@
     "vehiculos": 545,
     "origen": "Helsingborg",
     "destino": "Frolovo",
-    "estado": "ثم نفس سقطت وبالتحديد،, جزيرتي باستخدام أن دنو. إذ هنا؟ الستار وتنصيب كان. أهّل ايطاليا، بريطانيا-فرنسا قد أخذ. سليمان، إتفاقية بين ما, يذكر الحدود أي بعد, معاملة بولندا، الإطلاق عل إيو.",
+    "estado": "Finalizada",
     "fecha_creacion": "3/4/2021",
     "comentarios": "<>?:\"{}|_+",
     "ordenID": "d29e2ef7-e80d-472b-93d3-482d45eddf5b"
@@ -7105,7 +7105,7 @@
     "vehiculos": 547,
     "origen": "Makale",
     "destino": "Youxi Chengguanzhen",
-    "estado": "１２３",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "6/30/2021",
     "comentarios": "・(￣∀￣)・:*:",
     "ordenID": "30359c01-c3ec-4693-b9df-e5e7c109ad11"
@@ -7118,7 +7118,7 @@
     "vehiculos": 548,
     "origen": "Middleton",
     "destino": "Plato",
-    "estado": "␢",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "6/1/2021",
     "comentarios": "-1",
     "ordenID": "5bf4c393-2eb1-40d6-ad39-b79a4cf3128c"
@@ -7144,7 +7144,7 @@
     "vehiculos": 550,
     "origen": "Suvorovo",
     "destino": "Nijmegen",
-    "estado": "../../../../../../../../../../../etc/hosts",
+    "estado": "Cancelada",
     "fecha_creacion": "6/17/2021",
     "comentarios": "(ﾉಥ益ಥ）ﾉ﻿ ┻━┻",
     "ordenID": "7ea365de-d4e9-4597-a1d2-8ff7734e4809"
@@ -7157,7 +7157,7 @@
     "vehiculos": 551,
     "origen": "Rosmalen",
     "destino": "Thanatpin",
-    "estado": "'\"'",
+    "estado": "Despachada",
     "fecha_creacion": "7/15/2021",
     "comentarios": "../../../../../../../../../../../etc/passwd%00",
     "ordenID": "fbfbb43b-6eee-4a11-a709-31f4c0846f3d"
@@ -7183,7 +7183,7 @@
     "vehiculos": 553,
     "origen": "Futang",
     "destino": "Boulogne-Billancourt",
-    "estado": "œ∑´®†¥¨ˆøπ“‘",
+    "estado": "Despachada",
     "fecha_creacion": "2/3/2021",
     "comentarios": "　",
     "ordenID": "17c67f2b-7111-4c82-a25e-23ef88fc34eb"
@@ -7196,7 +7196,7 @@
     "vehiculos": 554,
     "origen": "Kalá Déndra",
     "destino": "Xiache",
-    "estado": "\"\"",
+    "estado": "Finalizada",
     "fecha_creacion": "7/27/2021",
     "comentarios": "⁰⁴⁵₀₁₂",
     "ordenID": "577f14bb-851f-41a8-a0f3-ef24cc42a7e4"
@@ -7209,7 +7209,7 @@
     "vehiculos": 555,
     "origen": "Suchen",
     "destino": "Jawhar",
-    "estado": "<script>alert('hi')</script>",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "9/4/2021",
     "comentarios": "-1/2",
     "ordenID": "3a4f4dc9-f259-4df1-93b3-d1f6a24ae152"
@@ -7222,7 +7222,7 @@
     "vehiculos": 556,
     "origen": "Ráječko",
     "destino": "Youfang",
-    "estado": "¸˛Ç◊ı˜Â¯˘¿",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "8/18/2021",
     "comentarios": "👾 🙇 💁 🙅 🙆 🙋 🙎 🙍 ",
     "ordenID": "cad7842a-a7e4-4e9f-a1e7-e73947e9bc2e"
@@ -7235,7 +7235,7 @@
     "vehiculos": 557,
     "origen": "Belūsovka",
     "destino": "Hägersten",
-    "estado": "-1.00",
+    "estado": "Finalizada",
     "fecha_creacion": "4/13/2021",
     "comentarios": "`⁄€‹›ﬁﬂ‡°·‚—±",
     "ordenID": "21ddd254-bb91-42bb-ad1a-a7b6a232c827"
@@ -7248,7 +7248,7 @@
     "vehiculos": 558,
     "origen": "Dambořice",
     "destino": "Largo",
-    "estado": "␡",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "3/14/2021",
     "comentarios": "(╯°□°）╯︵ ┻━┻)  ",
     "ordenID": "f1e454e2-bd22-42e5-b09f-95757db4acfc"
@@ -7261,7 +7261,7 @@
     "vehiculos": 559,
     "origen": "Palaiomonástiron",
     "destino": "Kebonbencoy",
-    "estado": "../../../../../../../../../../../etc/passwd%00",
+    "estado": "Despachada",
     "fecha_creacion": "2/4/2021",
     "comentarios": "👾 🙇 💁 🙅 🙆 🙋 🙎 🙍 ",
     "ordenID": "0c2d8cea-1682-488a-9cd7-311be855e87d"
@@ -7274,7 +7274,7 @@
     "vehiculos": 560,
     "origen": "Labangka Satu",
     "destino": "Salvacion",
-    "estado": "(╯°□°）╯︵ ┻━┻)  ",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "5/23/2021",
     "comentarios": "'\"'",
     "ordenID": "d586f788-c9d9-43a6-953b-ebfc1f397b4b"
@@ -7313,7 +7313,7 @@
     "vehiculos": 563,
     "origen": "Port Nolloth",
     "destino": "Ciudad Bolívar",
-    "estado": "/dev/null; touch /tmp/blns.fail ; echo",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "12/23/2020",
     "comentarios": "-1",
     "ordenID": "82d208a1-49ea-4cd7-8f27-350da3d711d1"
@@ -7339,7 +7339,7 @@
     "vehiculos": 565,
     "origen": "Yunga",
     "destino": "Wulan Haye",
-    "estado": "-1E+02",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "6/29/2021",
     "comentarios": "nil",
     "ordenID": "27874907-1821-48a1-a528-9ad70bfcfb50"
@@ -7378,7 +7378,7 @@
     "vehiculos": 568,
     "origen": "San Rafael",
     "destino": "Baler Baleagung",
-    "estado": "__ﾛ(,_,*)",
+    "estado": "Finalizada",
     "fecha_creacion": "12/30/2020",
     "comentarios": "1/0",
     "ordenID": "e5512bd6-32d9-4f1a-93c4-6f78720e2f68"
@@ -7391,7 +7391,7 @@
     "vehiculos": 569,
     "origen": "Sŏnbong",
     "destino": "Tanahmerah",
-    "estado": "NULL",
+    "estado": "Finalizada",
     "fecha_creacion": "2/22/2021",
     "comentarios": "() { _; } >_[$($())] { touch /tmp/blns.shellshock2.fail; }",
     "ordenID": "0a961179-81bb-4450-98c2-ff04cfde3c15"
@@ -7417,7 +7417,7 @@
     "vehiculos": 571,
     "origen": "Emiliano Zapata",
     "destino": "Bouca",
-    "estado": "\"'\"'\"''''\"",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "12/13/2020",
     "comentarios": "١٢٣",
     "ordenID": "a976ebf2-e127-4ce5-915f-bc90c200855d"
@@ -7456,7 +7456,7 @@
     "vehiculos": 574,
     "origen": "Lubukgadang",
     "destino": "Águas Belas",
-    "estado": "\"\"",
+    "estado": "Finalizada",
     "fecha_creacion": "8/2/2021",
     "comentarios": "-$1.00",
     "ordenID": "b04d2d1b-bb40-4b1e-893d-f82d06dee747"
@@ -7482,7 +7482,7 @@
     "vehiculos": 576,
     "origen": "Kario",
     "destino": "Austin",
-    "estado": "test",
+    "estado": "Finalizada",
     "fecha_creacion": "12/17/2020",
     "comentarios": "˙ɐnbᴉlɐ ɐuƃɐɯ ǝɹolop ʇǝ ǝɹoqɐl ʇn ʇunpᴉpᴉɔuᴉ ɹodɯǝʇ poɯsnᴉǝ op pǝs 'ʇᴉlǝ ƃuᴉɔsᴉdᴉpɐ ɹnʇǝʇɔǝsuoɔ 'ʇǝɯɐ ʇᴉs ɹolop ɯnsdᴉ ɯǝɹo˥",
     "ordenID": "761a1dde-438d-4f0f-a7fc-20cc8ec9e0f4"
@@ -7495,7 +7495,7 @@
     "vehiculos": 577,
     "origen": "Xinjia",
     "destino": "Boca Suno",
-    "estado": "../../../../../../../../../../../etc/passwd%00",
+    "estado": "Despachada",
     "fecha_creacion": "4/29/2021",
     "comentarios": "・(￣∀￣)・:*:",
     "ordenID": "ac9a3d17-e6ad-4f86-8f20-423abe1cdea3"
@@ -7534,7 +7534,7 @@
     "vehiculos": 580,
     "origen": "Sanjiangkou",
     "destino": "Chãos",
-    "estado": "Z̮̞̠͙͔ͅḀ̗̞͈̻̗Ḷ͙͎̯̹̞͓G̻O̭̗̮",
+    "estado": "Despachada",
     "fecha_creacion": "5/12/2021",
     "comentarios": "åß∂ƒ©˙∆˚¬…æ",
     "ordenID": "3f94a4cb-d263-4ae6-9e64-76238d98801e"
@@ -7586,7 +7586,7 @@
     "vehiculos": 584,
     "origen": "Wanxian",
     "destino": "Ribeiro",
-    "estado": "<img src=x onerror=alert('hi') />",
+    "estado": "Despachada",
     "fecha_creacion": "4/26/2021",
     "comentarios": "❤️ 💔 💌 💕 💞 💓 💗 💖 💘 💝 💟 💜 💛 💚 💙",
     "ordenID": "e183188a-f5df-41b6-a6eb-14123c12a917"
@@ -7664,7 +7664,7 @@
     "vehiculos": 590,
     "origen": "Thai Charoen",
     "destino": "Hongde",
-    "estado": "999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999",
+    "estado": "Despachada",
     "fecha_creacion": "10/19/2021",
     "comentarios": "‫test‫",
     "ordenID": "2034065b-4dfd-4c7c-8a24-e6d280679367"
@@ -7690,7 +7690,7 @@
     "vehiculos": 592,
     "origen": "Caluya",
     "destino": "Lyubertsy",
-    "estado": "-1E+02",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "9/8/2021",
     "comentarios": "社會科學院語學研究所",
     "ordenID": "5158bf75-6626-4d32-bfde-dc7728b542f0"
@@ -7703,7 +7703,7 @@
     "vehiculos": 593,
     "origen": "Zátor",
     "destino": "Mont-Royal",
-    "estado": "בְּרֵאשִׁית, בָּרָא אֱלֹהִים, אֵת הַשָּׁמַיִם, וְאֵת הָאָרֶץ",
+    "estado": "Despachada",
     "fecha_creacion": "11/7/2021",
     "comentarios": "👩🏽",
     "ordenID": "74be4bc3-0af2-476c-b7d1-2cf85830ff4f"
@@ -7716,7 +7716,7 @@
     "vehiculos": 594,
     "origen": "Hammarö",
     "destino": "Cahuanuyo",
-    "estado": "👾 🙇 💁 🙅 🙆 🙋 🙎 🙍 ",
+    "estado": "Despachada",
     "fecha_creacion": "11/22/2021",
     "comentarios": "‫test‫",
     "ordenID": "f96e5895-ae64-4a61-948f-e9bbcf57a4e6"
@@ -7729,7 +7729,7 @@
     "vehiculos": 595,
     "origen": "Uppsala",
     "destino": "Santo Domingo Oeste",
-    "estado": "울란바토르",
+    "estado": "Finalizada",
     "fecha_creacion": "11/10/2021",
     "comentarios": "() { 0; }; touch /tmp/blns.shellshock1.fail;",
     "ordenID": "8c062bf1-d21c-4f38-94ea-49dcc6a0af3d"
@@ -7755,7 +7755,7 @@
     "vehiculos": 597,
     "origen": "Yambol",
     "destino": "Brinkmann",
-    "estado": "(╯°□°）╯︵ ┻━┻)  ",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "5/11/2021",
     "comentarios": "'\"'",
     "ordenID": "ce0ed37d-7b9c-4ec9-b8e4-4266161c099e"
@@ -7781,7 +7781,7 @@
     "vehiculos": 599,
     "origen": "Sidayu",
     "destino": "Ungheni",
-    "estado": "パーティーへ行かないか",
+    "estado": "Cancelada",
     "fecha_creacion": "11/16/2021",
     "comentarios": "<svg><script>0<1>alert('XSS')</script>",
     "ordenID": "6ac75a4f-6280-40d9-b981-3068e4482707"
@@ -7807,7 +7807,7 @@
     "vehiculos": 601,
     "origen": "Santa Ana",
     "destino": "Communal",
-    "estado": "Z̮̞̠͙͔ͅḀ̗̞͈̻̗Ḷ͙͎̯̹̞͓G̻O̭̗̮",
+    "estado": "Despachada",
     "fecha_creacion": "6/19/2021",
     "comentarios": "¸˛Ç◊ı˜Â¯˘¿",
     "ordenID": "8d7f1dda-87e3-48cc-b983-b43316863557"
@@ -7872,7 +7872,7 @@
     "vehiculos": 606,
     "origen": "Zamość",
     "destino": "Kieta",
-    "estado": "パーティーへ行かないか",
+    "estado": "Cancelada",
     "fecha_creacion": "4/4/2021",
     "comentarios": "<svg><script>0<1>alert('XSS')</script>",
     "ordenID": "ddd1470a-0287-402e-8609-15e2afa4df3e"
@@ -7885,7 +7885,7 @@
     "vehiculos": 607,
     "origen": "Tumauini",
     "destino": "Mberubu",
-    "estado": "Ṱ̺̺̕o͞ ̷i̲̬͇̪͙n̝̗͕v̟̜̘̦͟o̶̙̰̠kè͚̮̺̪̹̱̤ ̖t̝͕̳̣̻̪͞h̼͓̲̦̳̘̲e͇̣̰̦̬͎ ̢̼̻̱̘h͚͎͙̜̣̲ͅi̦̲̣̰̤v̻͍e̺̭̳̪̰-m̢iͅn̖̺̞̲̯̰d̵̼̟͙̩̼̘̳ ̞̥̱̳̭r̛̗̘e͙p͠r̼̞̻̭̗e̺̠̣͟s̘͇̳͍̝͉e͉̥̯̞̲͚̬͜ǹ̬͎͎̟̖͇̤t͍̬̤͓̼̭͘ͅi̪̱n͠g̴͉ ͏͉ͅc̬̟h͡a̫̻̯͘o̫̟̖͍̙̝͉s̗̦̲.̨̹͈̣",
+    "estado": "Despachada",
     "fecha_creacion": "11/20/2021",
     "comentarios": "NIL",
     "ordenID": "c48c8845-c409-4aa4-a06f-400b5a8c3d93"
@@ -7911,7 +7911,7 @@
     "vehiculos": 609,
     "origen": "Yaguajay",
     "destino": "Trångsund",
-    "estado": "() { _; } >_[$($())] { touch /tmp/blns.shellshock2.fail; }",
+    "estado": "Cancelada",
     "fecha_creacion": "9/19/2021",
     "comentarios": "<img src=x onerror=alert('hi') />",
     "ordenID": "d2f114da-6ea2-4840-a0a8-6badbab86167"
@@ -7950,7 +7950,7 @@
     "vehiculos": 612,
     "origen": "Bontoc",
     "destino": "Dagar",
-    "estado": "Z̮̞̠͙͔ͅḀ̗̞͈̻̗Ḷ͙͎̯̹̞͓G̻O̭̗̮",
+    "estado": "Despachada",
     "fecha_creacion": "10/30/2021",
     "comentarios": "和製漢語",
     "ordenID": "bed925a2-4550-46ad-b0ae-d17395cd493d"
@@ -8002,7 +8002,7 @@
     "vehiculos": 616,
     "origen": "Bangshipu",
     "destino": "Ganjiangtou",
-    "estado": "test",
+    "estado": "Finalizada",
     "fecha_creacion": "3/15/2021",
     "comentarios": "-1/2",
     "ordenID": "46aeb284-bc12-4067-90dc-36ebb1c066f4"
@@ -8028,7 +8028,7 @@
     "vehiculos": 618,
     "origen": "Banqiaodian",
     "destino": "Doujia",
-    "estado": "和製漢語",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "9/13/2021",
     "comentarios": "test",
     "ordenID": "1ffc07dc-b2f1-47b9-a641-4e1cdc5cc6cb"
@@ -8067,7 +8067,7 @@
     "vehiculos": 621,
     "origen": "Saint-Quentin",
     "destino": "Halmstad",
-    "estado": "ثم نفس سقطت وبالتحديد،, جزيرتي باستخدام أن دنو. إذ هنا؟ الستار وتنصيب كان. أهّل ايطاليا، بريطانيا-فرنسا قد أخذ. سليمان، إتفاقية بين ما, يذكر الحدود أي بعد, معاملة بولندا، الإطلاق عل إيو.",
+    "estado": "Finalizada",
     "fecha_creacion": "5/20/2021",
     "comentarios": "-1",
     "ordenID": "e542ebb0-41b6-47a6-be70-3888ad474ae9"
@@ -8080,7 +8080,7 @@
     "vehiculos": 622,
     "origen": "Bairros",
     "destino": "Ake-Eze",
-    "estado": "👾 🙇 💁 🙅 🙆 🙋 🙎 🙍 ",
+    "estado": "Despachada",
     "fecha_creacion": "1/19/2021",
     "comentarios": "בְּרֵאשִׁית, בָּרָא אֱלֹהִים, אֵת הַשָּׁמַיִם, וְאֵת הָאָרֶץ",
     "ordenID": "a44758b8-55a0-4ab3-9d9f-554e095e3930"
@@ -8132,7 +8132,7 @@
     "vehiculos": 626,
     "origen": "Wola Jachowa",
     "destino": "Jauja",
-    "estado": null,
+    "estado": "Cancelada",
     "fecha_creacion": "8/18/2021",
     "comentarios": "Ω≈ç√∫˜µ≤≥÷",
     "ordenID": "f93601f0-bb24-4bd7-bc87-8f34fe5e3869"
@@ -8158,7 +8158,7 @@
     "vehiculos": 628,
     "origen": "Sanxing",
     "destino": "Tebingtinggi",
-    "estado": "test",
+    "estado": "Finalizada",
     "fecha_creacion": "8/2/2021",
     "comentarios": "-1E+02",
     "ordenID": "ee35b132-24a1-4203-b6e0-accd63eed2c6"
@@ -8171,7 +8171,7 @@
     "vehiculos": 629,
     "origen": "Furmanov",
     "destino": "Chiquimulilla",
-    "estado": "¸˛Ç◊ı˜Â¯˘¿",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "4/14/2021",
     "comentarios": "​",
     "ordenID": "3e27150a-7b06-4abc-abac-f836ea343cc3"
@@ -8249,7 +8249,7 @@
     "vehiculos": 635,
     "origen": "Khorugh",
     "destino": "Paris 12",
-    "estado": "̦H̬̤̗̤͝e͜ ̜̥̝̻͍̟́w̕h̖̯͓o̝͙̖͎̱̮ ҉̺̙̞̟͈W̷̼̭a̺̪͍į͈͕̭͙̯̜t̶̼̮s̘͙͖̕ ̠̫̠B̻͍͙͉̳ͅe̵h̵̬͇̫͙i̹͓̳̳̮͎̫̕n͟d̴̪̜̖ ̰͉̩͇͙̲͞ͅT͖̼͓̪͢h͏͓̮̻e̬̝̟ͅ ̤̹̝W͙̞̝͔͇͝ͅa͏͓͔̹̼̣l̴͔̰̤̟͔ḽ̫.͕",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "12/22/2020",
     "comentarios": "ﾟ･✿ヾ╲(｡◕‿◕｡)╱✿･ﾟ",
     "ordenID": "d45d7259-5ca6-4cb4-b601-f111c9de555c"
@@ -8262,7 +8262,7 @@
     "vehiculos": 636,
     "origen": "Podujeva",
     "destino": "Przyborów",
-    "estado": "１２３",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "1/20/2021",
     "comentarios": "../../../../../../../../../../../etc/hosts",
     "ordenID": "01d6760d-2f5a-4476-8895-5a3f782e9cca"
@@ -8275,7 +8275,7 @@
     "vehiculos": 637,
     "origen": "Montepuez",
     "destino": "Ferraria",
-    "estado": "() { _; } >_[$($())] { touch /tmp/blns.shellshock2.fail; }",
+    "estado": "Cancelada",
     "fecha_creacion": "9/26/2021",
     "comentarios": "1.00",
     "ordenID": "a40e6792-8c41-4140-8197-9eb33c8b88f8"
@@ -8327,7 +8327,7 @@
     "vehiculos": 641,
     "origen": "Longxing",
     "destino": "Velké Hoštice",
-    "estado": "ثم نفس سقطت وبالتحديد،, جزيرتي باستخدام أن دنو. إذ هنا؟ الستار وتنصيب كان. أهّل ايطاليا، بريطانيا-فرنسا قد أخذ. سليمان، إتفاقية بين ما, يذكر الحدود أي بعد, معاملة بولندا، الإطلاق عل إيو.",
+    "estado": "Finalizada",
     "fecha_creacion": "6/27/2021",
     "comentarios": "1;DROP TABLE users",
     "ordenID": "f708ecfc-5cc1-476d-afa6-7f75d65c2641"
@@ -8340,7 +8340,7 @@
     "vehiculos": 642,
     "origen": "Mansôa",
     "destino": "Arrah",
-    "estado": "１２３",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "1/13/2021",
     "comentarios": "../../../../../../../../../../../etc/passwd%00",
     "ordenID": "0a8fcbf7-bd27-4da5-89b4-46a9f018f58f"
@@ -8353,7 +8353,7 @@
     "vehiculos": 643,
     "origen": "Columbus",
     "destino": "Qinggou",
-    "estado": "œ∑´®†¥¨ˆøπ“‘",
+    "estado": "Despachada",
     "fecha_creacion": "6/15/2021",
     "comentarios": "̦H̬̤̗̤͝e͜ ̜̥̝̻͍̟́w̕h̖̯͓o̝͙̖͎̱̮ ҉̺̙̞̟͈W̷̼̭a̺̪͍į͈͕̭͙̯̜t̶̼̮s̘͙͖̕ ̠̫̠B̻͍͙͉̳ͅe̵h̵̬͇̫͙i̹͓̳̳̮͎̫̕n͟d̴̪̜̖ ̰͉̩͇͙̲͞ͅT͖̼͓̪͢h͏͓̮̻e̬̝̟ͅ ̤̹̝W͙̞̝͔͇͝ͅa͏͓͔̹̼̣l̴͔̰̤̟͔ḽ̫.͕",
     "ordenID": "7f747424-f071-4ccb-817f-22375e609a30"
@@ -8366,7 +8366,7 @@
     "vehiculos": 644,
     "origen": "Argelia",
     "destino": "Padangsidempuan",
-    "estado": "œ∑´®†¥¨ˆøπ“‘",
+    "estado": "Despachada",
     "fecha_creacion": "6/15/2021",
     "comentarios": "Z̮̞̠͙͔ͅḀ̗̞͈̻̗Ḷ͙͎̯̹̞͓G̻O̭̗̮",
     "ordenID": "0405c29c-cc7e-4127-bcd2-5b9d61406b30"
@@ -8379,7 +8379,7 @@
     "vehiculos": 645,
     "origen": "Caculé",
     "destino": "Bandar-e ‘Asalūyeh",
-    "estado": "0️⃣ 1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣ 6️⃣ 7️⃣ 8️⃣ 9️⃣ 🔟",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "1/11/2021",
     "comentarios": "\"''''\"'\"",
     "ordenID": "420a448c-617f-49f3-84de-5097eac51a93"
@@ -8418,7 +8418,7 @@
     "vehiculos": 648,
     "origen": "Dupi",
     "destino": "Yasenevo",
-    "estado": "00˙Ɩ$-",
+    "estado": "Despachada",
     "fecha_creacion": "2/14/2021",
     "comentarios": "(╯°□°）╯︵ ┻━┻)  ",
     "ordenID": "5fc8f606-ffc5-48b8-93fe-06814d4ed2d0"
@@ -8431,7 +8431,7 @@
     "vehiculos": 649,
     "origen": "Paraguaçu Paulista",
     "destino": "Upper San Mateo",
-    "estado": "⁰⁴⁵₀₁₂",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "9/12/2021",
     "comentarios": "הָיְתָהtestالصفحات التّحول",
     "ordenID": "162a9e09-7bd5-4b7c-a17f-6d8d37a384c3"
@@ -8444,7 +8444,7 @@
     "vehiculos": 650,
     "origen": "Masatepe",
     "destino": "Alfortville",
-    "estado": "<img src=x onerror=alert('hi') />",
+    "estado": "Despachada",
     "fecha_creacion": "8/10/2021",
     "comentarios": "﻿",
     "ordenID": "a8529cc1-09b5-4f61-bc3f-c85949c2fc8c"
@@ -8470,7 +8470,7 @@
     "vehiculos": 652,
     "origen": "Novyye Cherëmushki",
     "destino": "Qusar",
-    "estado": "œ∑´®†¥¨ˆøπ“‘",
+    "estado": "Despachada",
     "fecha_creacion": "6/20/2021",
     "comentarios": "田中さんにあげて下さい",
     "ordenID": "c7f1d74a-6c1b-4d67-a27a-1807b2d110cc"
@@ -8483,7 +8483,7 @@
     "vehiculos": 653,
     "origen": "San Diego",
     "destino": "Agios Dimitrios",
-    "estado": "和製漢語",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "6/12/2021",
     "comentarios": "__ﾛ(,_,*)",
     "ordenID": "bb76e049-546e-47a9-be7b-95b6e0582794"
@@ -8496,7 +8496,7 @@
     "vehiculos": 654,
     "origen": "Geidam",
     "destino": "Rio Branco",
-    "estado": "null",
+    "estado": "Finalizada",
     "fecha_creacion": "10/6/2021",
     "comentarios": "1E+02",
     "ordenID": "f1efd732-9249-42cb-af53-44d0b540fbdd"
@@ -8509,7 +8509,7 @@
     "vehiculos": 655,
     "origen": "Guaíba",
     "destino": "Honghe",
-    "estado": "() { _; } >_[$($())] { touch /tmp/blns.shellshock2.fail; }",
+    "estado": "Cancelada",
     "fecha_creacion": "3/5/2021",
     "comentarios": "test",
     "ordenID": "f75b45ce-f34c-42ea-9f55-8e31bc96574f"
@@ -8522,7 +8522,7 @@
     "vehiculos": 656,
     "origen": "Murovanoye",
     "destino": "Kecskemét",
-    "estado": "｀ｨ(´∀｀∩",
+    "estado": "Cancelada",
     "fecha_creacion": "3/22/2021",
     "comentarios": "1",
     "ordenID": "bdff77d5-7c96-4541-a5bb-d415193cc918"
@@ -8561,7 +8561,7 @@
     "vehiculos": 659,
     "origen": "Vigia",
     "destino": "Timbuktu",
-    "estado": "␢",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "7/21/2021",
     "comentarios": "‪‪test‪",
     "ordenID": "9d197c4b-f7e2-484b-b228-f4552a0bc928"
@@ -8574,7 +8574,7 @@
     "vehiculos": 660,
     "origen": "Lidingö",
     "destino": "Siemianowice Śląskie",
-    "estado": "999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999",
+    "estado": "Despachada",
     "fecha_creacion": "2/9/2021",
     "comentarios": "パーティーへ行かないか",
     "ordenID": "e92bd2a8-ae71-449a-a309-a694e3d644e5"
@@ -8613,7 +8613,7 @@
     "vehiculos": 663,
     "origen": "El Paso",
     "destino": "Müllendorf",
-    "estado": "Ṱ̺̺̕o͞ ̷i̲̬͇̪͙n̝̗͕v̟̜̘̦͟o̶̙̰̠kè͚̮̺̪̹̱̤ ̖t̝͕̳̣̻̪͞h̼͓̲̦̳̘̲e͇̣̰̦̬͎ ̢̼̻̱̘h͚͎͙̜̣̲ͅi̦̲̣̰̤v̻͍e̺̭̳̪̰-m̢iͅn̖̺̞̲̯̰d̵̼̟͙̩̼̘̳ ̞̥̱̳̭r̛̗̘e͙p͠r̼̞̻̭̗e̺̠̣͟s̘͇̳͍̝͉e͉̥̯̞̲͚̬͜ǹ̬͎͎̟̖͇̤t͍̬̤͓̼̭͘ͅi̪̱n͠g̴͉ ͏͉ͅc̬̟h͡a̫̻̯͘o̫̟̖͍̙̝͉s̗̦̲.̨̹͈̣",
+    "estado": "Despachada",
     "fecha_creacion": "4/16/2021",
     "comentarios": "˙ɐnbᴉlɐ ɐuƃɐɯ ǝɹolop ʇǝ ǝɹoqɐl ʇn ʇunpᴉpᴉɔuᴉ ɹodɯǝʇ poɯsnᴉǝ op pǝs 'ʇᴉlǝ ƃuᴉɔsᴉdᴉpɐ ɹnʇǝʇɔǝsuoɔ 'ʇǝɯɐ ʇᴉs ɹolop ɯnsdᴉ ɯǝɹo˥",
     "ordenID": "6a2f4288-9743-4e47-b8d5-a4065153f2ea"
@@ -8626,7 +8626,7 @@
     "vehiculos": 664,
     "origen": "Bolou",
     "destino": "Örebro",
-    "estado": "울란바토르",
+    "estado": "Finalizada",
     "fecha_creacion": "1/27/2021",
     "comentarios": "｀ｨ(´∀｀∩",
     "ordenID": "8711b91b-6d9e-4283-bd50-536a0f76d64d"
@@ -8665,7 +8665,7 @@
     "vehiculos": 667,
     "origen": "Chanhe",
     "destino": "Ban Thai Tan",
-    "estado": "｀ｨ(´∀｀∩",
+    "estado": "Cancelada",
     "fecha_creacion": "9/3/2021",
     "comentarios": "0.00",
     "ordenID": "1741999a-36b3-42b8-a396-c8555215ae0d"
@@ -8691,7 +8691,7 @@
     "vehiculos": 669,
     "origen": "Leiden",
     "destino": "Kilafors",
-    "estado": "¸˛Ç◊ı˜Â¯˘¿",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "12/5/2020",
     "comentarios": " ",
     "ordenID": "f4e990e3-bfda-4928-a581-27f18cd20b52"
@@ -8704,7 +8704,7 @@
     "vehiculos": 670,
     "origen": "Parreira",
     "destino": "Solana",
-    "estado": "␡",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "10/18/2021",
     "comentarios": "˙ɐnbᴉlɐ ɐuƃɐɯ ǝɹolop ʇǝ ǝɹoqɐl ʇn ʇunpᴉpᴉɔuᴉ ɹodɯǝʇ poɯsnᴉǝ op pǝs 'ʇᴉlǝ ƃuᴉɔsᴉdᴉpɐ ɹnʇǝʇɔǝsuoɔ 'ʇǝɯɐ ʇᴉs ɹolop ɯnsdᴉ ɯǝɹo˥",
     "ordenID": "2de68ffd-a047-414d-a71c-3fc16c939c7e"
@@ -8717,7 +8717,7 @@
     "vehiculos": 671,
     "origen": "Skillingaryd",
     "destino": "Troitsk",
-    "estado": "␢",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "6/3/2021",
     "comentarios": "() { 0; }; touch /tmp/blns.shellshock1.fail;",
     "ordenID": "c2e843cf-1a96-4f61-95b9-8acd3ecece3b"
@@ -8756,7 +8756,7 @@
     "vehiculos": 674,
     "origen": "Kokofata",
     "destino": "Richmond",
-    "estado": "-1",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "3/9/2021",
     "comentarios": "👾 🙇 💁 🙅 🙆 🙋 🙎 🙍 ",
     "ordenID": "dc65f65c-a6b7-4f9f-b17c-7e52f6d233ce"
@@ -8782,7 +8782,7 @@
     "vehiculos": 676,
     "origen": "Konosha",
     "destino": "Callahuanca",
-    "estado": "() { _; } >_[$($())] { touch /tmp/blns.shellshock2.fail; }",
+    "estado": "Cancelada",
     "fecha_creacion": "12/2/2020",
     "comentarios": "<img src=x onerror=alert('hi') />",
     "ordenID": "ffd442df-8e0b-4bc9-8b81-853967b7919a"
@@ -8795,7 +8795,7 @@
     "vehiculos": 677,
     "origen": "Tubalan",
     "destino": "Mojkovac",
-    "estado": "ثم نفس سقطت وبالتحديد،, جزيرتي باستخدام أن دنو. إذ هنا؟ الستار وتنصيب كان. أهّل ايطاليا، بريطانيا-فرنسا قد أخذ. سليمان، إتفاقية بين ما, يذكر الحدود أي بعد, معاملة بولندا، الإطلاق عل إيو.",
+    "estado": "Finalizada",
     "fecha_creacion": "3/31/2021",
     "comentarios": "Ṱ̺̺̕o͞ ̷i̲̬͇̪͙n̝̗͕v̟̜̘̦͟o̶̙̰̠kè͚̮̺̪̹̱̤ ̖t̝͕̳̣̻̪͞h̼͓̲̦̳̘̲e͇̣̰̦̬͎ ̢̼̻̱̘h͚͎͙̜̣̲ͅi̦̲̣̰̤v̻͍e̺̭̳̪̰-m̢iͅn̖̺̞̲̯̰d̵̼̟͙̩̼̘̳ ̞̥̱̳̭r̛̗̘e͙p͠r̼̞̻̭̗e̺̠̣͟s̘͇̳͍̝͉e͉̥̯̞̲͚̬͜ǹ̬͎͎̟̖͇̤t͍̬̤͓̼̭͘ͅi̪̱n͠g̴͉ ͏͉ͅc̬̟h͡a̫̻̯͘o̫̟̖͍̙̝͉s̗̦̲.̨̹͈̣",
     "ordenID": "953a257c-1299-4dff-8fdb-5fe1d7d959ea"
@@ -8834,7 +8834,7 @@
     "vehiculos": 680,
     "origen": "Cam Lâm",
     "destino": "Guingamp",
-    "estado": "../../../../../../../../../../../etc/hosts",
+    "estado": "Cancelada",
     "fecha_creacion": "7/13/2021",
     "comentarios": "・(￣∀￣)・:*:",
     "ordenID": "37ccd065-af3b-4b82-a045-dca4821ed6e8"
@@ -8886,7 +8886,7 @@
     "vehiculos": 684,
     "origen": "Ngancar",
     "destino": "Annecy-le-Vieux",
-    "estado": "﻿",
+    "estado": "Finalizada",
     "fecha_creacion": "2/17/2021",
     "comentarios": "\"'\"'\"''''\"",
     "ordenID": "075912a8-2a87-4f90-b400-fa6bf4f4ad2d"
@@ -8899,7 +8899,7 @@
     "vehiculos": 685,
     "origen": "Veguitas",
     "destino": "Swellendam",
-    "estado": "test",
+    "estado": "Finalizada",
     "fecha_creacion": "8/24/2021",
     "comentarios": "部落格",
     "ordenID": "dbb8848f-5066-4085-8138-357b9ff6e62a"
@@ -8938,7 +8938,7 @@
     "vehiculos": 688,
     "origen": "Tiehe",
     "destino": "Sungai Nyamuk",
-    "estado": "␡",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "12/27/2020",
     "comentarios": "⁦test⁧",
     "ordenID": "9f7322c4-ae3c-4d06-b104-15c193613437"
@@ -8977,7 +8977,7 @@
     "vehiculos": 691,
     "origen": "Hongmei",
     "destino": "Tobol",
-    "estado": "1/2",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "9/17/2021",
     "comentarios": ",。・:*:・゜’( ☻ ω ☻ )。・:*:・゜’",
     "ordenID": "031c8cb7-ddef-46ac-8825-bf071988de03"
@@ -8990,7 +8990,7 @@
     "vehiculos": 692,
     "origen": "Greensboro",
     "destino": "Saint Paul",
-    "estado": "הָיְתָהtestالصفحات التّحول",
+    "estado": "Despachada",
     "fecha_creacion": "2/22/2021",
     "comentarios": "-1",
     "ordenID": "c85bf423-7746-4dfc-81d9-4bbd237949f9"
@@ -9029,7 +9029,7 @@
     "vehiculos": 695,
     "origen": "Pindushi",
     "destino": "Fram",
-    "estado": "１２３",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "8/26/2021",
     "comentarios": "00˙Ɩ$-",
     "ordenID": "3d8f079b-8c24-4c55-a0e6-7d51ea447abf"
@@ -9055,7 +9055,7 @@
     "vehiculos": 697,
     "origen": "Nowy Duninów",
     "destino": "Amiens",
-    "estado": "₀₁₂",
+    "estado": "Finalizada",
     "fecha_creacion": "4/27/2021",
     "comentarios": "0/0",
     "ordenID": "8d044096-9ea7-48dc-96f2-e55718f59e9e"
@@ -9081,7 +9081,7 @@
     "vehiculos": 699,
     "origen": "Newala Kisimani",
     "destino": "Jidd Ḩafş",
-    "estado": "١٢٣",
+    "estado": "Despachada",
     "fecha_creacion": "3/14/2021",
     "comentarios": "åß∂ƒ©˙∆˚¬…æ",
     "ordenID": "80d8cf7a-4bf1-43ad-98de-fbf19c116d49"
@@ -9094,7 +9094,7 @@
     "vehiculos": 700,
     "origen": "Calvaria de Baixo",
     "destino": "Xinfa",
-    "estado": "(╯°□°）╯︵ ┻━┻)  ",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "11/26/2021",
     "comentarios": "test",
     "ordenID": "f7e8d295-8f00-478c-9402-6962a5b5f0f5"
@@ -9107,7 +9107,7 @@
     "vehiculos": 701,
     "origen": "Artémida",
     "destino": "Rahama",
-    "estado": "␡",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "12/5/2020",
     "comentarios": "00˙Ɩ$-",
     "ordenID": "ae6187c5-e2f4-42af-a6dc-71d91d971a4f"
@@ -9120,7 +9120,7 @@
     "vehiculos": 702,
     "origen": "Īlām",
     "destino": "Hradec Králové",
-    "estado": "\"\"",
+    "estado": "Finalizada",
     "fecha_creacion": "2/2/2021",
     "comentarios": "␡",
     "ordenID": "40ddb492-ed0a-414d-bad7-4a4fe63afec1"
@@ -9133,7 +9133,7 @@
     "vehiculos": 703,
     "origen": "Ormož",
     "destino": "San Isidro",
-    "estado": "₀₁₂",
+    "estado": "Finalizada",
     "fecha_creacion": "2/10/2021",
     "comentarios": "﻿",
     "ordenID": "7108c719-931a-49d0-b9ce-2d81c8c8d8ec"
@@ -9185,7 +9185,7 @@
     "vehiculos": 707,
     "origen": "Gotputuk",
     "destino": "Gouveia",
-    "estado": "`⁄€‹›ﬁﬂ‡°·‚—±",
+    "estado": "Finalizada",
     "fecha_creacion": "12/2/2020",
     "comentarios": "울란바토르",
     "ordenID": "b2eb6d66-6e3b-4db7-947c-28f22a54458e"
@@ -9224,7 +9224,7 @@
     "vehiculos": 710,
     "origen": "Tongkiling",
     "destino": "Al Ḩumaydāt",
-    "estado": "　",
+    "estado": "Despachada",
     "fecha_creacion": "8/21/2021",
     "comentarios": "<>?:\"{}|_+",
     "ordenID": "631732a2-6f38-43fd-9bf9-92a9435f5fb8"
@@ -9250,7 +9250,7 @@
     "vehiculos": 712,
     "origen": "Moravský Beroun",
     "destino": "Novaya Usman’",
-    "estado": "../../../../../../../../../../../etc/passwd%00",
+    "estado": "Despachada",
     "fecha_creacion": "12/18/2020",
     "comentarios": "(ﾉಥ益ಥ）ﾉ﻿ ┻━┻",
     "ordenID": "6b26bb25-ac7e-49b9-9a39-a7fd20e7cd9e"
@@ -9276,7 +9276,7 @@
     "vehiculos": 714,
     "origen": "Longtou’an",
     "destino": "Lais",
-    "estado": "test",
+    "estado": "Finalizada",
     "fecha_creacion": "8/5/2021",
     "comentarios": "-1/2",
     "ordenID": "148b2a3a-cb77-4646-b0a4-944ac0411f37"
@@ -9328,7 +9328,7 @@
     "vehiculos": 718,
     "origen": "Uchaly",
     "destino": "Hagerstown",
-    "estado": "　",
+    "estado": "Despachada",
     "fecha_creacion": "1/24/2021",
     "comentarios": "ثم نفس سقطت وبالتحديد،, جزيرتي باستخدام أن دنو. إذ هنا؟ الستار وتنصيب كان. أهّل ايطاليا، بريطانيا-فرنسا قد أخذ. سليمان، إتفاقية بين ما, يذكر الحدود أي بعد, معاملة بولندا، الإطلاق عل إيو.",
     "ordenID": "bfc6a67a-b1b9-47e5-8a07-0fd4ea3495e4"
@@ -9341,7 +9341,7 @@
     "vehiculos": 719,
     "origen": "Fianarantsoa",
     "destino": "Jinji",
-    "estado": "｀ｨ(´∀｀∩",
+    "estado": "Cancelada",
     "fecha_creacion": "11/12/2021",
     "comentarios": "和製漢語",
     "ordenID": "64645ee8-8c28-4b70-9629-ef2e561ffe35"
@@ -9354,7 +9354,7 @@
     "vehiculos": 720,
     "origen": "Monte-Carlo",
     "destino": "Heby",
-    "estado": "̦H̬̤̗̤͝e͜ ̜̥̝̻͍̟́w̕h̖̯͓o̝͙̖͎̱̮ ҉̺̙̞̟͈W̷̼̭a̺̪͍į͈͕̭͙̯̜t̶̼̮s̘͙͖̕ ̠̫̠B̻͍͙͉̳ͅe̵h̵̬͇̫͙i̹͓̳̳̮͎̫̕n͟d̴̪̜̖ ̰͉̩͇͙̲͞ͅT͖̼͓̪͢h͏͓̮̻e̬̝̟ͅ ̤̹̝W͙̞̝͔͇͝ͅa͏͓͔̹̼̣l̴͔̰̤̟͔ḽ̫.͕",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "4/28/2021",
     "comentarios": "⁦test⁧",
     "ordenID": "17ec782b-dac4-451d-b788-d17ef5d75674"
@@ -9367,7 +9367,7 @@
     "vehiculos": 721,
     "origen": "Agago",
     "destino": "Skópelos",
-    "estado": "-$1.00",
+    "estado": "Cancelada",
     "fecha_creacion": "7/21/2021",
     "comentarios": " ",
     "ordenID": "05922e9e-9e71-4522-8a1f-7ccf998beb13"
@@ -9393,7 +9393,7 @@
     "vehiculos": 723,
     "origen": "Sīlat al Ḩārithīyah",
     "destino": "Jatipamor",
-    "estado": "👾 🙇 💁 🙅 🙆 🙋 🙎 🙍 ",
+    "estado": "Despachada",
     "fecha_creacion": "12/7/2020",
     "comentarios": "-1/2",
     "ordenID": "de04d31c-947a-4a6c-b574-8ba7c5c91ad8"
@@ -9406,7 +9406,7 @@
     "vehiculos": 724,
     "origen": "Minle",
     "destino": "Songmuping",
-    "estado": "1/2",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "6/29/2021",
     "comentarios": "⁦test⁧",
     "ordenID": "27fb2efd-7e01-49e5-8546-43492ccd8abc"
@@ -9419,7 +9419,7 @@
     "vehiculos": 725,
     "origen": "San Miguel",
     "destino": "Chrząstowice",
-    "estado": "␢",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "3/17/2021",
     "comentarios": "1/0",
     "ordenID": "109ffe69-23c4-491d-ae75-ce94e66b1ab4"
@@ -9432,7 +9432,7 @@
     "vehiculos": 726,
     "origen": "Bằng Lũng",
     "destino": "Batulenger Barat",
-    "estado": "null",
+    "estado": "Finalizada",
     "fecha_creacion": "10/5/2021",
     "comentarios": "١٢٣",
     "ordenID": "27beca8f-80f6-42c6-abb3-71175acd50d6"
@@ -9445,7 +9445,7 @@
     "vehiculos": 727,
     "origen": "Youngstown",
     "destino": "El Mirador",
-    "estado": "울란바토르",
+    "estado": "Finalizada",
     "fecha_creacion": "1/10/2021",
     "comentarios": "-$1.00",
     "ordenID": "6063c01f-2c71-43c8-9e06-a2af4656298a"
@@ -9471,7 +9471,7 @@
     "vehiculos": 729,
     "origen": "Yigo Village",
     "destino": "Peshtera",
-    "estado": "999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999",
+    "estado": "Despachada",
     "fecha_creacion": "1/6/2021",
     "comentarios": "̗̺͖̹̯͓Ṯ̤͍̥͇͈h̲́e͏͓̼̗̙̼̣͔ ͇̜̱̠͓͍ͅN͕͠e̗̱z̘̝̜̺͙p̤̺̹͍̯͚e̠̻̠͜r̨̤͍̺̖͔̖̖d̠̟̭̬̝͟i̦͖̩͓͔̤a̠̗̬͉̙n͚͜ ̻̞̰͚ͅh̵͉i̳̞v̢͇ḙ͎͟-҉̭̩̼͔m̤̭̫i͕͇̝̦n̗͙ḍ̟ ̯̲͕͞ǫ̟̯̰̲͙̻̝f ̪̰̰̗̖̭̘͘c̦͍̲̞͍̩̙ḥ͚a̮͎̟̙͜ơ̩̹͎s̤.̝̝ ҉Z̡̖̜͖̰̣͉̜a͖̰͙̬͡l̲̫̳͍̩g̡̟̼̱͚̞̬ͅo̗͜.̟",
     "ordenID": "62d096d0-af5b-426b-b935-41afa51a5936"
@@ -9484,7 +9484,7 @@
     "vehiculos": 730,
     "origen": "Goussainville",
     "destino": "Senhor do Bonfim",
-    "estado": "null",
+    "estado": "Finalizada",
     "fecha_creacion": "1/16/2021",
     "comentarios": "﻿",
     "ordenID": "348b0f2b-b14a-4504-88c0-6c64812fc6cb"
@@ -9510,7 +9510,7 @@
     "vehiculos": 732,
     "origen": "Naqadeh",
     "destino": "Obihiro",
-    "estado": "<script>alert('hi')</script>",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "11/11/2021",
     "comentarios": "'",
     "ordenID": "61f6cc8e-df05-4f93-a993-ce72955b4c4d"
@@ -9536,7 +9536,7 @@
     "vehiculos": 734,
     "origen": "Austin",
     "destino": "Oklahoma City",
-    "estado": "ثم نفس سقطت وبالتحديد،, جزيرتي باستخدام أن دنو. إذ هنا؟ الستار وتنصيب كان. أهّل ايطاليا، بريطانيا-فرنسا قد أخذ. سليمان، إتفاقية بين ما, يذكر الحدود أي بعد, معاملة بولندا، الإطلاق عل إيو.",
+    "estado": "Finalizada",
     "fecha_creacion": "5/15/2021",
     "comentarios": "̗̺͖̹̯͓Ṯ̤͍̥͇͈h̲́e͏͓̼̗̙̼̣͔ ͇̜̱̠͓͍ͅN͕͠e̗̱z̘̝̜̺͙p̤̺̹͍̯͚e̠̻̠͜r̨̤͍̺̖͔̖̖d̠̟̭̬̝͟i̦͖̩͓͔̤a̠̗̬͉̙n͚͜ ̻̞̰͚ͅh̵͉i̳̞v̢͇ḙ͎͟-҉̭̩̼͔m̤̭̫i͕͇̝̦n̗͙ḍ̟ ̯̲͕͞ǫ̟̯̰̲͙̻̝f ̪̰̰̗̖̭̘͘c̦͍̲̞͍̩̙ḥ͚a̮͎̟̙͜ơ̩̹͎s̤.̝̝ ҉Z̡̖̜͖̰̣͉̜a͖̰͙̬͡l̲̫̳͍̩g̡̟̼̱͚̞̬ͅo̗͜.̟",
     "ordenID": "15478bc8-46dd-46d2-bd90-9bc3134ef5b0"
@@ -9549,7 +9549,7 @@
     "vehiculos": 735,
     "origen": "T’ongch’ŏn-ŭp",
     "destino": "Gaohu",
-    "estado": null,
+    "estado": "Cancelada",
     "fecha_creacion": "10/27/2021",
     "comentarios": "-1/2",
     "ordenID": "8ca3d0d9-e6a5-4c55-b110-ba928e533a8a"
@@ -9588,7 +9588,7 @@
     "vehiculos": 738,
     "origen": "Lukou",
     "destino": "Maiac",
-    "estado": "בְּרֵאשִׁית, בָּרָא אֱלֹהִים, אֵת הַשָּׁמַיִם, וְאֵת הָאָרֶץ",
+    "estado": "Despachada",
     "fecha_creacion": "6/2/2021",
     "comentarios": "部落格",
     "ordenID": "18b2a4ad-2e31-4e36-af71-00aa0a1b32a8"
@@ -9601,7 +9601,7 @@
     "vehiculos": 739,
     "origen": "Huayana",
     "destino": "Tatarbunary",
-    "estado": "和製漢語",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "12/13/2020",
     "comentarios": "👩🏽",
     "ordenID": "2bbca049-f0cc-42e5-a34f-f2d57ce4e1cc"
@@ -9640,7 +9640,7 @@
     "vehiculos": 742,
     "origen": "Qanliko’l",
     "destino": "Cholpon-Ata",
-    "estado": "١٢٣",
+    "estado": "Despachada",
     "fecha_creacion": "11/5/2021",
     "comentarios": "-1/2",
     "ordenID": "0ccf6392-f110-4caa-8a49-43949a5d6d76"
@@ -9653,7 +9653,7 @@
     "vehiculos": 743,
     "origen": "Ranong",
     "destino": "Jasienica",
-    "estado": "null",
+    "estado": "Finalizada",
     "fecha_creacion": "5/22/2021",
     "comentarios": "パーティーへ行かないか",
     "ordenID": "b1243687-e80c-4f36-917e-4f8856196ddc"
@@ -9679,7 +9679,7 @@
     "vehiculos": 745,
     "origen": "Kangding",
     "destino": "Balekersukamaju",
-    "estado": "הָיְתָהtestالصفحات التّحول",
+    "estado": "Despachada",
     "fecha_creacion": "5/6/2021",
     "comentarios": "‫test‫",
     "ordenID": "9532fa07-4886-4dbc-b503-94eb500376d8"
@@ -9692,7 +9692,7 @@
     "vehiculos": 746,
     "origen": "Matos da Ranha",
     "destino": "Las Vegas, Santa Barbara",
-    "estado": "-1.00",
+    "estado": "Finalizada",
     "fecha_creacion": "3/12/2021",
     "comentarios": "../../../../../../../../../../../etc/hosts",
     "ordenID": "9c1b880a-dff1-444a-866d-b09637f04049"
@@ -9705,7 +9705,7 @@
     "vehiculos": 747,
     "origen": "Lusacan",
     "destino": "Daraitan",
-    "estado": "-1.00",
+    "estado": "Finalizada",
     "fecha_creacion": "5/27/2021",
     "comentarios": null,
     "ordenID": "c0821c46-5e2a-4145-871f-59ad973a0ae1"
@@ -9731,7 +9731,7 @@
     "vehiculos": 749,
     "origen": "Aulnay-sous-Bois",
     "destino": "Omaha",
-    "estado": "¸˛Ç◊ı˜Â¯˘¿",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "10/3/2021",
     "comentarios": "`⁄€‹›ﬁﬂ‡°·‚—±",
     "ordenID": "8fa8efa2-2176-4ed0-9980-e5c783db5346"
@@ -9783,7 +9783,7 @@
     "vehiculos": 753,
     "origen": "Jishui",
     "destino": "Baiima",
-    "estado": "Z̮̞̠͙͔ͅḀ̗̞͈̻̗Ḷ͙͎̯̹̞͓G̻O̭̗̮",
+    "estado": "Despachada",
     "fecha_creacion": "2/21/2021",
     "comentarios": "00˙Ɩ$-",
     "ordenID": "b6d05120-7d58-4bc3-a499-bd0ab4c41be7"
@@ -9809,7 +9809,7 @@
     "vehiculos": 755,
     "origen": "La Roche-sur-Yon",
     "destino": "Le Grand-Quevilly",
-    "estado": "-1.00",
+    "estado": "Finalizada",
     "fecha_creacion": "2/28/2021",
     "comentarios": "`⁄€‹›ﬁﬂ‡°·‚—±",
     "ordenID": "abcd1b85-bcdc-4c45-8b32-b17fdb196633"
@@ -9822,7 +9822,7 @@
     "vehiculos": 756,
     "origen": "Hushan",
     "destino": "Ningyuan",
-    "estado": "<>?:\"{}|_+",
+    "estado": "Cancelada",
     "fecha_creacion": "9/11/2021",
     "comentarios": "1'; DROP TABLE users--",
     "ordenID": "ce01ef5f-8fa9-48c9-a82d-9cb7f0fc3412"
@@ -9848,7 +9848,7 @@
     "vehiculos": 758,
     "origen": "Kinéta",
     "destino": "Buzhakan",
-    "estado": "NULL",
+    "estado": "Finalizada",
     "fecha_creacion": "9/26/2021",
     "comentarios": "-1",
     "ordenID": "a1de69e7-583f-4dc9-88d7-44eaa4e2df83"
@@ -9861,7 +9861,7 @@
     "vehiculos": 759,
     "origen": "Tianning",
     "destino": "Longtanping",
-    "estado": "1;DROP TABLE users",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "4/11/2021",
     "comentarios": "'\"'",
     "ordenID": "c2389a8e-c23b-473b-a74e-2501ab2d2847"
@@ -9926,7 +9926,7 @@
     "vehiculos": 764,
     "origen": "Gereshk",
     "destino": "Badou",
-    "estado": "999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999",
+    "estado": "Despachada",
     "fecha_creacion": "4/18/2021",
     "comentarios": "̡͓̞ͅI̗̘̦͝n͇͇͙v̮̫ok̲̫̙͈i̖͙̭̹̠̞n̡̻̮̣̺g̲͈͙̭͙̬͎ ̰t͔̦h̞̲e̢̤ ͍̬̲͖f̴̘͕̣è͖ẹ̥̩l͖͔͚i͓͚̦͠n͖͍̗͓̳̮g͍ ̨o͚̪͡f̘̣̬ ̖̘͖̟͙̮c҉͔̫͖͓͇͖ͅh̵̤̣͚͔á̗̼͕ͅo̼̣̥s̱͈̺̖̦̻͢.̛̖̞̠̫̰",
     "ordenID": "bee41fc4-2f53-45ec-a7a1-153c62742ee7"
@@ -9965,7 +9965,7 @@
     "vehiculos": 767,
     "origen": "Kuroishi",
     "destino": "San Pedro",
-    "estado": "̦H̬̤̗̤͝e͜ ̜̥̝̻͍̟́w̕h̖̯͓o̝͙̖͎̱̮ ҉̺̙̞̟͈W̷̼̭a̺̪͍į͈͕̭͙̯̜t̶̼̮s̘͙͖̕ ̠̫̠B̻͍͙͉̳ͅe̵h̵̬͇̫͙i̹͓̳̳̮͎̫̕n͟d̴̪̜̖ ̰͉̩͇͙̲͞ͅT͖̼͓̪͢h͏͓̮̻e̬̝̟ͅ ̤̹̝W͙̞̝͔͇͝ͅa͏͓͔̹̼̣l̴͔̰̤̟͔ḽ̫.͕",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "9/7/2021",
     "comentarios": "() { 0; }; touch /tmp/blns.shellshock1.fail;",
     "ordenID": "07a00f32-2889-4d4a-a6b1-d0ce924b9997"
@@ -10017,7 +10017,7 @@
     "vehiculos": 771,
     "origen": "Gryfino",
     "destino": "Xuelu",
-    "estado": "__ﾛ(,_,*)",
+    "estado": "Finalizada",
     "fecha_creacion": "11/13/2021",
     "comentarios": "1'; DROP TABLE users--",
     "ordenID": "1ec7b2d1-4aee-463c-82c6-c983c9931132"
@@ -10030,7 +10030,7 @@
     "vehiculos": 772,
     "origen": "Suwon-si",
     "destino": "Gununggoong",
-    "estado": "(╯°□°）╯︵ ┻━┻)  ",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "7/26/2021",
     "comentarios": "ثم نفس سقطت وبالتحديد،, جزيرتي باستخدام أن دنو. إذ هنا؟ الستار وتنصيب كان. أهّل ايطاليا، بريطانيا-فرنسا قد أخذ. سليمان، إتفاقية بين ما, يذكر الحدود أي بعد, معاملة بولندا، الإطلاق عل إيو.",
     "ordenID": "4480db14-d141-4f87-abc3-65b5dab56976"
@@ -10056,7 +10056,7 @@
     "vehiculos": 774,
     "origen": "Kedatuan",
     "destino": "Machov",
-    "estado": "ثم نفس سقطت وبالتحديد،, جزيرتي باستخدام أن دنو. إذ هنا؟ الستار وتنصيب كان. أهّل ايطاليا، بريطانيا-فرنسا قد أخذ. سليمان، إتفاقية بين ما, يذكر الحدود أي بعد, معاملة بولندا، الإطلاق عل إيو.",
+    "estado": "Finalizada",
     "fecha_creacion": "10/26/2021",
     "comentarios": "(ﾉಥ益ಥ）ﾉ﻿ ┻━┻",
     "ordenID": "e8fe73aa-7d6c-4143-8f21-5020cf511262"
@@ -10069,7 +10069,7 @@
     "vehiculos": 775,
     "origen": "San Francisco",
     "destino": "Grzybowa Góra",
-    "estado": "١٢٣",
+    "estado": "Despachada",
     "fecha_creacion": "12/31/2020",
     "comentarios": "1.00",
     "ordenID": "90c77f92-54d3-491a-b737-b23628e7f0c1"
@@ -10108,7 +10108,7 @@
     "vehiculos": 778,
     "origen": "Kulunda",
     "destino": "Xianren",
-    "estado": "-1.00",
+    "estado": "Finalizada",
     "fecha_creacion": "11/10/2021",
     "comentarios": "0️⃣ 1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣ 6️⃣ 7️⃣ 8️⃣ 9️⃣ 🔟",
     "ordenID": "59f79a10-5125-4674-9cf7-442be2d95197"
@@ -10121,7 +10121,7 @@
     "vehiculos": 779,
     "origen": "Liudong",
     "destino": "Baliuag",
-    "estado": "test",
+    "estado": "Finalizada",
     "fecha_creacion": "11/27/2021",
     "comentarios": "-1",
     "ordenID": "83044cff-d216-4005-bc87-3808be603b1d"
@@ -10134,7 +10134,7 @@
     "vehiculos": 780,
     "origen": "Bīleh Savār",
     "destino": "Araras",
-    "estado": "｀ｨ(´∀｀∩",
+    "estado": "Cancelada",
     "fecha_creacion": "7/16/2021",
     "comentarios": "(ﾉಥ益ಥ）ﾉ﻿ ┻━┻",
     "ordenID": "b1c609e6-6508-4182-9802-7bac23188bf5"
@@ -10160,7 +10160,7 @@
     "vehiculos": 782,
     "origen": "Hat Yai",
     "destino": "Longjumeau",
-    "estado": "-$1.00",
+    "estado": "Cancelada",
     "fecha_creacion": "4/15/2021",
     "comentarios": "$1.00",
     "ordenID": "cda7c344-a34f-4078-8391-2aebb5c6569e"
@@ -10173,7 +10173,7 @@
     "vehiculos": 783,
     "origen": "Bacong",
     "destino": "Ramana",
-    "estado": "　",
+    "estado": "Despachada",
     "fecha_creacion": "1/6/2021",
     "comentarios": "-1E2",
     "ordenID": "3e682438-9e59-40b8-ae32-375f7b140aab"
@@ -10186,7 +10186,7 @@
     "vehiculos": 784,
     "origen": "Changwon",
     "destino": "Anshun",
-    "estado": "בְּרֵאשִׁית, בָּרָא אֱלֹהִים, אֵת הַשָּׁמַיִם, וְאֵת הָאָרֶץ",
+    "estado": "Despachada",
     "fecha_creacion": "2/9/2021",
     "comentarios": "␣",
     "ordenID": "f4da62a7-0c51-423c-8d95-c957a56208fb"
@@ -10199,7 +10199,7 @@
     "vehiculos": 785,
     "origen": "Shu",
     "destino": "Banjarjo",
-    "estado": "-1E+02",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "5/21/2021",
     "comentarios": "999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999",
     "ordenID": "8e260478-e04a-4caf-92d2-2959a245a390"
@@ -10238,7 +10238,7 @@
     "vehiculos": 788,
     "origen": "Wenci",
     "destino": "Acacías",
-    "estado": "١٢٣",
+    "estado": "Despachada",
     "fecha_creacion": "10/7/2021",
     "comentarios": "₀₁₂",
     "ordenID": "da8048da-5eba-4b8d-826c-14e711b29f8d"
@@ -10251,7 +10251,7 @@
     "vehiculos": 789,
     "origen": "Alubijid",
     "destino": "Belén",
-    "estado": "ÅÍÎÏ˝ÓÔÒÚÆ☃",
+    "estado": "Finalizada",
     "fecha_creacion": "6/2/2021",
     "comentarios": "١٢٣",
     "ordenID": "c2651a19-4871-4370-ac29-106678914aa0"
@@ -10264,7 +10264,7 @@
     "vehiculos": 790,
     "origen": "Dortmund",
     "destino": "Al ‘Āliyah",
-    "estado": "null",
+    "estado": "Finalizada",
     "fecha_creacion": "9/26/2021",
     "comentarios": "null",
     "ordenID": "bc6eaefa-94d6-49f8-b814-528cdb00bd20"
@@ -10277,7 +10277,7 @@
     "vehiculos": 791,
     "origen": "Gayam",
     "destino": "Munsan",
-    "estado": "̦H̬̤̗̤͝e͜ ̜̥̝̻͍̟́w̕h̖̯͓o̝͙̖͎̱̮ ҉̺̙̞̟͈W̷̼̭a̺̪͍į͈͕̭͙̯̜t̶̼̮s̘͙͖̕ ̠̫̠B̻͍͙͉̳ͅe̵h̵̬͇̫͙i̹͓̳̳̮͎̫̕n͟d̴̪̜̖ ̰͉̩͇͙̲͞ͅT͖̼͓̪͢h͏͓̮̻e̬̝̟ͅ ̤̹̝W͙̞̝͔͇͝ͅa͏͓͔̹̼̣l̴͔̰̤̟͔ḽ̫.͕",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "11/16/2021",
     "comentarios": "../../../../../../../../../../../etc/passwd%00",
     "ordenID": "343c8b8f-7182-46b4-b3a5-334d6ca881ce"
@@ -10316,7 +10316,7 @@
     "vehiculos": 794,
     "origen": "Kamuli",
     "destino": "‘Ayn al Bayḑā",
-    "estado": "Z̮̞̠͙͔ͅḀ̗̞͈̻̗Ḷ͙͎̯̹̞͓G̻O̭̗̮",
+    "estado": "Despachada",
     "fecha_creacion": "1/27/2021",
     "comentarios": "/dev/null; touch /tmp/blns.fail ; echo",
     "ordenID": "b4d1aac9-5562-4a3a-b4f9-1e7939395e7d"
@@ -10355,7 +10355,7 @@
     "vehiculos": 797,
     "origen": "Horní Bečva",
     "destino": "Manyana",
-    "estado": "<>?:\"{}|_+",
+    "estado": "Cancelada",
     "fecha_creacion": "7/2/2021",
     "comentarios": "ﾟ･✿ヾ╲(｡◕‿◕｡)╱✿･ﾟ",
     "ordenID": "ea551d3d-1d26-4475-b310-d256f66b544e"
@@ -10381,7 +10381,7 @@
     "vehiculos": 799,
     "origen": "Shināş",
     "destino": "Voronezh",
-    "estado": "ÅÍÎÏ˝ÓÔÒÚÆ☃",
+    "estado": "Finalizada",
     "fecha_creacion": "10/6/2021",
     "comentarios": "Ω≈ç√∫˜µ≤≥÷",
     "ordenID": "5296f754-85cb-4827-8329-2b6972e49b9a"
@@ -10433,7 +10433,7 @@
     "vehiculos": 803,
     "origen": "Fukuyama",
     "destino": "Ruo",
-    "estado": "Ṱ̺̺̕o͞ ̷i̲̬͇̪͙n̝̗͕v̟̜̘̦͟o̶̙̰̠kè͚̮̺̪̹̱̤ ̖t̝͕̳̣̻̪͞h̼͓̲̦̳̘̲e͇̣̰̦̬͎ ̢̼̻̱̘h͚͎͙̜̣̲ͅi̦̲̣̰̤v̻͍e̺̭̳̪̰-m̢iͅn̖̺̞̲̯̰d̵̼̟͙̩̼̘̳ ̞̥̱̳̭r̛̗̘e͙p͠r̼̞̻̭̗e̺̠̣͟s̘͇̳͍̝͉e͉̥̯̞̲͚̬͜ǹ̬͎͎̟̖͇̤t͍̬̤͓̼̭͘ͅi̪̱n͠g̴͉ ͏͉ͅc̬̟h͡a̫̻̯͘o̫̟̖͍̙̝͉s̗̦̲.̨̹͈̣",
+    "estado": "Despachada",
     "fecha_creacion": "5/31/2021",
     "comentarios": "1.00",
     "ordenID": "69b09979-bc33-4d8c-9c50-451d9a6ecb36"
@@ -10459,7 +10459,7 @@
     "vehiculos": 805,
     "origen": "Pong",
     "destino": "Lukou",
-    "estado": null,
+    "estado": "Cancelada",
     "fecha_creacion": "8/9/2021",
     "comentarios": "-1/2",
     "ordenID": "e04fc26e-d999-4ba1-af59-9dab6fc3f697"
@@ -10472,7 +10472,7 @@
     "vehiculos": 806,
     "origen": "Sutukung",
     "destino": "Panggungsari",
-    "estado": "̦H̬̤̗̤͝e͜ ̜̥̝̻͍̟́w̕h̖̯͓o̝͙̖͎̱̮ ҉̺̙̞̟͈W̷̼̭a̺̪͍į͈͕̭͙̯̜t̶̼̮s̘͙͖̕ ̠̫̠B̻͍͙͉̳ͅe̵h̵̬͇̫͙i̹͓̳̳̮͎̫̕n͟d̴̪̜̖ ̰͉̩͇͙̲͞ͅT͖̼͓̪͢h͏͓̮̻e̬̝̟ͅ ̤̹̝W͙̞̝͔͇͝ͅa͏͓͔̹̼̣l̴͔̰̤̟͔ḽ̫.͕",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "4/8/2021",
     "comentarios": "(｡◕ ∀ ◕｡)",
     "ordenID": "fef76830-84d3-4492-9e7b-6bc531b3138d"
@@ -10524,7 +10524,7 @@
     "vehiculos": 810,
     "origen": "Le Lamentin",
     "destino": "Lahad Datu",
-    "estado": "␢",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "8/20/2021",
     "comentarios": "₀₁₂",
     "ordenID": "23dc2f95-3c28-46e7-8dbd-25db16bc571c"
@@ -10537,7 +10537,7 @@
     "vehiculos": 811,
     "origen": "Huaminglou",
     "destino": "Huacrachuco",
-    "estado": "　",
+    "estado": "Despachada",
     "fecha_creacion": "1/29/2021",
     "comentarios": "nil",
     "ordenID": "bef9909e-b637-484b-9f0b-09d4f69f6090"
@@ -10550,7 +10550,7 @@
     "vehiculos": 812,
     "origen": "Tsybulevka",
     "destino": "Tan Sum",
-    "estado": "울란바토르",
+    "estado": "Finalizada",
     "fecha_creacion": "12/8/2020",
     "comentarios": "() { 0; }; touch /tmp/blns.shellshock1.fail;",
     "ordenID": "b9c388e7-567d-43ce-a1aa-cceb29a908ec"
@@ -10563,7 +10563,7 @@
     "vehiculos": 813,
     "origen": "Colonia Yguazú",
     "destino": "Madrid",
-    "estado": "-1",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "8/13/2021",
     "comentarios": "🐵 🙈 🙉 🙊",
     "ordenID": "b0e9341e-2364-4e45-9ebd-d07aac6961f6"
@@ -10615,7 +10615,7 @@
     "vehiculos": 817,
     "origen": "Rangpur",
     "destino": "Newark",
-    "estado": "パーティーへ行かないか",
+    "estado": "Cancelada",
     "fecha_creacion": "2/21/2021",
     "comentarios": "-1.00",
     "ordenID": "690fe6b8-a4d8-457e-8d41-ffa90661d6f7"
@@ -10667,7 +10667,7 @@
     "vehiculos": 821,
     "origen": "Doro Oo",
     "destino": "Jin’an",
-    "estado": "-$1.00",
+    "estado": "Cancelada",
     "fecha_creacion": "1/25/2021",
     "comentarios": "null",
     "ordenID": "b4d570d3-6c8c-47b2-91e4-98685f11f385"
@@ -10680,7 +10680,7 @@
     "vehiculos": 822,
     "origen": "Telheira",
     "destino": "Kambar",
-    "estado": "/dev/null; touch /tmp/blns.fail ; echo",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "6/21/2021",
     "comentarios": "🚾 🆒 🆓 🆕 🆖 🆗 🆙 🏧",
     "ordenID": "7fe16a2f-2250-4412-a086-b5cdcd007c56"
@@ -10706,7 +10706,7 @@
     "vehiculos": 824,
     "origen": "Sigiriya",
     "destino": "Viline",
-    "estado": "../../../../../../../../../../../etc/passwd%00",
+    "estado": "Despachada",
     "fecha_creacion": "3/30/2021",
     "comentarios": "NIL",
     "ordenID": "3e721536-637c-4429-a561-7ed1d5053f4c"
@@ -10771,7 +10771,7 @@
     "vehiculos": 829,
     "origen": "Minchinābād",
     "destino": "Dukuhmencek Lor",
-    "estado": "₀₁₂",
+    "estado": "Finalizada",
     "fecha_creacion": "8/16/2021",
     "comentarios": "1E+02",
     "ordenID": "2cd3a40a-c9a7-4180-8938-26cf0dc470c5"
@@ -10784,7 +10784,7 @@
     "vehiculos": 830,
     "origen": "Carmen",
     "destino": "Lampa",
-    "estado": "../../../../../../../../../../../etc/passwd%00",
+    "estado": "Despachada",
     "fecha_creacion": "12/6/2020",
     "comentarios": "00˙Ɩ$-",
     "ordenID": "e094dd26-c08a-40a0-b78f-7209742f4f83"
@@ -10823,7 +10823,7 @@
     "vehiculos": 833,
     "origen": "Tours",
     "destino": "Maniwaki",
-    "estado": "Ṱ̺̺̕o͞ ̷i̲̬͇̪͙n̝̗͕v̟̜̘̦͟o̶̙̰̠kè͚̮̺̪̹̱̤ ̖t̝͕̳̣̻̪͞h̼͓̲̦̳̘̲e͇̣̰̦̬͎ ̢̼̻̱̘h͚͎͙̜̣̲ͅi̦̲̣̰̤v̻͍e̺̭̳̪̰-m̢iͅn̖̺̞̲̯̰d̵̼̟͙̩̼̘̳ ̞̥̱̳̭r̛̗̘e͙p͠r̼̞̻̭̗e̺̠̣͟s̘͇̳͍̝͉e͉̥̯̞̲͚̬͜ǹ̬͎͎̟̖͇̤t͍̬̤͓̼̭͘ͅi̪̱n͠g̴͉ ͏͉ͅc̬̟h͡a̫̻̯͘o̫̟̖͍̙̝͉s̗̦̲.̨̹͈̣",
+    "estado": "Despachada",
     "fecha_creacion": "10/12/2021",
     "comentarios": "'",
     "ordenID": "17f0615f-297c-459e-b048-9f24b4690f4d"
@@ -10849,7 +10849,7 @@
     "vehiculos": 835,
     "origen": "Kapan",
     "destino": "Shawnee Mission",
-    "estado": "パーティーへ行かないか",
+    "estado": "Cancelada",
     "fecha_creacion": "3/11/2021",
     "comentarios": "!@#$%^&*()",
     "ordenID": "12e383a8-bba2-4de9-a98f-8e2eea4cf4c8"
@@ -10862,7 +10862,7 @@
     "vehiculos": 836,
     "origen": "Baoquan",
     "destino": "Yangdun",
-    "estado": "הָיְתָהtestالصفحات التّحول",
+    "estado": "Despachada",
     "fecha_creacion": "3/2/2021",
     "comentarios": "Ṱ̺̺̕o͞ ̷i̲̬͇̪͙n̝̗͕v̟̜̘̦͟o̶̙̰̠kè͚̮̺̪̹̱̤ ̖t̝͕̳̣̻̪͞h̼͓̲̦̳̘̲e͇̣̰̦̬͎ ̢̼̻̱̘h͚͎͙̜̣̲ͅi̦̲̣̰̤v̻͍e̺̭̳̪̰-m̢iͅn̖̺̞̲̯̰d̵̼̟͙̩̼̘̳ ̞̥̱̳̭r̛̗̘e͙p͠r̼̞̻̭̗e̺̠̣͟s̘͇̳͍̝͉e͉̥̯̞̲͚̬͜ǹ̬͎͎̟̖͇̤t͍̬̤͓̼̭͘ͅi̪̱n͠g̴͉ ͏͉ͅc̬̟h͡a̫̻̯͘o̫̟̖͍̙̝͉s̗̦̲.̨̹͈̣",
     "ordenID": "59f23e8c-5727-4ad0-bb24-779245f93513"
@@ -10888,7 +10888,7 @@
     "vehiculos": 838,
     "origen": "Vestmanna",
     "destino": "Qinglian",
-    "estado": "../../../../../../../../../../../etc/hosts",
+    "estado": "Cancelada",
     "fecha_creacion": "9/6/2021",
     "comentarios": "Z̮̞̠͙͔ͅḀ̗̞͈̻̗Ḷ͙͎̯̹̞͓G̻O̭̗̮",
     "ordenID": "07fd5515-fb50-464e-a754-aa856feb800a"
@@ -10940,7 +10940,7 @@
     "vehiculos": 842,
     "origen": "Basseterre",
     "destino": "Santa Ana",
-    "estado": "בְּרֵאשִׁית, בָּרָא אֱלֹהִים, אֵת הַשָּׁמַיִם, וְאֵת הָאָרֶץ",
+    "estado": "Despachada",
     "fecha_creacion": "7/13/2021",
     "comentarios": "<script>alert('hi')</script>",
     "ordenID": "883d11c8-f6c8-4e2f-8687-ce4f999673e6"
@@ -10953,7 +10953,7 @@
     "vehiculos": 843,
     "origen": "Shangganshan",
     "destino": "Zhoukou",
-    "estado": "ÅÍÎÏ˝ÓÔÒÚÆ☃",
+    "estado": "Finalizada",
     "fecha_creacion": "10/8/2021",
     "comentarios": "<svg><script>0<1>alert('XSS')</script>",
     "ordenID": "23572e3d-d742-48c8-b5d1-94e56a81c58f"
@@ -10992,7 +10992,7 @@
     "vehiculos": 846,
     "origen": "Puerto Quellón",
     "destino": "Sundbyberg",
-    "estado": "-1",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "8/14/2021",
     "comentarios": "-1.00",
     "ordenID": "67b07ddb-ecef-4213-9f35-2e7241a7dcfc"
@@ -11005,7 +11005,7 @@
     "vehiculos": 847,
     "origen": "Shebekino",
     "destino": "Skövde",
-    "estado": "␢",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "5/12/2021",
     "comentarios": "¡™£¢∞§¶•ªº–≠",
     "ordenID": "f6e4e0db-6520-4332-a905-f39341be0644"
@@ -11018,7 +11018,7 @@
     "vehiculos": 848,
     "origen": "Charlotte",
     "destino": "Lederaba",
-    "estado": "Z̮̞̠͙͔ͅḀ̗̞͈̻̗Ḷ͙͎̯̹̞͓G̻O̭̗̮",
+    "estado": "Despachada",
     "fecha_creacion": "6/7/2021",
     "comentarios": "1E02",
     "ordenID": "98bf718a-1e7f-4561-9437-a82645c40367"
@@ -11031,7 +11031,7 @@
     "vehiculos": 849,
     "origen": "Flor da Mata",
     "destino": "São Joaquim da Barra",
-    "estado": "-1",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "8/9/2021",
     "comentarios": "'",
     "ordenID": "533b8a27-d679-4abd-9c88-56cc9ad4f979"
@@ -11070,7 +11070,7 @@
     "vehiculos": 852,
     "origen": "Ribeirão",
     "destino": "Huitang",
-    "estado": "__ﾛ(,_,*)",
+    "estado": "Finalizada",
     "fecha_creacion": "9/1/2021",
     "comentarios": "1;DROP TABLE users",
     "ordenID": "0f73c63a-13f4-4f45-b9f1-407fa7353935"
@@ -11161,7 +11161,7 @@
     "vehiculos": 859,
     "origen": "Kiukasen",
     "destino": "Kamifukuoka",
-    "estado": "👾 🙇 💁 🙅 🙆 🙋 🙎 🙍 ",
+    "estado": "Despachada",
     "fecha_creacion": "2/28/2021",
     "comentarios": "　",
     "ordenID": "c3dc3a7f-1d8c-48e5-84a4-b1b7756fe437"
@@ -11200,7 +11200,7 @@
     "vehiculos": 862,
     "origen": "Mpraeso",
     "destino": "Debrzno",
-    "estado": "0️⃣ 1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣ 6️⃣ 7️⃣ 8️⃣ 9️⃣ 🔟",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "5/26/2021",
     "comentarios": "() { _; } >_[$($())] { touch /tmp/blns.shellshock2.fail; }",
     "ordenID": "f2c895ef-2320-4cb7-b48e-be6bd9bbce2d"
@@ -11304,7 +11304,7 @@
     "vehiculos": 870,
     "origen": "Champigny-sur-Marne",
     "destino": "Mainri",
-    "estado": "🐵 🙈 🙉 🙊",
+    "estado": "Cancelada",
     "fecha_creacion": "9/10/2021",
     "comentarios": "test⁠test‫",
     "ordenID": "ac7857bd-5be6-4ee5-9ff2-673dac742426"
@@ -11330,7 +11330,7 @@
     "vehiculos": 872,
     "origen": "Marmashen",
     "destino": "Iwierzyce",
-    "estado": "-1E+02",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "7/12/2021",
     "comentarios": "œ∑´®†¥¨ˆøπ“‘",
     "ordenID": "da3b900c-6bf3-424a-89ee-b903baabe911"
@@ -11343,7 +11343,7 @@
     "vehiculos": 873,
     "origen": "Kaniów",
     "destino": "Wangren",
-    "estado": "-1.00",
+    "estado": "Finalizada",
     "fecha_creacion": "11/17/2021",
     "comentarios": "Z̮̞̠͙͔ͅḀ̗̞͈̻̗Ḷ͙͎̯̹̞͓G̻O̭̗̮",
     "ordenID": "82eb9d94-63fe-4a13-b0c3-048604865041"
@@ -11356,7 +11356,7 @@
     "vehiculos": 874,
     "origen": "Curitiba",
     "destino": "Huhe",
-    "estado": "00˙Ɩ$-",
+    "estado": "Despachada",
     "fecha_creacion": "5/31/2021",
     "comentarios": "1.00",
     "ordenID": "0ca754bd-05fd-4e31-ada4-264829199680"
@@ -11382,7 +11382,7 @@
     "vehiculos": 876,
     "origen": "Maoping",
     "destino": "Sanguansi",
-    "estado": "₀₁₂",
+    "estado": "Finalizada",
     "fecha_creacion": "5/22/2021",
     "comentarios": "⁰⁴⁵",
     "ordenID": "80c4746a-5492-4568-9fe7-5898dc207f40"
@@ -11395,7 +11395,7 @@
     "vehiculos": 877,
     "origen": "Castellon De La Plana/Castello De La Pla",
     "destino": "Paris 10",
-    "estado": "울란바토르",
+    "estado": "Finalizada",
     "fecha_creacion": "6/22/2021",
     "comentarios": "̦H̬̤̗̤͝e͜ ̜̥̝̻͍̟́w̕h̖̯͓o̝͙̖͎̱̮ ҉̺̙̞̟͈W̷̼̭a̺̪͍į͈͕̭͙̯̜t̶̼̮s̘͙͖̕ ̠̫̠B̻͍͙͉̳ͅe̵h̵̬͇̫͙i̹͓̳̳̮͎̫̕n͟d̴̪̜̖ ̰͉̩͇͙̲͞ͅT͖̼͓̪͢h͏͓̮̻e̬̝̟ͅ ̤̹̝W͙̞̝͔͇͝ͅa͏͓͔̹̼̣l̴͔̰̤̟͔ḽ̫.͕",
     "ordenID": "f938598d-7ec0-48f1-be2b-9957516e607a"
@@ -11421,7 +11421,7 @@
     "vehiculos": 879,
     "origen": "Krueng Luak",
     "destino": "Itamaraju",
-    "estado": "1/0",
+    "estado": "Despachada",
     "fecha_creacion": "4/9/2021",
     "comentarios": "-1E2",
     "ordenID": "a5ad4a3d-f875-47c3-bd69-135f564e7826"
@@ -11434,7 +11434,7 @@
     "vehiculos": 880,
     "origen": "Batutua",
     "destino": "Vincennes",
-    "estado": "₀₁₂",
+    "estado": "Finalizada",
     "fecha_creacion": "8/23/2021",
     "comentarios": "-1E+02",
     "ordenID": "896dfd93-c1ec-4246-bc7f-383511987528"
@@ -11460,7 +11460,7 @@
     "vehiculos": 882,
     "origen": "Novoarkhanhel’s’k",
     "destino": "Moravský Písek",
-    "estado": "١٢٣",
+    "estado": "Despachada",
     "fecha_creacion": "12/20/2020",
     "comentarios": "1.00",
     "ordenID": "a788d966-e9fd-4bc2-950b-70baec088f81"
@@ -11486,7 +11486,7 @@
     "vehiculos": 884,
     "origen": "Huangbei",
     "destino": "Puksoozero",
-    "estado": "울란바토르",
+    "estado": "Finalizada",
     "fecha_creacion": "3/15/2021",
     "comentarios": "　",
     "ordenID": "f6f3d419-cd7a-46bd-a261-7f1824a32fb6"
@@ -11499,7 +11499,7 @@
     "vehiculos": 885,
     "origen": "Okegawa",
     "destino": "Jinhe",
-    "estado": "/dev/null; touch /tmp/blns.fail ; echo",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "1/9/2021",
     "comentarios": "사회과학원 어학연구소",
     "ordenID": "23a4559b-c887-49e1-8c30-e50f1126161e"
@@ -11525,7 +11525,7 @@
     "vehiculos": 887,
     "origen": "Irirum",
     "destino": "Ntungamo",
-    "estado": "œ∑´®†¥¨ˆøπ“‘",
+    "estado": "Despachada",
     "fecha_creacion": "9/17/2021",
     "comentarios": "../../../../../../../../../../../etc/passwd%00",
     "ordenID": "23ed2132-4a86-40ca-b9ad-6246714112a2"
@@ -11577,7 +11577,7 @@
     "vehiculos": 891,
     "origen": "Huallanca",
     "destino": "Huangpu",
-    "estado": "/dev/null; touch /tmp/blns.fail ; echo",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "9/14/2021",
     "comentarios": "__ﾛ(,_,*)",
     "ordenID": "c393ec1d-dabf-4223-9677-460566593731"
@@ -11603,7 +11603,7 @@
     "vehiculos": 893,
     "origen": "Waenenda",
     "destino": "Navegantes",
-    "estado": "₀₁₂",
+    "estado": "Finalizada",
     "fecha_creacion": "8/2/2021",
     "comentarios": "-1E02",
     "ordenID": "32b17295-037f-49af-abb4-886403528132"
@@ -11616,7 +11616,7 @@
     "vehiculos": 894,
     "origen": "Paarl",
     "destino": "New Haven",
-    "estado": "｀ｨ(´∀｀∩",
+    "estado": "Cancelada",
     "fecha_creacion": "3/8/2021",
     "comentarios": "<img src=x onerror=alert('hi') />",
     "ordenID": "13715a38-746a-4b36-a32c-da9a8a7ca84a"
@@ -11707,7 +11707,7 @@
     "vehiculos": 901,
     "origen": "Shangxing",
     "destino": "Elista",
-    "estado": "울란바토르",
+    "estado": "Finalizada",
     "fecha_creacion": "8/17/2021",
     "comentarios": "''",
     "ordenID": "4d4782bd-96db-4ec8-80f1-5a6b0634d0d8"
@@ -11746,7 +11746,7 @@
     "vehiculos": 904,
     "origen": "Vinež",
     "destino": "Tumbagaan",
-    "estado": "⁰⁴⁵₀₁₂",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "9/15/2021",
     "comentarios": "''",
     "ordenID": "d42c9a3a-05e1-43e3-a7ba-09cee9d0c619"
@@ -11785,7 +11785,7 @@
     "vehiculos": 907,
     "origen": "Baturaja",
     "destino": "Uuemõisa",
-    "estado": "null",
+    "estado": "Finalizada",
     "fecha_creacion": "3/12/2021",
     "comentarios": "null",
     "ordenID": "7188eca9-a166-4a44-a049-813290dc0032"
@@ -11798,7 +11798,7 @@
     "vehiculos": 908,
     "origen": "Pančevo",
     "destino": "Nanyang",
-    "estado": "␢",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "6/17/2021",
     "comentarios": "1.00",
     "ordenID": "aaeaf030-f73a-46e0-bd81-d299ee47caac"
@@ -11850,7 +11850,7 @@
     "vehiculos": 912,
     "origen": "Olofström",
     "destino": "Surkhakhi",
-    "estado": "œ∑´®†¥¨ˆøπ“‘",
+    "estado": "Despachada",
     "fecha_creacion": "12/17/2020",
     "comentarios": "✋🏿 💪🏿 👐🏿 🙌🏿 👏🏿 🙏🏿",
     "ordenID": "35748bca-853d-47cd-a840-b9cb068a3cce"
@@ -11889,7 +11889,7 @@
     "vehiculos": 915,
     "origen": "La Paz",
     "destino": "Biao",
-    "estado": null,
+    "estado": "Cancelada",
     "fecha_creacion": "4/14/2021",
     "comentarios": "Ṱ̺̺̕o͞ ̷i̲̬͇̪͙n̝̗͕v̟̜̘̦͟o̶̙̰̠kè͚̮̺̪̹̱̤ ̖t̝͕̳̣̻̪͞h̼͓̲̦̳̘̲e͇̣̰̦̬͎ ̢̼̻̱̘h͚͎͙̜̣̲ͅi̦̲̣̰̤v̻͍e̺̭̳̪̰-m̢iͅn̖̺̞̲̯̰d̵̼̟͙̩̼̘̳ ̞̥̱̳̭r̛̗̘e͙p͠r̼̞̻̭̗e̺̠̣͟s̘͇̳͍̝͉e͉̥̯̞̲͚̬͜ǹ̬͎͎̟̖͇̤t͍̬̤͓̼̭͘ͅi̪̱n͠g̴͉ ͏͉ͅc̬̟h͡a̫̻̯͘o̫̟̖͍̙̝͉s̗̦̲.̨̹͈̣",
     "ordenID": "e62d645d-cd59-4771-bc8b-fb7ab5d0e526"
@@ -11902,7 +11902,7 @@
     "vehiculos": 916,
     "origen": "Kedungbacin",
     "destino": "Liminka",
-    "estado": "test",
+    "estado": "Finalizada",
     "fecha_creacion": "1/27/2021",
     "comentarios": "̡͓̞ͅI̗̘̦͝n͇͇͙v̮̫ok̲̫̙͈i̖͙̭̹̠̞n̡̻̮̣̺g̲͈͙̭͙̬͎ ̰t͔̦h̞̲e̢̤ ͍̬̲͖f̴̘͕̣è͖ẹ̥̩l͖͔͚i͓͚̦͠n͖͍̗͓̳̮g͍ ̨o͚̪͡f̘̣̬ ̖̘͖̟͙̮c҉͔̫͖͓͇͖ͅh̵̤̣͚͔á̗̼͕ͅo̼̣̥s̱͈̺̖̦̻͢.̛̖̞̠̫̰",
     "ordenID": "49fbb37e-ffbc-4dea-81b2-96bb41faede5"
@@ -11915,7 +11915,7 @@
     "vehiculos": 917,
     "origen": "Jinhe",
     "destino": "Arish",
-    "estado": "1/2",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "10/8/2021",
     "comentarios": "../../../../../../../../../../../etc/hosts",
     "ordenID": "a4ca7cf0-00e1-4fdf-9162-314d40a3f6f1"
@@ -11928,7 +11928,7 @@
     "vehiculos": 918,
     "origen": "Siruma",
     "destino": "Lulindi",
-    "estado": "ثم نفس سقطت وبالتحديد،, جزيرتي باستخدام أن دنو. إذ هنا؟ الستار وتنصيب كان. أهّل ايطاليا، بريطانيا-فرنسا قد أخذ. سليمان، إتفاقية بين ما, يذكر الحدود أي بعد, معاملة بولندا، الإطلاق عل إيو.",
+    "estado": "Finalizada",
     "fecha_creacion": "9/6/2021",
     "comentarios": "-1.00",
     "ordenID": "ba1ca511-c8b0-4ac2-9b76-b65b5b28569f"
@@ -11941,7 +11941,7 @@
     "vehiculos": 919,
     "origen": "Purabaya",
     "destino": "Gradil",
-    "estado": "¸˛Ç◊ı˜Â¯˘¿",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "10/27/2021",
     "comentarios": "1.00",
     "ordenID": "a1d3eb64-4632-492e-96bb-fd428f8a0541"
@@ -11954,7 +11954,7 @@
     "vehiculos": 920,
     "origen": "Žirovnice",
     "destino": "Uchiza",
-    "estado": "　",
+    "estado": "Despachada",
     "fecha_creacion": "11/22/2021",
     "comentarios": "١٢٣",
     "ordenID": "1b3e7558-65d8-4cba-8057-fe02c906144f"
@@ -11993,7 +11993,7 @@
     "vehiculos": 923,
     "origen": "Santo Domingo",
     "destino": "Buriram",
-    "estado": "NULL",
+    "estado": "Finalizada",
     "fecha_creacion": "10/24/2021",
     "comentarios": ",。・:*:・゜’( ☻ ω ☻ )。・:*:・゜’",
     "ordenID": "519e8ee6-0e81-4721-b378-ba3abeb15a6c"
@@ -12045,7 +12045,7 @@
     "vehiculos": 927,
     "origen": "Xingdian",
     "destino": "Mandala",
-    "estado": "1;DROP TABLE users",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "6/20/2021",
     "comentarios": "0/0",
     "ordenID": "26424726-e16a-474c-8c83-157ed4d663bb"
@@ -12058,7 +12058,7 @@
     "vehiculos": 928,
     "origen": "Tornio",
     "destino": "Kungsbacka",
-    "estado": "0️⃣ 1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣ 6️⃣ 7️⃣ 8️⃣ 9️⃣ 🔟",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "9/11/2021",
     "comentarios": "1'; DROP TABLE users--",
     "ordenID": "e3637ca5-ca46-429b-888d-781a08a91c7f"
@@ -12071,7 +12071,7 @@
     "vehiculos": 929,
     "origen": "Cill Airne",
     "destino": "Aş Şalw",
-    "estado": "/dev/null; touch /tmp/blns.fail ; echo",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "7/24/2021",
     "comentarios": "null",
     "ordenID": "83a14047-7df0-4b65-a15f-8c446273efd1"
@@ -12084,7 +12084,7 @@
     "vehiculos": 930,
     "origen": "Jianggao",
     "destino": "Cikaras",
-    "estado": "__ﾛ(,_,*)",
+    "estado": "Finalizada",
     "fecha_creacion": "8/5/2021",
     "comentarios": "¸˛Ç◊ı˜Â¯˘¿",
     "ordenID": "3196af89-90b9-44ad-b91a-91ae9585575b"
@@ -12123,7 +12123,7 @@
     "vehiculos": 933,
     "origen": "Dadus",
     "destino": "Vancouver",
-    "estado": "｀ｨ(´∀｀∩",
+    "estado": "Cancelada",
     "fecha_creacion": "11/15/2021",
     "comentarios": "בְּרֵאשִׁית, בָּרָא אֱלֹהִים, אֵת הַשָּׁמַיִם, וְאֵת הָאָרֶץ",
     "ordenID": "f2429183-7420-4dcc-a4c8-73025c6c484b"
@@ -12175,7 +12175,7 @@
     "vehiculos": 937,
     "origen": "Cerrillos",
     "destino": "Åby",
-    "estado": "<>?:\"{}|_+",
+    "estado": "Cancelada",
     "fecha_creacion": "12/16/2020",
     "comentarios": "test",
     "ordenID": "2c4023ee-45a2-4822-992a-ac5590a536fa"
@@ -12188,7 +12188,7 @@
     "vehiculos": 938,
     "origen": "Błaszki",
     "destino": "Sumberdangdang",
-    "estado": null,
+    "estado": "Cancelada",
     "fecha_creacion": "9/15/2021",
     "comentarios": "-1E02",
     "ordenID": "b09e270e-7d63-425a-a18f-a31ca708d001"
@@ -12201,7 +12201,7 @@
     "vehiculos": 939,
     "origen": "Jiuzihe",
     "destino": "Zmiyëvka",
-    "estado": "../../../../../../../../../../../etc/passwd%00",
+    "estado": "Despachada",
     "fecha_creacion": "4/22/2021",
     "comentarios": "🚾 🆒 🆓 🆕 🆖 🆗 🆙 🏧",
     "ordenID": "a12a5ec4-4dd0-40cd-9af7-f1fbb5e65e5f"
@@ -12266,7 +12266,7 @@
     "vehiculos": 944,
     "origen": "Cikarang",
     "destino": "Venado Tuerto",
-    "estado": "⁰⁴⁵₀₁₂",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "6/15/2021",
     "comentarios": "0.00",
     "ordenID": "2d39d523-7ded-488f-95b5-25c523b098e2"
@@ -12292,7 +12292,7 @@
     "vehiculos": 946,
     "origen": "Farīdpur",
     "destino": "Imus",
-    "estado": "１２３",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "5/17/2021",
     "comentarios": "␣",
     "ordenID": "d034b235-2dc9-400d-9604-c04c6ce8b366"
@@ -12383,7 +12383,7 @@
     "vehiculos": 953,
     "origen": "Vista Hermosa",
     "destino": "Doghs",
-    "estado": "<script>alert('hi')</script>",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "5/19/2021",
     "comentarios": "​",
     "ordenID": "8d070252-d86a-4cb4-8de1-a1f6bb7337ca"
@@ -12396,7 +12396,7 @@
     "vehiculos": 954,
     "origen": "Nagbalaye",
     "destino": "Reuleuet",
-    "estado": "1;DROP TABLE users",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "3/13/2021",
     "comentarios": "｀ｨ(´∀｀∩",
     "ordenID": "364716cd-0329-45a3-bcc3-06002dd6d8c8"
@@ -12422,7 +12422,7 @@
     "vehiculos": 956,
     "origen": "Florencia",
     "destino": "Neochóri",
-    "estado": "1;DROP TABLE users",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "7/16/2021",
     "comentarios": "⁰⁴⁵₀₁₂",
     "ordenID": "72750bbc-7227-4edc-8297-fb7593caef2e"
@@ -12448,7 +12448,7 @@
     "vehiculos": 958,
     "origen": "Kalety",
     "destino": "Kamenný Přívoz",
-    "estado": "הָיְתָהtestالصفحات التّحول",
+    "estado": "Despachada",
     "fecha_creacion": "10/28/2021",
     "comentarios": "<svg><script>0<1>alert('XSS')</script>",
     "ordenID": "07910e7d-6c27-4f9b-a647-445367b2fd36"
@@ -12500,7 +12500,7 @@
     "vehiculos": 962,
     "origen": "Magoúla",
     "destino": "Napanee Downtown",
-    "estado": "\"'\"'\"''''\"",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "9/5/2021",
     "comentarios": "¸˛Ç◊ı˜Â¯˘¿",
     "ordenID": "80038657-7d9d-4191-92f9-3a357fbb53c2"
@@ -12513,7 +12513,7 @@
     "vehiculos": 963,
     "origen": "Zadvorsko",
     "destino": "Viline",
-    "estado": "<script>alert('hi')</script>",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "10/17/2021",
     "comentarios": "() { 0; }; touch /tmp/blns.shellshock1.fail;",
     "ordenID": "0ffda2b0-c5f9-4aeb-96c4-a77963dc76d3"
@@ -12526,7 +12526,7 @@
     "vehiculos": 964,
     "origen": "Lelydorp",
     "destino": "Adtugan",
-    "estado": "｀ｨ(´∀｀∩",
+    "estado": "Cancelada",
     "fecha_creacion": "5/10/2021",
     "comentarios": "999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999",
     "ordenID": "02f513f9-a6a5-440e-a486-378f8b18a37d"
@@ -12578,7 +12578,7 @@
     "vehiculos": 968,
     "origen": "Qozonketkan",
     "destino": "Oslo",
-    "estado": "-1.00",
+    "estado": "Finalizada",
     "fecha_creacion": "5/20/2021",
     "comentarios": "｀ｨ(´∀｀∩",
     "ordenID": "69c4089c-a504-4a14-ac96-96db1e9c7cd6"
@@ -12591,7 +12591,7 @@
     "vehiculos": 969,
     "origen": "Bacnotan",
     "destino": "Skore",
-    "estado": "Z̮̞̠͙͔ͅḀ̗̞͈̻̗Ḷ͙͎̯̹̞͓G̻O̭̗̮",
+    "estado": "Despachada",
     "fecha_creacion": "5/29/2021",
     "comentarios": "0️⃣ 1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣ 6️⃣ 7️⃣ 8️⃣ 9️⃣ 🔟",
     "ordenID": "7f8a11a4-fb47-4f9c-9979-03e3f8768cdd"
@@ -12617,7 +12617,7 @@
     "vehiculos": 971,
     "origen": "Moravče",
     "destino": "Saint Andrews",
-    "estado": "｀ｨ(´∀｀∩",
+    "estado": "Cancelada",
     "fecha_creacion": "4/12/2021",
     "comentarios": "null",
     "ordenID": "b8b4d463-73cb-48df-8a3a-4a6846e4ee7b"
@@ -12669,7 +12669,7 @@
     "vehiculos": 975,
     "origen": "Shangdundu",
     "destino": "Roche-à-Bateau",
-    "estado": "Ṱ̺̺̕o͞ ̷i̲̬͇̪͙n̝̗͕v̟̜̘̦͟o̶̙̰̠kè͚̮̺̪̹̱̤ ̖t̝͕̳̣̻̪͞h̼͓̲̦̳̘̲e͇̣̰̦̬͎ ̢̼̻̱̘h͚͎͙̜̣̲ͅi̦̲̣̰̤v̻͍e̺̭̳̪̰-m̢iͅn̖̺̞̲̯̰d̵̼̟͙̩̼̘̳ ̞̥̱̳̭r̛̗̘e͙p͠r̼̞̻̭̗e̺̠̣͟s̘͇̳͍̝͉e͉̥̯̞̲͚̬͜ǹ̬͎͎̟̖͇̤t͍̬̤͓̼̭͘ͅi̪̱n͠g̴͉ ͏͉ͅc̬̟h͡a̫̻̯͘o̫̟̖͍̙̝͉s̗̦̲.̨̹͈̣",
+    "estado": "Despachada",
     "fecha_creacion": "5/10/2021",
     "comentarios": "ﾟ･✿ヾ╲(｡◕‿◕｡)╱✿･ﾟ",
     "ordenID": "99d4bdf1-5175-4717-982d-bf06b2f2f9c8"
@@ -12708,7 +12708,7 @@
     "vehiculos": 978,
     "origen": "Shiqiaotou",
     "destino": "Bourges",
-    "estado": "00˙Ɩ$-",
+    "estado": "Despachada",
     "fecha_creacion": "12/21/2020",
     "comentarios": "‪‪test‪",
     "ordenID": "3105c0d8-f443-4587-b33c-e70a52bf5b29"
@@ -12760,7 +12760,7 @@
     "vehiculos": 982,
     "origen": "Huasahuasi",
     "destino": "Xiniqi",
-    "estado": "　",
+    "estado": "Despachada",
     "fecha_creacion": "10/13/2021",
     "comentarios": "<img src=x onerror=alert('hi') />",
     "ordenID": "cc37441d-28a3-45a6-b571-d5c25b3a21f5"
@@ -12773,7 +12773,7 @@
     "vehiculos": 983,
     "origen": "Fujia",
     "destino": "Borova",
-    "estado": "1/2",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "2/13/2021",
     "comentarios": "✋🏿 💪🏿 👐🏿 🙌🏿 👏🏿 🙏🏿",
     "ordenID": "c39c21d3-cb3b-46fb-8bb3-06b51e115e26"
@@ -12786,7 +12786,7 @@
     "vehiculos": 984,
     "origen": "Xiaochuan",
     "destino": "Gemo",
-    "estado": "١٢٣",
+    "estado": "Despachada",
     "fecha_creacion": "6/16/2021",
     "comentarios": "1;DROP TABLE users",
     "ordenID": "e3fe3dd7-e77d-4570-9ead-9549d4f8ee83"
@@ -12812,7 +12812,7 @@
     "vehiculos": 986,
     "origen": "Xiangyun",
     "destino": "Pasvalys",
-    "estado": null,
+    "estado": "Cancelada",
     "fecha_creacion": "8/26/2021",
     "comentarios": "0.00",
     "ordenID": "9123f883-65fc-4fd8-ba25-dd529d884fdd"
@@ -12864,7 +12864,7 @@
     "vehiculos": 990,
     "origen": "Konstantinovo",
     "destino": "Bakar",
-    "estado": "œ∑´®†¥¨ˆøπ“‘",
+    "estado": "Despachada",
     "fecha_creacion": "3/3/2021",
     "comentarios": "👾 🙇 💁 🙅 🙆 🙋 🙎 🙍 ",
     "ordenID": "3cba345b-b07e-40f8-a3ac-0686b448812d"
@@ -12877,7 +12877,7 @@
     "vehiculos": 991,
     "origen": "Villa Cañás",
     "destino": "Harjavalta",
-    "estado": "Ṱ̺̺̕o͞ ̷i̲̬͇̪͙n̝̗͕v̟̜̘̦͟o̶̙̰̠kè͚̮̺̪̹̱̤ ̖t̝͕̳̣̻̪͞h̼͓̲̦̳̘̲e͇̣̰̦̬͎ ̢̼̻̱̘h͚͎͙̜̣̲ͅi̦̲̣̰̤v̻͍e̺̭̳̪̰-m̢iͅn̖̺̞̲̯̰d̵̼̟͙̩̼̘̳ ̞̥̱̳̭r̛̗̘e͙p͠r̼̞̻̭̗e̺̠̣͟s̘͇̳͍̝͉e͉̥̯̞̲͚̬͜ǹ̬͎͎̟̖͇̤t͍̬̤͓̼̭͘ͅi̪̱n͠g̴͉ ͏͉ͅc̬̟h͡a̫̻̯͘o̫̟̖͍̙̝͉s̗̦̲.̨̹͈̣",
+    "estado": "Despachada",
     "fecha_creacion": "4/15/2021",
     "comentarios": "✋🏿 💪🏿 👐🏿 🙌🏿 👏🏿 🙏🏿",
     "ordenID": "ab77be4a-feef-4458-b44b-a1b979f44c08"
@@ -12890,7 +12890,7 @@
     "vehiculos": 992,
     "origen": "Balut",
     "destino": "Székesfehérvár",
-    "estado": "-$1.00",
+    "estado": "Cancelada",
     "fecha_creacion": "3/28/2021",
     "comentarios": null,
     "ordenID": "59007737-14fb-454c-b788-c039b28ea260"
@@ -12929,7 +12929,7 @@
     "vehiculos": 995,
     "origen": "Semarapura",
     "destino": "Lisia Góra",
-    "estado": "../../../../../../../../../../../etc/hosts",
+    "estado": "Cancelada",
     "fecha_creacion": "12/26/2020",
     "comentarios": "⁦test⁧",
     "ordenID": "70b155fa-c392-4fdb-a538-32cc91e7f5d3"
@@ -12942,7 +12942,7 @@
     "vehiculos": 996,
     "origen": "Damiao",
     "destino": "Kalmar",
-    "estado": "/dev/null; touch /tmp/blns.fail ; echo",
+    "estado": "Pendiente por despacho",
     "fecha_creacion": "12/16/2020",
     "comentarios": "😍",
     "ordenID": "cb997ef2-46d3-421e-a34e-ff5353335abc"
@@ -12955,7 +12955,7 @@
     "vehiculos": 997,
     "origen": "Drummondville",
     "destino": "København",
-    "estado": "œ∑´®†¥¨ˆøπ“‘",
+    "estado": "Despachada",
     "fecha_creacion": "5/13/2021",
     "comentarios": "␣",
     "ordenID": "52f942f0-4193-49b5-97ea-4438a7f39fc9"
@@ -12968,7 +12968,7 @@
     "vehiculos": 998,
     "origen": "Yimnón",
     "destino": "Mulong",
-    "estado": "\"\"",
+    "estado": "Finalizada",
     "fecha_creacion": "2/5/2021",
     "comentarios": "/dev/null; touch /tmp/blns.fail ; echo",
     "ordenID": "473bdeeb-aaba-45bb-b287-568ab5d63af0"
@@ -12981,7 +12981,7 @@
     "vehiculos": 999,
     "origen": "Issad",
     "destino": "Guanshan",
-    "estado": "﻿",
+    "estado": "Finalizada",
     "fecha_creacion": "3/9/2021",
     "comentarios": "사회과학원 어학연구소",
     "ordenID": "1c828bfc-0544-4785-b792-7811155825c1"

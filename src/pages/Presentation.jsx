@@ -40,7 +40,7 @@ import {
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import Code from "../components/CodeEditor";
-import Footer from "../components/footer/Dashboard";
+import Footer from "../components/footer/Index";
 
 import GitHubButton from "react-github-btn";
 

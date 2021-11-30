@@ -154,7 +154,11 @@ export default (props) => {
 
                 <Dropdown.Divider />
 
-                <Dropdown.Item className="fw-bold">
+                <Dropdown.Item
+                  className="fw-bold"
+                  title="Mi perfil"
+                  href={Routes.Presentation.path}
+                >
                   <FontAwesomeIcon
                     icon={faSignOutAlt}
                     className="text-danger me-2"
