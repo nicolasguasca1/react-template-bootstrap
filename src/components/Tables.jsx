@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faAngleDown,
@@ -252,42 +252,6 @@ export const RankingTable = () => {
   );
 };
 
-// export const Paginations = ({
-//   orders,
-//   OrdersTable,
-//   title,
-//   pageLimit,
-//   ordersLimit
-// }) => {
-//   const [pages] = useState(Math.round(orders.length / ordersLimit));
-//   const [currentPage, setCurrentPage] = useState(1);
-
-//   const goToNextPage = () => {
-//     // not yet implemented
-//     // setCurrentPage(currentPage + 1);
-//     setCurrentPage((page) => page + 1);
-//   };
-//   const goToPreviousPage = () => {
-//     // not yet implemented
-//     setCurrentPage((page) => page - 1);
-//   };
-//   const changePage = (event) => {
-//     const pageNumber = Number(event.target.textContent);
-//     setCurrentPage(pageNumber);
-//   };
-//   const getPaginatedData = () => {
-//     const startIndex = currentPage * ordersLimit - ordersLimit;
-//     const endIndex = startIndex + ordersLimit;
-//     return orders.slice(startIndex, endIndex);
-//   };
-
-//   const getPaginationGroup = () => {
-//     let start = Math.floor((currentPage - 1) / pageLimit) * pageLimit;
-//     return new Array(pageLimit).fill().map((_, idx) => start + idx + 1);
-//   };
-//   return <div>Hello</div>;
-// };
-
 export const OrderRow = (props) => {
   const {
     nombre,
@@ -375,13 +339,10 @@ export const OrdersTable = ({
   const [currentPage, setCurrentPage] = useState(1);
 
   const goToNextPage = () => {
-    // not yet implemented
-    // setCurrentPage(currentPage + 1);
-    setCurrentPage((page) => page + 1);
+    setCurrentPage(currentPage + 1);
   };
   const goToPreviousPage = () => {
-    // not yet implemented
-    setCurrentPage((page) => page - 1);
+    setCurrentPage(currentPage - 1);
   };
   const changePage = (event) => {
     const pageNumber = Number(event.target.textContent);
