@@ -104,7 +104,6 @@ const Order = () => {
                 </Form.Select>
               </Form.Group>
             </Col>
-            <h5 className="mb-4">Restablecimiento de Contraseña</h5>
           </Row>
           <div className="mt-3">
             <Button variant="tertiary" type="submit">
