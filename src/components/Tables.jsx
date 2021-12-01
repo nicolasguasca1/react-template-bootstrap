@@ -31,6 +31,7 @@ import { Routes } from "../routes";
 import { pageVisits, pageTraffic, pageRanking } from "../data/tables";
 import transactions from "../data/transactions";
 import commands from "../data/commands";
+import OrderModal from "../components/modals/OrderModal";
 
 const ValueChange = ({ value, suffix }) => {
   const valueIcon = value < 0 ? faAngleDown : faAngleUp;
@@ -266,6 +267,8 @@ export const OrderRow = (props) => {
     comentarios,
     ordenID
   } = props.data;
+  const [showDefault, setShowDefault] = useState(false);
+  const handleClose = () => setShowDefault(false);
   const statusVariant =
     estado === "Finalizada"
       ? "success"
@@ -274,6 +277,14 @@ export const OrderRow = (props) => {
       : estado === "Cancelada"
       ? "danger"
       : "primary";
+
+  useEffect(() => {
+    return (
+      <>
+        <OrderModal showDefault={showDefault} handleClose={handleClose} />
+      </>
+    );
+  }, [showDefault]);
 
   return (
     <tr>
@@ -310,7 +321,7 @@ export const OrderRow = (props) => {
             </span>
           </Dropdown.Toggle>
           <Dropdown.Menu>
-            <Dropdown.Item>
+            <Dropdown.Item onClick={() => setShowDefault(true)}>
               <FontAwesomeIcon icon={faEye} className="me-2" /> Detalles
             </Dropdown.Item>
             <Dropdown.Item>
@@ -365,7 +376,6 @@ export const OrdersTable = ({
         <Table hover className="user-table align-items-center">
           <thead>
             <tr>
-              {/* <h1>{title}</h1> */}
               <th className="border-bottom">Producto</th>
               <th className="border-bottom">Cliente</th>
               <th className="border-bottom">Vehículos</th>
@@ -379,12 +389,6 @@ export const OrdersTable = ({
             {getPaginatedData().map((d, idx) => (
               <RenderComponent key={idx} data={d} />
             ))}
-            {/* {orders.map((t) => (
-              <RenderComponent key={t.id} {...t} />
-                key={`order-${t.userID}`}
-                {...t}
-              >
-            ))} */}
           </tbody>
         </Table>
         <Card.Footer className="px-3 border-0 d-lg-flex align-items-center justify-content-between">
@@ -398,22 +402,10 @@ export const OrdersTable = ({
               </Pagination.Prev>
 
               {getPaginationGroup().map((item, index) => (
-                <Pagination.Item
-                  key={index}
-                  onClick={changePage}
-                  // className={`paginationItem ${
-                  //   currentPage === item ? "active" : null
-                  // }`}
-                >
+                <Pagination.Item key={index} onClick={changePage}>
                   <span>{item}</span>
                 </Pagination.Item>
               ))}
-              {/* 
-              <Pagination.Item active>1</Pagination.Item>
-              <Pagination.Item>2</Pagination.Item>
-              <Pagination.Item>3</Pagination.Item>
-              <Pagination.Item>4</Pagination.Item>
-              <Pagination.Item>5</Pagination.Item> */}
               <Pagination.Next
                 onClick={goToNextPage}
                 className={`next ${currentPage === pages ? "disabled" : ""}`}

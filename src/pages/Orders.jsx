@@ -180,7 +180,7 @@ const Orders = (props) => {
       </div>
 
       <div>
-        {orders.length > 0 ? (
+        {filtredOrders.length > 0 ? (
           <>
             <OrdersTable
               data={filtredOrders}
