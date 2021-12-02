@@ -1,19 +1,33 @@
 {
-  "name": "server",
+  "name": "tripool_backend_server",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "API que responde a llamados desde el cliente y direcciona a la base de datos",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-    "dev": "nodemon index.js"
-
+    "start": "babel-node src/index.js",
+    "dev": "nodemon src/index.js --exec babel-node",
+    "build": "babel src --out-dir build"
   },
   "keywords": [],
-  "author": "",
+  "author": "tripool_technologies",
   "license": "ISC",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
     "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.14",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/node": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
     "nodemon": "^2.0.15"
   }
 }
