@@ -49,16 +49,6 @@ export const updateOrderById = async (req, res) => {
 };
 
 export const deleteOrderById = async (req, res) => {
-  const { id } = req.params;
-  Order.findByIdAndDelete(id)
-    .then((deletedOrder) => {
-      res.status(200).json({
-        deletedOrder
-      });
-    })
-    .catch((err) => {
-      res.status(500).json({
-        message: err.message
-      });
-    });
+  const deletedOrder = await Order.findByIdAndDelete(req.params.orderId);
+  res.status(204).json();
 };

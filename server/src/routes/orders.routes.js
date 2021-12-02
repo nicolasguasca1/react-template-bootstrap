@@ -6,6 +6,6 @@ router.post("/", ordersCtrl.createOrder);
 router.get("/", ordersCtrl.getOrders);
 router.get("/:orderId", ordersCtrl.getOrderById);
 router.put("/:orderId", ordersCtrl.updateOrderById);
-router.delete("/", ordersCtrl.deleteOrderById);
+router.delete("/:orderId", ordersCtrl.deleteOrderById);
 
 export default router;
