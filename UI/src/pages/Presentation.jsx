@@ -169,7 +169,7 @@ const Presentation = () => {
                 <Nav.Link as={HashLink} to="#getting-started">
                   Getting Started
                 </Nav.Link> */}
-                <Nav.Link as={HashLink} to="sign-in">
+                <Nav.Link as={HashLink} to="signin">
                   Inicio de sesión
                 </Nav.Link>
               </Nav>

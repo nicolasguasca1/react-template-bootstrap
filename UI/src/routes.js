@@ -11,7 +11,7 @@ export const Routes = {
   BootstrapTables: { path: "/tables/bootstrap-tables" },
   Billing: { path: "/examples/billing" },
   Invoice: { path: "/examples/invoice" },
-  Signin: { path: "/sign-in" },
+  Signin: { path: "/signin" },
   Signup: { path: "/signup" },
   ForgotPassword: { path: "/account/forgot-password" },
   ResetPassword: { path: "/account/reset-password" },
