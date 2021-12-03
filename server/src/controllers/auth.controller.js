@@ -1,5 +1,6 @@
 import User from "../models/user.model";
 import jwt from "jsonwebtoken";
+import Role from "../models/role.model";
 
 export const signUp = async (req, res) => {
   const { username, email, password, roles } = req.body;
@@ -9,12 +10,21 @@ export const signUp = async (req, res) => {
     email,
     password: await User.encryptPassword(password)
   });
-  const savedUser = newUser.save();
+
+  if (req.body.roles) {
+    const foundRoles = await Role.find({ name: { $in: roles } });
+    newUser.roles = foundRoles.map((role) => role._id.toString());
+  } else {
+    const role = await Role.findOne({ name: "cliente" });
+    newUser.roles = [role._id];
+  }
+
+  const savedUser = await newUser.save();
 
   const token = jwt.sign({ id: savedUser._id }, process.env.JWT_SECRET, {
     expiresIn: 86400
   }); // 24 hours
-  console.log(newUser);
+  console.log(savedUser);
   res.status(200).json({ token });
 };
 
