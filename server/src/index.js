@@ -3,8 +3,7 @@
 // const cors = require("cors");
 import app from "./app";
 import "./db.config";
-require("dotenv").config();
-
+import "dotenv/config";
 // var corsOptions = {
 //   origin: "http://localhost:8081"
 // };
@@ -74,7 +73,7 @@ require("dotenv").config();
 // }
 
 // // set port, listen for requests
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}.`);
 });

@@ -4,7 +4,7 @@
 import mongoose from "mongoose";
 
 mongoose
-  .connect("mongodb://localhost/companydb", {
+  .connect("mongodb://localhost/tripooldb", {
     useNewUrlParser: true,
     useUnifiedTopology: true
   })
