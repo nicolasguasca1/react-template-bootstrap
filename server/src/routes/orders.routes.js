@@ -1,11 +1,13 @@
 import { Router } from "express";
-import * as ordersCtrl from "../controllers/orders.controller";
 const router = Router();
 
-router.post("/", ordersCtrl.createOrder);
+import * as ordersCtrl from "../controllers/orders.controller";
+import { verifyToken } from "../middlewares";
+
+router.post("/", verifyToken, ordersCtrl.createOrder);
 router.get("/", ordersCtrl.getOrders);
-router.get("/:orderId", ordersCtrl.getOrderById);
-router.put("/:orderId", ordersCtrl.updateOrderById);
-router.delete("/:orderId", ordersCtrl.deleteOrderById);
+router.get("/:orderId", verifyToken, ordersCtrl.getOrderById);
+router.put("/:orderId", verifyToken, ordersCtrl.updateOrderById);
+router.delete("/:orderId", verifyToken, ordersCtrl.deleteOrderById);
 
 export default router;
