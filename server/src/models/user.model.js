@@ -1,4 +1,4 @@
-import { Schema, model } from "mongoose";
+import mongoose, { Schema, model } from "mongoose";
 import bcrypt from "bcryptjs";
 
 const userSchema = new Schema(
@@ -23,8 +23,8 @@ const userSchema = new Schema(
     industry: String,
     roles: [
       {
-        type: Schema.Types.ObjectId,
-        ref: "Role"
+        ref: "Role",
+        type: mongoose.ObjectId
       }
     ]
   },
