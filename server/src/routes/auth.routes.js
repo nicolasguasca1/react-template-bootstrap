@@ -1,9 +1,14 @@
 import { Router } from "express";
-import * as authCtrl from "../controllers/auth.controller";
-
 const router = Router();
 
+import * as authCtrl from "../controllers/auth.controller";
+import { verifySignup } from "../middlewares";
+
 router.post("/signin", authCtrl.signIn);
-router.post("/signup", authCtrl.signUp);
+router.post(
+  "/signup",
+  [verifySignup.checkDuplicateUsernameOrEmail, verifySignup.checkRolesExist],
+  authCtrl.signUp
+);
 
 export default router;

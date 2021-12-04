@@ -47,22 +47,4 @@ export const signIn = async (req, res) => {
     expiresIn: 86400
   });
   res.json({ token });
-
-  // const userFound = await User.findOne({ email: req.body.email }).populate(
-  //   "roles"
-  // );
-  // (err, userFound) => {
-  //   if (err) return res.status(500).send({ message: "Error en la petición" });
-  //   if (!userFound)
-  //     return res.status(404).send({ message: "El usuario no existe" });
-  //   if (User.comparePassword(req.body.password, userFound.password)) {
-  //     console.log(userFound);
-  //     return res.status(200).json({ token: "" });
-  //   } else {
-  //     const token = jwt.sign({ id: userFound._id }, process.env.JWT_SECRET, {
-  //       expiresIn: 86400
-  //     }); // 24 hours
-  //     res.status(200).json({ token });
-  //   }
-  // };
 };
