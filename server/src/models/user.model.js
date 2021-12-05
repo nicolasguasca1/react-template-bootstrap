@@ -1,6 +1,8 @@
 import mongoose, { Schema, model } from "mongoose";
 import bcrypt from "bcryptjs";
 
+export const STATUS = ["activo", "inactivo"];
+
 const userSchema = new Schema(
   {
     username: {
@@ -21,6 +23,10 @@ const userSchema = new Schema(
     phone: Number,
     name: String,
     industry: String,
+    active: {
+      type: Boolean,
+      default: true
+    },
     roles: [
       {
         ref: "Role",

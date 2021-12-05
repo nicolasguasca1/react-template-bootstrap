@@ -1,5 +1,11 @@
 import { Schema, model } from "mongoose";
 
+let orderStatusEnum = [
+  "Pendiente por despacho",
+  "Cancelada",
+  "Cancelada",
+  "Finalizada"
+];
 const orderSchema = new Schema(
   {
     product: String,
@@ -9,7 +15,15 @@ const orderSchema = new Schema(
     vehicles: Number,
     origin: String,
     destiny: String,
-    status: String,
+    active: {
+      type: Boolean,
+      default: true
+    },
+    status: {
+      type: String,
+      enum: orderStatusEnum,
+      default: "Pendiente por despacho"
+    },
     comments: String
   },
   {

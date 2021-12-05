@@ -15,5 +15,10 @@ router.post(
   userCtrl.createUser
 );
 router.get("/", userCtrl.getUsers);
+router.get(
+  "/:userId",
+  [authJwt.verifyToken, authJwt.isAdmin],
+  userCtrl.getUserById
+);
 
 export default router;
