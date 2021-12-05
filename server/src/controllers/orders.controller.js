@@ -49,6 +49,8 @@ export const updateOrderById = async (req, res) => {
 };
 
 export const deleteOrderById = async (req, res) => {
-  const deletedOrder = await Order.findByIdAndDelete(req.params.orderId);
+  const deletedOrder = await Order.findByIdAndUpdate(req.params.orderId, {
+    $set: { active: false }
+  });
   res.status(204).json();
 };
