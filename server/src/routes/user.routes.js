@@ -1,7 +1,7 @@
 import { Router } from "express";
 const router = Router();
 
-import * as userCtrl from "../controllers/user.controller";
+import * as usersCtrl from "../controllers/users.controller";
 import { authJwt, verifySignup } from "../middlewares";
 
 router.post(
@@ -12,13 +12,23 @@ router.post(
     verifySignup.checkDuplicateUsernameOrEmail,
     verifySignup.checkRolesExist
   ],
-  userCtrl.createUser
+  usersCtrl.createUser
 );
-router.get("/", userCtrl.getUsers);
+router.get("/", usersCtrl.getUsers);
 router.get(
   "/:userId",
   [authJwt.verifyToken, authJwt.isAdmin],
-  userCtrl.getUserById
+  usersCtrl.getUserById
+);
+router.put(
+  "/:userId",
+  [authJwt.verifyToken, authJwt.isAdmin],
+  usersCtrl.updateUserById
+);
+router.delete(
+  "/:userId",
+  [authJwt.verifyToken, authJwt.isAdmin],
+  usersCtrl.deleteUserById
 );
 
 export default router;
