@@ -1,0 +1,1 @@
+For the backend of this service platform there is an initial configuration set in the root file under the "models" folder. It sets the admin for the app and a set of roles to be assigned within the platform.

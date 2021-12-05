@@ -4,11 +4,16 @@ const router = Router();
 import * as userCtrl from "../controllers/user.controller";
 import { authJwt, verifySignup } from "../middlewares";
 
-router.get("/", userCtrl.createUser);
 router.post(
   "/",
-  [authJwt.verifyToken, authJwt.isAdmin, verifySignup.checkRolesExist],
+  [
+    authJwt.verifyToken,
+    authJwt.isAdmin,
+    verifySignup.checkDuplicateUsernameOrEmail,
+    verifySignup.checkRolesExist
+  ],
   userCtrl.createUser
 );
+router.get("/", userCtrl.getUsers);
 
 export default router;
