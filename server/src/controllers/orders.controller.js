@@ -3,7 +3,6 @@ import Order from "../models/order.model";
 export const createOrder = async (req, res) => {
   const {
     product,
-    userID,
     description,
     quantity,
     vehicles,
@@ -12,9 +11,10 @@ export const createOrder = async (req, res) => {
     status,
     comments
   } = req.body;
+  const createdBy = req.userId;
   const newOrder = new Order({
     product,
-    userID,
+    createdBy,
     description,
     quantity,
     vehicles,

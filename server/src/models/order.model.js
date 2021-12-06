@@ -38,6 +38,7 @@ const orderSchema = new Schema(
       type: Boolean,
       default: true
     },
+    createdBy: String,
     status: {
       type: String,
       enum: orderStatusEnum,
