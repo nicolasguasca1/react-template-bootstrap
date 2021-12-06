@@ -9,6 +9,8 @@ import Presentation from "./Presentation";
 import Upgrade from "./Upgrade";
 import DashboardOverview from "./dashboard/DashboardOverview";
 import Transactions from "./Transactions";
+import Places from "./Places";
+
 import Orders from "./Orders";
 import Settings from "./Settings";
 import BootstrapTables from "./tables/BootstrapTables";
@@ -155,6 +157,7 @@ function App(props) {
       />
       <RouteWithSidebar exact path={Routes.Upgrade.path} component={Upgrade} />
       <RouteWithSidebar exact path={Routes.Orders.path} component={Orders} />
+      <RouteWithSidebar exact path={Routes.Places.path} component={Places} />
       <RouteWithSidebar
         exact
         path={Routes.NewOrder.path}

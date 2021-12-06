@@ -17,7 +17,8 @@ import {
   faDolly,
   faInbox,
   faRocket,
-  faBell
+  faBell,
+  faMapPin
 } from "@fortawesome/free-solid-svg-icons";
 import {
   Nav,
@@ -198,6 +199,11 @@ export default (props = {}) => {
                 badgeText="Pro"
                 icon={faInbox}
               /> */}
+              <NavItem
+                title="Puntos de distribución"
+                icon={faMapPin}
+                link={Routes.Places.path}
+              />
               <NavItem
                 title="Últimos pedidos"
                 icon={faHandHoldingUsd}
