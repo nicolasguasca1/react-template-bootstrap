@@ -12,11 +12,17 @@ const userSchema = new Schema(
     email: {
       type: String,
       unique: true,
-      required: true
+      required: true,
+      validate(value) {
+        if (!value.match(/^[^@ ]+@[^@ ]+\.[^@ .]{2,}$/)) {
+          throw new Error("Email no válido.");
+        }
+      }
     },
     password: {
       type: String,
-      required: true
+      required: true,
+      minlength: 6
     },
     address: String,
     company: String,
