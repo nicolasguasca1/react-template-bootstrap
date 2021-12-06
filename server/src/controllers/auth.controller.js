@@ -26,29 +26,33 @@ export const signUp = async (req, res) => {
       expiresIn: 86400
     }); // 24 hours
     console.log(savedUser);
-    res.status(200).json({ token });
+    return res.status(200).json({ token });
   } catch (error) {
-    res.status(400).json({ message: error.message });
+    return res.status(400).json({ message: error.message });
   }
 };
 
 export const signIn = async (req, res) => {
-  const userFound = await User.findOne({ email: req.body.email }).populate(
-    "roles"
-  );
-  if (!userFound)
-    return res.status(404).json({ message: "Usuario no encontrado" });
+  try {
+    const userFound = await User.findOne({ email: req.body.email }).populate(
+      "roles"
+    );
+    if (!userFound)
+      return res.status(404).json({ message: "Usuario no encontrado" });
 
-  const matchPassword = await User.comparePassword(
-    req.body.password,
-    userFound.password
-  );
-  if (!matchPassword)
-    return res
-      .status(401)
-      .json({ token: null, message: "Contraseña incorrecta" });
-  const token = jwt.sign({ id: userFound._id }, process.env.JWT_SECRET, {
-    expiresIn: 86400
-  });
-  res.json({ token });
+    const matchPassword = await User.comparePassword(
+      req.body.password,
+      userFound.password
+    );
+    if (!matchPassword)
+      return res
+        .status(401)
+        .json({ token: null, message: "Contraseña incorrecta" });
+    const token = jwt.sign({ id: userFound._id }, process.env.JWT_SECRET, {
+      expiresIn: 86400
+    });
+    res.json({ token });
+  } catch (error) {
+    res.status(400).json({ message: error.message });
+  }
 };

@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faAngleLeft,
   faEnvelope,
+  faUser,
   faUnlockAlt
 } from "@fortawesome/free-solid-svg-icons";
 import {
@@ -24,8 +25,43 @@ import { Link } from "react-router-dom";
 
 import { Routes } from "../routes";
 import BgImage from "../assets/img/illustrations/people-signup.svg";
+import axios from "axios";
 
 const Signup = () => {
+  const handleSubmit = async (e) => {
+    const { email, username, password } = e.target.elements;
+
+    // const options = {
+    //   url: "http://localhost:8080/api/auth/signup",
+    //   method: "POST",
+    //   headers: {
+    //     'Content-Type': "application/json",
+    //   },
+    //   data: {
+    //     email: email,
+    //     username: username,
+    //     password: password
+    //   }
+    // };
+
+    console.log(email);
+    console.log(username);
+    console.log(password);
+    // e.preventDefault();
+    // const response = await axios
+    //   .post("/api/auth/signup", {
+    //     email: email,
+    //     username: username,
+    //     password: password
+    //   })
+    //   .then((res) => {
+    //     console.log(res);
+    //   })
+    //   .catch((err) => {
+    //     console.log(err);
+    //   });
+  };
+
   return (
     <main style={{ backgroundImage: `url(${BgImage})` }}>
       <section className="d-flex align-items-center my-5 mt-lg-6 mb-lg-5">
@@ -45,7 +81,7 @@ const Signup = () => {
                 <div className="text-center text-md-center mb-4 mt-md-0">
                   <h3 className="mb-0">Crear cuenta de usuario</h3>
                 </div>
-                <Form className="mt-4">
+                <Form onSubmit={handleSubmit} className="mt-4">
                   <Form.Group id="email" className="mb-4">
                     <Form.Label>Correo electrónico</Form.Label>
                     <InputGroup>
@@ -57,6 +93,20 @@ const Signup = () => {
                         required
                         type="email"
                         placeholder="micorreo@ejemplo.com"
+                      />
+                    </InputGroup>
+                  </Form.Group>
+                  <Form.Group id="email" className="mb-4">
+                    <Form.Label>Usuario</Form.Label>
+                    <InputGroup>
+                      <InputGroup.Text>
+                        <FontAwesomeIcon icon={faUser} />
+                      </InputGroup.Text>
+                      <Form.Control
+                        autoFocus
+                        required
+                        type="username"
+                        placeholder="miusuario"
                       />
                     </InputGroup>
                   </Form.Group>
@@ -119,7 +169,6 @@ const Signup = () => {
                     type="submit"
                     className="w-100"
                     // to="/api/auth/signup"
-                    to="/post"
                   >
                     Registrarme
                   </Button>
