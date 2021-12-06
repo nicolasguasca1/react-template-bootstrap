@@ -1,4 +1,5 @@
 import express from "express";
+import compression from "compression";
 import morgan from "morgan";
 import pkg from "../package.json";
 import helmet from "helmet";
@@ -8,8 +9,14 @@ import { createRoles, createAdmin } from "./models";
 import ordersRoutes from "./routes/orders.routes";
 import authRoutes from "./routes/auth.routes";
 import userRoutes from "./routes/user.routes";
+import { connectToMongoDB, listDatabases } from "./db.client";
 
 const app = express();
+(async () => {
+  await connectToMongoDB();
+  await listDatabases();
+})();
+
 createRoles();
 createAdmin();
 
@@ -24,6 +31,7 @@ const corsOptions = {
   origin: "http://localhost:3000"
 };
 app.use(cors(corsOptions));
+app.use(compression());
 app.use(helmet());
 app.use(morgan("dev"));
 app.use(express.json());

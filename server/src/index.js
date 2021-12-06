@@ -1,5 +1,5 @@
 import app from "./app";
-import "./db.config";
+// import "./db.client";
 import "dotenv/config";
 
 // Initialize the app

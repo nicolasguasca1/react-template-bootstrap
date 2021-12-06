@@ -4,7 +4,8 @@ import {
   faAngleLeft,
   faEnvelope,
   faUser,
-  faUnlockAlt
+  faUnlockAlt,
+  faIdBadge
 } from "@fortawesome/free-solid-svg-icons";
 import {
   faFacebookF,
@@ -95,6 +96,29 @@ const Signup = () => {
                         placeholder="micorreo@ejemplo.com"
                       />
                     </InputGroup>
+                  </Form.Group>
+                  <Form.Group id="email" className="mb-4">
+                    <Form.Label>Número de identificación</Form.Label>
+                    <InputGroup>
+                      <InputGroup.Text>
+                        <FontAwesomeIcon icon={faIdBadge} />
+                      </InputGroup.Text>
+                      <Form.Control
+                        autoFocus
+                        required
+                        // type="email"
+                        placeholder="De la persona natural o jurídica"
+                      />
+                    </InputGroup>
+                  </Form.Group>
+                  <Form.Group className="mb-3">
+                    <Form.Label>Tipo de identificación</Form.Label>
+                    <Form.Select multiple>
+                      <option defaultValue>C.C</option>
+                      <option>PAS</option>
+                      <option>C.E</option>
+                      <option>NIT</option>
+                    </Form.Select>
                   </Form.Group>
                   <Form.Group id="email" className="mb-4">
                     <Form.Label>Usuario</Form.Label>

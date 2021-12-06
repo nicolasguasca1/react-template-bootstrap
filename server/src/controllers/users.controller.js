@@ -5,9 +5,18 @@ import Role from "../models/role.model";
 
 export const createUser = async (req, res) => {
   try {
-    const { username, email, password, roles } = req.body;
+    const {
+      username,
+      identification_number,
+      identification_type,
+      email,
+      password,
+      roles
+    } = req.body;
     const newUser = new User({
       username,
+      identification_number,
+      identification_type,
       email,
       password: await User.encryptPassword(password)
     });

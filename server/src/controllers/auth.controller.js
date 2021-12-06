@@ -4,10 +4,19 @@ import Role from "../models/role.model";
 
 export const signUp = async (req, res) => {
   try {
-    const { username, email, password, roles } = req.body;
+    const {
+      username,
+      identification_number,
+      identification_type,
+      email,
+      password,
+      roles
+    } = req.body;
 
     const newUser = new User({
       username,
+      identification_number,
+      identification_type,
       email,
       password: await User.encryptPassword(password)
     });
@@ -28,7 +37,9 @@ export const signUp = async (req, res) => {
     console.log(savedUser);
     return res.status(200).json({ token });
   } catch (error) {
-    return res.status(400).json({ message: error.message });
+    return res.status(400).json({
+      message: `El registro del usuario fallo por lo siguiente: ${error.message} `
+    });
   }
 };
 

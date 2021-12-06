@@ -2,12 +2,22 @@ import mongoose, { Schema, model } from "mongoose";
 import bcrypt from "bcryptjs";
 
 export const STATUS = ["activo", "inactivo"];
+let idTypeEnum = ["C.C", "PAS", "C.E", "NIT"];
 
 const userSchema = new Schema(
   {
     username: {
       type: String,
       unique: true
+    },
+    identification_number: {
+      type: String,
+      required: true
+    },
+    identification_type: {
+      type: String,
+      enum: idTypeEnum,
+      required: true
     },
     email: {
       type: String,
