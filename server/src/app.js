@@ -40,6 +40,11 @@ app.get("/", (req, res) => {
   });
 });
 
+app.post("/post", (req, res) => {
+  console.log("Conexion exitosa con react");
+  res.redirect("/");
+});
+
 // Routes
 app.use("/api/orders", ordersRoutes);
 app.use("/api/auth", authRoutes);

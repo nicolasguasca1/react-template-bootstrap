@@ -88,7 +88,7 @@ const Signup = () => {
                   </Form.Group>
                   <FormCheck type="checkbox" className="d-flex mb-4">
                     <FormCheck.Input required id="terms" className="me-2" />
-                    <FormCheck.Label htmlFor="terms">
+                    <FormCheck.Label required="true" htmlFor="terms">
                       Acepto los{" "}
                       <u>
                         <Card.Link
@@ -113,7 +113,14 @@ const Signup = () => {
                     </FormCheck.Label>
                   </FormCheck>
 
-                  <Button variant="primary" type="submit" className="w-100">
+                  <Button
+                    variant="primary"
+                    method="post"
+                    type="submit"
+                    className="w-100"
+                    // to="/api/auth/signup"
+                    to="/post"
+                  >
                     Registrarme
                   </Button>
                 </Form>

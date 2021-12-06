@@ -8,13 +8,32 @@ let orderStatusEnum = [
 ];
 const orderSchema = new Schema(
   {
-    product: String,
+    product: {
+      type: String,
+      required: true
+    },
     username: String,
     description: String,
-    quantity: Number,
-    vehicles: Number,
-    origin: String,
-    destiny: String,
+    quantity: {
+      type: Number,
+      unique: true,
+      required: true
+    },
+    vehicles: {
+      type: Number,
+      unique: true,
+      required: true
+    },
+    origin: {
+      type: String,
+      unique: true,
+      required: true
+    },
+    destiny: {
+      type: String,
+      unique: true,
+      required: true
+    },
     active: {
       type: Boolean,
       default: true

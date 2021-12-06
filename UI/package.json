@@ -13,6 +13,7 @@
     "bootstrap 5 dashboard",
     "themesberg"
   ],
+  "proxy": "http://localhost:8080",
   "license": "MIT",
   "homepage": "https://localhost:3000",
   "main": "./index.js",
