@@ -269,7 +269,7 @@ export const OrderRow = (props) => {
     ordenID
   } = props.data;
   const [isModalOpen, setisModalOpen] = useState(false);
-  const handleClose = () => setisModalOpen(false);
+  const handleClose = () => setisModalOpen((prevState) => !prevState);
 
   const handleClick = () => {
     setisModalOpen((prevState) => !prevState);
@@ -323,13 +323,12 @@ export const OrderRow = (props) => {
           <Dropdown.Menu>
             <Dropdown.Item onClick={handleClick}>
               <FontAwesomeIcon icon={faEye} className="me-2" /> Detalles
-              {isModalOpen && (
-                <OrderModal
-                  isModalOpen={isModalOpen}
-                  handleClose={handleClose}
-                />
-              )}
             </Dropdown.Item>
+            <OrderModal
+              isModalOpen={isModalOpen}
+              handleClose={handleClose}
+              handleClick={handleClick}
+            />
             <Dropdown.Item>
               <FontAwesomeIcon
                 icon={faEdit}
