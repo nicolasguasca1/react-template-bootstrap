@@ -38,16 +38,16 @@ export const dataBase = async () => {
       useUnifiedTopology: true
     });
     console.log("INFO: Conexión establecida");
-    if (mongoDBClient !== null) {
-      const lista = await mongoDBClient.adminCommand({ listDatabases: 1 });
-      console.log("Bases de datos :: disponibles");
-      lista.databases.forEach((db) => console.log(` ==> ${db.name}`));
-    } else {
-      console.log("Cliente MongoDB no conectado");
-    }
+    // if (mongoDBClient !== null) {
+    //   const lista = await mongoDBClient.adminCommand({ listDatabases: 1 });
+    //   console.log("Bases de datos :: disponibles");
+    //   lista.databases.forEach((db) => console.log(` ==> ${db.name}`));
+    // } else {
+    //   console.log("Cliente MongoDB no conectado");
+    // }
     return {
-      mongoDBClient,
-      listDatabases
+      mongoDBClient
+      // listDatabases
     };
   } catch (error) {
     console.log(`ERROR: ${error}`);

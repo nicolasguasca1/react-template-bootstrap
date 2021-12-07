@@ -20,6 +20,7 @@ export const Routes = {
   NotFound: { path: "/errors/404" },
   ServerError: { path: "/errors/500" },
   Account: { path: "/account/index" },
+  About: { path: "/about" },
 
   // docs
   DocsOverview: { path: "/documentation/overview" },

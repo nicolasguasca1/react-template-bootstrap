@@ -97,11 +97,7 @@ const Footer = (props) => {
                   </Card.Link>
                 </li>
                 <li>
-                  <Card.Link
-                    as={Link}
-                    to={Routes.DocsChangelog.path}
-                    target="_blank"
-                  >
+                  <Card.Link as={Link} to={Routes.About.path} target="_blank">
                     Sobre nosotros
                   </Card.Link>
                 </li>
@@ -115,8 +111,8 @@ const Footer = (props) => {
                 </li>
               </ul>
             </Col>
-            <Col xs={12} md={4} className="mb-5 mb-lg-0">
-              {/* <span className="h5 mb-3 d-block">Subscribe</span>
+            {/* <Col xs={12} md={4} className="mb-5 mb-lg-0">
+              <span className="h5 mb-3 d-block">Subscribe</span>
               <form action="#">
                 <div className="form-row mb-2">
                   <div className="col-12">
@@ -139,8 +135,8 @@ const Footer = (props) => {
                     </button>
                   </div>
                 </div>
-              </form> */}
-            </Col>
+              </form>
+            </Col> */}
           </Row>
           <hr className="bg-gray my-5" />
           <Row>

@@ -12,6 +12,7 @@ import Transactions from "./Transactions";
 import Places from "./Places";
 
 import Orders from "./Orders";
+import About from "./About";
 import Settings from "./Settings";
 import BootstrapTables from "./tables/BootstrapTables";
 import Signin from "./Signin";
@@ -131,6 +132,7 @@ function App(props) {
         component={Presentation}
       />
       <RouteWithLoader exact path={Routes.Signin.path} component={Signin} />
+      <RouteWithLoader exact path={Routes.About.path} component={About} />
       <RouteWithLoader exact path={Routes.Signup.path} component={Signup} />
       <RouteWithLoader
         exact
