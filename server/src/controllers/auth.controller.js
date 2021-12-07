@@ -5,19 +5,19 @@ import Role from "../models/role.model";
 export const signUp = async (req, res) => {
   try {
     const {
-      username,
+      email,
       identification_number,
       identification_type,
-      email,
+      username,
       password,
       roles
     } = req.body;
 
     const newUser = new User({
-      username,
+      email,
       identification_number,
       identification_type,
-      email,
+      username,
       password: await User.encryptPassword(password)
     });
 
@@ -30,11 +30,11 @@ export const signUp = async (req, res) => {
     }
 
     const savedUser = await newUser.save();
+    console.log(savedUser);
 
     const token = jwt.sign({ id: savedUser._id }, process.env.JWT_SECRET, {
       expiresIn: 86400
     }); // 24 hours
-    console.log(savedUser);
     return res.status(200).json({ token });
   } catch (error) {
     return res.status(400).json({

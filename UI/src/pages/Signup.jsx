@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faAngleLeft,
@@ -29,9 +29,25 @@ import BgImage from "../assets/img/illustrations/people-signup.svg";
 import axios from "axios";
 
 const Signup = () => {
+  const [inputs, setInputs] = useState({
+    email: "",
+    identification_number: "",
+    identification_type: "",
+    username: "",
+    password: ""
+  });
+  const handleChange = (e) => {
+    console.log(e.target.value);
+    // const email = e.target.email.value;
+    // const username = event.target.username;
+    // const value = event.target.value;
+    setInputs({
+      ...inputs,
+      [e.target.name]: e.target.value
+    });
+    console.log(inputs);
+  };
   const handleSubmit = async (e) => {
-    const { email, username, password } = e.target.elements;
-
     // const options = {
     //   url: "http://localhost:8080/api/auth/signup",
     //   method: "POST",
@@ -45,22 +61,24 @@ const Signup = () => {
     //   }
     // };
 
-    console.log(email);
-    console.log(username);
-    console.log(password);
-    // e.preventDefault();
-    // const response = await axios
-    //   .post("/api/auth/signup", {
-    //     email: email,
-    //     username: username,
-    //     password: password
-    //   })
-    //   .then((res) => {
-    //     console.log(res);
-    //   })
-    //   .catch((err) => {
-    //     console.log(err);
-    //   });
+    const response = await axios
+      .post(
+        "/api/auth/signup",
+        {
+          inputs
+        },
+        {
+          headers: {
+            "Content-Type": "application/json"
+          }
+        }
+      )
+      .then((response) => {
+        console.log(response);
+      })
+      .catch((err) => {
+        console.log(err);
+      });
   };
 
   return (
@@ -92,12 +110,14 @@ const Signup = () => {
                       <Form.Control
                         autoFocus
                         required
+                        name="email"
                         type="email"
                         placeholder="micorreo@ejemplo.com"
+                        onChange={handleChange}
                       />
                     </InputGroup>
                   </Form.Group>
-                  <Form.Group id="email" className="mb-4">
+                  <Form.Group id="identification_number" className="mb-4">
                     <Form.Label>Número de identificación</Form.Label>
                     <InputGroup>
                       <InputGroup.Text>
@@ -107,11 +127,13 @@ const Signup = () => {
                         autoFocus
                         required
                         // type="email"
+                        name="identification_number"
                         placeholder="De la persona natural o jurídica"
+                        onChange={handleChange}
                       />
                     </InputGroup>
                   </Form.Group>
-                  <Form.Group className="mb-3">
+                  <Form.Group id="identification_type" className="mb-3">
                     <Form.Label>Tipo de identificación</Form.Label>
                     <Form.Select multiple>
                       <option defaultValue>C.C</option>
@@ -120,7 +142,7 @@ const Signup = () => {
                       <option>NIT</option>
                     </Form.Select>
                   </Form.Group>
-                  <Form.Group id="email" className="mb-4">
+                  <Form.Group id="username" className="mb-4">
                     <Form.Label>Usuario</Form.Label>
                     <InputGroup>
                       <InputGroup.Text>
@@ -130,7 +152,9 @@ const Signup = () => {
                         autoFocus
                         required
                         type="username"
+                        name="username"
                         placeholder="miusuario"
+                        onChange={handleChange}
                       />
                     </InputGroup>
                   </Form.Group>
@@ -143,7 +167,9 @@ const Signup = () => {
                       <Form.Control
                         required
                         type="password"
+                        name="password"
                         placeholder="Micontraseña123."
+                        onChange={handleChange}
                       />
                     </InputGroup>
                   </Form.Group>
@@ -162,7 +188,7 @@ const Signup = () => {
                   </Form.Group>
                   <FormCheck type="checkbox" className="d-flex mb-4">
                     <FormCheck.Input required id="terms" className="me-2" />
-                    <FormCheck.Label required="true" htmlFor="terms">
+                    <FormCheck.Label required htmlFor="terms">
                       Acepto los{" "}
                       <u>
                         <Card.Link
