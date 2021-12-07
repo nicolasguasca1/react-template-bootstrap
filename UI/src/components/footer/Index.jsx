@@ -57,7 +57,7 @@ const Footer = (props) => {
               <span className="h5">Información</span>
               <ul className="links-vertical mt-2">
                 <li>
-                  <Card.Link target="_blank" href="/">
+                  <Card.Link target="_blank" href="/components/rates">
                     Tarifas
                   </Card.Link>
                 </li>

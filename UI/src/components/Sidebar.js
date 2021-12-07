@@ -294,7 +294,7 @@ export default (props = {}) => {
                   link={Routes.DocsFolderStructure.path}
                 />
                 <NavItem title="Build Tools" link={Routes.DocsBuild.path} />
-                <NavItem title="Tarifas" link={Routes.DocsChangelog.path} />
+                <NavItem title="Tarifas" link={Routes.Rates.path} />
               </CollapsableNavItem>
               <CollapsableNavItem
                 eventKey="components/"

@@ -9,12 +9,12 @@ import { createRoles, createAdmin } from "./models";
 import ordersRoutes from "./routes/orders.routes";
 import authRoutes from "./routes/auth.routes";
 import userRoutes from "./routes/user.routes";
-import { connectToMongoDB, listDatabases } from "./db.client";
+import { dataBase } from "./db.client";
+// import { connectToMongoDB, listDatabases } from "./db.client";
 
 const app = express();
 (async () => {
-  await connectToMongoDB();
-  await listDatabases();
+  await dataBase();
 })();
 
 createRoles();

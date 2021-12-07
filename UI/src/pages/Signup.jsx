@@ -64,9 +64,8 @@ const Signup = () => {
     const response = await axios
       .post(
         "/api/auth/signup",
-        {
-          inputs
-        },
+
+        inputs,
         {
           headers: {
             "Content-Type": "application/json"

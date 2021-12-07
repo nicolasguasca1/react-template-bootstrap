@@ -28,7 +28,7 @@ export const Routes = {
   DocsLicense: { path: "/documentation/license" },
   DocsFolderStructure: { path: "/documentation/folder-structure" },
   DocsBuild: { path: "/documentation/build-tools" },
-  DocsChangelog: { path: "/documentation/changelog" },
+  // DocsChangelog: { path: "/documentation/changelog" },
 
   // components
   Accordions: { path: "/components/accordions" },
@@ -44,6 +44,7 @@ export const Routes = {
   Pagination: { path: "/components/pagination" },
   Popovers: { path: "/components/popovers" },
   Progress: { path: "/components/progress" },
+  Rates: { path: "/components/rates" },
   Tables: { path: "/components/tables" },
   Tabs: { path: "/components/tabs" },
   Tooltips: { path: "/components/tooltips" },
