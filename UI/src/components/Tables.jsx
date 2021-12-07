@@ -264,17 +264,16 @@ export const OrderRow = (props) => {
     origen,
     destino,
     estado,
+    peso,
     fecha_creacion,
     comentarios,
-    ordenID
+    ordenID,
+    tarifa
   } = props.data;
   const [isModalOpen, setisModalOpen] = useState(false);
-  const handleClose = () => setisModalOpen((prevState) => !prevState);
 
   const handleClick = () => {
     setisModalOpen((prevState) => !prevState);
-    console.log("clicked");
-    console.log(isModalOpen);
   };
 
   const statusVariant =
@@ -322,29 +321,13 @@ export const OrderRow = (props) => {
           </Dropdown.Toggle>
           <Dropdown.Menu>
             <Dropdown.Item onClick={handleClick}>
-              <FontAwesomeIcon icon={faEye} className="me-2" /> Detalles
+              <FontAwesomeIcon icon={faEdit} className="me-2" /> Examinar
             </Dropdown.Item>
             <OrderModal
               isModalOpen={isModalOpen}
-              handleClose={handleClose}
               handleClick={handleClick}
+              data={props.data}
             />
-            <Dropdown.Item>
-              <FontAwesomeIcon
-                icon={faEdit}
-                className="me-2"
-                // onClick={() => setisModalOpen(true)}
-              />{" "}
-              Editar
-            </Dropdown.Item>
-            <Dropdown.Item className="text-danger">
-              <FontAwesomeIcon
-                icon={faTimesCircle}
-                className="me-2"
-                // onClick={() => setisModalOpen(true)}
-              />{" "}
-              Cancelar
-            </Dropdown.Item>
           </Dropdown.Menu>
         </Dropdown>
       </td>
