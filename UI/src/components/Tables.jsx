@@ -19,6 +19,7 @@ import {
   Card,
   Image,
   Button,
+  Modal,
   Table,
   Dropdown,
   ProgressBar,
@@ -267,8 +268,15 @@ export const OrderRow = (props) => {
     comentarios,
     ordenID
   } = props.data;
-  const [showDefault, setShowDefault] = useState(false);
-  const handleClose = () => setShowDefault(false);
+  const [isModalOpen, setisModalOpen] = useState(false);
+  const handleClose = () => setisModalOpen(false);
+
+  const handleClick = () => {
+    setisModalOpen((prevState) => !prevState);
+    console.log("clicked");
+    console.log(isModalOpen);
+  };
+
   const statusVariant =
     estado === "Finalizada"
       ? "success"
@@ -277,14 +285,6 @@ export const OrderRow = (props) => {
       : estado === "Cancelada"
       ? "danger"
       : "primary";
-
-  useEffect(() => {
-    return (
-      <>
-        <OrderModal showDefault={showDefault} handleClose={handleClose} />
-      </>
-    );
-  }, [showDefault]);
 
   return (
     <tr>
@@ -321,14 +321,30 @@ export const OrderRow = (props) => {
             </span>
           </Dropdown.Toggle>
           <Dropdown.Menu>
-            <Dropdown.Item onClick={() => setShowDefault(true)}>
+            <Dropdown.Item onClick={handleClick}>
               <FontAwesomeIcon icon={faEye} className="me-2" /> Detalles
+              {isModalOpen && (
+                <OrderModal
+                  isModalOpen={isModalOpen}
+                  handleClose={handleClose}
+                />
+              )}
             </Dropdown.Item>
             <Dropdown.Item>
-              <FontAwesomeIcon icon={faEdit} className="me-2" /> Editar
+              <FontAwesomeIcon
+                icon={faEdit}
+                className="me-2"
+                // onClick={() => setisModalOpen(true)}
+              />{" "}
+              Editar
             </Dropdown.Item>
             <Dropdown.Item className="text-danger">
-              <FontAwesomeIcon icon={faTimesCircle} className="me-2" /> Cancelar
+              <FontAwesomeIcon
+                icon={faTimesCircle}
+                className="me-2"
+                // onClick={() => setisModalOpen(true)}
+              />{" "}
+              Cancelar
             </Dropdown.Item>
           </Dropdown.Menu>
         </Dropdown>
@@ -426,8 +442,8 @@ export const OrdersTable = ({
 
 export const PlaceRow = (props) => {
   const { _id, location, approved, name } = props.data;
-  const [showDefault, setShowDefault] = useState(false);
-  const handleClose = () => setShowDefault(false);
+  const [isModalOpen, setisModalOpen] = useState(false);
+  const handleClose = () => setisModalOpen(false);
   const statusVariant =
     approved === ["Pick-up", "Delivery"]
       ? "success"
@@ -440,10 +456,10 @@ export const PlaceRow = (props) => {
   useEffect(() => {
     return (
       <>
-        <OrderModal showDefault={showDefault} handleClose={handleClose} />
+        <OrderModal isModalOpen={isModalOpen} handleClose={handleClose} />
       </>
     );
-  }, [showDefault]);
+  }, [isModalOpen]);
 
   return (
     <tr>
@@ -478,7 +494,7 @@ export const PlaceRow = (props) => {
             </span>
           </Dropdown.Toggle>
           <Dropdown.Menu>
-            <Dropdown.Item onClick={() => setShowDefault(true)}>
+            <Dropdown.Item onClick={() => setisModalOpen(true)}>
               <FontAwesomeIcon icon={faEye} className="me-2" /> Detalles
             </Dropdown.Item>
             <Dropdown.Item>

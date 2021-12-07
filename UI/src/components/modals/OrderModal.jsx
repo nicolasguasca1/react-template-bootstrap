@@ -1,18 +1,10 @@
-import React, { useState } from "react";
+import React, { useEffect } from "react";
 import { Button, Modal } from "@themesberg/react-bootstrap";
 
-const OrderModal = (showDefault, handleClose) => {
+const OrderModal = (isModalOpen, { handleClose }) => {
   return (
     <>
-      {/* <Button
-        variant="primary"
-        className="my-3"
-        onClick={() => setShowDefault(true)}
-      >
-        Default
-      </Button> */}
-
-      <Modal as={Modal.Dialog} centered show={showDefault} onHide={handleClose}>
+      <Modal as={Modal.Dialog} centered show={isModalOpen} onHide={handleClose}>
         <Modal.Header>
           <Modal.Title className="h6">Terms of Service</Modal.Title>
           <Button variant="close" aria-label="Close" onClick={handleClose} />
