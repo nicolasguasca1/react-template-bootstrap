@@ -48,6 +48,7 @@ const Signup = () => {
       [e.target.name]: e.target.value
     });
     console.log(inputs);
+    console.log(API_DB);
   };
   const handleSubmit = async (e) => {
     // const options = {
@@ -65,7 +66,7 @@ const Signup = () => {
 
     const response = await axios
       .post(
-        `${API_DB}/api/auth/signup`,
+        `/api/auth/signup`,
 
         inputs
       )
