@@ -4,10 +4,12 @@
   "description": "API que responde a llamados desde el cliente y direcciona a la base de datos",
   "main": "src/index.js",
   "scripts": {
+    "clean": "rm -rf build && mkdir build",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "babel-node src/index.js",
+    "start": "node ./build/index.js",
     "dev": "nodemon src/index.js --exec babel-node",
-    "build": "babel src --out-dir build"
+    "build-server": "babel -d ./build ../server -s",
+    "build": "npm run clean && npm run build-server"
   },
   "keywords": [],
   "author": "tripool_technologies",
