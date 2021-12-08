@@ -4,6 +4,7 @@ export const Routes = {
   DashboardOverview: { path: "/dashboard/overview" },
   Transactions: { path: "/transactions" },
   Orders: { path: "/orders" },
+  Places: { path: "/places" },
   NewOrder: { path: "/orders/new" },
   Settings: { path: "/settings" },
   Upgrade: { path: "/upgrade" },
@@ -19,6 +20,7 @@ export const Routes = {
   NotFound: { path: "/errors/404" },
   ServerError: { path: "/errors/500" },
   Account: { path: "/account/index" },
+  About: { path: "/about" },
 
   // docs
   DocsOverview: { path: "/documentation/overview" },
@@ -27,7 +29,7 @@ export const Routes = {
   DocsLicense: { path: "/documentation/license" },
   DocsFolderStructure: { path: "/documentation/folder-structure" },
   DocsBuild: { path: "/documentation/build-tools" },
-  DocsChangelog: { path: "/documentation/changelog" },
+  // DocsChangelog: { path: "/documentation/changelog" },
 
   // components
   Accordions: { path: "/components/accordions" },
@@ -43,6 +45,7 @@ export const Routes = {
   Pagination: { path: "/components/pagination" },
   Popovers: { path: "/components/popovers" },
   Progress: { path: "/components/progress" },
+  Rates: { path: "/components/rates" },
   Tables: { path: "/components/tables" },
   Tabs: { path: "/components/tabs" },
   Tooltips: { path: "/components/tooltips" },

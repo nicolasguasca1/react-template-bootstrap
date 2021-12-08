@@ -9,7 +9,10 @@ import Presentation from "./Presentation";
 import Upgrade from "./Upgrade";
 import DashboardOverview from "./dashboard/DashboardOverview";
 import Transactions from "./Transactions";
+import Places from "./Places";
+
 import Orders from "./Orders";
+import About from "./About";
 import Settings from "./Settings";
 import BootstrapTables from "./tables/BootstrapTables";
 import Signin from "./Signin";
@@ -49,6 +52,7 @@ import Navbars from "./components/Navbars";
 import Pagination from "./components/Pagination";
 import Popovers from "./components/Popovers";
 import Progress from "./components/Progress";
+import Rates from "../components/Rates";
 import Tables from "./components/Tables";
 import Tabs from "./components/Tabs";
 import Tooltips from "./components/Tooltips";
@@ -128,6 +132,7 @@ function App(props) {
         component={Presentation}
       />
       <RouteWithLoader exact path={Routes.Signin.path} component={Signin} />
+      <RouteWithLoader exact path={Routes.About.path} component={About} />
       <RouteWithLoader exact path={Routes.Signup.path} component={Signup} />
       <RouteWithLoader
         exact
@@ -155,6 +160,7 @@ function App(props) {
       />
       <RouteWithSidebar exact path={Routes.Upgrade.path} component={Upgrade} />
       <RouteWithSidebar exact path={Routes.Orders.path} component={Orders} />
+      <RouteWithSidebar exact path={Routes.Places.path} component={Places} />
       <RouteWithSidebar
         exact
         path={Routes.NewOrder.path}
@@ -249,11 +255,7 @@ function App(props) {
         path={Routes.DocsBuild.path}
         component={DocsBuild}
       />
-      <RouteWithSidebar
-        exact
-        path={Routes.DocsChangelog.path}
-        component={DocsChangelog}
-      />
+      <RouteWithSidebar exact path={Routes.Rates.path} component={Rates} />
       <Redirect to={Routes.NotFound.path} />
     </Switch>
   );

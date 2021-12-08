@@ -16,6 +16,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { HashRouter, BrowserRouter } from "react-router-dom";
+import "dotenv/config";
 
 // core styles
 import "./scss/volt.scss";
@@ -26,6 +27,9 @@ import "react-datetime/css/react-datetime.css";
 
 import App from "./pages/App";
 import ScrollToTop from "./components/ScrollToTop";
+
+import axios from "axios";
+axios.defaults.baseURL = "http://localhost:8080";
 
 ReactDOM.render(
   <BrowserRouter>

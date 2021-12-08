@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faAngleLeft,
   faEnvelope,
-  faUnlockAlt
+  faUser,
+  faUnlockAlt,
+  faIdBadge
 } from "@fortawesome/free-solid-svg-icons";
 import {
   faFacebookF,
@@ -24,8 +26,58 @@ import { Link } from "react-router-dom";
 
 import { Routes } from "../routes";
 import BgImage from "../assets/img/illustrations/people-signup.svg";
+import axios from "axios";
+
+const API_DB = process.env.API_DB;
 
 const Signup = () => {
+  const [inputs, setInputs] = useState({
+    email: "",
+    identification_number: "",
+    identification_type: "",
+    username: "",
+    password: ""
+  });
+  const handleChange = (e) => {
+    console.log(e.target.value);
+    // const email = e.target.email.value;
+    // const username = event.target.username;
+    // const value = event.target.value;
+    setInputs({
+      ...inputs,
+      [e.target.name]: e.target.value
+    });
+    console.log(inputs);
+    console.log(API_DB);
+  };
+  const handleSubmit = async (e) => {
+    // const options = {
+    //   url: "http://localhost:8080/api/auth/signup",
+    //   method: "POST",
+    //   headers: {
+    //     'Content-Type': "application/json",
+    //   },
+    //   data: {
+    //     email: email,
+    //     username: username,
+    //     password: password
+    //   }
+    // };
+
+    const response = await axios
+      .post(
+        `/api/auth/signup`,
+
+        inputs
+      )
+      .then((response) => {
+        console.log(response);
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  };
+
   return (
     <main style={{ backgroundImage: `url(${BgImage})` }}>
       <section className="d-flex align-items-center my-5 mt-lg-6 mb-lg-5">
@@ -45,7 +97,7 @@ const Signup = () => {
                 <div className="text-center text-md-center mb-4 mt-md-0">
                   <h3 className="mb-0">Crear cuenta de usuario</h3>
                 </div>
-                <Form className="mt-4">
+                <Form onSubmit={handleSubmit} className="mt-4">
                   <Form.Group id="email" className="mb-4">
                     <Form.Label>Correo electrónico</Form.Label>
                     <InputGroup>
@@ -55,8 +107,55 @@ const Signup = () => {
                       <Form.Control
                         autoFocus
                         required
+                        name="email"
                         type="email"
                         placeholder="micorreo@ejemplo.com"
+                        onChange={handleChange}
+                      />
+                    </InputGroup>
+                  </Form.Group>
+                  <Form.Group id="identification_number" className="mb-4">
+                    <Form.Label>Número de identificación</Form.Label>
+                    <InputGroup>
+                      <InputGroup.Text>
+                        <FontAwesomeIcon icon={faIdBadge} />
+                      </InputGroup.Text>
+                      <Form.Control
+                        autoFocus
+                        required
+                        // type="email"
+                        name="identification_number"
+                        placeholder="De la persona natural o jurídica"
+                        onChange={handleChange}
+                      />
+                    </InputGroup>
+                  </Form.Group>
+                  <Form.Group name="identification_type" className="mb-3">
+                    <Form.Label>Tipo de identificación</Form.Label>
+                    <Form.Select
+                      multiple
+                      name="identification_type"
+                      onChange={handleChange}
+                    >
+                      <option defaultValue>C.C</option>
+                      <option>PAS</option>
+                      <option>C.E</option>
+                      <option>NIT</option>
+                    </Form.Select>
+                  </Form.Group>
+                  <Form.Group id="username" className="mb-4">
+                    <Form.Label>Usuario</Form.Label>
+                    <InputGroup>
+                      <InputGroup.Text>
+                        <FontAwesomeIcon icon={faUser} />
+                      </InputGroup.Text>
+                      <Form.Control
+                        autoFocus
+                        required
+                        type="username"
+                        name="username"
+                        placeholder="miusuario"
+                        onChange={handleChange}
                       />
                     </InputGroup>
                   </Form.Group>
@@ -69,7 +168,9 @@ const Signup = () => {
                       <Form.Control
                         required
                         type="password"
+                        name="password"
                         placeholder="Micontraseña123."
+                        onChange={handleChange}
                       />
                     </InputGroup>
                   </Form.Group>
@@ -88,7 +189,7 @@ const Signup = () => {
                   </Form.Group>
                   <FormCheck type="checkbox" className="d-flex mb-4">
                     <FormCheck.Input required id="terms" className="me-2" />
-                    <FormCheck.Label htmlFor="terms">
+                    <FormCheck.Label required htmlFor="terms">
                       Acepto los{" "}
                       <u>
                         <Card.Link
@@ -113,7 +214,13 @@ const Signup = () => {
                     </FormCheck.Label>
                   </FormCheck>
 
-                  <Button variant="primary" type="submit" className="w-100">
+                  <Button
+                    variant="primary"
+                    method="post"
+                    type="submit"
+                    className="w-100"
+                    // to="/api/auth/signup"
+                  >
                     Registrarme
                   </Button>
                 </Form>

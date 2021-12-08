@@ -17,7 +17,8 @@ import {
   faDolly,
   faInbox,
   faRocket,
-  faBell
+  faBell,
+  faMapPin
 } from "@fortawesome/free-solid-svg-icons";
 import {
   Nav,
@@ -199,6 +200,11 @@ export default (props = {}) => {
                 icon={faInbox}
               /> */}
               <NavItem
+                title="Puntos de distribución"
+                icon={faMapPin}
+                link={Routes.Places.path}
+              />
+              <NavItem
                 title="Últimos pedidos"
                 icon={faHandHoldingUsd}
                 link={Routes.Orders.path}
@@ -288,7 +294,7 @@ export default (props = {}) => {
                   link={Routes.DocsFolderStructure.path}
                 />
                 <NavItem title="Build Tools" link={Routes.DocsBuild.path} />
-                <NavItem title="Tarifas" link={Routes.DocsChangelog.path} />
+                <NavItem title="Tarifas" link={Routes.Rates.path} />
               </CollapsableNavItem>
               <CollapsableNavItem
                 eventKey="components/"

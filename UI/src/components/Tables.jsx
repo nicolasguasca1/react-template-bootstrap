@@ -19,6 +19,7 @@ import {
   Card,
   Image,
   Button,
+  Modal,
   Table,
   Dropdown,
   ProgressBar,
@@ -263,12 +264,18 @@ export const OrderRow = (props) => {
     origen,
     destino,
     estado,
+    peso,
     fecha_creacion,
     comentarios,
-    ordenID
+    ordenID,
+    tarifa
   } = props.data;
-  const [showDefault, setShowDefault] = useState(false);
-  const handleClose = () => setShowDefault(false);
+  const [isModalOpen, setisModalOpen] = useState(false);
+
+  const handleClick = () => {
+    setisModalOpen((prevState) => !prevState);
+  };
+
   const statusVariant =
     estado === "Finalizada"
       ? "success"
@@ -277,14 +284,6 @@ export const OrderRow = (props) => {
       : estado === "Cancelada"
       ? "danger"
       : "primary";
-
-  useEffect(() => {
-    return (
-      <>
-        <OrderModal showDefault={showDefault} handleClose={handleClose} />
-      </>
-    );
-  }, [showDefault]);
 
   return (
     <tr>
@@ -321,15 +320,14 @@ export const OrderRow = (props) => {
             </span>
           </Dropdown.Toggle>
           <Dropdown.Menu>
-            <Dropdown.Item onClick={() => setShowDefault(true)}>
-              <FontAwesomeIcon icon={faEye} className="me-2" /> Detalles
+            <Dropdown.Item onClick={handleClick}>
+              <FontAwesomeIcon icon={faEdit} className="me-2" /> Examinar
             </Dropdown.Item>
-            <Dropdown.Item>
-              <FontAwesomeIcon icon={faEdit} className="me-2" /> Editar
-            </Dropdown.Item>
-            <Dropdown.Item className="text-danger">
-              <FontAwesomeIcon icon={faTimesCircle} className="me-2" /> Cancelar
-            </Dropdown.Item>
+            <OrderModal
+              isModalOpen={isModalOpen}
+              handleClick={handleClick}
+              data={props.data}
+            />
           </Dropdown.Menu>
         </Dropdown>
       </td>
@@ -416,6 +414,166 @@ export const OrdersTable = ({
           </Nav>
           <small className="fw-bold">
             Mostrando <b>{dataLimit}</b> de un total de <b>{totalOrders}</b>{" "}
+            entradas.
+          </small>
+        </Card.Footer>
+      </Card.Body>
+    </Card>
+  );
+};
+
+export const PlaceRow = (props) => {
+  const { _id, location, approved, name } = props.data;
+  const [isModalOpen, setisModalOpen] = useState(false);
+  const handleClose = () => setisModalOpen(false);
+  const statusVariant =
+    approved === ["Pick-up", "Delivery"]
+      ? "success"
+      : approved === ["Pick-up"]
+      ? "primary"
+      : approved === ["Delivery"]
+      ? "secondary"
+      : "tertiary";
+
+  useEffect(() => {
+    return (
+      <>
+        <OrderModal isModalOpen={isModalOpen} handleClose={handleClose} />
+      </>
+    );
+  }, [isModalOpen]);
+
+  return (
+    <tr>
+      {/* <td>
+        <Card.Link as={Link} to={Routes.Invoice.path} className="fw-normal">
+          {_id.$oid.value}
+        </Card.Link>
+      </td> */}
+
+      <td>
+        <span className="fw-normal">{_id.$oid}</span>
+      </td>
+      <td>
+        <span className="fw-normal">{location.coordinates}</span>
+      </td>
+      <td>
+        <span className={`fw-normal text-${statusVariant}`}>{approved}</span>
+      </td>
+      <td>
+        <span className="fw-normal">{name}</span>
+      </td>
+      <td>
+        <Dropdown as={ButtonGroup}>
+          <Dropdown.Toggle
+            as={Button}
+            split
+            variant="link"
+            className="text-dark m-0 p-0"
+          >
+            <span className="icon icon-sm">
+              <FontAwesomeIcon icon={faEllipsisH} className="icon-dark" />
+            </span>
+          </Dropdown.Toggle>
+          <Dropdown.Menu>
+            <Dropdown.Item onClick={() => setisModalOpen(true)}>
+              <FontAwesomeIcon icon={faEye} className="me-2" /> Detalles
+            </Dropdown.Item>
+            <Dropdown.Item>
+              <FontAwesomeIcon icon={faEdit} className="me-2" /> Editar
+            </Dropdown.Item>
+            <Dropdown.Item className="text-danger">
+              <FontAwesomeIcon icon={faTimesCircle} className="me-2" /> Cancelar
+            </Dropdown.Item>
+          </Dropdown.Menu>
+        </Dropdown>
+      </td>
+    </tr>
+  );
+};
+
+export const PlacesTable = ({
+  data,
+  RenderComponent,
+  title,
+  pageLimit,
+  dataLimit
+}) => {
+  const totalPlaces = data.length;
+
+  const [pages] = useState(Math.round(totalPlaces / dataLimit));
+  const [currentPage, setCurrentPage] = useState(1);
+
+  const goToNextPage = () => {
+    setCurrentPage(currentPage + 1);
+  };
+  const goToPreviousPage = () => {
+    setCurrentPage(currentPage - 1);
+  };
+  const changePage = (event) => {
+    const pageNumber = Number(event.target.textContent);
+    setCurrentPage(pageNumber);
+  };
+  const getPaginatedData = () => {
+    const startIndex = currentPage * dataLimit - dataLimit;
+    const endIndex = startIndex + dataLimit;
+    return data.slice(startIndex, endIndex);
+  };
+
+  const getPaginationGroup = () => {
+    let start = Math.floor((currentPage - 1) / pageLimit) * pageLimit;
+    return new Array(pageLimit).fill().map((_, idx) => start + idx + 1);
+  };
+
+  return (
+    <Card border="light" className="table-wrapper table-responsive shadow-sm">
+      <Card.Body className="pt-0">
+        <Table hover className="user-table align-items-center">
+          <thead>
+            {/* <tr>
+              {Object.keys(data[0]).map((key) => (
+                <th className="border-bottom">{key}</th>
+              ))}
+            </tr> */}
+
+            <tr>
+              <th className="border-bottom">_id</th>
+              <th className="border-bottom">Localización</th>
+              <th className="border-bottom">Tipo de servicio</th>
+              <th className="border-bottom">Nombre del lugar</th>
+            </tr>
+          </thead>
+          <tbody>
+            {getPaginatedData().map((d, idx) => (
+              <RenderComponent key={idx} data={d} />
+            ))}
+          </tbody>
+        </Table>
+        <Card.Footer className="px-3 border-0 d-lg-flex align-items-center justify-content-between">
+          <Nav>
+            <Pagination className="mb-2 mb-lg-0">
+              <Pagination.Prev
+                onClick={goToPreviousPage}
+                className={`prev ${currentPage === 1 ? "disabled" : ""}`}
+              >
+                Anterior
+              </Pagination.Prev>
+
+              {getPaginationGroup().map((item, index) => (
+                <Pagination.Item key={index} onClick={changePage}>
+                  <span>{item}</span>
+                </Pagination.Item>
+              ))}
+              <Pagination.Next
+                onClick={goToNextPage}
+                className={`next ${currentPage === pages ? "disabled" : ""}`}
+              >
+                Siguiente
+              </Pagination.Next>
+            </Pagination>
+          </Nav>
+          <small className="fw-bold">
+            Mostrando <b>{dataLimit}</b> de un total de <b>{totalPlaces}</b>{" "}
             entradas.
           </small>
         </Card.Footer>
