@@ -28,6 +28,8 @@ import { Routes } from "../routes";
 import BgImage from "../assets/img/illustrations/people-signup.svg";
 import axios from "axios";
 
+const API_DB = process.env.API_DB;
+
 const Signup = () => {
   const [inputs, setInputs] = useState({
     email: "",
@@ -63,14 +65,9 @@ const Signup = () => {
 
     const response = await axios
       .post(
-        "/api/auth/signup",
+        `${API_DB}/api/auth/signup`,
 
-        inputs,
-        {
-          headers: {
-            "Content-Type": "application/json"
-          }
-        }
+        inputs
       )
       .then((response) => {
         console.log(response);
@@ -132,9 +129,13 @@ const Signup = () => {
                       />
                     </InputGroup>
                   </Form.Group>
-                  <Form.Group id="identification_type" className="mb-3">
+                  <Form.Group name="identification_type" className="mb-3">
                     <Form.Label>Tipo de identificación</Form.Label>
-                    <Form.Select multiple>
+                    <Form.Select
+                      multiple
+                      name="identification_type"
+                      onChange={handleChange}
+                    >
                       <option defaultValue>C.C</option>
                       <option>PAS</option>
                       <option>C.E</option>
