@@ -12,7 +12,7 @@ router.post(
   authCtrl.signUp
 );
 
-router.post("/refresh", async (req, res, next) => {
+router.post("/refresh", authJwt.verifyToken, async (req, res, next) => {
   try {
     const { refreshToken, token } = await authJwt.refreshAccessToken(
       req.cookies.refreshToken
@@ -25,7 +25,7 @@ router.post("/refresh", async (req, res, next) => {
   }
 });
 
-router.delete("/sessions", async (req, res, next) => {
+router.delete("/sessions", authJwt.verifyToken, async (req, res, next) => {
   try {
     const { refreshToken, token } = await authJwt.increaseVersion(
       req.cookies.refreshToken

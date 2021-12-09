@@ -27,7 +27,7 @@ export const signUp = async (req, res) => {
       newUser.roles = foundRoles.map((role) => role._id);
     } else {
       const role = await Role.findOne({ name: "cliente" });
-      newUser.roles = [role._id];
+      newUser.roles = role._id
     }
 
     const savedUser = await newUser.save();

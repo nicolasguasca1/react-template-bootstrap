@@ -81,7 +81,7 @@ export const getTokenPair = async (user) => {
     },
     process.env.JWT_SECRET,
     {
-      expiresIn: "5m"
+      expiresIn: "15m"
     }
   );
 
