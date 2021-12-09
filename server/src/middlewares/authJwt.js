@@ -153,8 +153,12 @@ export const loginUser = async (payload) => {
 export const refreshAccessToken = async (refreshToken) => {
   if (!refreshToken)
     throw new NotFoundError("No se ha encontrado el refresh token.");
-  const payload = verify(refreshToken, process.env.JWT_REFRESH_SECRET);
-  const user = await User.findById(payload.user._id);
+  const payload = jwt.verify(refreshToken, process.env.JWT_REFRESH_SECRET);
+
+  const user = await User.findById(payload.user.id, { password: 0 });
+
+  //     const user = await User.findById(req.userId, { password: 0 });
+
   if (!user) throw new NotFoundError("No se ha encontrado el usuario.");
   if (user.tokenVersion !== payload.user.tokenVersion)
     throw new TokenExpiredError("Este token no es válido");
@@ -165,12 +169,12 @@ export const increaseVersion = async (refreshToken) => {
   if (!refreshToken)
     throw new NotFoundError("No se encontro el token de refresh.");
 
-  const payload = verify(refreshToken, process.env.JWT_REFRESH_SECRET);
-  let user = await User.findById(payload.user._id);
+  const payload = jwt.verify(refreshToken, process.env.JWT_REFRESH_SECRET);
+  let user = await User.findById(payload.user.id);
   if (!user) throw new NotFoundError("No se encontro el usuario.");
 
   await User.updateOne(
-    { _id: user._id },
+    { _id: user.id },
     { tokenVersion: user.tokenVersion + 1 }
   );
 
