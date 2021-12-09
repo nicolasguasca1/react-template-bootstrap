@@ -4,8 +4,12 @@ const router = Router();
 import * as usersCtrl from "../controllers/users.controller";
 import { authJwt, verifySignup } from "../middlewares";
 
+router.get("/ping", authJwt.verifyToken, async (req, res) => {
+  res.json({ message: "pong", jwt_payload: req.jwt_payload });
+});
+
 router.post(
-  "/",
+  "/create",
   [
     authJwt.verifyToken,
     authJwt.isAdmin,
@@ -14,6 +18,7 @@ router.post(
   ],
   usersCtrl.createUser
 );
+
 router.get("/", usersCtrl.getUsers);
 router.get(
   "/:userId",

@@ -1,6 +1,7 @@
 import User from "../models/user.model";
 import jwt from "jsonwebtoken";
 import Role from "../models/role.model";
+import { loginUser } from "../middlewares/authJwt";
 
 export const signUp = async (req, res) => {
   try {
@@ -43,27 +44,43 @@ export const signUp = async (req, res) => {
   }
 };
 
-export const signIn = async (req, res) => {
-  try {
-    const userFound = await User.findOne({ email: req.body.email }).populate(
-      "roles"
-    );
-    if (!userFound)
-      return res.status(404).json({ message: "Usuario no encontrado" });
+// export const signIn = async (req, res) => {
+//   try {
+//     const userFound = await User.findOne({ email: req.body.email }).populate(
+//       "roles"
+//     );
+//     if (!userFound)
+//       return res.status(404).json({ message: "Usuario no encontrado" });
 
-    const matchPassword = await User.comparePassword(
-      req.body.password,
-      userFound.password
-    );
-    if (!matchPassword)
-      return res
-        .status(401)
-        .json({ token: null, message: "Contraseña incorrecta" });
-    const token = jwt.sign({ id: userFound._id }, process.env.JWT_SECRET, {
-      expiresIn: 86400
+//     const matchPassword = await User.comparePassword(
+//       req.body.password,
+//       userFound.password
+//     );
+//     if (!matchPassword)
+//       return res
+//         .status(401)
+//         .json({ token: null, message: "Contraseña incorrecta" });
+//     const token = jwt.sign({ id: userFound._id }, process.env.JWT_SECRET, {
+//       expiresIn: 86400
+//     });
+//     res.json({ token });
+//   } catch (error) {
+//     res.status(400).json({ message: error.message });
+//   }
+// };
+
+// REESCRIBIENDO
+
+export const signIn = async (req, res, next) => {
+  try {
+    const result = await loginUser(req.body);
+    console.log(result);
+    const { token, refreshToken } = await loginUser(req.body);
+    res.cookie("refreshToken", refreshToken, { httpOnly: true }).json({
+      message: `El usuario ha iniciado sesión`,
+      token
     });
-    res.json({ token });
   } catch (error) {
-    res.status(400).json({ message: error.message });
+    next(error);
   }
 };

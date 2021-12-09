@@ -4,6 +4,7 @@ import morgan from "morgan";
 import pkg from "../package.json";
 import helmet from "helmet";
 import cors from "cors";
+import cookieParser from "cookie-parser";
 
 import { createRoles, createAdmin } from "./models";
 import ordersRoutes from "./routes/orders.routes";
@@ -32,6 +33,7 @@ const corsOptions = {
 };
 app.use(cors(corsOptions));
 app.use(compression());
+app.use(cookieParser());
 app.use(helmet());
 app.use(morgan("dev"));
 app.use(express.json());

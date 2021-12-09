@@ -1,7 +1,7 @@
 import { mongoDBClient } from "./db.client";
 
 const gracefulShutdown = () => {
-  console.log("Conexión con MongoDB cerrada");
+  console.log("-----Conexión con MongoDB cerrada-----");
   mongoDBClient.close();
 };
 
