@@ -151,6 +151,18 @@ export const loginUser = async (payload) => {
   return await getTokenPair(userFound);
 };
 
+// export const logoutUser = async (req, res, next) => {
+//   try {
+//     const user = await User.findById(req.jwt_payload.user.id);
+//     user.tokenVersion = user.tokenVersion + 1;
+//     await user.save();
+//     return res.status(200).json({ auth: false, message: "Sesión cerrada" });
+//   } catch (error) {
+//     console.log(error);
+//     return res.status(500).send({ message: error });
+//   }
+// };
+
 export const refreshAccessToken = async (refreshToken) => {
   if (!refreshToken)
     throw new NotFoundError("No se ha encontrado el refresh token.");

@@ -30,8 +30,9 @@ router.delete("/sessions", authJwt.verifyToken, async (req, res, next) => {
     const { refreshToken, token } = await authJwt.increaseVersion(
       req.cookies.refreshToken
     );
+    req.jwt_payload = null;
     res.cookie("refreshToken", refreshToken, { httpOnly: true }).json({
-      message: "Se ha actualizado la version para los tokens",
+      message: "Se ha actualizado la version para los tokens, sesión cerrada",
       token
     });
   } catch (error) {
