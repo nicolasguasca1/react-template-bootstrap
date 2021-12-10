@@ -23,6 +23,7 @@ import {
   InputGroup
 } from "@themesberg/react-bootstrap";
 import { Link } from "react-router-dom";
+import { Route, Redirect } from "react-router";
 
 import { Routes } from "../routes";
 import BgImage from "../assets/img/illustrations/people-signup.svg";
@@ -40,9 +41,6 @@ const Signup = () => {
   });
   const handleChange = (e) => {
     console.log(e.target.value);
-    // const email = e.target.email.value;
-    // const username = event.target.username;
-    // const value = event.target.value;
     setInputs({
       ...inputs,
       [e.target.name]: e.target.value
@@ -51,19 +49,7 @@ const Signup = () => {
     console.log(API_DB);
   };
   const handleSubmit = async (e) => {
-    // const options = {
-    //   url: "http://localhost:8080/api/auth/signup",
-    //   method: "POST",
-    //   headers: {
-    //     'Content-Type': "application/json",
-    //   },
-    //   data: {
-    //     email: email,
-    //     username: username,
-    //     password: password
-    //   }
-    // };
-
+    e.preventDefault();
     const response = await axios
       .post(
         `/api/auth/signup`,
@@ -216,7 +202,7 @@ const Signup = () => {
 
                   <Button
                     variant="primary"
-                    method="post"
+                    // method="post"
                     type="submit"
                     className="w-100"
                     // to="/api/auth/signup"
@@ -224,30 +210,6 @@ const Signup = () => {
                     Registrarme
                   </Button>
                 </Form>
-
-                {/* <div className="mt-3 mb-4 text-center">
-                  <span className="fw-normal">ó</span>
-                </div>
-                <div className="d-flex justify-content-center my-4">
-                  <Button
-                    variant="outline-light"
-                    className="btn-icon-only btn-pill text-facebook me-2"
-                  >
-                    <FontAwesomeIcon icon={faFacebookF} />
-                  </Button>
-                  <Button
-                    variant="outline-light"
-                    className="btn-icon-only btn-pill text-twitter me-2"
-                  >
-                    <FontAwesomeIcon icon={faTwitter} />
-                  </Button>
-                  <Button
-                    variant="outline-light"
-                    className="btn-icon-only btn-pil text-dark"
-                  >
-                    <FontAwesomeIcon icon={faGithub} />
-                  </Button>
-                </div> */}
                 <div className="d-flex justify-content-center align-items-center mt-4">
                   <span className="fw-normal">
                     ¿Ya tienes una cuenta?
