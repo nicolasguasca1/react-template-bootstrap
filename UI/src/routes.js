@@ -50,5 +50,22 @@ export const Routes = {
   Tabs: { path: "/components/tabs" },
   Tooltips: { path: "/components/tooltips" },
   Toasts: { path: "/components/toasts" },
-  WidgetsComponent: { path: "/components/widgets" }
+  WidgetsComponent: { path: "/components/widgets" },
+
+  // API
+
+  APISignUp: { path: "/api/auth/signup" },
+  APISignin: { path: "/api/auth/signin" },
+  APIRefresh: { path: "/api/auth/refresh" },
+  APISessions: { path: "/api/auth/sessions" },
+  APICreatOrder: { path: "/api/orders/create" },
+  APIOrders: { path: "/api/orders/" },
+  APIGetOrder: { path: "/api/orders/:orderId" },
+  APIPutOrder: { path: "/api/orders/edit/:orderId" },
+  APIDelOrder: { path: "/api/orders/delete/:orderId" },
+  APICreatUser: { path: "/api/users/create" },
+  APIUsers: { path: "/api/users/" },
+  APIGetUser: { path: "/api/users/:userid" },
+  APIPutUser: { path: "/api/users/edit/:userId" },
+  APIDelOrder: { path: "/api/orders/delete/:orderId" }
 };

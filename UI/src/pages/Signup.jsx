@@ -52,7 +52,7 @@ const Signup = () => {
     e.preventDefault();
     const response = await axios
       .post(
-        `/api/auth/signup`,
+        `${Routes.APISignUp.path}`,
 
         inputs
       )

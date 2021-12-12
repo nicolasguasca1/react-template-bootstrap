@@ -26,12 +26,12 @@ router.get(
   usersCtrl.getUserById
 );
 router.put(
-  "/:userId",
+  "/edit/:userId",
   [authJwt.verifyToken, authJwt.isAdmin],
   usersCtrl.updateUserById
 );
 router.delete(
-  "/:userId",
+  "/delete/:userId",
   [authJwt.verifyToken, authJwt.isAdmin],
   usersCtrl.deleteUserById
 );
