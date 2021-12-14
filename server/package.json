@@ -8,7 +8,7 @@
   },
   "scripts": {
     "clean": "rm -rf build && mkdir build",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "node ./build/index.js",
     "dev": "nodemon src/index.js --exec babel-node",
     "build-server": "babel ./src --out-dir ./build",
@@ -36,6 +36,10 @@
     "@babel/core": "^7.16.0",
     "@babel/node": "^7.16.0",
     "@babel/preset-env": "^7.16.4",
-    "nodemon": "^2.0.15"
+    "eslint": "^8.4.1",
+    "eslint-plugin-jest": "^25.3.0",
+    "jest": "^27.4.5",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.1.6"
   }
 }
