@@ -1,0 +1,25 @@
+{
+  "env": {
+    "es6": true,
+    "es2021": true,
+    "jest/globals": true,
+    "node": true
+  },
+  "extends": "eslint:recommended",
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "plugins": ["jest", "prettier"],
+  "rules": {
+      "node/no-unpublished-import":[
+          "error",
+          {
+              "allowModules": ["supertest"]
+            }
+        ]
+}
