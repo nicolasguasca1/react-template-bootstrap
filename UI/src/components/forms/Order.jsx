@@ -19,11 +19,37 @@ import {
 const Order = () => {
   const [birthday, setBirthday] = useState("");
 
+  const handleChange = (e) => {
+    console.log(e.target.value);
+    setInputs({
+      ...inputs,
+      [e.target.name]: e.target.value
+    });
+    console.log(inputs);
+    console.log(API_DB);
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    const response = await axios
+      .post(
+        `${Routes.APISignUp.path}`,
+
+        inputs
+      )
+      .then((response) => {
+        console.log(response);
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  };
+
   return (
     <Card border="light" className="bg-white shadow-sm mb-4">
       <Card.Body>
         <h5 className="mb-4">Información general</h5>
-        <Form>
+        <Form onSubmit={handleSubmit}>
           <Row>
             <Col md={6} className="mb-3">
               <Form.Group id="firstName">
@@ -38,17 +64,19 @@ const Order = () => {
                   required
                   type="text"
                   placeholder="ej: Aparato usado como materia prima para eleboración de muebles y accesorios"
+                  onChange={handleChange}
                 />
               </Form.Group>
             </Col>
           </Row>
           <Row>
             <Col md={6} className="mb-3">
-              <Form.Group id="emal">
+              <Form.Group id="email">
                 <Form.Label>Peso</Form.Label>
                 <Form.Control
-                  type="email"
+                  type="number"
                   placeholder="Indique el peso en Kg."
+                  onChange={handleChange}
                 />
               </Form.Group>
             </Col>
