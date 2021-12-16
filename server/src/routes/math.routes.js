@@ -8,7 +8,14 @@ import * as invoicesCtrl from "../controllers/invoices.controller";
 
 // rutas para hacer el cálculo de las órdenes y generar una factura y obtener facturas
 
-router.post("/cost", [math.getCost]);
+router.post("/cost", async (req, res, next) => {
+  const { origin, destination, fee } = req.body;
+  math.getCost(req, res, next);
+  res.json({
+    operation: "Cálculo del costo de transporte",
+    result: req.body.estimated_cost
+  });
+});
 
 router.post(
   "/newinvoice",
