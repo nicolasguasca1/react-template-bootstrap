@@ -16,34 +16,37 @@ const orderSchema = new Schema(
     description: String,
     quantity: {
       type: Number,
-      unique: true,
       required: true
     },
     vehicles: {
       type: Number,
-      unique: true,
       required: true
     },
     origin: {
       type: String,
-      unique: true,
       required: true
     },
-    destiny: {
+    destination: {
       type: String,
-      unique: true,
       required: true
     },
     active: {
       type: Boolean,
       default: true
     },
+    distance: Number,
     createdBy: String,
+    // NECESITA SER ESCRITA EN UN MIDDLEWARE
+    estimated_cost: {
+      type: Number,
+      required: true
+    },
     status: {
       type: String,
       enum: orderStatusEnum,
       default: "Pendiente por despacho"
     },
+    invoice_id: String,
     comments: String
   },
   {

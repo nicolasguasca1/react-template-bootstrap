@@ -1,6 +1,7 @@
 import User from "../models/user.model";
 import jwt from "jsonwebtoken";
 import Role from "../models/role.model";
+import Rate from "../models/rate.model";
 import { loginUser } from "../middlewares/authJwt";
 
 export const signUp = async (req, res) => {
@@ -29,7 +30,13 @@ export const signUp = async (req, res) => {
       const role = await Role.findOne({ name: "cliente" });
       newUser.roles = [role._id];
     }
-
+    if (req.body.rate) {
+      const foundRate = await Rate.find({ name: { $in: rate } });
+      newUser.rate = foundRate._id;
+    } else {
+      const rate = await Rate.findOne({ name: "Plena" });
+      newUser.rate = rate._id;
+    }
     const savedUser = await newUser.save();
     console.log(savedUser);
 

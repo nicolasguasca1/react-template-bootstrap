@@ -2,20 +2,20 @@ import { Router } from "express";
 const router = Router();
 
 import * as ordersCtrl from "../controllers/orders.controller";
-import { authJwt } from "../middlewares";
-
-// rutas cambiadas, puede necesitar config
+import { authJwt, math } from "../middlewares";
 
 router.post(
   "/create",
-  [authJwt.verifyToken, authJwt.isInterno],
+  [authJwt.verifyToken, math.getRate, math.getCost],
   ordersCtrl.createOrder
 );
 router.get("/", ordersCtrl.getOrders);
 router.get("/:orderId", authJwt.verifyToken, ordersCtrl.getOrderById);
+
+// Solo permitido para admins e internos
 router.put(
   "/edit/:orderId",
-  [authJwt.verifyToken, authJwt.isAdmin],
+  [authJwt.verifyToken, authJwt.isAdmin, authJwt.isInterno, math.getRate],
   ordersCtrl.updateOrderById
 );
 router.delete(

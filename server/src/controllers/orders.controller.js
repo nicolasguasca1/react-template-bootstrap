@@ -1,4 +1,5 @@
 import Order from "../models/order.model";
+import { createInvoice } from "./invoices.controller";
 
 export const createOrder = async (req, res) => {
   const {
@@ -7,11 +8,12 @@ export const createOrder = async (req, res) => {
     quantity,
     vehicles,
     origin,
-    destiny,
+    destination,
     status,
-    comments
+    comments,
+    estimated_cost
   } = req.body;
-  const createdBy = req.userId;
+  const createdBy = req.jwt_payload.user.id;
   const newOrder = new Order({
     product,
     createdBy,
@@ -19,11 +21,14 @@ export const createOrder = async (req, res) => {
     quantity,
     vehicles,
     origin,
-    destiny,
+    destination,
     status,
-    comments
+    comments,
+    estimated_cost,
+    distance: req.body.distance
   });
   const orderSaved = await newOrder.save();
+  console.log(req);
   res.status(201).json(orderSaved);
   // return await res.toArray();
 }; // End of createOrder function.
@@ -44,13 +49,21 @@ export const getOrdersByStatus = async (req, res) => {
 };
 
 export const updateOrderById = async (req, res) => {
-  const updatedOrder = await Order.findByIdAndUpdate(
-    req.params.orderId,
-    req.body,
-    {
-      new: true
-    }
-  );
+  // const { fee, distance, estimated_cost } = req.body;
+  const { orderId } = req.params;
+  const { fee } = req.body;
+  const order = await Order.findById(orderId);
+  const { estimated_cost, distance } = order;
+  const updatedOrder = await Order.findByIdAndUpdate(orderId, req.body, {
+    new: true
+  });
+  if (
+    req.body.status !== "Pendiente por despacho" &&
+    req.body.status !== "Cancelada"
+  ) {
+    // middleware para facturar
+    createInvoice(fee, distance, estimated_cost, orderId);
+  }
   res.status(200).json(updatedOrder);
 };
 

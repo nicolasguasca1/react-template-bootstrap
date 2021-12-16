@@ -6,10 +6,12 @@ import helmet from "helmet";
 import cors from "cors";
 import cookieParser from "cookie-parser";
 
-import { createRoles, createAdmin } from "./models";
+import { createRoles, createAdmin, createPlaces, createRates } from "./models";
 import ordersRoutes from "./routes/orders.routes";
 import authRoutes from "./routes/auth.routes";
 import userRoutes from "./routes/user.routes";
+import placesRoutes from "./routes/places.routes";
+import mathRoutes from "./routes/math.routes";
 import { dataBase } from "./db.client";
 import { guards } from "./middlewares";
 
@@ -19,7 +21,9 @@ const app = express();
 })();
 
 createRoles();
+createPlaces();
 createAdmin();
+createRates();
 
 // Settings
 const PORT = process.env.PORT;
@@ -61,5 +65,9 @@ app.post("/post", (req, res) => {
 app.use("/api/orders", ordersRoutes);
 app.use("/api/auth", authRoutes);
 app.use("/api/users", userRoutes);
+app.use("/api/places", placesRoutes);
+
+// rutas para facturación
+app.use("/api/calc", mathRoutes);
 
 export default app;

@@ -1,6 +1,6 @@
 import mongoose, { Schema, model } from "mongoose";
 import bcrypt from "bcryptjs";
-import Role from './role.model';
+import Role from "./role.model";
 
 export const STATUS = ["activo", "inactivo"];
 let idTypeEnum = ["C.C", "PAS", "C.E", "NIT"];
@@ -40,6 +40,7 @@ const userSchema = new Schema(
     phone: Number,
     name: String,
     industry: String,
+    createdBy: String,
     active: {
       type: Boolean,
       default: true
@@ -49,10 +50,15 @@ const userSchema = new Schema(
       default: 0,
       required: false
     },
+    rate: {
+      ref: "Rate",
+      type: Schema.Types.ObjectId,
+      required: true
+    },
     roles: [
       {
         ref: "Role",
-        type: Schema.Types.ObjectId,
+        type: Schema.Types.ObjectId
       }
     ],
     orders: [

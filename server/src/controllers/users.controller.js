@@ -2,6 +2,7 @@ import User from "../models/user.model";
 import jwt from "jsonwebtoken";
 
 import Role from "../models/role.model";
+import Rate from "../models/rate.model";
 
 export const createUser = async (req, res) => {
   try {
@@ -11,13 +12,17 @@ export const createUser = async (req, res) => {
       identification_type,
       email,
       password,
+      rate,
       roles
     } = req.body;
+    const createdBy = req.jwt_payload.user.id;
+
     const newUser = new User({
       username,
       identification_number,
       identification_type,
       email,
+      createdBy,
       password: await User.encryptPassword(password)
     });
     if (req.body.roles) {
@@ -26,6 +31,13 @@ export const createUser = async (req, res) => {
     } else {
       const role = await Role.findOne({ name: "cliente" });
       newUser.roles = [role._id];
+    }
+    if (req.body.rate) {
+      const foundRate = await Rate.find({ name: { $in: rate } });
+      newUser.rate = foundRate._id;
+    } else {
+      const rate = await Rate.findOne({ name: "Plena" });
+      newUser.rate = rate._id;
     }
     const savedUser = await newUser.save();
     const token = jwt.sign({ id: savedUser._id }, process.env.JWT_SECRET, {
