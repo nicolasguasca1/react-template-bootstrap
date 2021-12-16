@@ -17,28 +17,40 @@ export const getInvoices = async (req, res) => {
   res.json(invoices);
 };
 
-export const createInvoice = async (fee, distance, estimated_cost, orderId) => {
+export const createInvoice = async (
+  rate,
+  distance,
+  estimated_cost,
+  orderId
+) => {
   // const { fee, distance, estimated_cost } = req.body;
   // const { orderId } = req.params;
-  console.log(
-    `Llegué a definir ${fee}, ${distance}, ${estimated_cost}, ${orderId}`
-  );
+  // console.log(
+  //   `Los elementos de la factura son fee distance, estimated_cost y orderID ${fee}, ${distance}, ${estimated_cost}, ${orderId}`
+  // );
   const newInvoice = new Invoice({
-    fee,
+    rate,
     distance,
     estimated_cost,
     orderId
   });
-  console.log(newInvoice);
-  if (fee) {
-    const foundRate = await Rate.find({ fee: { $in: fee } });
-    newInvoice.rate = foundRate._id;
-    console.log(foundRate);
-  } else {
-    const rate = await Rate.findOne({ name: "Plena" });
-    newInvoice.rate = rate._id;
-    console.log(rate);
-  }
+  // if (req.body.rate) {
+  //   const foundRate = await Rate.find({ name: { $in: rate } });
+  //   newUser.rate = foundRate._id;
+  // } else {
+  //   const rate = await Rate.findOne({ name: "Plena" });
+  //   newUser.rate = rate._id;
+  // }
+  console.log(`This is the new invoice: ${newInvoice}`);
+  // if (fee) {
+  //   const foundRate = await Rate.find({ fee: { $in: fee } });
+  //   newInvoice.rate = foundRate._id;
+  //   console.log(foundRate);
+  // } else {
+  //   const rate = await Rate.findOne({ name: "Plena" });
+  //   newInvoice.rate = rate._id;
+  //   console.log(rate);
+  // }
   // if (req.body.roles) {
   //   const foundRoles = await Role.find({ name: { $in: roles } });
   //   newUser.roles = foundRoles.map((role) => role._id);
@@ -50,6 +62,6 @@ export const createInvoice = async (fee, distance, estimated_cost, orderId) => {
   // const token = jwt.sign({ id: savedInvoice._id }, process.env.JWT_SECRET, {
   //   expiresIn: 86400
   // }); // 24 hours
-  console.log(savedInvoice);
+  console.log(`This is the savedinvoice: ${savedInvoice}`);
   return savedInvoice;
 };

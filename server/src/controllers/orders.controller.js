@@ -11,9 +11,13 @@ export const createOrder = async (req, res) => {
     destination,
     status,
     comments,
-    estimated_cost
+    estimated_cost,
+    distance,
+    rate,
+    fee
   } = req.body;
   const createdBy = req.jwt_payload.user.id;
+
   const newOrder = new Order({
     product,
     createdBy,
@@ -25,7 +29,9 @@ export const createOrder = async (req, res) => {
     status,
     comments,
     estimated_cost,
-    distance: req.body.distance
+    distance,
+    rate,
+    fee
   });
   const orderSaved = await newOrder.save();
   console.log(req);
@@ -51,18 +57,18 @@ export const getOrdersByStatus = async (req, res) => {
 export const updateOrderById = async (req, res) => {
   // const { fee, distance, estimated_cost } = req.body;
   const { orderId } = req.params;
-  const { fee } = req.body;
+  const { fee, rate } = req.body;
   const order = await Order.findById(orderId);
   const { estimated_cost, distance } = order;
   const updatedOrder = await Order.findByIdAndUpdate(orderId, req.body, {
     new: true
   });
   if (
-    req.body.status !== "Pendiente por despacho" &&
-    req.body.status !== "Cancelada"
+    updatedOrder.status !== "Pendiente por despacho" &&
+    updatedOrder.status !== "Cancelada"
   ) {
     // middleware para facturar
-    createInvoice(fee, distance, estimated_cost, orderId);
+    createInvoice(rate, distance, estimated_cost, orderId);
   }
   res.status(200).json(updatedOrder);
 };
