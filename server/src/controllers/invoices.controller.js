@@ -17,6 +17,11 @@ export const getInvoices = async (req, res) => {
   res.json(invoices);
 };
 
+export const getInvoiceById = async (req, res) => {
+  const invoice = await Invoice.findById(req.params.invoiceId);
+  res.status(200).json(invoice);
+};
+
 export const createInvoice = async (
   rate,
   distance,
@@ -34,34 +39,10 @@ export const createInvoice = async (
     estimated_cost,
     orderId
   });
-  // if (req.body.rate) {
-  //   const foundRate = await Rate.find({ name: { $in: rate } });
-  //   newUser.rate = foundRate._id;
-  // } else {
-  //   const rate = await Rate.findOne({ name: "Plena" });
-  //   newUser.rate = rate._id;
-  // }
   console.log(`This is the new invoice: ${newInvoice}`);
-  // if (fee) {
-  //   const foundRate = await Rate.find({ fee: { $in: fee } });
-  //   newInvoice.rate = foundRate._id;
-  //   console.log(foundRate);
-  // } else {
-  //   const rate = await Rate.findOne({ name: "Plena" });
-  //   newInvoice.rate = rate._id;
-  //   console.log(rate);
-  // }
-  // if (req.body.roles) {
-  //   const foundRoles = await Role.find({ name: { $in: roles } });
-  //   newUser.roles = foundRoles.map((role) => role._id);
-  // } else {
-  //   const role = await Role.findOne({ name: "cliente" });
-  //   newUser.roles = [role._id];
-  // }
+
   const savedInvoice = await newInvoice.save();
-  // const token = jwt.sign({ id: savedInvoice._id }, process.env.JWT_SECRET, {
-  //   expiresIn: 86400
-  // }); // 24 hours
+
   console.log(`This is the savedinvoice: ${savedInvoice}`);
   return savedInvoice;
 };
