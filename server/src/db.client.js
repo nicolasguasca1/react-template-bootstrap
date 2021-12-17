@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import config from "./config";
+import * as config from "./config";
 import { setUpMongoDBProcessWatchers } from "./watchers";
 import colors from "colors";
 
