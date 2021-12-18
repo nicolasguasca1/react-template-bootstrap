@@ -27,7 +27,7 @@ import { Route, Redirect } from "react-router";
 
 import { Routes } from "../routes";
 import BgImage from "../assets/img/illustrations/people-signup.svg";
-import axios from "axios";
+// import axios from "axios";
 import { apiConsumer } from "../api";
 
 const API_DB = process.env.API_DB;

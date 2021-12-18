@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faAngleLeft,
@@ -20,41 +20,38 @@ import {
   Container,
   InputGroup
 } from "@themesberg/react-bootstrap";
-import { Link } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 
 import { Routes } from "../routes";
 import BgImage from "../assets/img/illustrations/vector-world-map.svg";
+import { apiConsumer } from "../api";
 
 const Signin = () => {
-  // PROBAR ESTA RUTA
-
-  // const [login, setLogin] = useState({
-  //   email: "",
-  //   password: ""
-  // });
-  // const handleChange = (e) => {
-  //   console.log(e.target.value);
-  //   setLogin({
-  //     ...login,
-  //     [e.target.name]: e.target.value
-  //   });
-  //   console.log(login);
-  // };
-  // const handleSubmit = async (e) => {
-  //   e.preventDefault();
-  //   const response = await axios
-  //     .post(
-  //       `/api/auth/signin`,
-
-  //       login
-  //     )
-  //     .then((response) => {
-  //       console.log(response);
-  //     })
-  //     .catch((err) => {
-  //       console.log(err);
-  //     });
-  // };
+  const history = useHistory();
+  const [login, setLogin] = useState({
+    email: "",
+    password: ""
+  });
+  const handleChange = (e) => {
+    console.log(e.target.value);
+    setLogin({
+      ...login,
+      [e.target.name]: e.target.value
+    });
+    console.log(login);
+  };
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    const response = await apiConsumer
+      .call(`${Routes.APISignin.path}`, login)
+      .then((response) => {
+        console.log(response);
+        // history.push(Routes.DashboardOverview.path);
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  };
 
   return (
     <main style={{ backgroundImage: `url(${BgImage})` }}>
@@ -75,10 +72,7 @@ const Signin = () => {
                 <div className="text-center text-md-center mb-4 mt-md-0">
                   <h3 className="mb-0">Inicio de sesión</h3>
                 </div>
-                <Form
-                  // onSubmit={handleSubmit}
-                  className="mt-4"
-                >
+                <Form onSubmit={handleSubmit} className="mt-4">
                   <Form.Group id="email" className="mb-4">
                     <Form.Label>Correo electrónico</Form.Label>
                     <InputGroup>
@@ -87,7 +81,7 @@ const Signin = () => {
                       </InputGroup.Text>
                       <Form.Control
                         autoFocus
-                        // onChange={handleChange}
+                        onChange={handleChange}
                         required
                         type="email"
                         placeholder="micorreo@ejemplo.com"
@@ -105,6 +99,7 @@ const Signin = () => {
                           required
                           type="password"
                           placeholder="Micontraseña123."
+                          onChange={handleChange}
                         />
                       </InputGroup>
                     </Form.Group>
