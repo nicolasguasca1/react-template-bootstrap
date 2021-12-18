@@ -22,16 +22,18 @@ import {
   Container,
   InputGroup
 } from "@themesberg/react-bootstrap";
-import { Link } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 import { Route, Redirect } from "react-router";
 
 import { Routes } from "../routes";
 import BgImage from "../assets/img/illustrations/people-signup.svg";
 import axios from "axios";
+import { apiConsumer } from "../api";
 
 const API_DB = process.env.API_DB;
 
 const Signup = () => {
+  const history = useHistory();
   const [inputs, setInputs] = useState({
     email: "",
     identification_number: "",
@@ -50,14 +52,10 @@ const Signup = () => {
   };
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const response = await axios
-      .post(
-        `${Routes.APISignUp.path}`,
-
-        inputs
-      )
+    const response = await apiConsumer
+      .call(`${Routes.APISignUp.path}`, inputs)
       .then((response) => {
-        console.log(response);
+        history.push(Routes.Signin.path);
       })
       .catch((err) => {
         console.log(err);

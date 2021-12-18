@@ -80,8 +80,8 @@ export const signUp = async (req, res) => {
 
 export const signIn = async (req, res, next) => {
   try {
-    const result = await loginUser(req.body);
-    console.log(result);
+    // const result = await loginUser(req.body);
+    // console.log(result);
     const { token, refreshToken } = await loginUser(req.body);
     res.cookie("refreshToken", refreshToken, { httpOnly: true }).json({
       message: `El usuario ha iniciado sesión`,

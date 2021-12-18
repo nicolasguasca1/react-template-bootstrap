@@ -29,6 +29,14 @@ import App from "./pages/App";
 import ScrollToTop from "./components/ScrollToTop";
 
 import axios from "axios";
+
+// Agregar cuando se vaya a implementar ATLAS
+// import { config } from "dotenv";
+// config();
+
+// const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/tripooldb";
+// axios.defaults.baseURL = MONGODB_URI;
+
 axios.defaults.baseURL = "http://localhost:8080";
 
 ReactDOM.render(

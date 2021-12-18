@@ -16,8 +16,23 @@ import {
   InputGroup
 } from "@themesberg/react-bootstrap";
 
+import { Routes } from "../../routes";
+import axios from "axios";
+
+const API_DB = process.env.API_DB;
 const Order = () => {
-  const [birthday, setBirthday] = useState("");
+  const [inputs, setInputs] = useState({
+    product: "",
+    username: "",
+    description: "",
+    quantity: "",
+    vehicles: "",
+    origin: "",
+    destination: "",
+    active: true,
+    distance: "",
+    createdBy: ""
+  });
 
   const handleChange = (e) => {
     console.log(e.target.value);
