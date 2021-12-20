@@ -45,8 +45,7 @@ const Signin = () => {
     const response = await apiConsumer
       .call(`${Routes.APISignin.path}`, login)
       .then((response) => {
-        console.log(response);
-        // history.push(Routes.DashboardOverview.path);
+        history.push(Routes.DashboardOverview.path);
       })
       .catch((err) => {
         console.log(err);
@@ -83,6 +82,7 @@ const Signin = () => {
                         autoFocus
                         onChange={handleChange}
                         required
+                        name="email"
                         type="email"
                         placeholder="micorreo@ejemplo.com"
                       />
@@ -97,6 +97,7 @@ const Signin = () => {
                         </InputGroup.Text>
                         <Form.Control
                           required
+                          name="password"
                           type="password"
                           placeholder="Micontraseña123."
                           onChange={handleChange}
